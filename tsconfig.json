@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react",
+    "baseUrl": "./src",
+    "paths": {
+      "components/*": ["components/*"],
+      "store/*": ["store/*"],
+      "interfaces/*": ["interfaces/*"],
+      "Api/*": ["Api/*"],
+      "App/*": ["App/*"],
+      "constants/*": ["constants/*"],
+      "hooks/*": ["hooks/*"],
+      "saga/*": ["saga/*"],
+      "styles/*": ["styles/*"],
+      "utils/*": ["utils/*"],
+      "assets/*": ["assets/*"],
+      "tests": ["tests/index.tsx"]
+    }
+  },
+  "include": ["src", "src/react-app-env.d.ts", "src/image.d.ts"]
+}
