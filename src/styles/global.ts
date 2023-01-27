@@ -1,17 +1,14 @@
 import { createGlobalStyle } from 'styled-components'
 
-import { theme } from './themes'
+import { theme } from 'styles/themes'
 
 export default createGlobalStyle`
   * {
-    margin: ${theme.RANGE.NONE};
+    width:1920px;
+    margin:0 auto;
     padding: ${theme.RANGE.NONE};
     outline: none;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Sofia Sans Condensed', sans-serif;
-    color:${theme.colors.white};
-    font-size: ${theme.FONT_SIZE.S}px;
-    font-weight: ${theme.FONT_WEIGHT.S};
   }
 `
