@@ -1,3 +1,5 @@
+import { css } from 'styled-components'
+
 const theme = {
   colors: {
     primary: '#185CFF',
@@ -12,25 +14,85 @@ const theme = {
     redError: '#C14040',
     white: '#FFFFFF',
   },
-  fonts: {
-    openSans: `'Open Sans', sans-serif`,
-    manrope: `'Manrope', sans-serif`,
-  },
-  fontSizes: {
-    XXS: 14,
-    XS: 16,
-    S: 20,
-    M: 22,
-    L: 30,
-    XL: 38,
-    XXL: 46,
-  },
-  fontWeight: {
-    Regular: 400,
-    Medium: 500,
-    SemiBold: 600,
-    Bold: 700,
-    ExtraBold: 800,
+  typography: {
+    EB_HEADLINE_1: css`
+      font-family: 'Manrope', sans-serif;
+      font-weight: 800;
+      font-size: 46px;
+      line-height: 60px;
+    `,
+    EX_HEADLINE_2: css`
+      font-family: 'Manrope';
+      font-weight: 800;
+      font-size: 38px;
+      line-height: 56px;
+    `,
+    EX_HEADLINE_3: css`
+      font-family: 'Manrope';
+      font-weight: 800;
+      font-size: 30px;
+      line-height: 40px;
+    `,
+    B_HEADLINE_4: css`
+      font-family: 'Manrope';
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 33px;
+    `,
+    B_HEADLINE_5: css`
+      font-family: 'Manrope';
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 30px;
+    `,
+    B_HEADLINE_6: css`
+      font-family: 'Manrope';
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+    `,
+    SB_HEADLINE_7: css`
+      font-family: 'Manrope', sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 24px;
+    `,
+    M_HEADLINE_7: css`
+      font-family: 'Manrope';
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 24px;
+    `,
+    R_PARAGRAPH_1: css`
+      font-family: 'Open Sans';
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 33px;
+    `,
+    R_PARAGRAPH_2: css`
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 28px;
+    `,
+    B_PARAGRAPH_1: css`
+      font-family: 'Open Sans';
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 28px;
+    `,
+    R_PARAGRAPH_3: css`
+      font-family: 'Open Sans';
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+    `,
+    SM_PARAGRAPH_3: css`
+      font-family: 'Open Sans';
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 24px;
+    `,
   },
   shadows: {
     shadowButton: '0px 12px 30px rgba(24, 92, 255, 0.18);',
@@ -39,6 +101,7 @@ const theme = {
     shadowCard3: '0px 4px 12px rgba(12, 68, 204, 0.1);',
     shadowDropdown:
       '0px 2px 6px rgba(0, 43, 78, 0.15), 0px 1px 2px rgba(0, 43, 78, 0.3);',
+    shadowNone: 'none',
   },
   BORDER_RADIUS: {
     XS: 4,

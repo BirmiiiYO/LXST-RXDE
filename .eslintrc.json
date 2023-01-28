@@ -102,5 +102,6 @@
         "project": "./tsconfig.json"
       }
     }
-  }
+  },
+  "ignorePatterns": ["**/*.svg"]
 }

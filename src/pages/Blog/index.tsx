@@ -1,5 +1,3 @@
 import React from 'react'
 
-export const Blog = () => {
-  return <h1>Blog</h1>
-}
+export const Blog = () => <h1>Blog</h1>

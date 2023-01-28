@@ -8,6 +8,7 @@ import { Home } from 'pages/Home'
 import { OurTeam } from 'pages/OurTeam'
 import { Services } from 'pages/Services'
 import { Solutions } from 'pages/Solutions'
+
 export const routes = [
   {
     name: 'AboutUs',
