@@ -1,3 +1,5 @@
 import React from 'react'
 
-export const FAQs = () => <h1>FAQs</h1>
+const FAQs = () => <h1>FAQs</h1>
+
+export default FAQs

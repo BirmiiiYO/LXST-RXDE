@@ -1,15 +1,19 @@
 import React from 'react'
+import { useLocation } from 'react-router-dom'
 
 import { links } from 'constants/links'
 
 import { CustomLink, Nav } from './styles'
 
-export const Navigation = () => (
-  <Nav>
-    {/* {links.map(link => (
-      <CustomLink key={link} to={link}>
-        {link}
-      </CustomLink>
-    ))} */}
-  </Nav>
-)
+export const Navigation = () => {
+  const { pathname } = useLocation()
+  return (
+    <Nav>
+      {links.map(({ href, name }) => (
+        <CustomLink key={href} to={href} active={pathname === href}>
+          {name}
+        </CustomLink>
+      ))}
+    </Nav>
+  )
+}

@@ -1,3 +1,5 @@
 import React from 'react'
 
-export const AboutUs = () => <h1>About us</h1>
+const AboutUs = () => <h1>About us</h1>
+
+export default AboutUs

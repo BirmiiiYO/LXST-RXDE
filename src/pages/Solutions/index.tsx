@@ -1,3 +1,5 @@
 import React from 'react'
 
-export const Solutions = () => <h1>Solutions</h1>
+const Solutions = () => <h1>Solutions</h1>
+
+export default Solutions

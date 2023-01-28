@@ -13,7 +13,6 @@ export const Info = styled.div`
   max-width: 540px;
 `
 export const Title = styled.h2`
-  font-family: ${theme.fonts.manrope};
   font-style: normal;
   font-weight: 800;
   font-size: 38px;
@@ -21,7 +20,6 @@ export const Title = styled.h2`
   margin-bottom: 24px;
 `
 export const Text = styled.span`
-  font-family: ${theme.fonts.openSans};
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
