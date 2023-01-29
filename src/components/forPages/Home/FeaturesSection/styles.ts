@@ -1,24 +1,27 @@
 import styled from 'styled-components'
 
+import { devices } from 'styles/breakpoints'
 import { CENTER, COLUMN, SPACE_BETWEEN, theme } from 'styles/themes'
 
-export const Wrapper = styled.div`
-  width: 1920px;
-  ${CENTER}
-  flex-direction: column;
-`
 export const TextContainer = styled.div`
-  width: 1110px;
+  max-width: 1110px;
   margin: 120px 0;
   ${SPACE_BETWEEN}
 `
 
 export const Title = styled.h1`
-  width: 450px;
+  max-width: 450px;
   color: ${theme.colors.black};
   ${theme.typography.EB_HEADLINE_1}
   span {
     color: ${theme.colors.primary};
+  }
+  margin-right: 210px;
+  @media ${devices.laptop} {
+    margin-right: 100px;
+  }
+  @media ${devices.tablet} {
+    margin-right: 0;
   }
 `
 
@@ -28,33 +31,33 @@ export const TextAndButton = styled.div`
 
 export const Text = styled.p`
   max-width: 440px;
+  padding: 10px;
   color: ${theme.colors.grey};
   ${theme.typography.R_PARAGRAPH_2}
   margin: 30px 0;
 `
 
 export const SolutionContainer = styled.div`
-  width: inherit;
-  height: 740px;
+  width: 100%;
   display: flex;
-  flex-direction: row;
-  justify-content: stretch;
+  justify-content: flex-start;
   align-items: center;
-  gap: 46px;
   background-color: ${theme.colors.background};
 `
 
 export const Image = styled.img`
-  width: 930px;
-  object-fit: contain;
+  width: 50%;
+  margin-right: 50px;
 `
 
 export const Description = styled.div`
-  width: 540px;
+  max-width: 450px;
+  padding: 10px;
 `
 
 export const DescriptionTitle = styled.h2`
-  width: 450px;
+  max-width: 450px;
+  padding: 10px;
   color: ${theme.colors.black};
   ${theme.typography.EB_HEADLINE_2}
 `

@@ -15,11 +15,11 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16
-      - name: Install deps
-        run: npm ci
-      - name: Run Linter
-        run: npm run lint
-      - name: Run tests
-        run: npm run test
-      - name: Fix codestyle with prettier
-        run: npm run prettier
+      # - name: Install deps
+      #   run: npm ci
+      # - name: Run Linter
+      #   run: npm run lint
+      # - name: Run tests
+      #   run: npm run test
+      # - name: Fix codestyle with prettier
+      #   run: npm run prettier

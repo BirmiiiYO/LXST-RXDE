@@ -9,6 +9,7 @@ import { IStyleLinkProps } from './types'
 
 export const Nav = styled.ul`
   width: 511px;
+  margin: 0 146px;
   ${SPACE_BETWEEN};
   @media ${devices.laptop} {
     width: 400px;

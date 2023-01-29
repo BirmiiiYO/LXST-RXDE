@@ -13,7 +13,7 @@ export const Title = styled.h1`
   ${theme.typography.EB_HEADLINE_1}
   max-width: 540px;
   padding: 70px 0 90px 0;
-  margin-right: 220px;
+  margin-right: 210px;
   & span {
     color: ${theme.colors.primary};
   }
@@ -28,6 +28,7 @@ export const Text = styled.span`
   ${theme.typography.R_PARAGRAPH_2}
   color:${theme.colors.grey};
   max-width: 350px;
+  padding: 10px;
 `
 
 export const ButtonContainer = styled.div`
@@ -37,5 +38,5 @@ export const ButtonContainer = styled.div`
 `
 
 export const HeroImage = styled.img`
-  max-width: 1920px;
+  width: 100%;
 `

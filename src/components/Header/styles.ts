@@ -4,12 +4,13 @@ import { CENTER, SPACE_BETWEEN, theme } from 'styles/themes'
 
 export const Container = styled.div`
   ${CENTER}
-  background:${theme.colors.secondary}
+  width:100%;
+  background: ${theme.colors.secondary};
 `
 
 export const Row = styled.div`
   height: 146px;
-  width: 1110px;
+  max-width: 1110px;
   ${SPACE_BETWEEN}
 `
 

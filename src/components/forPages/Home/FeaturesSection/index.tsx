@@ -12,11 +12,11 @@ import {
   TextAndButton,
   TextContainer,
   Title,
-  Wrapper,
 } from './styles'
 
 export const FeaturesSection = () => (
-  <Wrapper>
+  <>
+    {' '}
     <TextContainer>
       <Title>
         The <span>newest</span> business analytics platform
@@ -47,5 +47,5 @@ export const FeaturesSection = () => (
         <Button type="small">Learn more</Button>
       </Description>
     </SolutionContainer>
-  </Wrapper>
+  </>
 )
