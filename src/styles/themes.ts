@@ -64,6 +64,12 @@ const theme = {
       font-size: 14px;
       line-height: 24px;
     `,
+    SB_HEADLINE_8: css`
+      font-family: 'Open Sans';
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 24px;
+    `,
     R_PARAGRAPH_1: css`
       font-family: 'Open Sans';
       font-weight: 400;

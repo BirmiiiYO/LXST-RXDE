@@ -9,5 +9,6 @@ export default createGlobalStyle`
     outline: none;
     box-sizing: border-box;
     text-decoration: none;
+    letter-spacing: -0.015em;
   }
 `

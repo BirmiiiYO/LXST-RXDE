@@ -22,6 +22,8 @@ const send: ComponentStory<typeof Button> = args => (
   <Button {...args}>Send</Button>
 )
 
+const icon: ComponentStory<typeof Button> = args => <Button {...args} />
+
 export const primary = learnMore.bind({})
 primary.args = {
   type: EButtonType.PRIMARY,
@@ -56,7 +58,7 @@ export const borderWatch = Watch.bind({})
 primaryWatch.args = {
   type: EButtonType.BORDER_WATCH,
 }
-export const icon = learnMore.bind({})
-primaryWatch.args = {
+export const iconType = icon.bind({})
+icon.args = {
   type: EButtonType.ICON,
 }

@@ -13,7 +13,7 @@ export type TButtonType =
 
 export interface IButtonProps {
   type?: TButtonType
-  children: ReactNode
+  children?: ReactNode
   disabled?: boolean
   onClick?: () => void
 }

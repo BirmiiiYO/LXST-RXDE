@@ -6,6 +6,7 @@ import { Header } from 'components/Header'
 
 import {} from './styles'
 import { EPagePaths } from 'constants/router'
+import { Button } from 'components/Button'
 
 const HomePage = lazy(() => import('pages/Home'))
 const ContactsPage = lazy(() => import('pages/Contacts'))
@@ -43,6 +44,7 @@ const App = () => {
     <Suspense fallback="Loading...">
       <Header />
       {/* <VideoBackground /> */}
+      <Button type="border-watch">Watch the demo</Button>
       <>
         <Routes>
           <Route path={EPagePaths.HOME} element={<HomePage />} />
