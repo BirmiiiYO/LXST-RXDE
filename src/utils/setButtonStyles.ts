@@ -1,6 +1,7 @@
 import { css } from 'styled-components'
 
-import watchSvg from 'assets/Vector.svg'
+import bigPlayer from 'assets/bigPlayer.svg'
+import player from 'assets/player.svg'
 import { TButtonType } from 'components/Button/types'
 import { EButtonType } from 'constants/buttonType'
 import { theme } from 'styles/themes'
@@ -8,35 +9,47 @@ import { theme } from 'styles/themes'
 export const setButtonStyles = (type: TButtonType) => {
   switch (type) {
     case EButtonType.BORDER_WATCH:
-      return css``
-    case EButtonType.ICON:
       return css`
-        padding: 18px 33px;
-        border-radius: 6px;
-        border: none;
-        background: blue;
-        color: white;
+        ${theme.typography.B_HEADLINE_6}
+        color: ${theme.colors.primary};
+        border-radius: ${theme.BORDER_RADIUS.S}px;
+        border: 1px solid ${theme.colors.primary};
+        box-shadow: ${theme.shadows.none};
+        padding: 11px 81px;
         &:active {
-          background: #467dff;
+          color: ${theme.colors.hover};
+          border-color: ${theme.colors.hover};
         }
         &:disabled {
-          background: grey;
+          color: ${theme.colors.grey};
+          border-color: ${theme.colors.grey};
         }
       `
+    case EButtonType.ICON:
+      return css``
     case EButtonType.PRIMARY_WATCH:
       return css`
-        color: white;
-        background: blue;
-        border-radius: 6px;
-        border: none;
         ${theme.typography.SB_HEADLINE_7}
+        color: ${theme.colors.white};
+        background: ${theme.colors.primary};
+        border-radius: ${theme.BORDER_RADIUS.S}px;
+        box-shadow: ${theme.shadows.none};
+        border: none;
         display: flex;
         align-items: center;
-        padding: 4px 15px;
+        padding: 3px 14px;
         &::before {
-          content: url(${watchSvg});
-          padding-right: 10px;
-          padding-top: 8px;
+          content: url(${player});
+          display: inline-block;
+          padding-right: 8px;
+          padding-top: 6px;
+        }
+        &:hover {
+          background: ${theme.colors.hover};
+          box-shadow: ${theme.shadows.shadowButton};
+        }
+        &:disabled {
+          background: ${theme.colors.grey};
         }
       `
     case EButtonType.ROUND:
@@ -45,55 +58,79 @@ export const setButtonStyles = (type: TButtonType) => {
       return css``
     case EButtonType.SMALL:
       return css``
-    case EButtonType.SMALL_WATCH:
-      return css``
-    case EButtonType.WATCH:
+    case EButtonType.BIG_WATCH:
       return css`
         border-radius: 6px;
-        background: white;
+        color: ${theme.colors.black};
+        background: ${theme.colors.white};
         border: none;
-        ${theme.typography.SB_HEADLINE_7}
+        ${theme.typography.B_HEADLINE_6}
         box-shadow:none;
-        padding: 4px 15px;
+        padding: 5px 25px;
         display: flex;
         align-items: center;
         &::before {
-          content: url(${watchSvg});
-          background: white;
-          margin-right: 10px;
-          padding-top: 8px;
+          content: url(${bigPlayer});
+          display: inline-block;
+          padding-right: 8px;
+          padding-top: 6px;
         }
         &:hover {
-          color: blue;
+          color: ${theme.colors.primary};
         }
         &:active {
-          color: blue;
+          color: ${theme.colors.primary};
         }
         &:disabled {
-          color: grey;
+          color: ${theme.colors.grey};
+        }
+      `
+    case EButtonType.WATCH:
+      return css`
+        border-radius: 6px;
+        color: ${theme.colors.black};
+        background: ${theme.colors.white};
+        border: none;
+        ${theme.typography.SB_HEADLINE_7}
+        box-shadow:none;
+        padding: 3px 14px;
+        display: flex;
+        align-items: center;
+        &::before {
+          content: url(${player});
+          display: inline-block;
+          padding-right: 8px;
+          padding-top: 6px;
+        }
+        &:hover {
+          color: ${theme.colors.primary};
+        }
+        &:active {
+          color: ${theme.colors.primary};
+        }
+        &:disabled {
+          color: ${theme.colors.grey};
         }
       `
     // default primary
     default:
       return css`
-        color: white;
-        background: blue;
-        border-radius: 6px;
+        ${theme.typography.B_HEADLINE_6}
+        color: ${theme.colors.white};
+        background: ${theme.colors.primary};
+        border-radius: ${theme.BORDER_RADIUS.S}px;
         border: none;
-        box-shadow: 0px 12px 30px rgba(24, 92, 255, 0.18);
+        box-shadow: ${theme.shadows.shadowButton};
         padding: 15px 52px;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 24px;
         &:hover {
-          background: #467dff;
+          background: ${theme.colors.hover};
         }
         &:not([hover]):active {
-          box-shadow: none;
+          box-shadow: ${theme.shadows.none};
         }
         &:disabled {
-          background: grey;
-          box-shadow: none;
+          background: ${theme.colors.grey};
+          box-shadow: ${theme.shadows.none};
         }
       `
   }

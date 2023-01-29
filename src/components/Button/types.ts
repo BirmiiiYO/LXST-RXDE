@@ -4,7 +4,7 @@ export type TButtonType =
   | 'primary'
   | 'primary-watch'
   | 'watch'
-  | 'small-watch'
+  | 'big-watch'
   | 'small'
   | 'round'
   | 'round-small'

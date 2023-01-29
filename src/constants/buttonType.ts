@@ -2,7 +2,7 @@ export enum EButtonType {
   PRIMARY = 'primary',
   PRIMARY_WATCH = 'primary-watch',
   WATCH = 'watch',
-  SMALL_WATCH = 'small-watch',
+  BIG_WATCH = 'big-watch',
   SMALL = 'small',
   ROUND = 'round',
   ROUND_SMALL = 'round-small',

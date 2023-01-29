@@ -13,6 +13,7 @@ const theme = {
     background: '#F1F6FA',
     redError: '#C14040',
     white: '#FFFFFF',
+    hover: '#467DFF',
   },
   typography: {
     EB_HEADLINE_1: css`
@@ -101,7 +102,7 @@ const theme = {
     shadowCard3: '0px 4px 12px rgba(12, 68, 204, 0.1);',
     shadowDropdown:
       '0px 2px 6px rgba(0, 43, 78, 0.15), 0px 1px 2px rgba(0, 43, 78, 0.3);',
-    shadowNone: 'none',
+    none: 'none',
   },
   BORDER_RADIUS: {
     XS: 4,

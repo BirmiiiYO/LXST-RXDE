@@ -1,3 +1,5 @@
+/* eslint-disable react/destructuring-assignment */
+/* eslint-disable react/jsx-props-no-spreading */
 import { ComponentMeta, ComponentStory } from '@storybook/react'
 import React from 'react'
 
@@ -9,45 +11,52 @@ export default {
   component: Button,
 } as ComponentMeta<typeof Button>
 
-const Template: ComponentStory<typeof Button> = args => (
-  // eslint-disable-next-line react/jsx-props-no-spreading
+const learnMore: ComponentStory<typeof Button> = args => (
+  <Button {...args}>Learn more</Button>
+)
+const Watch: ComponentStory<typeof Button> = args => (
   <Button {...args}>Watch the demo</Button>
 )
-export const primary = Template.bind({})
+
+const send: ComponentStory<typeof Button> = args => (
+  <Button {...args}>Send</Button>
+)
+
+export const primary = learnMore.bind({})
 primary.args = {
   type: EButtonType.PRIMARY,
 }
 
-export const primaryWatch = Template.bind({})
+export const primaryWatch = Watch.bind({})
 primaryWatch.args = {
   type: EButtonType.PRIMARY_WATCH,
 }
 
-export const watch = Template.bind({})
+export const watch = Watch.bind({})
 primaryWatch.args = {
   type: EButtonType.WATCH,
 }
-export const smallWatch = Template.bind({})
+export const bigWatch = Watch.bind({})
 primaryWatch.args = {
-  type: EButtonType.SMALL_WATCH,
+  type: EButtonType.BIG_WATCH,
 }
-export const small = Template.bind({})
+export const small = send.bind({})
 primaryWatch.args = {
   type: EButtonType.SMALL,
 }
-export const round = Template.bind({})
+export const round = learnMore.bind({})
 primaryWatch.args = {
   type: EButtonType.ROUND,
 }
-export const roundSmall = Template.bind({})
+export const roundSmall = learnMore.bind({})
 primaryWatch.args = {
   type: EButtonType.ROUND_SMALL,
 }
-export const borderWatch = Template.bind({})
+export const borderWatch = Watch.bind({})
 primaryWatch.args = {
   type: EButtonType.BORDER_WATCH,
 }
-export const icon = Template.bind({})
+export const icon = learnMore.bind({})
 primaryWatch.args = {
   type: EButtonType.ICON,
 }
