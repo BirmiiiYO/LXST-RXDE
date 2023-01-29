@@ -3,26 +3,24 @@ import styled from 'styled-components'
 import { CENTER, SPACE_BETWEEN, theme } from 'styles/themes'
 
 export const Container = styled.div`
-  background: ${theme.colors.secondary};
+  ${CENTER}
+  background:${theme.colors.secondary};
   color: ${theme.colors.white};
-  width: 1110px;
-  height: 306px;
-  ${SPACE_BETWEEN}
 `
+export const Content = styled.div`
+  width: 1110px;
+  ${SPACE_BETWEEN}
+  padding:80px 0;
+`
+
 export const Info = styled.div`
   max-width: 540px;
 `
 export const Title = styled.h2`
-  font-style: normal;
-  font-weight: 800;
-  font-size: 38px;
-  line-height: 56px;
-  margin-bottom: 24px;
+  ${theme.typography.EX_HEADLINE_2}
+  margin-bottom:24px;
 `
 export const Text = styled.span`
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 33px;
+  ${theme.typography.R_PARAGRAPH_1}
 `
 export const Input = styled.input``

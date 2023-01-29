@@ -22,13 +22,13 @@ const theme = {
       font-size: 46px;
       line-height: 60px;
     `,
-    EX_HEADLINE_2: css`
+    EB_HEADLINE_2: css`
       font-family: 'Manrope';
       font-weight: 800;
       font-size: 38px;
       line-height: 56px;
     `,
-    EX_HEADLINE_3: css`
+    EB_HEADLINE_3: css`
       font-family: 'Manrope';
       font-weight: 800;
       font-size: 30px;
@@ -94,7 +94,7 @@ const theme = {
       font-size: 14px;
       line-height: 24px;
     `,
-    SM_PARAGRAPH_3: css`
+    SB_PARAGRAPH_3: css`
       font-family: 'Open Sans';
       font-weight: 600;
       font-size: 14px;

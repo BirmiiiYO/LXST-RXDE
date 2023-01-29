@@ -1,5 +1,5 @@
 export const enum EPagePaths {
-  HOME = '/themeforest',
+  HOME = '/',
   SOLUTIONS = '/solutions',
   SOLUTION = ':solutionId',
   ELEMENTS = '/elements',

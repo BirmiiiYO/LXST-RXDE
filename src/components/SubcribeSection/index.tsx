@@ -1,16 +1,21 @@
 import React from 'react'
 
-import { Container, Info, Input, Text, Title } from './styles'
+import { InputWithButton } from 'components/InputWithButton'
+
+import { Container, Content, Info, Text, Title } from './styles'
 
 export const SubscribeSection = () => (
   <Container>
-    <Info>
-      <Title>Subscribe to our newsletter</Title>
-      <Text>
-        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-        accusantium doloremque laudantium.
-      </Text>
-    </Info>
-    <Input />
+    <Content>
+      {' '}
+      <Info>
+        <Title>Subscribe to our newsletter</Title>
+        <Text>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium.
+        </Text>
+      </Info>
+      <InputWithButton />
+    </Content>
   </Container>
 )

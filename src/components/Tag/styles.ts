@@ -4,8 +4,10 @@ import { theme } from 'styles/themes'
 
 export const StyledTag = styled.button`
   color: ${theme.colors.primary};
-  font-family: ${theme.fonts.manrope};
-  font-weight: ${theme.fontWeight.ExtraBold};
+  font-family: 'Manrope';
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 24px;
   background-color: ${theme.colors.white};
   font-size: 14px;
   line-height: 24px;
@@ -17,6 +19,7 @@ export const StyledTag = styled.button`
     background-color: ${theme.colors.primary};
     border: none;
   }
+
   &:disabled {
     color: ${theme.colors.grey};
   }

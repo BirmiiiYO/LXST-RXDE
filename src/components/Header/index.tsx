@@ -12,8 +12,8 @@ export const Header = () => (
     <Row>
       <Logo src={Logotype} alt="logo" />
       <Navigation />
-      {/* <Button>watch the demo</Button> */}
-      <Menu />
+      <Button type="primary-watch">watch the demo</Button>
+      {/* <Menu /> */}
     </Row>
   </Container>
 )

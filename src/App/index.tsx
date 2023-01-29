@@ -4,9 +4,9 @@ import { Route, Routes, useLocation } from 'react-router-dom'
 // eslint-disable-next-line import/order
 import { Header } from 'components/Header'
 
-import {} from './styles'
 import { EPagePaths } from 'constants/router'
-import { Button } from 'components/Button'
+
+import { Container } from './styles'
 
 const HomePage = lazy(() => import('pages/Home'))
 const ContactsPage = lazy(() => import('pages/Contacts'))
@@ -41,11 +41,10 @@ const App = () => {
   // }, [pathname])
 
   return (
-    <Suspense fallback="Loading...">
+    <Container>
       <Header />
       {/* <VideoBackground /> */}
-      <Button type="border-watch">Watch the demo</Button>
-      <>
+      <Suspense fallback="Loading...">
         <Routes>
           <Route path={EPagePaths.HOME} element={<HomePage />} />
           <Route path={EPagePaths.SOLUTIONS}>
@@ -59,8 +58,8 @@ const App = () => {
             <Route index element={<ServicesPage />} />
           </Route>
         </Routes>
-      </>
-    </Suspense>
+      </Suspense>
+    </Container>
   )
 }
 

@@ -63,7 +63,6 @@ export const setButtonStyles = (type: TButtonType) => {
         border-radius: ${theme.BORDER_RADIUS.S}px;
         box-shadow: ${theme.shadows.none};
         border: none;
-
         padding: 3px 14px;
         &::before {
           content: url(${player});

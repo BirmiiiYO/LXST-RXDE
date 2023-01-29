@@ -8,12 +8,12 @@ export default {
   component: Tag,
 } as ComponentMeta<typeof Tag>
 
-const Template: ComponentStory<typeof Tag> = () => <Tag>Proxy</Tag>
+const Template: ComponentStory<typeof Tag> = args => <Tag {...args}>Proxy</Tag>
 
 export const Classic = Template.bind({})
 Classic.args = {}
 
 export const Disabled = Template.bind({})
-Disabled.args = {
+Classic.args = {
   disabled: true,
 }

@@ -1,0 +1,8 @@
+export { BenefitsSection } from './BenefitsSection'
+export { BlogSection } from './BlogSection'
+export { ContactUsSection } from './ContactsUsSection'
+export { FeaturesSection } from './FeaturesSection'
+export { HeroSection } from './HeroSection'
+export { PricingSection } from './PricingSection'
+export { TestImonialsSection } from './TestimonialsSection'
+export { CompanyOverviewSection } from './CompanyOverviewSection'
