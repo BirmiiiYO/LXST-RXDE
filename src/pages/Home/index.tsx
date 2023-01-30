@@ -15,14 +15,14 @@ import { Container } from './styles'
 
 const Home = () => (
   <Container>
-    <HeroSection />
-    <FeaturesSection />
-    <CompanyOverviewSection />
-    <BenefitsSection />
+    {/* <HeroSection />
+    <FeaturesSection /> 
+    <CompanyOverviewSection /> 
+    <BenefitsSection /> 
     <TestImonialsSection />
-    <PricingSection />
-    <BlogSection />
-    <ContactUsSection />
+    {/* <PricingSection />
+    <BlogSection /> 
+    <ContactUsSection /> */}
   </Container>
 )
 

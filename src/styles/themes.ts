@@ -15,6 +15,17 @@ const theme = {
     white: '#FFFFFF',
     hover: '#467DFF',
   },
+  fonts: {
+    openSans: `'Open Sans', sans-serif`,
+    manrope: `'Manrope', sans-serif`,
+  },
+  fontWeight: {
+    Regular: 400,
+    Medium: 500,
+    SemiBold: 600,
+    Bold: 700,
+    ExtraBold: 800,
+  },
   typography: {
     EB_HEADLINE_1: css`
       font-family: 'Manrope', sans-serif;
