@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Container, Date, Icon, Text, Title, Topic } from './styles'
+import { Container, Date, Icon, List, Text, Title, Topic } from './styles'
 import { IBlogCardProps } from './types'
 
 export const BlogCard = ({
@@ -15,8 +15,11 @@ export const BlogCard = ({
     <Date>{date}</Date>
     <Title>{title}</Title>
     <Text>{text}</Text>
-    {topics.map(topic => (
-      <Topic>{topic}</Topic>
-    ))}
+    <List>
+      {' '}
+      {topics.map(topic => (
+        <Topic>{topic}</Topic>
+      ))}
+    </List>
   </Container>
 )

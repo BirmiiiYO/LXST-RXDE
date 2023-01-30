@@ -1,6 +1,6 @@
 export interface IPriceCardProps {
   name: string
   text: string
-  value: number
+  value: string
   infos: string[]
 }

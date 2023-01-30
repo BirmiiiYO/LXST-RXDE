@@ -1,9 +1,25 @@
 import styled from 'styled-components'
 
-export const Container = styled.div``
+import { theme } from 'styles/themes'
 
-export const Icon = styled.img``
+export const Container = styled.div`
+  width: 350px;
+  box-shadow: ${theme.shadows.shadowCard3};
+  padding: 46px 35px;
+`
 
-export const Title = styled.h1``
+export const Icon = styled.img`
+  padding: 18px;
+  border: 1px solid ${theme.colors.background};
+  border-radius: 12px;
+`
 
-export const Text = styled.div``
+export const Title = styled.h1`
+  ${theme.typography.B_HEADLINE_4}
+  margin: 30px 0 16px 0;
+`
+
+export const Text = styled.div`
+  ${theme.typography.R_PARAGRAPH_2}
+  color:${theme.colors.grey}
+`

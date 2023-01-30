@@ -14,6 +14,5 @@ export const AdvantageServiceCard = ({
     <Icon src={icon} alt="logo of services card" />
     <Title>{title}</Title>
     <Text>{text}</Text>
-    <Button type="primary">Read more -&gt;</Button>
   </Container>
 )
