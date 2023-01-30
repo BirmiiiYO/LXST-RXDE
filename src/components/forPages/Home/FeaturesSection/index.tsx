@@ -1,7 +1,7 @@
 import React from 'react'
 
 import featureImage from 'assets/images/featuresSection.png'
-import { Button } from 'components/Button'
+import { Button } from 'components/UI/Button'
 
 import {
   Description,

@@ -3,7 +3,7 @@ import { css } from 'styled-components'
 import bigPlayer from 'assets/bigPlayer.svg'
 import player from 'assets/player.svg'
 import search from 'assets/search.svg'
-import { TButtonType } from 'components/Button/types'
+import { TButtonType } from 'components/UI/Button/types'
 import { EButtonType } from 'constants/buttonType'
 import { theme } from 'styles/themes'
 

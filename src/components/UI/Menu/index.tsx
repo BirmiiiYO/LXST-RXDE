@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 import MenuIcon from 'assets/Menu.svg'
-import { DropDown } from 'components/Dropdown'
+import { DropDown } from 'components/UI/Dropdown'
 
 import { Icon, StyledMenu } from './styles'
 

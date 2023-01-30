@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { InputWithButton } from 'components/InputWithButton'
+import { InputWithButton } from 'components/UI/InputWithButton'
 
 import { Container, Content, Info, Text, Title } from './styles'
 

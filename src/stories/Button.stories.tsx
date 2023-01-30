@@ -3,7 +3,7 @@
 import { ComponentMeta, ComponentStory } from '@storybook/react'
 import React from 'react'
 
-import { Button } from 'components/Button'
+import { Button } from 'components/UI/Button'
 import { EButtonType } from 'constants/buttonType'
 
 export default {

@@ -1,9 +1,9 @@
 import React from 'react'
 
 import Logotype from 'assets/svg/logo/logo.svg'
-import { Button } from 'components/Button'
-import { Menu } from 'components/Menu'
 import { Navigation } from 'components/Navigation'
+import { Button } from 'components/UI/Button'
+import { Menu } from 'components/UI/Menu'
 
 import { Container, Logo, Row } from './styles'
 

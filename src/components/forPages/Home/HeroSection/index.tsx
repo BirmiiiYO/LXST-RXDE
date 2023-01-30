@@ -1,7 +1,7 @@
 import React from 'react'
 
 import heroImage from 'assets/images/heroSection.png'
-import { Button } from 'components/Button'
+import { Button } from 'components/UI/Button'
 
 import { ButtonContainer, Container, HeroImage, Text, Title } from './styles'
 

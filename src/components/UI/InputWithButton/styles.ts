@@ -6,7 +6,7 @@ export const Input = styled.input`
   ${theme.typography.SB_PARAGRAPH_3}
   border-radius: 6px;
   border: none;
-  padding: 8.4px 0 7.4px 0;
+  padding: 8.4px 0 7.4px 20px;
   margin-right: -10px;
   background: #c9dcec;
   &:focus {
