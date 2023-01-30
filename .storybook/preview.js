@@ -1,10 +1,10 @@
-import { addDecorator } from '@storybook/react';
-import { Decorator } from './decorator';
+import { addDecorator } from '@storybook/react'
+import { Decorator } from './decorator'
 
-addDecorator(Decorator);
+addDecorator(Decorator)
 
 export const parameters = {
-  actions: { argTypesRegex: "^on[A-Z].*" },
+  actions: { argTypesRegex: '^on[A-Z].*' },
   controls: {
     matchers: {
       color: /(background|color)$/i,
