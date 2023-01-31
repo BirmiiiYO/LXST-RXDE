@@ -192,7 +192,7 @@ export const setButtonStyles = (type: TButtonType) => {
         border: none;
         ${theme.typography.SB_HEADLINE_7}
         box-shadow:none;
-        padding: 3px 14px;
+        padding: 3px 12px;
         &::before {
           content: url(${player});
           display: inline-block;

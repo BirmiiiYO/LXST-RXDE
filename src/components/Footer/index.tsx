@@ -1,23 +1,37 @@
 import React from 'react'
 
-import { Title } from 'components/SubcribeSection/styles'
+import whiteLogo from 'assets/svg/logo/Logo_white.svg'
+import behance_icon from 'assets/svg/socialsIcons/behance_icon.svg'
+import dribbble_icon from 'assets/svg/socialsIcons/dribbble_icon.svg'
+import fb_icon from 'assets/svg/socialsIcons/facebook_icon.svg'
+import inst_icon from 'assets/svg/socialsIcons/inst_icon.svg'
+import twitter_icon from 'assets/svg/socialsIcons/twitter_icon.svg'
+import youtube_icon from 'assets/svg/socialsIcons/youtube_icon.svg'
 import { links } from 'constants/links'
 
 import {
-  ContactInfo,
+  Block,
   Container,
   Content,
+  CustomLink,
   Icon,
+  Icons,
   Information,
   Logo,
   PrivacyInfo,
-  QuickLine,
-  Service,
   SpaceBetween,
   Text,
+  Title,
 } from './styles'
 
-const icons = ['', '', '']
+const icons = [
+  behance_icon,
+  fb_icon,
+  youtube_icon,
+  dribbble_icon,
+  twitter_icon,
+  inst_icon,
+]
 const contacts = [
   'ensome@info.co.us',
   '+1 601-201-5580',
@@ -29,32 +43,41 @@ export const Footer = () => (
   <Container>
     <Content>
       <Information>
-        <Logo />
-        <Text>
-          Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
-          suscipit laboriosam, nisi ut aliquid ex ea commodi.
-        </Text>
-        {icons.map(icon => (
-          <Icon src={icon} />
-        ))}
-        <QuickLine>
+        <Block>
+          <Logo src={whiteLogo} alt="footer logo" />
+          <Text>
+            Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+            suscipit laboriosam, nisi ut aliquid ex ea commodi.
+          </Text>
+          <Icons>
+            {' '}
+            {icons.map(icon => (
+              <Icon src={icon} />
+            ))}
+          </Icons>
+        </Block>
+        <Block>
           <Title>Quick link</Title>
           {links.map(({ name }) => (
-            <text>{name}</text>
+            <Text>
+              <CustomLink to="/">{name}</CustomLink>
+            </Text>
           ))}
-        </QuickLine>
-        <Service>
+        </Block>
+        <Block>
           <Title>Service</Title>
           {services.map(link => (
-            <text>{link}</text>
+            <Text>
+              <CustomLink to="/">{link}</CustomLink>
+            </Text>
           ))}
-        </Service>
-        <ContactInfo>
+        </Block>
+        <Block>
           <Title>Cantact info</Title>
           {contacts.map(link => (
-            <text>{link}</text>
+            <Text>{link}</Text>
           ))}
-        </ContactInfo>
+        </Block>
       </Information>
       <PrivacyInfo>
         <Text>Ensome© 2022 All Rights Reserved</Text>
