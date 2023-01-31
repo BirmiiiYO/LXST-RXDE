@@ -21,8 +21,8 @@ const Home = () => (
     <FeaturesSection />
     <CompanyOverviewSection />
     <BenefitsSection />
-    <TestImonialsSection /> */}
-    <PricingSection />
+    <TestImonialsSection /> 
+    <PricingSection /> */}
     <BlogSection />
     {/* <ContactUsSection />
     <SubscribeSection />
