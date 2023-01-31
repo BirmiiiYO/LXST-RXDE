@@ -5,7 +5,8 @@ import { CENTER, COLUMN, SPACE_BETWEEN, theme } from 'styles/themes'
 
 export const Container = styled.div`
   ${CENTER}
-  background:${theme.colors.secondary};
+  width:100%;
+  background: ${theme.colors.secondary};
   color: ${theme.colors.white};
 `
 

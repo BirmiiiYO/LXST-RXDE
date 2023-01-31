@@ -42,7 +42,7 @@ export const SolutionContainer = styled.div`
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background-color: ${theme.colors.background};
+  background-color: ${theme.colors.aliceBlue};
 `
 
 export const Image = styled.img`

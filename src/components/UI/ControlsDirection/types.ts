@@ -1,6 +1,7 @@
 export interface IControlsDirectionProps {
   direction: 'right' | 'left'
-  disabled: boolean
+  disabled?: boolean
+  onClick: () => void
 }
 
 export interface IControlsDirectionStyleProps {

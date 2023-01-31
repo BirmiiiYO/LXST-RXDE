@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { SPACE_BETWEEN, theme } from 'styles/themes'
 
 export const Container = styled.div`
-  width: 540px;
+  width: 330px;
   padding: 35px;
   box-shadow: ${theme.shadows.shadowCard3};
   border-radius: 6px;

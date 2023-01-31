@@ -6,9 +6,10 @@ import { IControlsDirectionProps } from './types'
 
 export const ControlsDirection = ({
   direction,
-  disabled,
+  disabled = false,
+  onClick,
 }: IControlsDirectionProps) => (
-  <ControlButton disabled={disabled}>
+  <ControlButton disabled={disabled} onClick={onClick}>
     <Icon direction={direction} src={directionIcon} alt="direction" />
   </ControlButton>
 )

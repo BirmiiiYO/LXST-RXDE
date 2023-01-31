@@ -1,6 +1,10 @@
 export interface IPriceCardProps {
   name: string
-  text: string
   value: string
   infos: string[]
+  active: boolean
+}
+
+export interface IPriceCardStyleProps {
+  active: boolean
 }

@@ -3,25 +3,30 @@ import styled from 'styled-components'
 import { theme } from 'styles/themes'
 
 import check from './check.svg'
+import { IPriceCardStyleProps } from './types'
 
-export const Container = styled.div`
-  width: 350px;
+export const Container = styled.div<IPriceCardStyleProps>`
+  min-height: 535px;
+  width: 255px;
   box-shadow: ${theme.shadows.shadowCard3};
   padding: 50px 35px;
+  &:hover {
+    background: ${theme.colors.primary};
+    color: ${theme.colors.white};
+  }
 `
 
 export const Name = styled.h3`
-  ${theme.typography.B_HEADLINE_4}
+  ${theme.typography.B_HEADLINE_6}
 `
 
 export const Price = styled.h4`
-  ${theme.typography.EB_HEADLINE_2}
-  margin:16px 0;
-`
-
-export const Text = styled.div`
-  ${theme.typography.B_HEADLINE_4}
-  margin-bottom:30px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 40px;
+  margin: 16px 0;
 `
 
 export const List = styled.div`
@@ -29,7 +34,7 @@ export const List = styled.div`
 `
 
 export const Info = styled.div`
-  ${theme.typography.R_PARAGRAPH_2}
+  ${theme.typography.R_PARAGRAPH_3}
   margin-bottom: 15px;
   &::before {
     content: url(${check});

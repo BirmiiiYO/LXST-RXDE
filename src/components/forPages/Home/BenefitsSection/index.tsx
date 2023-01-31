@@ -1,5 +1,8 @@
 import React from 'react'
 
+import { AdvantageServiceCard } from 'components/UI/Cards/AdvantageService'
+import { cards } from 'mocks/homePage/AdvantageCards'
+
 import { Cards, Container, Content, Info, Text, Title } from './styles'
 
 export const BenefitsSection = () => (
@@ -14,7 +17,16 @@ export const BenefitsSection = () => (
           sunt explicabo.
         </Text>
       </Info>
-      <Cards>zxc</Cards>
+      <Cards>
+        {cards.map(({ icon, id, text, title }) => (
+          <AdvantageServiceCard
+            icon={icon}
+            text={text}
+            title={title}
+            key={id}
+          />
+        ))}
+      </Cards>
     </Content>
   </Container>
 )

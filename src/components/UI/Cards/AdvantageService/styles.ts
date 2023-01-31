@@ -6,11 +6,12 @@ export const Container = styled.div`
   width: 350px;
   box-shadow: ${theme.shadows.shadowCard3};
   padding: 46px 35px;
+  margin: 20px;
 `
 
 export const Icon = styled.img`
   padding: 18px;
-  border: 1px solid ${theme.colors.background};
+  border: 1px solid ${theme.colors.rhythmicBlue};
   border-radius: 12px;
 `
 

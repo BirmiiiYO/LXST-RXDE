@@ -3,7 +3,6 @@ import styled from 'styled-components'
 import { devices } from 'styles/breakpoints'
 import { CENTER, COLUMN, SPACE_BETWEEN, theme } from 'styles/themes'
 
-import directionIcon from './right.svg'
 import { IControlsDirectionStyleProps } from './types'
 
 export const ControlButton = styled.button`
@@ -27,7 +26,4 @@ export const Icon = styled.img<IControlsDirectionStyleProps>`
   transform: rotate(
     ${({ direction }) => (direction === 'right' ? '180deg' : '0deg')}
   );
-  svg {
-    color: blue; /* Or any color of your choice. */
-  }
 `
