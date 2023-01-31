@@ -4,7 +4,7 @@ import { CENTER, SPACE_BETWEEN, theme } from 'styles/themes'
 
 export const Container = styled.div`
   width: 100%;
-  background: ${theme.colors.background};
+  background: ${theme.colors.aliceBlue};
   ${CENTER}
 `
 

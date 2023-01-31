@@ -1,20 +1,20 @@
 import React from 'react'
 
-import { AdvantageServiceCard } from 'components/UI/Cards/AdvantageService'
 import { BlogCard } from 'components/UI/Cards/Blog'
 import { PriceCard } from 'components/UI/Cards/Price'
 import { ReviewCard } from 'components/UI/Cards/Review'
+import { ServiceCard } from 'components/UI/Cards/Service'
 import { SolutionCard } from 'components/UI/Cards/Solution'
 import { TeamCard } from 'components/UI/Cards/Team'
 
-import brain from './AdvantageService/brain.svg'
 import blogPhoto from './Blog/blogPhoto.png'
 import avatar from './Review/avatar.png'
+import brain from './Service/brain.svg'
 import teamAvatar from './Team/teamAvatar.png'
 
 export const Cards = () => (
   <>
-    <AdvantageServiceCard
+    <ServiceCard
       icon={brain}
       text="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores."
       title="Machine learning"

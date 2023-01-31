@@ -1,8 +1,8 @@
 import React from 'react'
 
-import { AdvantageServiceCard } from 'components/UI/Cards/AdvantageService'
+import { ServiceCard } from 'components/UI/Cards/Service'
 import { Title } from 'components/UI/Title'
-import { cards } from 'mocks/homePage/AdvantageCards'
+import { cards } from 'mocks/homePage/ServiceCards'
 import { theme } from 'styles/themes'
 
 import { Cards, Container, Content, Info, Text } from './styles'
@@ -23,12 +23,7 @@ export const BenefitsSection = () => (
       </Info>
       <Cards>
         {cards.map(({ icon, id, text, title }) => (
-          <AdvantageServiceCard
-            icon={icon}
-            text={text}
-            title={title}
-            key={id}
-          />
+          <ServiceCard icon={icon} text={text} title={title} key={id} />
         ))}
       </Cards>
     </Content>

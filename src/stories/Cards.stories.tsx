@@ -1,13 +1,13 @@
 import { ComponentStory } from '@storybook/react'
 import React from 'react'
 
-import { AdvantageServiceCard } from 'components/UI/Cards/AdvantageService'
-import brain from 'components/UI/Cards/AdvantageService/brain.svg'
 import { BlogCard } from 'components/UI/Cards/Blog'
 import blogPhoto from 'components/UI/Cards/Blog/blogPhoto.png'
 import { PriceCard } from 'components/UI/Cards/Price'
 import { ReviewCard } from 'components/UI/Cards/Review'
 import avatar from 'components/UI/Cards/Review/avatar.png'
+import { ServiceCard } from 'components/UI/Cards/Service'
+import brain from 'components/UI/Cards/Service/brain.svg'
 import { SolutionCard } from 'components/UI/Cards/Solution'
 import { TeamCard } from 'components/UI/Cards/Team'
 import teamAvatar from 'components/UI/Cards/Team/teamAvatar.png'
@@ -16,8 +16,8 @@ export default {
   title: 'All cards',
 }
 
-const AdvantageService: ComponentStory<typeof AdvantageServiceCard> = args => (
-  <AdvantageServiceCard {...args} />
+const AdvantageService: ComponentStory<typeof ServiceCard> = args => (
+  <ServiceCard {...args} />
 )
 const Blog: ComponentStory<typeof BlogCard> = args => <BlogCard {...args} />
 const Price: ComponentStory<typeof PriceCard> = args => <PriceCard {...args} />

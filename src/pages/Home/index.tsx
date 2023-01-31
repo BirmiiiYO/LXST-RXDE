@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Footer } from 'components/Footer'
+import { ClientsSection } from 'components/ClientsSection'
 import {
   BenefitsSection,
   BlogSection,
@@ -20,13 +20,13 @@ const Home = () => (
     <HeroSection />
     <FeaturesSection />
     <CompanyOverviewSection />
+    <ClientsSection />
     <BenefitsSection />
     <TestImonialsSection />
     <PricingSection />
     <BlogSection />
     <ContactUsSection />
     <SubscribeSection />
-    <Footer />
   </Container>
 )
 

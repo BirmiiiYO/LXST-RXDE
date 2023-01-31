@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 
-import { devices } from 'styles/breakpoints'
 import { CENTER, COLUMN, SPACE_BETWEEN, theme } from 'styles/themes'
 
 export const Container = styled.div`
@@ -20,8 +19,6 @@ export const Text = styled.div`
   color:${theme.colors.grey};
   margin: 50px 0 50px 30px;
 `
-
-export const Row = styled.div``
 
 export const SpaceBetween = styled.div`
   max-width: 1110px;
@@ -47,5 +44,3 @@ export const Name = styled.div`
   color:${theme.colors.grey};
   width: 160px;
 `
-
-export const Sponsor = styled.img``

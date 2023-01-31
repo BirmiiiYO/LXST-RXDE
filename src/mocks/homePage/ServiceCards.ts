@@ -3,14 +3,14 @@ import graph from 'assets/svg/AdvCards/graph.svg'
 import key from 'assets/svg/AdvCards/key.svg'
 import trend from 'assets/svg/AdvCards/trend.svg'
 
-interface IdvantageServiceCardProps {
+interface IServiceCardProps {
   icon: string
   title: string
   text: string
   id: number
 }
 
-export const cards: IdvantageServiceCardProps[] = [
+export const cards: IServiceCardProps[] = [
   {
     icon: brain,
     text: 'At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.',
