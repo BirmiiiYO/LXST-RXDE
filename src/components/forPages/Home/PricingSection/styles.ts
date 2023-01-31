@@ -12,11 +12,6 @@ export const Container = styled.div`
   }
 `
 
-export const Title = styled.div`
-  ${theme.typography.EB_HEADLINE_2}
-  margin-bottom:50px;
-`
-
 export const Cards = styled.ul`
   display: flex;
   flex-wrap: wrap;

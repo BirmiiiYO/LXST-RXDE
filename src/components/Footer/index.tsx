@@ -7,7 +7,9 @@ import fb_icon from 'assets/svg/socialsIcons/facebook_icon.svg'
 import inst_icon from 'assets/svg/socialsIcons/inst_icon.svg'
 import twitter_icon from 'assets/svg/socialsIcons/twitter_icon.svg'
 import youtube_icon from 'assets/svg/socialsIcons/youtube_icon.svg'
+import { Title } from 'components/UI/Title'
 import { links } from 'constants/links'
+import { theme } from 'styles/themes'
 
 import {
   Block,
@@ -21,7 +23,6 @@ import {
   PrivacyInfo,
   SpaceBetween,
   Text,
-  Title,
 } from './styles'
 
 const icons = [
@@ -57,7 +58,9 @@ export const Footer = () => (
           </Icons>
         </Block>
         <Block>
-          <Title>Quick link</Title>
+          <Title typography={theme.typography.B_HEADLINE_6} margin="0 0 31px 0">
+            Quick link
+          </Title>
           {links.map(({ name }) => (
             <Text>
               <CustomLink to="/">{name}</CustomLink>
@@ -65,7 +68,9 @@ export const Footer = () => (
           ))}
         </Block>
         <Block>
-          <Title>Service</Title>
+          <Title typography={theme.typography.B_HEADLINE_6} margin="0 0 31px 0">
+            Service
+          </Title>
           {services.map(link => (
             <Text>
               <CustomLink to="/">{link}</CustomLink>
@@ -73,7 +78,9 @@ export const Footer = () => (
           ))}
         </Block>
         <Block>
-          <Title>Cantact info</Title>
+          <Title typography={theme.typography.B_HEADLINE_6} margin="0 0 31px 0">
+            Cantact info
+          </Title>
           {contacts.map(link => (
             <Text>{link}</Text>
           ))}

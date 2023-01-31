@@ -2,16 +2,18 @@ import React, { useState } from 'react'
 
 import { ReviewCard } from 'components/UI/Cards/Review'
 import { ControlsDirection } from 'components/UI/ControlsDirection'
+import { Title } from 'components/UI/Title'
 import { cards } from 'mocks/homePage/ReviewCards'
+import { theme } from 'styles/themes'
 
-import { Cards, Container, Controls, SpaceBetween, Title } from './styles'
+import { Cards, Container, Controls, SpaceBetween } from './styles'
 
 export const TestImonialsSection = () => {
   const [aciveReviews, setActive] = useState(0)
   return (
     <Container>
       <SpaceBetween>
-        <Title>Testimonials</Title>
+        <Title typography={theme.typography.EB_HEADLINE_2}>Testimonials</Title>
         <Controls>
           <ControlsDirection
             direction="right"

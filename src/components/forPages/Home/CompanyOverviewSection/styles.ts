@@ -6,12 +6,7 @@ import { CENTER, COLUMN, SPACE_BETWEEN, theme } from 'styles/themes'
 export const Container = styled.div`
   ${CENTER}
   flex-direction:column;
-  marin: 0 10px;
-`
-
-export const Title = styled.h1`
-  ${theme.typography.EB_HEADLINE_2}
-  margin-top:120px;
+  margin: 0 10px;
 `
 
 export const Data = styled.div`

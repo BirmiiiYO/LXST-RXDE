@@ -14,10 +14,6 @@ export const Content = styled.div`
   flex-direction:column;
   margin: 100px 0;
 `
-
-export const Title = styled.div`
-  ${theme.typography.EB_HEADLINE_2}
-`
 export const Text = styled.div`
   padding: 0 30px;
   text-align: center;

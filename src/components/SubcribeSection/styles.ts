@@ -17,10 +17,6 @@ export const Content = styled.div`
 export const Info = styled.div`
   max-width: 540px;
 `
-export const Title = styled.h2`
-  ${theme.typography.EB_HEADLINE_2}
-  margin-bottom:24px;
-`
 export const Text = styled.span`
   ${theme.typography.R_PARAGRAPH_1}
 `

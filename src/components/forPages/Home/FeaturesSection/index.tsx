@@ -2,6 +2,8 @@ import React from 'react'
 
 import featureImage from 'assets/images/featuresSection.png'
 import { Button } from 'components/UI/Button'
+import { Title } from 'components/UI/Title'
+import { theme } from 'styles/themes'
 
 import {
   Description,
@@ -11,14 +13,17 @@ import {
   Text,
   TextAndButton,
   TextContainer,
-  Title,
 } from './styles'
 
 export const FeaturesSection = () => (
   <>
     {' '}
     <TextContainer>
-      <Title>
+      <Title
+        typography={theme.typography.EB_HEADLINE_1}
+        maxWidth="540px"
+        margin="0 200px 0 0"
+      >
         The <span>newest</span> business analytics platform
       </Title>
       <TextAndButton>

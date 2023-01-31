@@ -33,10 +33,6 @@ export const Block = styled.div`
   ${COLUMN}
 `
 export const Icons = styled.div``
-export const Title = styled.h5`
-  ${theme.typography.B_HEADLINE_6}
-  margin-bottom:31px;
-`
 
 export const Text = styled.div`
   max-width: 285px;

@@ -1,23 +1,19 @@
 import React, { useState } from 'react'
 
 import { BlogCard } from 'components/UI/Cards/Blog'
-import { ReviewCard } from 'components/UI/Cards/Review'
 import { ControlsDirection } from 'components/UI/ControlsDirection'
+import { Title } from 'components/UI/Title'
 import { cards } from 'mocks/homePage/BlogCards'
+import { theme } from 'styles/themes'
 
-import {
-  Cards,
-  Container,
-  SpaceBetween,
-  Title,
-} from '../TestimonialsSection/styles'
+import { Cards, Container, SpaceBetween } from '../TestimonialsSection/styles'
 
 export const BlogSection = () => {
   const [aciveReviews, setActive] = useState(0)
   return (
     <Container>
       <SpaceBetween>
-        <Title>Our blog</Title>
+        <Title typography={theme.typography.EB_HEADLINE_2}>Our blog</Title>
         <div>
           <ControlsDirection
             direction="right"

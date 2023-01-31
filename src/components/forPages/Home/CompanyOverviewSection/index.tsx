@@ -6,6 +6,8 @@ import logo_3 from 'assets/images/HeroPage/logo_3.png'
 import logo_4 from 'assets/images/HeroPage/logo_4.png'
 import logo_5 from 'assets/images/HeroPage/logo_5.png'
 import logo_6 from 'assets/images/HeroPage/logo_6.png'
+import { Title } from 'components/UI/Title'
+import { theme } from 'styles/themes'
 
 import {
   Amount,
@@ -17,7 +19,6 @@ import {
   SpaceBetween,
   Sponsor,
   Text,
-  Title,
 } from './styles'
 
 const heroImages = [logo_1, logo_2, logo_3, logo_4, logo_5, logo_6]
@@ -30,7 +31,9 @@ const overviews = [
 
 export const CompanyOverviewSection = () => (
   <Container>
-    <Title>We provide services that guarantee your success</Title>
+    <Title typography={theme.typography.EB_HEADLINE_2} margin="0 120px 0 0">
+      We provide services that guarantee your success
+    </Title>
     <SpaceBetween>
       <Data>
         {overviews.map(({ amount, name }) => (

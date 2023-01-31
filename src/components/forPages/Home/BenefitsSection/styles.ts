@@ -16,10 +16,7 @@ export const Content = styled.div`
 export const Info = styled.div`
   margin-right: 50px;
 `
-export const Title = styled.div`
-  ${theme.typography.EB_HEADLINE_2}
-  margin-bottom:30px;
-`
+
 export const Text = styled.div`
   ${theme.typography.R_PARAGRAPH_2}
   color:${theme.colors.grey};

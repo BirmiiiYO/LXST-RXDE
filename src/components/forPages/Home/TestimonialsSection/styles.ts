@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
-import { devices } from 'styles/breakpoints'
-import { CENTER, COLUMN, SPACE_BETWEEN, theme } from 'styles/themes'
+import { COLUMN, SPACE_BETWEEN } from 'styles/themes'
 
 export const Container = styled.div`
   width: 1110px;
@@ -17,9 +16,6 @@ export const SpaceBetween = styled.div`
   ${SPACE_BETWEEN};
 `
 
-export const Title = styled.div`
-  ${theme.typography.EB_HEADLINE_2}
-`
 export const Cards = styled.div`
   display: flex;
   flex-wrap: wrap;
