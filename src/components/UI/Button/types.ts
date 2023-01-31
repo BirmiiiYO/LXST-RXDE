@@ -15,9 +15,13 @@ export interface IButtonProps {
   type?: TButtonType
   children?: ReactNode
   disabled?: boolean
+  background?: string
+  color?: string
   onClick?: () => void
 }
 
 export interface IButtonStyleProps {
   buttonType: TButtonType
+  background?: string
+  color?: string
 }

@@ -26,3 +26,8 @@ export const Cards = styled.div`
   justify-content: space-between;
   align-items: center;
 `
+
+export const Controls = styled.div`
+  width: 240px;
+  ${SPACE_BETWEEN}
+`

@@ -4,7 +4,7 @@ import { ReviewCard } from 'components/UI/Cards/Review'
 import { ControlsDirection } from 'components/UI/ControlsDirection'
 import { cards } from 'mocks/homePage/ReviewCards'
 
-import { Cards, Container, SpaceBetween, Title } from './styles'
+import { Cards, Container, Controls, SpaceBetween, Title } from './styles'
 
 export const TestImonialsSection = () => {
   const [aciveReviews, setActive] = useState(0)
@@ -12,7 +12,7 @@ export const TestImonialsSection = () => {
     <Container>
       <SpaceBetween>
         <Title>Testimonials</Title>
-        <div>
+        <Controls>
           <ControlsDirection
             direction="right"
             onClick={() => setActive(aciveReviews - 1)}
@@ -21,7 +21,7 @@ export const TestImonialsSection = () => {
             direction="left"
             onClick={() => setActive(aciveReviews + 1)}
           />
-        </div>
+        </Controls>
       </SpaceBetween>
       <Cards>
         {cards

@@ -17,7 +17,7 @@ export const BlogSection = () => {
   return (
     <Container>
       <SpaceBetween>
-        <Title>Testimonials</Title>
+        <Title>Our blog</Title>
         <div>
           <ControlsDirection
             direction="right"
@@ -31,7 +31,7 @@ export const BlogSection = () => {
       </SpaceBetween>
       <Cards>
         {cards
-          .slice(aciveReviews, aciveReviews + 3)
+          .slice(aciveReviews, aciveReviews + 2)
           .map(({ date, id, image, name, text, title, topics }) => (
             <BlogCard
               image={image}

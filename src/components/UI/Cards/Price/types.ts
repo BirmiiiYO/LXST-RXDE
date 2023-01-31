@@ -3,6 +3,7 @@ export interface IPriceCardProps {
   value: string
   infos: string[]
   active: boolean
+  onClick: () => void
 }
 
 export interface IPriceCardStyleProps {

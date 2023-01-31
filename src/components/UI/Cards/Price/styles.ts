@@ -10,10 +10,12 @@ export const Container = styled.div<IPriceCardStyleProps>`
   width: 255px;
   box-shadow: ${theme.shadows.shadowCard3};
   padding: 50px 35px;
-  &:hover {
-    background: ${theme.colors.primary};
-    color: ${theme.colors.white};
-  }
+  ${({ active }) =>
+    active
+      ? `
+ background: ${theme.colors.primary};
+ color: ${theme.colors.white};`
+      : ''}
 `
 
 export const Name = styled.h3`
