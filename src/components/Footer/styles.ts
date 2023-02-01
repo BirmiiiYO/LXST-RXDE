@@ -1,14 +1,7 @@
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
-import { CENTER, COLUMN, SPACE_BETWEEN, theme } from 'styles/themes'
-
-export const Container = styled.div`
-  ${CENTER}
-  width:100%;
-  background: ${theme.colors.secondary};
-  color: ${theme.colors.white};
-`
+import { COLUMN, SPACE_BETWEEN, theme } from 'styles/themes'
 
 export const Content = styled.div`
   width: 1110px;

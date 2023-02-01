@@ -2,21 +2,16 @@ import React from 'react'
 
 import featureImage from 'assets/images/featuresSection.png'
 import { Button } from 'components/UI/Button'
+import { Container } from 'components/UI/Container'
 import { Text } from 'components/UI/Text'
 import { theme } from 'styles/themes'
 
-import {
-  Description,
-  Image,
-  SolutionContainer,
-  TextAndButton,
-  TextContainer,
-} from './styles'
+import { Description, Image, SolutionContainer } from './styles'
 
 export const FeaturesSection = () => (
   <>
     {' '}
-    <TextContainer>
+    <Container width="1110px" flex="space-between" margin="120px 0">
       <Text
         typography={theme.typography.EB_HEADLINE_1}
         maxWidth="450px"
@@ -24,7 +19,7 @@ export const FeaturesSection = () => (
       >
         The <span>newest</span> business analytics platform
       </Text>
-      <TextAndButton>
+      <Container flex="column">
         <Text
           typography={theme.typography.R_PARAGRAPH_2}
           color={theme.colors.grey}
@@ -40,8 +35,8 @@ export const FeaturesSection = () => (
           {/*  почему так... */}
           <Button>Discover more</Button>
         </div>
-      </TextAndButton>
-    </TextContainer>
+      </Container>
+    </Container>
     <SolutionContainer>
       <Image src={featureImage} />
       <Description>

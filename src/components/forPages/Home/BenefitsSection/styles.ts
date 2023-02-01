@@ -1,13 +1,7 @@
 import styled from 'styled-components'
 
-import { CENTER, SPACE_BETWEEN, theme } from 'styles/themes'
+import { SPACE_BETWEEN, theme } from 'styles/themes'
 
-export const Container = styled.div`
-  width: 100%;
-  color: ${theme.colors.black};
-  background: ${theme.colors.aliceBlue};
-  ${CENTER}
-`
 export const Content = styled.div`
   max-width: 1110px;
   ${SPACE_BETWEEN}

@@ -1,14 +1,15 @@
 import React from 'react'
 
 import { ServiceCard } from 'components/UI/Cards/Service'
+import { Container } from 'components/UI/Container'
 import { Text } from 'components/UI/Text'
 import { cards } from 'mocks/homePage/ServiceCards'
 import { theme } from 'styles/themes'
 
-import { Cards, Container, Content, Info } from './styles'
+import { Cards, Content, Info } from './styles'
 
 export const BenefitsSection = () => (
-  <Container>
+  <Container color={theme.colors.black} background={theme.colors.aliceBlue}>
     <Content>
       <Info>
         <Text typography={theme.typography.EB_HEADLINE_2} margin="0 0 30px 0">

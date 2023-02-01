@@ -1,17 +1,18 @@
 import React, { useState } from 'react'
 
 import { BlogCard } from 'components/UI/Cards/Blog'
+import { Container } from 'components/UI/Container'
 import { ControlsDirection } from 'components/UI/ControlsDirection'
 import { Text } from 'components/UI/Text'
 import { cards } from 'mocks/homePage/BlogCards'
 import { theme } from 'styles/themes'
 
-import { Cards, Container, SpaceBetween } from '../TestimonialsSection/styles'
+import { Cards, SpaceBetween } from '../TestimonialsSection/styles'
 
 export const BlogSection = () => {
   const [aciveReviews, setActive] = useState(0)
   return (
-    <Container>
+    <Container width="1110px" margin="0 0 120px 0" flex="column">
       <SpaceBetween>
         <Text typography={theme.typography.EB_HEADLINE_2}>Our blog</Text>
         <div>

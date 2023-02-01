@@ -1,12 +1,7 @@
 import styled from 'styled-components'
 
-import { CENTER, COLUMN, SPACE_BETWEEN, theme } from 'styles/themes'
+import { COLUMN, SPACE_BETWEEN, theme } from 'styles/themes'
 
-export const Container = styled.div`
-  ${CENTER}
-  background:${theme.colors.primary};
-  color: ${theme.colors.white};
-`
 export const Content = styled.div`
   width: 1110px;
   ${SPACE_BETWEEN}

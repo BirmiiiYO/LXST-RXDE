@@ -1,20 +1,21 @@
 import React, { useState } from 'react'
 
 import { ReviewCard } from 'components/UI/Cards/Review'
+import { Container } from 'components/UI/Container'
 import { ControlsDirection } from 'components/UI/ControlsDirection'
 import { Text } from 'components/UI/Text'
 import { cards } from 'mocks/homePage/ReviewCards'
 import { theme } from 'styles/themes'
 
-import { Cards, Container, Controls, SpaceBetween } from './styles'
+import { Cards, SpaceBetween } from './styles'
 
 export const TestImonialsSection = () => {
   const [aciveReviews, setActive] = useState(0)
   return (
-    <Container>
+    <Container width="1110px" margin="0 0 120px 0" flex="column">
       <SpaceBetween>
         <Text typography={theme.typography.EB_HEADLINE_2}>Testimonials</Text>
-        <Controls>
+        <Container width="240px" flex="space-between">
           <ControlsDirection
             direction="right"
             onClick={() => setActive(aciveReviews - 1)}
@@ -23,7 +24,7 @@ export const TestImonialsSection = () => {
             direction="left"
             onClick={() => setActive(aciveReviews + 1)}
           />
-        </Controls>
+        </Container>
       </SpaceBetween>
       <Cards>
         {cards

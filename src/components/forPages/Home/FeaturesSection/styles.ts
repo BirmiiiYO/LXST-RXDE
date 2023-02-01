@@ -1,13 +1,7 @@
 import styled from 'styled-components'
 
 import { devices } from 'styles/breakpoints'
-import { CENTER, COLUMN, SPACE_BETWEEN, theme } from 'styles/themes'
-
-export const TextContainer = styled.div`
-  max-width: 1110px;
-  margin: 120px 0;
-  ${SPACE_BETWEEN}
-`
+import { theme } from 'styles/themes'
 
 export const Title = styled.h1`
   max-width: 450px;
@@ -23,10 +17,6 @@ export const Title = styled.h1`
   @media ${devices.tablet} {
     margin-right: 0;
   }
-`
-
-export const TextAndButton = styled.div`
-  ${COLUMN}
 `
 
 export const Text = styled.p`

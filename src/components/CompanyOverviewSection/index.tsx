@@ -1,6 +1,9 @@
 import React from 'react'
 
-import { Amount, Block, Container, Content, Title } from './styles'
+import { Container } from 'components/UI/Container'
+import { theme } from 'styles/themes'
+
+import { Amount, Block, Content, Title } from './styles'
 
 const blocks = [
   { title: 'Project executed', amount: '1830+' },
@@ -8,9 +11,8 @@ const blocks = [
   { title: 'Data management', amount: '390' },
   { title: 'Satisfied customers', amount: '834+' },
 ]
-
 export const CompanyOverviewSection = () => (
-  <Container>
+  <Container background={theme.colors.primary} color={theme.colors.white}>
     <Content>
       {blocks.map(({ title, amount }) => (
         <Block>

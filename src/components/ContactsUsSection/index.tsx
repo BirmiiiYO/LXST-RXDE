@@ -1,13 +1,14 @@
 import React from 'react'
 
 import { Button } from 'components/UI/Button'
+import { Container } from 'components/UI/Container'
 import { Text } from 'components/UI/Text'
 import { theme } from 'styles/themes'
 
-import { Container, Content } from './styles'
+import { Content } from './styles'
 
 export const ContactUsSection = () => (
-  <Container>
+  <Container background={theme.colors.aliceBlue}>
     <Content>
       <Text typography={theme.typography.EB_HEADLINE_2}>Do you need help?</Text>
       <Text
@@ -18,7 +19,7 @@ export const ContactUsSection = () => (
         Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
         suscipit laboriosam, nisi ut aliquid ex ea commodi.
       </Text>
-      <Button type="primary">Contact Us</Button>
+      <Button>Contact Us</Button>
     </Content>
   </Container>
 )

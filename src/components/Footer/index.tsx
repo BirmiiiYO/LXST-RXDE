@@ -7,13 +7,13 @@ import fb_icon from 'assets/svg/socialsIcons/facebook_icon.svg'
 import inst_icon from 'assets/svg/socialsIcons/inst_icon.svg'
 import twitter_icon from 'assets/svg/socialsIcons/twitter_icon.svg'
 import youtube_icon from 'assets/svg/socialsIcons/youtube_icon.svg'
+import { Container } from 'components/UI/Container'
 import { Text } from 'components/UI/Text'
 import { links } from 'constants/links'
 import { theme } from 'styles/themes'
 
 import {
   Block,
-  Container,
   Content,
   CustomLink,
   Icon,
@@ -40,7 +40,7 @@ const contacts = [
 const services = ['Pages', 'Elements', 'FAQ', 'Pricing', 'Site map']
 
 export const Footer = () => (
-  <Container>
+  <Container background={theme.colors.secondary} color={theme.colors.white}>
     <Content>
       <Information>
         <Block>

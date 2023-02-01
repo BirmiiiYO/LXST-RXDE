@@ -1,13 +1,14 @@
 import React from 'react'
 
+import { Container } from 'components/UI/Container'
 import { InputWithButton } from 'components/UI/InputWithButton'
 import { Text } from 'components/UI/Text'
 import { theme } from 'styles/themes'
 
-import { Container, Content, Info } from './styles'
+import { Content, Info } from './styles'
 
 export const SubscribeSection = () => (
-  <Container>
+  <Container background={theme.colors.secondary} color={theme.colors.white}>
     <Content>
       {' '}
       <Info>

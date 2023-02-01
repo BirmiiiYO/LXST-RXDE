@@ -10,4 +10,7 @@ export const StyledContainer = styled.div<IContainerStyleProps>`
   width: ${({ width }) => width};
   color: ${({ color }) => color};
   ${({ flex }) => flex && setFlexStyle(flex)}
+  @media (max-width: 1110px) {
+    width: 100vw;
+  }
 `
