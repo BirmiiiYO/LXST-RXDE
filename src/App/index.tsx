@@ -5,11 +5,10 @@ import { Footer } from 'components/Footer'
 import { Header } from 'components/Header'
 import { Modal } from 'components/Portal'
 import { Routing } from 'components/Routes'
+import { Container } from 'components/UI/Container'
 import { useAppDispatch } from 'hooks/Redux'
 import useMobile from 'hooks/useMobile'
 import { PageWidthSlice } from 'store/Slices/PageWidthSlice'
-
-import { Container } from './styles'
 
 const App = () => {
   const dispatch = useAppDispatch()
@@ -24,7 +23,7 @@ const App = () => {
 
   return (
     <>
-      <Container>
+      <Container flex="column">
         <Header setIsOpen={setIsOpen} />
         <ErrorBoundary>
           <Routing />
