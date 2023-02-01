@@ -6,6 +6,4 @@ export interface IPriceCardProps {
   onClick: () => void
 }
 
-export interface IPriceCardStyleProps {
-  active: boolean
-}
+export type IPriceCardStyleProps = Pick<IPriceCardProps, 'active'>

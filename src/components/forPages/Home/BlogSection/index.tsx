@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 import { BlogCard } from 'components/UI/Cards/Blog'
 import { ControlsDirection } from 'components/UI/ControlsDirection'
-import { Title } from 'components/UI/Title'
+import { Text } from 'components/UI/Text'
 import { cards } from 'mocks/homePage/BlogCards'
 import { theme } from 'styles/themes'
 
@@ -13,7 +13,7 @@ export const BlogSection = () => {
   return (
     <Container>
       <SpaceBetween>
-        <Title typography={theme.typography.EB_HEADLINE_2}>Our blog</Title>
+        <Text typography={theme.typography.EB_HEADLINE_2}>Our blog</Text>
         <div>
           <ControlsDirection
             direction="right"

@@ -3,9 +3,16 @@ import { BrowserRouter } from 'react-router-dom'
 
 import GlobalStyle from '../src/styles/global'
 
+import { setupStore } from 'store/index'
+import { Provider } from 'react-redux'
+
+const store = setupStore()
+
 export const Decorator = story => (
-  <BrowserRouter>
-    <GlobalStyle />
-    {story()}
-  </BrowserRouter>
+  <Provider store={store}>
+    <BrowserRouter>
+      <GlobalStyle />
+      {story()}
+    </BrowserRouter>
+  </Provider>
 )

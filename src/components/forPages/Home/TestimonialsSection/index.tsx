@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 import { ReviewCard } from 'components/UI/Cards/Review'
 import { ControlsDirection } from 'components/UI/ControlsDirection'
-import { Title } from 'components/UI/Title'
+import { Text } from 'components/UI/Text'
 import { cards } from 'mocks/homePage/ReviewCards'
 import { theme } from 'styles/themes'
 
@@ -13,7 +13,7 @@ export const TestImonialsSection = () => {
   return (
     <Container>
       <SpaceBetween>
-        <Title typography={theme.typography.EB_HEADLINE_2}>Testimonials</Title>
+        <Text typography={theme.typography.EB_HEADLINE_2}>Testimonials</Text>
         <Controls>
           <ControlsDirection
             direction="right"

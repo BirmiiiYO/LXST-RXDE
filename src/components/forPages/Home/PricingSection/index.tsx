@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 import { PriceCard } from 'components/UI/Cards/Price'
-import { Title } from 'components/UI/Title'
+import { Text } from 'components/UI/Text'
 import { cards } from 'mocks/homePage/PriceCards'
 import { theme } from 'styles/themes'
 
@@ -11,9 +11,9 @@ export const PricingSection = () => {
   const [activePrice, setActivePrice] = useState('Free trial')
   return (
     <Container>
-      <Title typography={theme.typography.EB_HEADLINE_2} margin="0 0 50px 0">
+      <Text typography={theme.typography.EB_HEADLINE_2} margin="0 0 50px 0">
         Our pricing
-      </Title>
+      </Text>
       <Cards>
         {cards.map(({ id, infos, name, value }) => (
           <PriceCard

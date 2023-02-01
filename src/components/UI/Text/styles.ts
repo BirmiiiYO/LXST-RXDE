@@ -3,10 +3,11 @@ import styled from 'styled-components'
 import { devices } from 'styles/breakpoints'
 import { SPACE_BETWEEN, theme } from 'styles/themes'
 
-import { ITitleProps } from './types'
+import { ITextProps } from './types'
 
-export const CustomTitle = styled.h1<ITitleProps>`
+export const CustomTitle = styled.h1<ITextProps>`
   ${({ typography }) => typography}
+  color:${({ color }) => color};
   max-width: ${({ maxWidth }) => maxWidth};
   padding: ${({ padding }) => padding};
   margin: ${({ margin }) => margin};

@@ -1,15 +1,13 @@
-import styled, { css } from 'styled-components'
+import styled from 'styled-components'
 
 import { theme } from 'styles/themes'
 
 import right from './right.svg'
 import { ILinkStyleProps } from './types'
 
-export const CustomLink = styled.button<ILinkStyleProps>`
+export const CustomLink = styled.div<ILinkStyleProps>`
   ${theme.typography.SB_HEADLINE_7}
-  background:${theme.colors.white};
   color: ${theme.colors.primary};
-  border: none;
   padding: 5px;
   ${({ icon }) =>
     icon

@@ -54,10 +54,3 @@ export const Description = styled.div`
   max-width: 450px;
   padding: 10px;
 `
-
-export const DescriptionTitle = styled.h2`
-  max-width: 450px;
-  padding: 10px;
-  color: ${theme.colors.black};
-  ${theme.typography.EB_HEADLINE_2}
-`

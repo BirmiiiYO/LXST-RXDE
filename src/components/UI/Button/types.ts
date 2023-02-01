@@ -1,27 +1,18 @@
 import { ReactNode } from 'react'
 
-export type TButtonType =
-  | 'primary'
-  | 'primary-watch'
-  | 'watch'
-  | 'big-watch'
-  | 'small'
-  | 'round'
-  | 'round-small'
-  | 'border-watch'
-  | 'icon'
+export type TButtonType = 'primary' | 'round' | 'border-watch'
 
 export interface IButtonProps {
-  type?: TButtonType
+  buttonType?: TButtonType
   children?: ReactNode
+  icon?: string
+  padding?: string
   disabled?: boolean
   background?: string
   color?: string
   onClick?: () => void
 }
-
-export interface IButtonStyleProps {
-  buttonType: TButtonType
-  background?: string
-  color?: string
-}
+export type IButtonStyleProps = Pick<
+  IButtonProps,
+  'buttonType' | 'background' | 'color' | 'padding'
+>

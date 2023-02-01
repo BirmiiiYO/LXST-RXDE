@@ -39,9 +39,6 @@ export const Text = styled.div`
   ${theme.typography.R_PARAGRAPH_3}
   color:${theme.colors.grey};
   margin-bottom: 12px;
-  &:hover {
-    color: ${theme.colors.rhythmicBlue};
-  }
 `
 
 export const Icon = styled.img`

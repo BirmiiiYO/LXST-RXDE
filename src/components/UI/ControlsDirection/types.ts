@@ -4,6 +4,7 @@ export interface IControlsDirectionProps {
   onClick: () => void
 }
 
-export interface IControlsDirectionStyleProps {
-  direction: 'right' | 'left'
-}
+export type IControlsDirectionStyleProps = Pick<
+  IControlsDirectionProps,
+  'direction'
+>

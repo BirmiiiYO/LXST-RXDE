@@ -9,7 +9,7 @@ export const Container = styled.div<IBackgroundStyleProps>`
   width: 350px;
   height: 500px;
   color: ${theme.colors.white};
-  background-image: url(${({ background }) => background});
+  background-image: url(${({ avatar }) => avatar});
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 6px;

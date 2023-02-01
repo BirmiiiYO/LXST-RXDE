@@ -17,9 +17,9 @@ export const PriceCard = ({
     <Name>{name}</Name>
     <Price>{value}</Price>
     <Button
-      type="small"
       background={active ? theme.colors.white : ''}
       color={active ? theme.colors.primary : ''}
+      padding="10px 26px"
     >
       Get started
     </Button>

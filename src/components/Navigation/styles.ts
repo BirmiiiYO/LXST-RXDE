@@ -9,11 +9,7 @@ import { IStyleLinkProps } from './types'
 
 export const Nav = styled.ul`
   width: 511px;
-  margin: 0 146px;
   ${SPACE_BETWEEN};
-  @media ${devices.laptopL} {
-    margin: 50px;
-  }
 `
 
 export const CustomLink = styled(Link)<IStyleLinkProps>`

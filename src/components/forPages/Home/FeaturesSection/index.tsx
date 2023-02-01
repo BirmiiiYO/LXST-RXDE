@@ -2,15 +2,13 @@ import React from 'react'
 
 import featureImage from 'assets/images/featuresSection.png'
 import { Button } from 'components/UI/Button'
-import { Title } from 'components/UI/Title'
+import { Text } from 'components/UI/Text'
 import { theme } from 'styles/themes'
 
 import {
   Description,
-  DescriptionTitle,
   Image,
   SolutionContainer,
-  Text,
   TextAndButton,
   TextContainer,
 } from './styles'
@@ -19,15 +17,20 @@ export const FeaturesSection = () => (
   <>
     {' '}
     <TextContainer>
-      <Title
+      <Text
         typography={theme.typography.EB_HEADLINE_1}
-        maxWidth="540px"
-        margin="0 200px 0 0"
+        maxWidth="450px"
+        margin="0 30px 0 0"
       >
         The <span>newest</span> business analytics platform
-      </Title>
+      </Text>
       <TextAndButton>
-        <Text>
+        <Text
+          typography={theme.typography.R_PARAGRAPH_2}
+          color={theme.colors.grey}
+          maxWidth="400px"
+          margin="0 0 30px 0"
+        >
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
           ab illo inventore veritatis etquasi architecto beatae vitae dicta sunt
@@ -35,21 +38,33 @@ export const FeaturesSection = () => (
         </Text>
         <div>
           {/*  почему так... */}
-          <Button type="small">Discover more</Button>
+          <Button>Discover more</Button>
         </div>
       </TextAndButton>
     </TextContainer>
     <SolutionContainer>
       <Image src={featureImage} />
       <Description>
-        <DescriptionTitle>Radically new solutions for data</DescriptionTitle>
-        <Text>
+        <Text
+          maxWidth="450px"
+          padding="10px"
+          color={theme.colors.black}
+          typography={theme.typography.EB_HEADLINE_2}
+        >
+          Radically new solutions for data
+        </Text>
+        <Text
+          typography={theme.typography.R_PARAGRAPH_2}
+          color={theme.colors.grey}
+          maxWidth="540px"
+          margin="0 0 30px 0"
+        >
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
           ab illo inventore veritatis et quasi architecto beatae vitae dicta
           sunt explicabo.
         </Text>
-        <Button type="small">Learn more</Button>
+        <Button>Learn more</Button>
       </Description>
     </SolutionContainer>
   </>

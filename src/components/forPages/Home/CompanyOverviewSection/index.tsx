@@ -1,17 +1,9 @@
 import React from 'react'
 
-import { Title } from 'components/UI/Title'
+import { Text } from 'components/UI/Text'
 import { theme } from 'styles/themes'
 
-import {
-  Amount,
-  Container,
-  Data,
-  HowMuch,
-  Name,
-  SpaceBetween,
-  Text,
-} from './styles'
+import { Amount, Container, Data, HowMuch, Name, SpaceBetween } from './styles'
 
 const overviews = [
   { amount: '1830+', name: 'Project executed' },
@@ -21,9 +13,9 @@ const overviews = [
 
 export const CompanyOverviewSection = () => (
   <Container>
-    <Title typography={theme.typography.EB_HEADLINE_2} margin="0 120px 0 0">
+    <Text typography={theme.typography.EB_HEADLINE_2} margin="120px 0 50px 0">
       We provide services that guarantee your success
-    </Title>
+    </Text>
     <SpaceBetween>
       <Data>
         {overviews.map(({ amount, name }) => (
@@ -33,7 +25,11 @@ export const CompanyOverviewSection = () => (
           </HowMuch>
         ))}
       </Data>
-      <Text>
+      <Text
+        typography={theme.typography.R_PARAGRAPH_2}
+        color={theme.colors.grey}
+        maxWidth="450px"
+      >
         Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium
         doloremque laudantium, totam rem aperiam, eaque ipsa quaeab illo
         inventore. Donec tincidunt tempor quam, non mollis quam finibus nec.

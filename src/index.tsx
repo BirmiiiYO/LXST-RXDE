@@ -1,20 +1,22 @@
 import React from 'react'
 import { createRoot } from 'react-dom/client'
-import {
-  BrowserRouter,
-  Route,
-  RouterProvider,
-  createBrowserRouter,
-} from 'react-router-dom'
+import { Provider } from 'react-redux'
+import { BrowserRouter } from 'react-router-dom'
+
+import { setupStore } from 'store/index'
 
 import App from './App'
 import GlobalStyle from './styles/global'
 
+const store = setupStore()
+
 const container = document.getElementById('root') as HTMLElement
 const root = createRoot(container)
 root.render(
-  <BrowserRouter>
-    <GlobalStyle />
-    <App />
-  </BrowserRouter>,
+  <Provider store={store}>
+    <BrowserRouter>
+      <GlobalStyle />
+      <App />
+    </BrowserRouter>
+  </Provider>,
 )

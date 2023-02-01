@@ -7,7 +7,7 @@ import fb_icon from 'assets/svg/socialsIcons/facebook_icon.svg'
 import inst_icon from 'assets/svg/socialsIcons/inst_icon.svg'
 import twitter_icon from 'assets/svg/socialsIcons/twitter_icon.svg'
 import youtube_icon from 'assets/svg/socialsIcons/youtube_icon.svg'
-import { Title } from 'components/UI/Title'
+import { Text } from 'components/UI/Text'
 import { links } from 'constants/links'
 import { theme } from 'styles/themes'
 
@@ -22,7 +22,6 @@ import {
   Logo,
   PrivacyInfo,
   SpaceBetween,
-  Text,
 } from './styles'
 
 const icons = [
@@ -46,7 +45,11 @@ export const Footer = () => (
       <Information>
         <Block>
           <Logo src={whiteLogo} alt="footer logo" />
-          <Text>
+          <Text
+            typography={theme.typography.R_PARAGRAPH_3}
+            color={theme.colors.grey}
+            maxWidth="285px"
+          >
             Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
             suscipit laboriosam, nisi ut aliquid ex ea commodi.
           </Text>
@@ -58,39 +61,81 @@ export const Footer = () => (
           </Icons>
         </Block>
         <Block>
-          <Title typography={theme.typography.B_HEADLINE_6} margin="0 0 31px 0">
+          <Text
+            typography={theme.typography.B_HEADLINE_6}
+            margin="0 0 31px 0"
+            maxWidth="285px"
+            color={theme.colors.white}
+          >
             Quick link
-          </Title>
+          </Text>
           {links.map(({ name }) => (
-            <Text>
+            <Text
+              typography={theme.typography.R_PARAGRAPH_3}
+              color={theme.colors.grey}
+              margin="0 0 12px 0"
+            >
               <CustomLink to="/">{name}</CustomLink>
             </Text>
           ))}
         </Block>
         <Block>
-          <Title typography={theme.typography.B_HEADLINE_6} margin="0 0 31px 0">
+          <Text
+            typography={theme.typography.B_HEADLINE_6}
+            margin="0 0 31px 0"
+            color={theme.colors.white}
+          >
             Service
-          </Title>
+          </Text>
           {services.map(link => (
-            <Text>
+            <Text
+              typography={theme.typography.R_PARAGRAPH_3}
+              color={theme.colors.grey}
+            >
               <CustomLink to="/">{link}</CustomLink>
             </Text>
           ))}
         </Block>
         <Block>
-          <Title typography={theme.typography.B_HEADLINE_6} margin="0 0 31px 0">
-            Cantact info
-          </Title>
+          <Text
+            typography={theme.typography.B_HEADLINE_6}
+            margin="0 0 31px 0"
+            color={theme.colors.white}
+          >
+            Contact info
+          </Text>
           {contacts.map(link => (
-            <Text>{link}</Text>
+            <Text
+              typography={theme.typography.R_PARAGRAPH_3}
+              color={theme.colors.grey}
+              margin="0 0 12px 0"
+              maxWidth="230px"
+            >
+              {link}
+            </Text>
           ))}
         </Block>
       </Information>
       <PrivacyInfo>
-        <Text>Ensome© 2022 All Rights Reserved</Text>
+        <Text
+          typography={theme.typography.R_PARAGRAPH_3}
+          color={theme.colors.grey}
+        >
+          Ensome© 2022 All Rights Reserved
+        </Text>
         <SpaceBetween>
-          <Text>Privacy policy</Text>
-          <Text>Terms of us</Text>
+          <Text
+            typography={theme.typography.R_PARAGRAPH_3}
+            color={theme.colors.grey}
+          >
+            Privacy policy
+          </Text>
+          <Text
+            typography={theme.typography.R_PARAGRAPH_3}
+            color={theme.colors.grey}
+          >
+            Terms of us
+          </Text>
         </SpaceBetween>
       </PrivacyInfo>
     </Content>

@@ -1,10 +1,13 @@
-import React, { Suspense, lazy, useMemo } from 'react'
+import React, { Suspense, lazy, useEffect, useMemo } from 'react'
 import { Route, Routes, useLocation } from 'react-router-dom'
 
 // eslint-disable-next-line import/order
 import { Footer } from 'components/Footer'
 import { Header } from 'components/Header'
 import { EPagePaths } from 'constants/router'
+import { useAppDispatch } from 'hooks/Redux'
+import useMobile from 'hooks/useMobile'
+import { PageWidthSlice } from 'store/Slices/PageWidthSlice'
 
 import { Container } from './styles'
 
@@ -20,7 +23,14 @@ const SolutionsPage = lazy(() => import('pages/Solutions'))
 const BlogPage = lazy(() => import('pages/Blog'))
 
 const App = () => {
-  const { pathname } = useLocation()
+  const dispatch = useAppDispatch()
+  const { setWidth } = PageWidthSlice.actions
+  // const { pathname } = useLocation()
+  const isMoblie = useMobile()
+
+  useEffect(() => {
+    dispatch(setWidth(isMoblie))
+  }, [isMoblie])
 
   // const shouldRenderSubSections = useMemo(() => {
   //   switch (pathname) {
@@ -46,7 +56,7 @@ const App = () => {
       {/* <VideoBackground /> */}
       <Suspense fallback="Loading...">
         <Routes>
-          <Route path={EPagePaths.SERVICE} element={<HomePage />} />
+          <Route path={EPagePaths.HOME} element={<HomePage />} />
           <Route path={EPagePaths.SOLUTIONS}>
             <Route index element={<SolutionsPage />} />
           </Route>
@@ -54,7 +64,7 @@ const App = () => {
           <Route path={EPagePaths.ABOUT_US} element={<AboutUsPage />} />
           <Route path={EPagePaths.TEAM} element={<TeamPage />} />
           <Route path={EPagePaths.FAQ} element={<FAQPage />} />
-          <Route path={EPagePaths.HOME} element={<ServicesPage />} />
+          <Route path={EPagePaths.SERVICE} element={<ServicesPage />} />
         </Routes>
       </Suspense>
       <Footer />

@@ -1,17 +1,17 @@
 import React from 'react'
 
-import { Title } from 'components/UI/Title'
+import { Text } from 'components/UI/Text'
 import { theme } from 'styles/themes'
 
-import { Container, PageName, Text } from './styles'
+import { Container, PageName } from './styles'
 
 export const DescriptionSection = () => (
   <Container>
     <PageName>Services</PageName>
-    <Title typography={theme.typography.EB_HEADLINE_1}>
+    <Text typography={theme.typography.EB_HEADLINE_1}>
       Data Analytics Services
-    </Title>
-    <Text>
+    </Text>
+    <Text typography={theme.typography.R_PARAGRAPH_2}>
       Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
       doloremque laudantium, totam rem aperiam, eaque ipsa quaeab illo
       inventore.

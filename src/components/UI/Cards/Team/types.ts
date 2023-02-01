@@ -4,6 +4,4 @@ export interface ITeamProps {
   position: string
 }
 
-export interface IBackgroundStyleProps {
-  background: string
-}
+export type IBackgroundStyleProps = Pick<ITeamProps, 'avatar'>

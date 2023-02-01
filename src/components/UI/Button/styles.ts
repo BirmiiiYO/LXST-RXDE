@@ -10,23 +10,18 @@ export const StyledButton = styled.button<IButtonStyleProps>`
   box-shadow: ${theme.shadows.shadowButton};
   display: flex;
   align-items: center;
+  padding: ${({ padding }) => padding};
   ${({ background }) => (background ? `background: ${background};` : '')}
-  ${({ color }) => (color ? `color: ${color};` : '')}
+  color:${({ color }) => color};
   ${({ buttonType }) => setButtonStyles(buttonType)}
   &:hover {
-    ${({ background }) =>
-      background
-        ? `background: ${background};`
-        : `background: ${theme.colors.bluberry};`}
-}
-  }
-  &:active {
-    ${({ background }) =>
-      background
-        ? `background: ${background};`
-        : `background: ${theme.colors.bluberry};`}
+    background: ${theme.colors.aliceBlue};
   }
   &:disabled {
     color: ${theme.colors.grey};
   }
+`
+
+export const Icon = styled.img`
+  margin-right: 10px;
 `

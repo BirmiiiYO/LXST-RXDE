@@ -4,6 +4,7 @@ import { COLUMN, SPACE_BETWEEN } from 'styles/themes'
 
 export const Container = styled.div`
   width: 1110px;
+  margin-bottom: 120px;
   ${COLUMN}
   @media (max-width: 1110px) {
     width: 900px;
@@ -11,7 +12,7 @@ export const Container = styled.div`
 `
 
 export const SpaceBetween = styled.div`
-  margin: 137px 0 50px 0;
+  margin-bottom: 50px;
   width: 100%;
   ${SPACE_BETWEEN};
 `
