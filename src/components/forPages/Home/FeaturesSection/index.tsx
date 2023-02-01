@@ -20,7 +20,7 @@ export const FeaturesSection = () => (
       <Text
         typography={theme.typography.EB_HEADLINE_1}
         maxWidth="450px"
-        margin="0 30px 0 0"
+        margin="0 300px 0 0"
       >
         The <span>newest</span> business analytics platform
       </Text>

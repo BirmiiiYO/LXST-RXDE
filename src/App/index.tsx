@@ -2,6 +2,7 @@ import React, { Suspense, lazy, useEffect, useMemo, useState } from 'react'
 import { Route, Routes, useLocation } from 'react-router-dom'
 
 // eslint-disable-next-line import/order
+import { ErrorBoundary } from 'components/ErrorBoundary'
 import { Footer } from 'components/Footer'
 import { Header } from 'components/Header'
 import { Modal } from 'components/Portal'
@@ -33,7 +34,7 @@ const App = () => {
 
   useEffect(() => {
     dispatch(setWidth(isMoblie))
-  }, [isMoblie])
+  }, [dispatch, isMoblie, setWidth])
 
   // const shouldRenderSubSections = useMemo(() => {
   //   switch (pathname) {
@@ -58,19 +59,21 @@ const App = () => {
       <Container>
         <Header setIsOpen={setIsOpen} />
         {/* <VideoBackground /> */}
-        <Suspense fallback="Loading...">
-          <Routes>
-            <Route path={EPagePaths.HOME} element={<HomePage />} />
-            <Route path={EPagePaths.SOLUTIONS}>
-              <Route index element={<SolutionsPage />} />
-            </Route>
-            <Route path={EPagePaths.CONTACTS} element={<ContactsPage />} />
-            <Route path={EPagePaths.ABOUT_US} element={<AboutUsPage />} />
-            <Route path={EPagePaths.TEAM} element={<TeamPage />} />
-            <Route path={EPagePaths.FAQ} element={<FAQPage />} />
-            <Route path={EPagePaths.SERVICE} element={<ServicesPage />} />
-          </Routes>
-        </Suspense>
+        <ErrorBoundary>
+          <Suspense fallback="Loading...">
+            <Routes>
+              <Route path={EPagePaths.HOME} element={<HomePage />} />
+              <Route path={EPagePaths.SOLUTIONS}>
+                <Route index element={<SolutionsPage />} />
+              </Route>
+              <Route path={EPagePaths.CONTACTS} element={<ContactsPage />} />
+              <Route path={EPagePaths.ABOUT_US} element={<AboutUsPage />} />
+              <Route path={EPagePaths.TEAM} element={<TeamPage />} />
+              <Route path={EPagePaths.FAQ} element={<FAQPage />} />
+              <Route path={EPagePaths.SERVICE} element={<ServicesPage />} />
+            </Routes>
+          </Suspense>
+        </ErrorBoundary>
         <Footer />
       </Container>
       <Modal
