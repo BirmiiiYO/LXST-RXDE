@@ -1,19 +1,12 @@
-export const links = [
-  { href: '/', name: 'Home' },
-  { href: '/solutions', name: 'Solutions' },
-  { href: '', name: 'Pages' },
-  { href: '/elements', name: 'Elements' },
-  { href: '/blog', name: 'Blog' },
-  { href: '/contacts', name: 'Contacts' },
-]
+import { EPagePaths } from './router'
 
-export const dropDownLinks = [
-  { href: '/', name: 'Home' },
-  { href: '/solutions', name: 'Solutions' },
-  { href: '/blog', name: 'Blog' },
-  { href: '/contacts', name: 'Contacts' },
-  { href: 'our-team', name: 'Our team' },
-  { href: '/about-us', name: 'About us' },
-  { href: '/services', name: 'Services' },
-  { href: '/faq', name: 'FAQ' },
+export const links = [
+  { href: EPagePaths.HOME, name: 'Home' },
+  { href: EPagePaths.SOLUTIONS, name: 'Solutions' },
+  { href: EPagePaths.BLOG, name: 'Blog' },
+  { href: EPagePaths.CONTACTS, name: 'Contacts' },
+  { href: EPagePaths.OUR_TEAM, name: 'Our team' },
+  { href: EPagePaths.ABOUT_US, name: 'About us' },
+  { href: EPagePaths.SERVICES, name: 'Services' },
+  { href: EPagePaths.FAQ, name: 'FAQ' },
 ]

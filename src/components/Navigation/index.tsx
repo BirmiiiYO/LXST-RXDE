@@ -10,7 +10,7 @@ export const Navigation = () => {
   return (
     <Nav>
       {links.map(({ href, name }) => (
-        <CustomLink key={href} to={href} active={pathname === href}>
+        <CustomLink to={href} key={href} active={pathname === href}>
           {name}
         </CustomLink>
       ))}
