@@ -1,6 +1,6 @@
-import styled, { keyframes } from "styled-components"
+import styled, { keyframes } from 'styled-components'
 
-import { theme } from "styles/themes"
+import { theme } from 'styles/themes'
 
 const rotate = keyframes`
 0% {
@@ -17,7 +17,7 @@ export const CustomLoader = styled.div`
   height: 80px;
 
   &:after {
-    content: " ";
+    content: ' ';
     display: block;
     width: 64px;
     height: 64px;

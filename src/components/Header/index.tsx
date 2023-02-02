@@ -1,4 +1,5 @@
 import React, { FC } from 'react'
+import { useTranslation } from 'react-i18next'
 
 import player from 'assets/player.svg'
 import whiteLogo from 'assets/svg/logo/Logo_white.svg'
@@ -13,10 +14,12 @@ import { theme } from 'styles/themes'
 
 import { Logo, Row } from './styles'
 
-type IHeaderProps = Pick<IModalProps, 'setIsOpen'>
+type IHeaderProps = Required<Pick<IModalProps, 'setIsOpen'>>
 
 export const Header: FC<IHeaderProps> = ({ setIsOpen }) => {
   const isMobile = useAppSelector(state => state.PageWidthReducer.isMobile)
+  const { t } = useTranslation('translation')
+
   return (
     <Container background={theme.colors.secondary}>
       <Row>
@@ -34,7 +37,7 @@ export const Header: FC<IHeaderProps> = ({ setIsOpen }) => {
                 typography={theme.typography.SB_HEADLINE_7}
                 maxWidth="600px"
               >
-                watch the demo
+                {t('base.watchDemo')}
               </Text>
             </Button>
           </>

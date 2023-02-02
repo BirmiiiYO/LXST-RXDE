@@ -1,4 +1,5 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 
 import whiteLogo from 'assets/svg/logo/Logo_white.svg'
 import behance_icon from 'assets/svg/socialsIcons/behance_icon.svg'
@@ -7,6 +8,7 @@ import fb_icon from 'assets/svg/socialsIcons/facebook_icon.svg'
 import inst_icon from 'assets/svg/socialsIcons/inst_icon.svg'
 import twitter_icon from 'assets/svg/socialsIcons/twitter_icon.svg'
 import youtube_icon from 'assets/svg/socialsIcons/youtube_icon.svg'
+import { Button } from 'components/UI/Button'
 import { Container } from 'components/UI/Container'
 import { Text } from 'components/UI/Text'
 import { links } from 'constants/links'
@@ -37,107 +39,130 @@ const contacts = [
   '+1 601-201-5580',
   '1642 Washington Avenue, Jackson, MS, Mississippi, 39201',
 ]
-const services = ['Pages', 'Elements', 'FAQ', 'Pricing', 'Site map']
 
-export const Footer = () => (
-  <Container background={theme.colors.secondary} color={theme.colors.white}>
-    <Content>
-      <Information>
-        <Block>
-          <Logo src={whiteLogo} alt="footer logo" />
-          <Text
-            typography={theme.typography.R_PARAGRAPH_3}
-            color={theme.colors.grey}
-            maxWidth="285px"
-          >
-            Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
-            suscipit laboriosam, nisi ut aliquid ex ea commodi.
-          </Text>
-          <Icons>
-            {' '}
-            {icons.map(icon => (
-              <Icon src={icon} />
+const languages = [
+  { lng: 'en', nativeName: 'English' },
+  { lng: 'de', nativeName: 'Deutsch' },
+  { lng: 'be', nativeName: 'Belarus' },
+  { lng: 'ru', nativeName: 'Russian' },
+]
+
+export const Footer = () => {
+  const { t, i18n } = useTranslation()
+  const services = t('footer.services', { returnObjects: true })
+  return (
+    <Container background={theme.colors.secondary} color={theme.colors.white}>
+      <Content>
+        <Information>
+          <Block>
+            <Logo src={whiteLogo} alt="footer logo" />
+            <Text
+              typography={theme.typography.R_PARAGRAPH_3}
+              color={theme.colors.grey}
+              maxWidth="285px"
+            >
+              {t('base.smallText')}
+            </Text>
+            <Icons>
+              {' '}
+              {icons.map(icon => (
+                <Icon src={icon} />
+              ))}
+            </Icons>
+          </Block>
+          <Block>
+            <Text
+              typography={theme.typography.B_HEADLINE_6}
+              margin="0 0 31px 0"
+              maxWidth="285px"
+              color={theme.colors.white}
+            >
+              {t('footer.quickLink')}
+            </Text>
+            {links.map(({ name }) => (
+              <Text
+                typography={theme.typography.R_PARAGRAPH_3}
+                color={theme.colors.grey}
+                margin="0 0 12px 0"
+              >
+                <CustomLink to="/">{name}</CustomLink>
+              </Text>
             ))}
-          </Icons>
-        </Block>
-        <Block>
-          <Text
-            typography={theme.typography.B_HEADLINE_6}
-            margin="0 0 31px 0"
-            maxWidth="285px"
-            color={theme.colors.white}
-          >
-            Quick link
-          </Text>
-          {links.map(({ name }) => (
+          </Block>
+          <Block>
             <Text
-              typography={theme.typography.R_PARAGRAPH_3}
-              color={theme.colors.grey}
-              margin="0 0 12px 0"
+              typography={theme.typography.B_HEADLINE_6}
+              margin="0 0 31px 0"
+              color={theme.colors.white}
             >
-              <CustomLink to="/">{name}</CustomLink>
+              Service
             </Text>
-          ))}
-        </Block>
-        <Block>
-          <Text
-            typography={theme.typography.B_HEADLINE_6}
-            margin="0 0 31px 0"
-            color={theme.colors.white}
-          >
-            Service
-          </Text>
-          {services.map(link => (
+            {services.map(link => (
+              <Text
+                typography={theme.typography.R_PARAGRAPH_3}
+                color={theme.colors.grey}
+              >
+                <CustomLink to="/">{link}</CustomLink>
+              </Text>
+            ))}
+          </Block>
+          <Block>
             <Text
-              typography={theme.typography.R_PARAGRAPH_3}
-              color={theme.colors.grey}
+              typography={theme.typography.B_HEADLINE_6}
+              margin="0 0 31px 0"
+              color={theme.colors.white}
             >
-              <CustomLink to="/">{link}</CustomLink>
+              Contact info
             </Text>
-          ))}
-        </Block>
-        <Block>
-          <Text
-            typography={theme.typography.B_HEADLINE_6}
-            margin="0 0 31px 0"
-            color={theme.colors.white}
-          >
-            Contact info
-          </Text>
-          {contacts.map(link => (
-            <Text
-              typography={theme.typography.R_PARAGRAPH_3}
-              color={theme.colors.grey}
-              margin="0 0 12px 0"
-              maxWidth="230px"
-            >
-              {link}
-            </Text>
-          ))}
-        </Block>
-      </Information>
-      <PrivacyInfo>
-        <Text
-          typography={theme.typography.R_PARAGRAPH_3}
-          color={theme.colors.grey}
-        >
-          Ensome© 2022 All Rights Reserved
-        </Text>
-        <SpaceBetween>
+            {contacts.map(link => (
+              <Text
+                typography={theme.typography.R_PARAGRAPH_3}
+                color={theme.colors.grey}
+                margin="0 0 12px 0"
+                maxWidth="230px"
+              >
+                {link}
+              </Text>
+            ))}
+          </Block>
+        </Information>
+        <PrivacyInfo>
           <Text
             typography={theme.typography.R_PARAGRAPH_3}
             color={theme.colors.grey}
           >
-            Privacy policy
+            Ensome© 2022 All Rights Reserved
           </Text>
-          <Text
-            typography={theme.typography.R_PARAGRAPH_3}
-            color={theme.colors.grey}
-          >
-            Terms of us
-          </Text>
-        </SpaceBetween>
-      </PrivacyInfo>
-    </Content>
-  </Container>
-)
+          <Container flex="space-between" width="400px">
+            {languages.map(({ nativeName, lng }) => (
+              <Button
+                background="white"
+                color="black"
+                padding="5px 10px"
+                key={lng}
+                onClick={() => i18n.changeLanguage(lng)}
+              >
+                {nativeName}
+              </Button>
+            ))}
+          </Container>
+          <SpaceBetween>
+            <Text
+              typography={theme.typography.R_PARAGRAPH_3}
+              color={theme.colors.grey}
+            >
+              Privacy policy
+            </Text>
+
+            <Text
+              typography={theme.typography.R_PARAGRAPH_3}
+              color={theme.colors.grey}
+            >
+              Terms of us
+            </Text>
+          </SpaceBetween>
+        </PrivacyInfo>
+      </Content>
+    </Container>
+  )
+}

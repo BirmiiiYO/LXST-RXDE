@@ -1,4 +1,5 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 
 import { Text } from 'components/UI/Text'
 import { theme } from 'styles/themes'
@@ -11,29 +12,30 @@ const overviews = [
   { amount: '390', name: 'Data management' },
 ]
 
-export const CompanyOverviewSection = () => (
-  <Container>
-    <Text typography={theme.typography.EB_HEADLINE_2} margin="120px 0 50px 0">
-      We provide services that guarantee your success
-    </Text>
-    <SpaceBetween>
-      <Data>
-        {overviews.map(({ amount, name }) => (
-          <HowMuch>
-            <Amount>{amount}</Amount>
-            <Name>{name}</Name>
-          </HowMuch>
-        ))}
-      </Data>
-      <Text
-        typography={theme.typography.R_PARAGRAPH_2}
-        color={theme.colors.grey}
-        maxWidth="450px"
-      >
-        Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium
-        doloremque laudantium, totam rem aperiam, eaque ipsa quaeab illo
-        inventore. Donec tincidunt tempor quam, non mollis quam finibus nec.
+export const CompanyOverviewSection = () => {
+  const { t } = useTranslation()
+  return (
+    <Container>
+      <Text typography={theme.typography.EB_HEADLINE_2} margin="120px 0 50px 0">
+        {t('homePage.overviewTitle')}
       </Text>
-    </SpaceBetween>
-  </Container>
-)
+      <SpaceBetween>
+        <Data>
+          {overviews.map(({ amount, name }) => (
+            <HowMuch>
+              <Amount>{amount}</Amount>
+              <Name>{name}</Name>
+            </HowMuch>
+          ))}
+        </Data>
+        <Text
+          typography={theme.typography.R_PARAGRAPH_2}
+          color={theme.colors.grey}
+          maxWidth="450px"
+        >
+          {t('base.mediumText')}
+        </Text>
+      </SpaceBetween>
+    </Container>
+  )
+}

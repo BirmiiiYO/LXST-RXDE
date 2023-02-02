@@ -1,0 +1,31 @@
+{
+  "base": {
+    "contactUs": "Contact Us",
+    "discoverMore": "Discover more",
+    "doYouNeedHelp": "Do you need help?",
+    "largeText": "Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quaeab illo inventore. Donec tincidunt tempor quam, non mollis quam finibus nec.",
+    "learnMore": "Learn more",
+    "mediumText": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi.",
+    "reviewCardText": "“Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis utem vel eum iure reprehender qui in ea voluptate velit esse quam nihil molesti consequatur, vel illum.”",
+    "send": "Send",
+    "smallText": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+    "subscribe": "Subscribe to our newsletter",
+    "watchDemo": "Watch the demo"
+  },
+  "footer": {
+    "privacyPolicy": "Privacy policy",
+    "quickLink": "Quick link",
+    "service": "Service",
+    "services": ["Pages", "Elements", "FAQ", "Pricing", "Site map"],
+    "termsOfUs": "Terms of us"
+  },
+  "homePage": {
+    "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptate accusantium doloremque laud totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi.",
+    "heroTitle": "Find true power in your data with <0>Ensome</0>",
+    "benefit": "The benefits of Ensome",
+    "ourBlog": "Our blog",
+    "overviewTitle": "We provide services that guarantee your success",
+    "featureTitle": "The <0>newest</0> business analytics platform",
+    "newSolution": "Radically new solutions for data"
+  }
+}

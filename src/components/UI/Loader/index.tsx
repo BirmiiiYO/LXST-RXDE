@@ -1,7 +1,5 @@
-import React from "react"
+import React from 'react'
 
-import { CustomLoader } from "./styles"
+import { CustomLoader } from './styles'
 
-export function Loader() {
-  return <CustomLoader />
-}
+export const Loader = () => <CustomLoader />

@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 
 import { BlogCard } from 'components/UI/Cards/Blog'
 import { Container } from 'components/UI/Container'
@@ -11,10 +12,13 @@ import { Cards, SpaceBetween } from '../TestimonialsSection/styles'
 
 export const BlogSection = () => {
   const [aciveReviews, setActive] = useState(0)
+  const { t } = useTranslation()
   return (
     <Container width="1110px" margin="0 0 120px 0" flex="column">
       <SpaceBetween>
-        <Text typography={theme.typography.EB_HEADLINE_2}>Our blog</Text>
+        <Text typography={theme.typography.EB_HEADLINE_2}>
+          {t('homePage.ourBlog')}
+        </Text>
         <div>
           <ControlsDirection
             direction="right"
