@@ -1,0 +1,396 @@
+{
+  "base": {
+    "contactUs": "Nous contacter",
+    "discoverMore": "Découvrir plus",
+    "doYouNeedHelp": "As-tu besoin d'aide?",
+    "largeText": "Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quaeab illo inventore. ",
+    "learnMore": "Apprendre encore plus",
+    "mediumText": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi.",
+    "reviewCardText": "« Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur ? ",
+    "send": "Envoyer",
+    "email": "Votre e-mail",
+    "smallText": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+    "subscribe": "Abonnez-vous à notre newsletter",
+    "watchDemo": "Regarder la démo"
+  },
+  "helpSeciton": {
+    "title": "As-tu besoin d'aide?",
+    "text": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi."
+  },
+  "subscribeSeciton": {
+    "title": "Abonnez-vous à notre newsletter",
+    "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+  },
+  "companyOverviewSection": {
+    "title": "Nous fournissons des services qui garantissent votre succès",
+    "data": [
+      {
+        "amount": "1830",
+        "name": "Projet exécuté"
+      },
+      {
+        "amount": "834",
+        "name": "Clients satisfaits"
+      },
+      {
+        "amount": "390",
+        "name": "Gestion de données"
+      }
+    ]
+  },
+  "footer": {
+    "privacyPolicy": "Politique de confidentialité",
+    "quickLink": "Lien rapide",
+    "service": "Un service",
+    "services": ["pages", "Éléments", "FAQ", "Tarification", "Plan du site"],
+    "termsOfUs": "Conditions d'utilisation"
+  },
+  "homePage": {
+    "heroTitle": "Découvrez la véritable puissance de vos données avec <0>Ensome</0>",
+    "featureTitle": "Les <0>le plus récent</0> plate-forme d'analyse commerciale",
+    "featureSubtitleTitle": "Des solutions radicalement nouvelles pour les données",
+    "benefitsTitle": "Les avantages d'Ensome",
+    "testImonalsTitle": "Témoignages ",
+    "ourPricingTitle": "Nos tarifs",
+    "ourBlogTitle": "Les avantages d'Ensome",
+    "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+    "benefit": "Les avantages d'Ensome",
+    "ourBlog": "Notre blog",
+    "newSolution": "Des solutions radicalement nouvelles pour les données"
+  },
+  "servicePage": {
+    "title": "Services d'analyse de données",
+    "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quaeab illo inventore."
+  },
+  "aboutUsPage": {
+    "title": "À propos de nous",
+    "whoWeAre": "Qui nous sommes",
+    "ourMission": "Notre mission",
+    "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab ill inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. ",
+    "inNumbers": "Ensome en chiffres",
+    "data": [
+      {
+        "amount": "1830",
+        "name": "Projet exécuté"
+      },
+      {
+        "amount": "200",
+        "name": "Analyse des données"
+      },
+      {
+        "amount": "390",
+        "name": "Gestion de données"
+      },
+      {
+        "amount": "834",
+        "name": "Clients satisfaits"
+      }
+    ],
+    "ourCustomers": "Nos clients",
+    "reviewTitle": "Ce que disent nos clients",
+    "formTitle": "Vous avez laissé des questions ? "
+  },
+  "blogPage": {
+    "title": "Les tendances du développement logiciel 2022 expliquées avec des avantages"
+  },
+  "ourTeamPage": {
+    "title": "Notre équipe",
+    "text": "Sed ut perspiciatis unde omnis iste natus error volupta accusantium doloremque laudantium, totam remiga aperiam, eaque ipsa. "
+  },
+  "contactsPage": {
+    "title": "Comment pouvons-nous vous aider?"
+  },
+  "faqPage": {
+    "title": "Questions fréquemment posées",
+    "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam.",
+    "faqs": [
+      {
+        "id": 1,
+        "question": "",
+        "text": "Phasellus tristique eu nisl eu consectetur.  "
+      },
+      {
+        "id": 2,
+        "question": "Qu'est-ce que l'exploration de données ?",
+        "text": "Phasellus tristique eu nisl eu consectetur.  "
+      },
+      {
+        "id": 3,
+        "question": "Qu'est-ce que l'intelligence économique ?",
+        "text": "Phasellus tristique eu nisl eu consectetur.  "
+      },
+      {
+        "id": 4,
+        "question": "Qu'est-ce que l'analyse exploratoire des données (EDA) ?",
+        "text": "Phasellus tristique eu nisl eu consectetur.  "
+      },
+      {
+        "id": 5,
+        "question": "Qu'est-ce que l'analyse des données de confirmation (CDA) ?",
+        "text": "Phasellus tristique eu nisl eu consectetur.  "
+      },
+      {
+        "id": 6,
+        "question": "Qu'est-ce que l'analyse prédictive ?",
+        "text": "Phasellus tristique eu nisl eu consectetur.  "
+      },
+      {
+        "id": 7,
+        "question": "Qu'est-ce que la visualisation de données",
+        "text": "Phasellus tristique eu nisl eu consectetur.  "
+      }
+    ]
+  },
+  "solutionPage": {
+    "title": "Solutions d'analyse de données",
+    "text": "En préparant votre succès, nous fournissons des solutions informatiques vraiment exceptionnelles.",
+    "whyChooseUs": "Pourquoi nous choisir?",
+    "benefits": [
+      {
+        "id": 1,
+        "name": "Apprentissage automatique",
+        "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores."
+      },
+      {
+        "id": 2,
+        "name": "Intégrer l'analytique",
+        "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores."
+      },
+      {
+        "id": 3,
+        "name": "Contrôle d'accès",
+        "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores."
+      }
+    ]
+  },
+  "cards": {
+    "blog": [
+      {
+        "id": 1,
+        "date": "22 juin 2022",
+        "image": "première",
+        "name": "5 exemples de portails Web dont votre entreprise peut s'inspirer",
+        "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas. ",
+        "title": "Sed ut perspiciatis unde omnis at vero blanditils",
+        "topics": ["Application", "DSI", "Futur"]
+      },
+      {
+        "id": 2,
+        "date": "05 juillet 2021",
+        "image": "seconde",
+        "name": "Conformité ISO 13485 des dispositifs médicaux",
+        "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas. ",
+        "title": "Sed ut perspiciatis unde omnis at vero blanditils",
+        "topics": ["REDUX", "BOUTIQUE", "Futur"]
+      },
+      {
+        "id": 3,
+        "date": "14 février 2019",
+        "image": "troisième",
+        "name": "Logiciel de gestion du personnel : capacités clés et meilleurs produits",
+        "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas. ",
+        "title": "Sed ut perspiciatis unde omnis at vero blanditils",
+        "topics": ["Application", "LA TOILE", "SUIVANT"]
+      },
+      {
+        "id": 4,
+        "date": "24 octobre 2002",
+        "image": "Quatrième",
+        "name": "5 exemples de portails Web dont votre entreprise peut s'inspirer",
+        "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas. ",
+        "title": "Sed ut perspiciatis unde omnis at vero blanditils",
+        "topics": ["Application", "ISO", "Passé"]
+      },
+      {
+        "id": 5,
+        "date": "1er janvier 1970",
+        "image": "cinq",
+        "name": "Conformité ISO 13485 des dispositifs médicaux",
+        "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas. ",
+        "title": "Sed ut perspiciatis unde omnis at vero blanditils",
+        "topics": ["Application", "DSI", "Futur"]
+      }
+    ],
+    "price": [
+      {
+        "id": 1,
+        "infos": [
+          "Pour les petites équipes – 5 utilisateurs",
+          "Soutien communautaire"
+        ],
+        "name": "Essai gratuit",
+        "text": "Plan d'essai pour les débutants",
+        "value": "00 $"
+      },
+      {
+        "id": 2,
+        "infos": [
+          "Pour les petites équipes – 15 utilisateurs",
+          "Accompagnement individuel",
+          "Données individuelles – 60 Go"
+        ],
+        "name": "léger",
+        "text": "Plan d'essai pour les débutants",
+        "value": "99 $"
+      },
+      {
+        "id": 3,
+        "infos": [
+          "Pour les grandes équipes – 30 utilisateurs",
+          "Accompagnement individuel",
+          "Données individuelles – 120 Go",
+          "Autorisations avancées"
+        ],
+        "name": "Basique",
+        "text": "Plan d'essai pour les débutants",
+        "value": "00 $"
+      },
+      {
+        "id": 4,
+        "infos": [
+          "Membres d'équipe illimités",
+          "Accompagnement individuel",
+          "Données individuelles illimitées",
+          "Autorisations avancées",
+          "Historique des données",
+          "Journal d'audit",
+          "Toutes les fonctions incluses"
+        ],
+        "name": "Pour les entreprises",
+        "text": "Plan d'essai pour les débutants",
+        "value": "Personnalisé"
+      }
+    ],
+    "review": [
+      {
+        "avatar": "première",
+        "text": "« Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur ?  ",
+        "name": "Alex Berne",
+        "position": "PDG par PixelPerfect",
+        "id": 1
+      },
+      {
+        "avatar": "seconde",
+        "text": "« Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur ?  ",
+        "name": "Rubén Chifundo",
+        "position": "Analyste de données",
+        "id": 2
+      },
+      {
+        "avatar": "troisième",
+        "text": "« Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur ?  ",
+        "name": "Tigrane Nazaret",
+        "position": "PDG par NOX",
+        "id": 3
+      },
+      {
+        "avatar": "Quatrième",
+        "text": "« Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur ?  ",
+        "name": "Alex Berne",
+        "position": "PDG par PixelPerfect",
+        "id": 4
+      },
+      {
+        "avatar": "cinq",
+        "text": "« Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur ?  ",
+        "name": "Rubén Chifundo",
+        "position": "Analyste de données",
+        "id": 5
+      }
+    ],
+    "service": [
+      {
+        "icon": "assets/svg/AdvCards/brain.svg",
+        "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
+        "title": "Apprentissage automatique",
+        "id": 1
+      },
+      {
+        "icon": "assets/svg/AdvCards/graph.svg",
+        "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
+        "title": "Intégrer l'analytique",
+        "id": 2
+      },
+      {
+        "icon": "assets/svg/AdvCards/key.svg",
+        "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
+        "title": "Contrôle d'accès",
+        "id": 3
+      },
+      {
+        "icon": "assets/svg/AdvCards/trend.svg",
+        "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
+        "title": "Analyse des données",
+        "id": 4
+      },
+      {
+        "icon": "assets/svg/AdvCards/key.svg",
+        "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
+        "title": "Conseil en mégadonnées",
+        "id": 5
+      },
+      {
+        "icon": "assets/svg/AdvCards/trend.svg",
+        "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
+        "title": "Intelligence artificielle",
+        "id": 6
+      }
+    ],
+    "ourTeam": [
+      {
+        "id": 1,
+        "avatar": "",
+        "name": "Sargis Grigor",
+        "position": "Analyste de données"
+      },
+      {
+        "id": 2,
+        "avatar": "",
+        "name": "Gor Sargis",
+        "position": "Analyste de données"
+      },
+      {
+        "id": 3,
+        "avatar": "",
+        "name": "Maral Mari",
+        "position": "Analyste de données"
+      },
+      {
+        "id": 4,
+        "avatar": "",
+        "name": "Kohar Marine",
+        "position": "Scientifique des données "
+      },
+      {
+        "id": 5,
+        "avatar": "",
+        "name": "Lion de Bagrat",
+        "position": "Ingénieur de données"
+      },
+      {
+        "id": 6,
+        "avatar": "",
+        "name": "Hakob Jiraïr",
+        "position": "Ingénieur de données"
+      },
+      {
+        "id": 7,
+        "avatar": "",
+        "name": "Ararat Ohannes",
+        "position": "Analyste de données"
+      },
+      {
+        "id": 8,
+        "avatar": "",
+        "name": "Eva Vosgi",
+        "position": "Scientifique des données"
+      },
+      {
+        "id": 9,
+        "avatar": "",
+        "name": "Edouard Vosgi",
+        "position": "Scientifique des données"
+      }
+    ]
+  }
+}

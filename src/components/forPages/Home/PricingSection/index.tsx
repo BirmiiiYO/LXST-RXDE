@@ -1,19 +1,21 @@
 import React, { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 
 import { PriceCard } from 'components/UI/Cards/Price'
 import { Container } from 'components/UI/Container'
 import { Text } from 'components/UI/Text'
-import { cards } from 'mocks/homePage/PriceCards'
 import { theme } from 'styles/themes'
 
 import { Cards } from './styles'
 
 export const PricingSection = () => {
+  const { t } = useTranslation()
+  const cards = t('cards.price', { returnObjects: true }) as []
   const [activePrice, setActivePrice] = useState('Free trial')
   return (
     <Container width="1110px" margin="120px 0" flex="column">
       <Text typography={theme.typography.EB_HEADLINE_2} margin="0 0 50px 0">
-        Our pricing
+        {t('homePage.ourPricingTitle')}
       </Text>
       <Cards>
         {cards.map(({ id, infos, name, value }) => (

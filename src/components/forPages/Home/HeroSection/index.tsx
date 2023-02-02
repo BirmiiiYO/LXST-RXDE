@@ -26,11 +26,11 @@ export const HeroSection = () => {
           color={theme.colors.grey}
           maxWidth="350px"
         >
-          {t('homePage.text')}
+          {t('base.largeText')}
         </Text>
         <ButtonContainer>
           <Button buttonType="round" padding="47px 23px">
-            Learn more
+            {t('base.learnMore')}
           </Button>
         </ButtonContainer>
       </Container>

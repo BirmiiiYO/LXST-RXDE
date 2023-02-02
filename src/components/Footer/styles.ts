@@ -1,13 +1,18 @@
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
+import { devices } from 'styles/breakpoints'
 import { COLUMN, SPACE_BETWEEN, theme } from 'styles/themes'
 
 export const Content = styled.div`
   width: 1110px;
   ${COLUMN}
-  align-items:flex-start;
+  padding:10px;
+  align-items: flex-start;
   padding: 50px 20px 0 20px;
+  @media ${devices.content} {
+    width: 100%;
+  }
 `
 
 export const Information = styled.div`
@@ -51,4 +56,8 @@ export const SpaceBetween = styled.div`
 `
 export const CustomLink = styled(Link)`
   color: ${theme.colors.grey};
+`
+
+export const Mobile = styled.div`
+  padding: 40px 0 20px 0;
 `

@@ -6,18 +6,15 @@ import { theme } from 'styles/themes'
 
 import { Amount, Container, Data, HowMuch, Name, SpaceBetween } from './styles'
 
-const overviews = [
-  { amount: '1830+', name: 'Project executed' },
-  { amount: '834+', name: 'Satisfied customers' },
-  { amount: '390', name: 'Data management' },
-]
-
 export const CompanyOverviewSection = () => {
   const { t } = useTranslation()
+  const overviews = t('companyOverviewSection.data', {
+    returnObjects: true,
+  }) as []
   return (
     <Container>
       <Text typography={theme.typography.EB_HEADLINE_2} margin="120px 0 50px 0">
-        {t('homePage.overviewTitle')}
+        {t('companyOverviewSection.title')}
       </Text>
       <SpaceBetween>
         <Data>

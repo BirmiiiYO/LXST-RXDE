@@ -9,7 +9,7 @@ export const SideBar = ({
   onClick,
   disabled = false,
 }: ISideBarProps) => (
-  <CustomSideBar onClick={onClick} disabled={disabled}>
+  <CustomSideBar onClick={onClick}>
     {children}
     <Icon src={tab} alt="tab icon" />
   </CustomSideBar>

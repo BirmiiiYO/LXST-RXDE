@@ -5,7 +5,6 @@ import { BlogCard } from 'components/UI/Cards/Blog'
 import { Container } from 'components/UI/Container'
 import { ControlsDirection } from 'components/UI/ControlsDirection'
 import { Text } from 'components/UI/Text'
-import { cards } from 'mocks/homePage/BlogCards'
 import { theme } from 'styles/themes'
 
 import { Cards, SpaceBetween } from '../TestimonialsSection/styles'
@@ -13,6 +12,7 @@ import { Cards, SpaceBetween } from '../TestimonialsSection/styles'
 export const BlogSection = () => {
   const [aciveReviews, setActive] = useState(0)
   const { t } = useTranslation()
+  const cards = t('cards.blog', { returnObjects: true }) as []
   return (
     <Container width="1110px" margin="0 0 120px 0" flex="column">
       <SpaceBetween>
@@ -33,12 +33,11 @@ export const BlogSection = () => {
       <Cards>
         {cards
           .slice(aciveReviews, aciveReviews + 2)
-          .map(({ date, id, image, name, text, title, topics }) => (
+          .map(({ date, id, image, name, text, topics }) => (
             <BlogCard
               image={image}
               date={date}
-              name={name}
-              title={title}
+              title={name}
               text={text}
               topics={topics}
               key={id}

@@ -3,18 +3,44 @@
     "contactUs": "Kontaktiere uns",
     "discoverMore": "Entdecke mehr",
     "doYouNeedHelp": "Brauchst du Hilfe?",
-    "largeText": "Aber damit Sie sehen können, woher all dieser angeborene Irrtum die Freude der Ankläger und der Schmerz der Lobpreiser ist, werde ich die ganze Sache öffnen und genau das, wodurch sie entdeckt wurde. Bis die Tincidunt rechtzeitig als, nicht weicher als die Enden noch",
+    "largeText": "Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quaeab illo Inventore. ",
     "learnMore": "Mehr erfahren",
-    "mediumText": "Denn um ins kleinste Detail zu kommen, keiner von uns unternimmt irgendwelche anstrengenden körperlichen Übungen, es sei denn, um daraus einen Nutzen zu ziehen.",
-    "reviewCardText": "Denn um ins kleinste Detail zu kommen, keiner von uns unternimmt irgendwelche anstrengenden körperlichen Übungen, es sei denn, um daraus einen Nutzen zu ziehen.",
+    "mediumText": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi.",
+    "reviewCardText": "„Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? ",
     "send": "Senden",
-    "smallText": "Aber damit Sie sehen, woher all dieser Irrtum derer kommt, die Freude anklagen und Schmerz preisen.",
+    "email": "Deine E-Mail",
+    "smallText": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
     "subscribe": "Abonniere unseren Newsletter",
     "watchDemo": "Sehen Sie sich die Demo an"
   },
+  "helpSeciton": {
+    "title": "Brauchst du Hilfe?",
+    "text": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi."
+  },
+  "subscribeSeciton": {
+    "title": "Abonniere unseren Newsletter",
+    "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+  },
+  "companyOverviewSection": {
+    "title": "Wir erbringen Leistungen, die Ihren Erfolg garantieren",
+    "data": [
+      {
+        "amount": "1830",
+        "name": "Projekt ausgeführt"
+      },
+      {
+        "amount": "834",
+        "name": "Zufriedene Kunden"
+      },
+      {
+        "amount": "390",
+        "name": "Datenmanagement"
+      }
+    ]
+  },
   "footer": {
     "privacyPolicy": "Datenschutz-Bestimmungen",
-    "quickLink": "schnelle Links",
+    "quickLink": "Schnelllink",
     "service": "Service",
     "services": [
       "Seiten",
@@ -26,7 +52,351 @@
     "termsOfUs": "Bedingungen von uns"
   },
   "homePage": {
-    "text": "Aber damit Sie sehen, woher all dieser geborene Irrtum die Freude der Anklagenden und der Schmerz des Lobes ist, werde ich die ganze Sache und genau das öffnen, was sozusagen von diesem Entdecker der Wahrheit stammt.",
-    "title": "Finden Sie mit <0>Ensome</0> wahre Kraft in Ihren Daten"
+    "heroTitle": "Finden Sie wahre Kraft in Ihren Daten mit <0>Ensome</0>",
+    "featureTitle": "Die <0>neueste</0> Business-Analytics-Plattform",
+    "featureSubtitleTitle": "Radikal neue Lösungen für Daten",
+    "benefitsTitle": "Die Vorteile von Ensome",
+    "testImonalsTitle": "Referenzen ",
+    "ourPricingTitle": "Unsere Preise",
+    "ourBlogTitle": "Die Vorteile von Ensome",
+    "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo Inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+    "benefit": "Die Vorteile von Ensome",
+    "ourBlog": "Unser Blog",
+    "newSolution": "Radikal neue Lösungen für Daten"
+  },
+  "servicePage": {
+    "title": "Datenanalysedienste",
+    "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quaeab illo Inventore."
+  },
+  "aboutUsPage": {
+    "title": "Über uns",
+    "whoWeAre": "Wer wir sind",
+    "ourMission": "Unsere Aufgabe",
+    "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab ill Inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. ",
+    "inNumbers": "Ensome in Zahlen",
+    "data": [
+      {
+        "amount": "1830",
+        "name": "Projekt ausgeführt"
+      },
+      {
+        "amount": "200",
+        "name": "Datenanalyse"
+      },
+      {
+        "amount": "390",
+        "name": "Datenmanagement"
+      },
+      {
+        "amount": "834",
+        "name": "Zufriedene Kunden"
+      }
+    ],
+    "ourCustomers": "Unsere Kunden",
+    "reviewTitle": "Was unsere Kunden sagen",
+    "formTitle": "Links Fragen? "
+  },
+  "blogPage": {
+    "title": "Softwareentwicklungstrends 2022 erklärt mit Vorteilen"
+  },
+  "ourTeamPage": {
+    "title": "Unser Team",
+    "text": "Sed ut perspiciatis unde omnis iste natus error volupta accusantium doloremque laudantium, totam remiga aperiam, eaque ipsa. "
+  },
+  "contactsPage": {
+    "title": "Wie können wir Ihnen helfen?"
+  },
+  "faqPage": {
+    "title": "Häufig gestellte Fragen",
+    "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam.",
+    "faqs": [
+      {
+        "id": 1,
+        "question": "",
+        "text": "Phasellus tristique eu nisl eu consectetur.  "
+      },
+      {
+        "id": 2,
+        "question": "Was ist Data-Mining?",
+        "text": "Phasellus tristique eu nisl eu consectetur.  "
+      },
+      {
+        "id": 3,
+        "question": "Was ist Business Intelligence?",
+        "text": "Phasellus tristique eu nisl eu consectetur.  "
+      },
+      {
+        "id": 4,
+        "question": "Was ist explorative Datenanalyse (EDA)?",
+        "text": "Phasellus tristique eu nisl eu consectetur.  "
+      },
+      {
+        "id": 5,
+        "question": "Was ist konfirmatorische Datenanalyse (CDA)?",
+        "text": "Phasellus tristique eu nisl eu consectetur.  "
+      },
+      {
+        "id": 6,
+        "question": "Was sind Predictive Analytics?",
+        "text": "Phasellus tristique eu nisl eu consectetur.  "
+      },
+      {
+        "id": 7,
+        "question": "Was ist Datenvisualisierung",
+        "text": "Phasellus tristique eu nisl eu consectetur.  "
+      }
+    ]
+  },
+  "solutionPage": {
+    "title": "Datenanalyselösungen",
+    "text": "Wir bereiten uns auf Ihren Erfolg vor und bieten wirklich herausragende IT-Lösungen.",
+    "whyChooseUs": "Warum uns wählen?",
+    "benefits": [
+      {
+        "id": 1,
+        "name": "Maschinelles Lernen",
+        "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores."
+      },
+      {
+        "id": 2,
+        "name": "Analytics einbetten",
+        "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores."
+      },
+      {
+        "id": 3,
+        "name": "Zugangskontrolle",
+        "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores."
+      }
+    ]
+  },
+  "cards": {
+    "blog": [
+      {
+        "id": 1,
+        "date": "22. Juni 2022",
+        "image": "erste",
+        "name": "5 Beispiele für Webportale, von denen Ihr Unternehmen lernen kann",
+        "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas. ",
+        "title": "Sed ut perspiciatis unde omnis bei vero blanditils",
+        "topics": ["App", "CIO", "Zukunft"]
+      },
+      {
+        "id": 2,
+        "date": "05. Juli 2021",
+        "image": "zweite",
+        "name": "ISO 13485-Konformität von medizinischen Geräten",
+        "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas. ",
+        "title": "Sed ut perspiciatis unde omnis bei vero blanditils",
+        "topics": ["REDUX", "LADEN", "Zukunft"]
+      },
+      {
+        "id": 3,
+        "date": "14. Februar 2019",
+        "image": "Dritter",
+        "name": "Personalsoftware: Schlüsselfunktionen und Top-Produkte",
+        "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas. ",
+        "title": "Sed ut perspiciatis unde omnis bei vero blanditils",
+        "topics": ["App", "NETZ", "NÄCHSTE"]
+      },
+      {
+        "id": 4,
+        "date": "24. Oktober 2002",
+        "image": "vierte",
+        "name": "5 Beispiele für Webportale, von denen Ihr Unternehmen lernen kann",
+        "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas. ",
+        "title": "Sed ut perspiciatis unde omnis bei vero blanditils",
+        "topics": ["App", "ISO", "Vergangenheit"]
+      },
+      {
+        "id": 5,
+        "date": "1. Januar 1970",
+        "image": "fünf",
+        "name": "ISO 13485-Konformität von medizinischen Geräten",
+        "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas. ",
+        "title": "Sed ut perspiciatis unde omnis bei vero blanditils",
+        "topics": ["App", "CIO", "Zukunft"]
+      }
+    ],
+    "price": [
+      {
+        "id": 1,
+        "infos": [
+          "Für kleine Teams – 5 Benutzer",
+          "Gemeinschaftliche Unterstützung"
+        ],
+        "name": "Kostenlose Testphase",
+        "text": "Probeplan für Einsteiger",
+        "value": "$00"
+      },
+      {
+        "id": 2,
+        "infos": [
+          "Für kleine Teams – 15 Benutzer",
+          "Individuelle Betreuung",
+          "Individuelle Daten – 60 GB"
+        ],
+        "name": "Lite",
+        "text": "Probeplan für Einsteiger",
+        "value": "$99"
+      },
+      {
+        "id": 3,
+        "infos": [
+          "Für große Teams – 30 Benutzer",
+          "Individuelle Betreuung",
+          "Individuelle Daten – 120 GB",
+          "Erweiterte Berechtigungen"
+        ],
+        "name": "Basic",
+        "text": "Probeplan für Einsteiger",
+        "value": "$00"
+      },
+      {
+        "id": 4,
+        "infos": [
+          "Unbegrenzte Teammitglieder",
+          "Individuelle Betreuung",
+          "Unbegrenzte individuelle Daten",
+          "Erweiterte Berechtigungen",
+          "Datenhistorie",
+          "Audit-Log",
+          "Alle Funktionen enthalten"
+        ],
+        "name": "Für Unternehmen",
+        "text": "Probeplan für Einsteiger",
+        "value": "Benutzerdefiniert"
+      }
+    ],
+    "review": [
+      {
+        "avatar": "erste",
+        "text": "„Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?  ",
+        "name": "Alex Bern",
+        "position": "CEO von PixelPerfect",
+        "id": 1
+      },
+      {
+        "avatar": "zweite",
+        "text": "„Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?  ",
+        "name": "Ruben Chifundo",
+        "position": "Daten Analyst",
+        "id": 2
+      },
+      {
+        "avatar": "Dritter",
+        "text": "„Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?  ",
+        "name": "Tigran Nazaret",
+        "position": "CEO von NOX",
+        "id": 3
+      },
+      {
+        "avatar": "vierte",
+        "text": "„Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?  ",
+        "name": "Alex Bern",
+        "position": "CEO von PixelPerfect",
+        "id": 4
+      },
+      {
+        "avatar": "fünf",
+        "text": "„Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?  ",
+        "name": "Ruben Chifundo",
+        "position": "Daten Analyst",
+        "id": 5
+      }
+    ],
+    "service": [
+      {
+        "icon": "Assets/svg/AdvCards/brain.svg",
+        "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
+        "title": "Maschinelles Lernen",
+        "id": 1
+      },
+      {
+        "icon": "Assets/svg/AdvCards/graph.svg",
+        "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
+        "title": "Analytics einbetten",
+        "id": 2
+      },
+      {
+        "icon": "Assets/svg/AdvCards/key.svg",
+        "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
+        "title": "Zugangskontrolle",
+        "id": 3
+      },
+      {
+        "icon": "Assets/svg/AdvCards/trend.svg",
+        "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
+        "title": "Datenanalyse",
+        "id": 4
+      },
+      {
+        "icon": "Assets/svg/AdvCards/key.svg",
+        "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
+        "title": "Big-Data-Beratung",
+        "id": 5
+      },
+      {
+        "icon": "Assets/svg/AdvCards/trend.svg",
+        "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
+        "title": "Künstliche Intelligenz",
+        "id": 6
+      }
+    ],
+    "ourTeam": [
+      {
+        "id": 1,
+        "avatar": "",
+        "name": "Sargis Grigor",
+        "position": "Daten Analyst"
+      },
+      {
+        "id": 2,
+        "avatar": "",
+        "name": "Gor Sargis",
+        "position": "Daten Analyst"
+      },
+      {
+        "id": 3,
+        "avatar": "",
+        "name": "Maral Mari",
+        "position": "Daten Analyst"
+      },
+      {
+        "id": 4,
+        "avatar": "",
+        "name": "Kohar-Marine",
+        "position": "Datenwissenschaftler "
+      },
+      {
+        "id": 5,
+        "avatar": "",
+        "name": "Bagrat Leo",
+        "position": "Dateningenieur"
+      },
+      {
+        "id": 6,
+        "avatar": "",
+        "name": "Hakob Jirair",
+        "position": "Dateningenieur"
+      },
+      {
+        "id": 7,
+        "avatar": "",
+        "name": "Ararat Ohannes",
+        "position": "Daten Analyst"
+      },
+      {
+        "id": 8,
+        "avatar": "",
+        "name": "Eva Vosgi",
+        "position": "Datenwissenschaftler"
+      },
+      {
+        "id": 9,
+        "avatar": "",
+        "name": "Eduard Wosgi",
+        "position": "Datenwissenschaftler"
+      }
+    ]
   }
 }

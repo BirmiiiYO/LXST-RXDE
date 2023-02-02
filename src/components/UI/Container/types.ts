@@ -9,6 +9,7 @@ export interface IContainerProps {
   background?: string
   color?: string
   flex?: TFlex
+  padding?: string
 }
 
 export type IContainerStyleProps = Omit<IContainerProps, 'children'>

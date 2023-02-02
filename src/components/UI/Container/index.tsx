@@ -10,6 +10,7 @@ export const Container = ({
   flex = 'center',
   margin = '0',
   width = '100%',
+  padding = '0',
 }: IContainerProps) => (
   <StyledContainer
     background={background}
@@ -17,6 +18,7 @@ export const Container = ({
     flex={flex}
     margin={margin}
     width={width}
+    padding={padding}
   >
     {children}
   </StyledContainer>

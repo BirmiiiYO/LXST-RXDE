@@ -6,6 +6,8 @@ import GlobalStyle from '../src/styles/global'
 import { setupStore } from 'store/index'
 import { Provider } from 'react-redux'
 
+import '../src/i18n'
+
 const store = setupStore()
 
 export const Decorator = story => (

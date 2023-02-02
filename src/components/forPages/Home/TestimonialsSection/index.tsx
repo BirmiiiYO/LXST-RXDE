@@ -1,20 +1,25 @@
 import React, { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 
 import { ReviewCard } from 'components/UI/Cards/Review'
 import { Container } from 'components/UI/Container'
 import { ControlsDirection } from 'components/UI/ControlsDirection'
 import { Text } from 'components/UI/Text'
-import { cards } from 'mocks/homePage/ReviewCards'
+// import { cards } from 'mocks/homePage/ReviewCards'
 import { theme } from 'styles/themes'
 
 import { Cards, SpaceBetween } from './styles'
 
 export const TestImonialsSection = () => {
   const [aciveReviews, setActive] = useState(0)
+  const { t } = useTranslation()
+  const cards = t('cards.service', { returnObjects: true }) as []
   return (
     <Container width="1110px" margin="0 0 120px 0" flex="column">
       <SpaceBetween>
-        <Text typography={theme.typography.EB_HEADLINE_2}>Testimonials</Text>
+        <Text typography={theme.typography.EB_HEADLINE_2}>
+          {t('homePage.testImonalsTitle')}
+        </Text>
         <Container width="240px" flex="space-between">
           <ControlsDirection
             direction="right"

@@ -1,5 +1,4 @@
 export interface IBlogCardProps {
-  name: string
   date: string
   title: string
   image: string
