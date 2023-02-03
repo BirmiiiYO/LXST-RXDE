@@ -12,7 +12,6 @@ import { Container } from './styles'
 
 const Services = () => (
   <>
-    <Breadcrumb>Home | Services</Breadcrumb>
     <Container>
       <DescriptionSection />
       <CardsSection />

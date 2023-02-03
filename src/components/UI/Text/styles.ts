@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 import { devices } from 'styles/breakpoints'
-import { SPACE_BETWEEN, theme } from 'styles/themes'
+import { CENTER, SPACE_BETWEEN, theme } from 'styles/themes'
 
 import { ITextProps } from './types'
 

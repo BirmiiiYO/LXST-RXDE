@@ -8,15 +8,7 @@ export default {
   component: Form,
 } as ComponentMeta<typeof Form>
 
-const Template: ComponentStory<typeof Form> = args => <Form {...args} />
+const Template: ComponentStory<typeof Form> = () => <Form />
 
 export const FormComponent = Template.bind({})
-FormComponent.args = {
-  fields: [
-    { label: 'Name', value: 'Andrea' },
-    { label: 'Email', value: 'andrea@gmaol.com' },
-    { label: 'Theme', value: 'Job' },
-    { label: 'Message', value: 'Your message' },
-  ],
-  title: 'Contact Us',
-}
+FormComponent.args = {}

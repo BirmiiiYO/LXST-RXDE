@@ -12,7 +12,7 @@ export interface IReviewCardProps {
   id: number
 }
 
-export const cards: IReviewCardProps[] = [
+export const cardsR: IReviewCardProps[] = [
   {
     avatar: first,
     text: '“Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis utem vel eum iure reprehender qui in ea voluptate velit esse quam nihil molesti consequatur, vel illum.” ',

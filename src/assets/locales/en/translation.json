@@ -9,6 +9,10 @@
     "reviewCardText": "“Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis utem vel eum iure reprehender qui in ea voluptate velit esse quam nihil molesti consequatur, vel illum.”",
     "send": "Send",
     "email": "Your email",
+    "enterName": "Enter your name",
+    "enterEmail": "Enter your Email",
+    "enterTheme": "Enter theme",
+    "enterMessage": "Enter message",
     "smallText": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
     "subscribe": "Subscribe to our newsletter",
     "watchDemo": "Watch the demo"

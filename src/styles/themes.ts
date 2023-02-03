@@ -5,15 +5,15 @@ const theme = {
     primary: '#185CFF',
     secondary: '#002B4E',
     tertiary: '#F0F9FF',
-    indigo: '#194060',
-    steelTeal: '#607D94',
-    rhythmicBlue: '#C9DCEC',
+    indigo: '#194060', //  Helper blue 1
+    steelTeal: '#607D94', // helper 2
+    rhythmicBlue: '#C9DCEC', // helper 3
     black: '#292D33',
     grey: '#9497A1',
-    aliceBlue: '#F1F6FA',
+    aliceBlue: '#F1F6FA', // Background
     redError: '#C14040',
     white: '#FFFFFF',
-    bluberry: '#467DFF',
+    bluberry: '#467DFF', // hover
   },
   fonts: {
     openSans: `'Open Sans', sans-serif`,

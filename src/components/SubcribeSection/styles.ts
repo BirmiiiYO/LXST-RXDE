@@ -7,6 +7,7 @@ export const Container = styled.div`
   width:100%;
   background: ${theme.colors.secondary};
   color: ${theme.colors.white};
+  border-bottom: 1px solid #607d94;
 `
 export const Content = styled.div`
   width: 1110px;

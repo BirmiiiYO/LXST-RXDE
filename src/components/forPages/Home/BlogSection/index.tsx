@@ -7,7 +7,7 @@ import { ControlsDirection } from 'components/UI/ControlsDirection'
 import { Text } from 'components/UI/Text'
 import { theme } from 'styles/themes'
 
-import { Cards, SpaceBetween } from '../TestimonialsSection/styles'
+import { Cards, SpaceBetween } from '../../../CardsSection/styles'
 
 export const BlogSection = () => {
   const [aciveReviews, setActive] = useState(0)

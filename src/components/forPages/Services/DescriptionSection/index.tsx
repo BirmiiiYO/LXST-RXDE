@@ -22,7 +22,7 @@ export const DescriptionSection = () => {
       <Text
         typography={theme.typography.R_PARAGRAPH_2}
         color={theme.colors.grey}
-        maxWidth="730px"
+        maxWidth="600px"
       >
         {t('servicePage.text')}
       </Text>

@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { CENTER, COLUMN, SPACE_BETWEEN, theme } from 'styles/themes'
 
 export const Container = styled.div`
-  width: 445px;
+  max-width: 700px;
   box-shadow: ${theme.shadows.shadowCard3};
   padding: 45px;
   border-radius: 6px;

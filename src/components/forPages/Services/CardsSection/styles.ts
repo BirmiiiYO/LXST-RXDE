@@ -1,7 +1,9 @@
 import styled from 'styled-components'
 
+import { CENTER } from 'styles/themes'
+
 export const Cards = styled.ul`
   max-width: 1200px;
-  display: flex;
+  ${CENTER}
   flex-wrap: wrap;
 `
