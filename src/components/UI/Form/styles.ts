@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-import { CENTER, COLUMN, SPACE_BETWEEN, theme } from 'styles/themes'
+import { COLUMN, theme } from 'styles/themes'
 
 export const Container = styled.div`
   width: 500px;
