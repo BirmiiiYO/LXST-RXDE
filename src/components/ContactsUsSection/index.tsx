@@ -11,7 +11,7 @@ import { Content } from './styles'
 export const ContactUsSection = () => {
   const { t } = useTranslation()
   return (
-    <Container background={theme.colors.aliceBlue}>
+    <Container background={theme.colors.aliceBlue} margin="120px 0 0 0">
       <Content>
         <Text typography={theme.typography.EB_HEADLINE_2}>
           {t('base.doYouNeedHelp')}

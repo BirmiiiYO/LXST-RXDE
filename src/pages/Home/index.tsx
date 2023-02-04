@@ -13,6 +13,7 @@ import {
   PricingSection,
 } from 'components/forPages/Home'
 import { SubscribeSection } from 'components/SubcribeSection'
+import { BlogCard } from 'components/UI/Cards/Blog'
 import { ReviewCard } from 'components/UI/Cards/Review'
 
 import { Container } from './styles'
@@ -20,6 +21,7 @@ import { Container } from './styles'
 const Home = () => {
   const { t } = useTranslation()
   const reviews = t('cards.review', { returnObjects: true }) as []
+  const blogs = t('cards.blog', { returnObjects: true }) as []
   return (
     <Container>
       <HeroSection />
@@ -38,7 +40,16 @@ const Home = () => {
         }
       />
       <PricingSection />
-      <BlogSection />
+      <CardsSection
+        amount={2}
+        length={blogs.length}
+        title={t('homePage.ourBlogTitle')}
+        render={(activeCards, amount) =>
+          blogs
+            .slice(activeCards, activeCards + amount)
+            .map(props => <BlogCard {...props} />)
+        }
+      />
       <ContactUsSection />
       <SubscribeSection />
     </Container>

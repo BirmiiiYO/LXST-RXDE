@@ -19,18 +19,18 @@ const Watch: ComponentStory<typeof Button> = args => (
 
 export const primary = learnMore.bind({})
 primary.args = {
-  type: EButtonType.PRIMARY,
+  buttonType: EButtonType.PRIMARY,
   icon: player,
 }
 export const round = learnMore.bind({})
 round.args = {
-  type: EButtonType.ROUND,
+  buttonType: EButtonType.ROUND,
   padding: '100px 100px',
 }
 
 export const borderWatch = Watch.bind({})
 borderWatch.args = {
-  type: EButtonType.BORDER_WATCH,
+  buttonType: EButtonType.BORDER_WATCH,
   icon: player,
   padding: '100px ',
 }

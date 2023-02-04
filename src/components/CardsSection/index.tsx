@@ -23,10 +23,15 @@ export const CardsSection = ({
   }
 
   return (
-    <Container width="1110px" flex="column" margin="157px 0 0 0">
-      <SpaceBetween>
+    <Container
+      width="1110px"
+      flex="column"
+      margin="157px 0 0 0"
+      padding="0 10px"
+    >
+      <Container flex="space-between">
         <Text typography={theme.typography.EB_HEADLINE_2}>{title}</Text>
-        <Container width="240px" flex="space-between">
+        <SpaceBetween>
           <ControlsDirection
             direction="right"
             onClick={prev}
@@ -37,8 +42,8 @@ export const CardsSection = ({
             onClick={next}
             disabled={activeCards + amount === length}
           />
-        </Container>
-      </SpaceBetween>
+        </SpaceBetween>
+      </Container>
       <Cards>{render(activeCards, amount)}</Cards>
     </Container>
   )

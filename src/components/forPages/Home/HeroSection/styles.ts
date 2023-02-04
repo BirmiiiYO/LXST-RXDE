@@ -2,10 +2,16 @@ import styled from 'styled-components'
 
 import { SPACE_BETWEEN, theme } from 'styles/themes'
 
+import { devices } from '../../../../styles/breakpoints'
+
 export const Container = styled.div`
   max-width: 1110px;
   position: relative;
   ${SPACE_BETWEEN}
+  @media ${devices.content} {
+    width: 100vw;
+    padding: 0 10px;
+  }
 `
 export const Text = styled.span`
   ${theme.typography.R_PARAGRAPH_2}

@@ -4,7 +4,7 @@ import { SPACE_BETWEEN } from 'styles/themes'
 
 export const SpaceBetween = styled.div`
   margin-bottom: 50px;
-  width: 100%;
+  width: 250px;
   ${SPACE_BETWEEN};
 `
 

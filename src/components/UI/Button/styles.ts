@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 
+import { devices } from 'styles/breakpoints'
 import { theme } from 'styles/themes'
 import { setButtonStyles } from 'utils/setButtonStyles'
 
@@ -13,7 +14,7 @@ export const StyledButton = styled.button<IButtonStyleProps>`
   padding: ${({ padding }) => padding};
   ${({ background }) => (background ? `background: ${background};` : '')}
   color:${({ color }) => color};
-  ${({ buttonType }) => setButtonStyles(buttonType)}
+  ${({ buttonType }) => buttonType && setButtonStyles(buttonType)}
   &:hover {
     background: ${theme.colors.aliceBlue};
   }

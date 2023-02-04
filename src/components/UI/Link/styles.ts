@@ -5,9 +5,11 @@ import { theme } from 'styles/themes'
 import right from './right.svg'
 import { ILinkStyleProps } from './types'
 
-export const CustomLink = styled.div<ILinkStyleProps>`
+export const CustomLink = styled.button<ILinkStyleProps>`
   ${theme.typography.SB_HEADLINE_7}
   color: ${theme.colors.primary};
+  border: none;
+  color: ${theme.colors.white};
   padding: 5px;
   ${({ icon }) =>
     icon
@@ -26,5 +28,11 @@ export const CustomLink = styled.div<ILinkStyleProps>`
   }
   &:disabled {
     color: ${theme.colors.grey};
+  }
+`
+
+export const Image = styled.img`
+  svg {
+    color: red;
   }
 `

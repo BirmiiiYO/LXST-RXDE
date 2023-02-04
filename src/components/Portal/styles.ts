@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 
-import { devices } from 'styles/breakpoints'
 import { CENTER, theme } from 'styles/themes'
 
 export const PortalContainer = styled.div`
