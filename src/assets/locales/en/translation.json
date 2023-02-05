@@ -102,7 +102,30 @@
     "text": "Sed ut perspiciatis unde omnis iste natus error volupta accusantium doloremque laudantium, totam remiga aperiam, eaque ipsa. Phasellus tristique eu nisl eu consectetur. Morbi urna massa, imperdiet in mauris et, euismod vestibulum lacus. Integer enim elit, tincidunt aliquam ligula id, lacinia auctor orci. Sed quis lobortis eros. Fusce id commodo libero."
   },
   "contactsPage": {
-    "title": "How can we help you?"
+    "title": "How can we help you?",
+    "locations": [
+      {
+        "structureId": 0,
+        "address": "ул. Петруся Бровки 6, Минск",
+        "lat": 53.9177318,
+        "lng": 27.5945042,
+        "name": "БГУИР, корпус № 1"
+      },
+      {
+        "structureId": 1,
+        "address": "ул. Петруся Бровки 4, Минск",
+        "lat": 53.9185803,
+        "lng": 27.5935248,
+        "name": "БГУИР, корпус № 2"
+      },
+      {
+        "structureId": 2,
+        "address": "ул. Петруся Бровки 10, Минск",
+        "lat": 53.9171845,
+        "lng": 27.595426,
+        "name": "БГУИР, корпус № 3"
+      }
+    ]
   },
   "faqPage": {
     "title": "Frequently asked questions",

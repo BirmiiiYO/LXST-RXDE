@@ -21,7 +21,7 @@ const Contacts = () => {
   return (
     <>
       <Container flex="center">
-        <Container flex="space-between" width="1110px" padding="120px 0">
+        <Container flex="space-between" width="1110px">
           <Container flex="column">
             <Text typography={theme.typography.EB_HEADLINE_1}>
               {t('contactsPage.title')}

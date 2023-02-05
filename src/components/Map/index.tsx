@@ -1,15 +1,11 @@
 import React from 'react'
 import 'leaflet/dist/leaflet.css'
 import { useTranslation } from 'react-i18next'
-import {
-  MapContainer,
-  Marker,
-  Popup,
-  TileLayer,
-  useMapEvents,
-} from 'react-leaflet'
+import { Marker, Popup, TileLayer, useMapEvents } from 'react-leaflet'
 
-import { MapWrapper } from './styles'
+import { MapWrapper, StyledMapContainer } from './styles'
+
+// import { LatLngExpression } from 'leaflet'
 
 const LocationMarker = () => {
   const map = useMapEvents({
@@ -27,17 +23,20 @@ const LocationMarker = () => {
 
 export const Map = () => {
   const { t } = useTranslation()
+  // const locations = t('contactsPage.locations', { returnObjects: true }) as []
+
   return (
-    <MapWrapper>
-      <MapContainer
+    <MapWrapper className="map">
+      <StyledMapContainer
         center={[53.9177318, 27.5945042]}
-        zoom={15}
+        zoom={13}
         scrollWheelZoom
-        style={{ height: '100%', width: '100%' }}
       >
-        <TileLayer url="https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoidGVtYWJpcm1pIiwiYSI6ImNsNnVtbTBnZDFmZnkzam4yZm5ibWVtb3UifQ.Oiw_j57yDwQpFyfjpxMngA" />
+        <TileLayer
+          url={`${process.env.MAP_LAYER_path}=${process.env.MAP_LAYER_key}`}
+        />
         <LocationMarker />
-      </MapContainer>
+      </StyledMapContainer>
     </MapWrapper>
   )
 }
