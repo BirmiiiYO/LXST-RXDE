@@ -244,7 +244,7 @@
         "infos": ["For small teams – 5 users", "Community support"],
         "name": "Free trial",
         "text": "Trial plan for starters",
-        "value": "$00"
+        "value": "10"
       },
       {
         "id": 2,
@@ -255,7 +255,7 @@
         ],
         "name": "Lite",
         "text": "Trial plan for starters",
-        "value": "$99"
+        "value": "99"
       },
       {
         "id": 3,
@@ -267,7 +267,7 @@
         ],
         "name": "Basic",
         "text": "Trial plan for starters",
-        "value": "$00"
+        "value": "30"
       },
       {
         "id": 4,
@@ -282,7 +282,7 @@
         ],
         "name": "For enterprises",
         "text": "Trial plan for starters",
-        "value": "Custom"
+        "value": "none"
       }
     ],
     "review": [

@@ -1,3 +1,4 @@
+import { PayPalButtons } from '@paypal/react-paypal-js'
 import styled from 'styled-components'
 
 import { theme } from 'styles/themes'
@@ -43,3 +44,5 @@ export const Info = styled.div`
     padding-right: 5px;
   }
 `
+
+export const PayPalButton = styled(PayPalButtons)``

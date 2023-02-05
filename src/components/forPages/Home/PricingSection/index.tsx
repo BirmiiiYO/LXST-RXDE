@@ -1,3 +1,4 @@
+import { PayPalScriptProvider } from '@paypal/react-paypal-js'
 import React, { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 
@@ -17,18 +18,22 @@ export const PricingSection = () => {
       <Text typography={theme.typography.EB_HEADLINE_2} margin="0 0 50px 0">
         {t('homePage.ourPricingTitle')}
       </Text>
-      <Cards>
-        {cards.map(({ id, infos, name, value }) => (
-          <PriceCard
-            onClick={() => setActivePrice(name)}
-            infos={infos}
-            name={name}
-            value={value}
-            key={id}
-            active={name === activePrice}
-          />
-        ))}
-      </Cards>
+      <PayPalScriptProvider
+        options={{ 'client-id': process.env.PAYPAL_CLIENT_key as string }}
+      >
+        <Cards>
+          {cards.map(({ id, infos, name, value }) => (
+            <PriceCard
+              onClick={() => setActivePrice(name)}
+              infos={infos}
+              name={name}
+              value={value}
+              key={id}
+              active={name === activePrice}
+            />
+          ))}
+        </Cards>
+      </PayPalScriptProvider>
     </Container>
   )
 }
