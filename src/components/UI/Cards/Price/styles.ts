@@ -7,7 +7,7 @@ import check from './check.svg'
 import { IPriceCardStyleProps } from './types'
 
 export const Container = styled.div<IPriceCardStyleProps>`
-  min-height: 535px;
+  height: 535px;
   width: 255px;
   box-shadow: ${theme.shadows.shadowCard3};
   padding: 50px 35px;
