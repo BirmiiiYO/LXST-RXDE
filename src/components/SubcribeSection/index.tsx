@@ -3,16 +3,17 @@ import { useTranslation } from 'react-i18next'
 
 import { Container } from 'components/UI/Container'
 import { InputWithButton } from 'components/UI/InputWithButton'
+import { Section } from 'components/UI/Section'
 import { Text } from 'components/UI/Text'
 import { theme } from 'styles/themes'
 
-import { Content, Info } from './styles'
+import { Info } from './styles'
 
 export const SubscribeSection = () => {
   const { t } = useTranslation()
   return (
-    <Container background={theme.colors.secondary} color={theme.colors.white}>
-      <Content>
+    <Section color={theme.colors.secondary}>
+      <Container flex="space-between" padding="80px 0">
         {' '}
         <Info>
           <Text
@@ -30,7 +31,7 @@ export const SubscribeSection = () => {
           </Text>
         </Info>
         <InputWithButton />
-      </Content>
-    </Container>
+      </Container>
+    </Section>
   )
 }

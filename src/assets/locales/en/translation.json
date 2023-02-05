@@ -363,55 +363,55 @@
     "ourTeam": [
       {
         "id": 1,
-        "avatar": "",
+        "avatar": "https://revu.by/wp-content/uploads/2022/04/screenshot_21-350x500.jpg",
         "name": "Sargis Grigor",
         "position": "Data analyst"
       },
       {
         "id": 2,
-        "avatar": "",
+        "avatar": "https://revu.by/wp-content/uploads/2022/04/screenshot_21-350x500.jpg",
         "name": "Gor Sargis",
         "position": "Data analyst"
       },
       {
         "id": 3,
-        "avatar": "",
+        "avatar": "https://revu.by/wp-content/uploads/2022/04/screenshot_21-350x500.jpg",
         "name": "Maral Mari",
         "position": "Data analyst"
       },
       {
         "id": 4,
-        "avatar": "",
+        "avatar": "https://revu.by/wp-content/uploads/2022/04/screenshot_21-350x500.jpg",
         "name": "Kohar Marine",
         "position": "Data scientist "
       },
       {
         "id": 5,
-        "avatar": "",
+        "avatar": "https://revu.by/wp-content/uploads/2022/04/screenshot_21-350x500.jpg",
         "name": "Bagrat Leo",
         "position": "Data engineer"
       },
       {
         "id": 6,
-        "avatar": "",
+        "avatar": "https://revu.by/wp-content/uploads/2022/04/screenshot_21-350x500.jpg",
         "name": "Hakob Jirair",
         "position": "Data engineer"
       },
       {
         "id": 7,
-        "avatar": "",
+        "avatar": "https://revu.by/wp-content/uploads/2022/04/screenshot_21-350x500.jpg",
         "name": "Ararat Ohannes",
         "position": "Data analyst"
       },
       {
         "id": 8,
-        "avatar": "",
+        "avatar": "https://revu.by/wp-content/uploads/2022/04/screenshot_21-350x500.jpg",
         "name": "Eva Vosgi",
         "position": "Data scientist"
       },
       {
         "id": 9,
-        "avatar": "",
+        "avatar": "https://revu.by/wp-content/uploads/2022/04/screenshot_21-350x500.jpg",
         "name": "Eduard Vosgi",
         "position": "Data scientist"
       }

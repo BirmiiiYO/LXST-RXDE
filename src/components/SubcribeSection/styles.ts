@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 
+import { devices } from 'styles/breakpoints'
 import { CENTER, SPACE_BETWEEN, theme } from 'styles/themes'
 
 export const Container = styled.div`
@@ -8,11 +9,6 @@ export const Container = styled.div`
   background: ${theme.colors.secondary};
   color: ${theme.colors.white};
   border-bottom: 1px solid #607d94;
-`
-export const Content = styled.div`
-  width: 1110px;
-  ${SPACE_BETWEEN}
-  padding:80px 0;
 `
 
 export const Info = styled.div`

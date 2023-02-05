@@ -1,5 +1,16 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 
-const FAQs = () => <h1>FAQs</h1>
+import {} from './styles'
+
+const FAQs = () => {
+  const { t } = useTranslation()
+  return (
+    <>
+      {/* <Desription>zxc</Desription>
+      <FAQSection /> */}
+    </>
+  )
+}
 
 export default FAQs
