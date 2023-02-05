@@ -16,9 +16,9 @@ const BlogPage = lazy(() => import('pages/Blog'))
 export const Routing = () => (
   <Suspense fallback={<Loader />}>
     <Routes>
-      {/* <Route path={EPagePaths.HOME} element={<HomePage />} /> */}
+      <Route path={EPagePaths.HOME} element={<HomePage />} />
       <Route path={EPagePaths.SOLUTIONS} element={<SolutionsPage />} />
-      <Route path={EPagePaths.HOME} element={<ContactsPage />} />
+      <Route path={EPagePaths.CONTACTS} element={<ContactsPage />} />
       <Route path={EPagePaths.ABOUT_US} element={<AboutUsPage />} />
       <Route path={EPagePaths.OUR_TEAM} element={<TeamPage />} />
       <Route path={EPagePaths.FAQ} element={<FAQPage />} />

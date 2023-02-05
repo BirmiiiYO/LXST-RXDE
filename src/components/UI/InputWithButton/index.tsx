@@ -1,9 +1,15 @@
 import emailjs from '@emailjs/browser'
-import React, { ChangeEvent, useRef } from 'react'
+import { useFormik } from 'formik'
+import React, { useRef } from 'react'
+import * as yup from 'yup'
 
 import { StyledButton, StyledInput } from './styles'
 import { IInputWithButtonProps } from './types'
 import { Container } from '../Container'
+
+const contactSchema = yup.object().shape({
+  user_email: yup.string().email('invalid').required(),
+})
 
 export const InputWithButton = ({
   disabled = false,
@@ -11,28 +17,33 @@ export const InputWithButton = ({
 }: IInputWithButtonProps) => {
   const form = useRef<HTMLFormElement>(null)
 
-  const sendEmail = (e: ChangeEvent<HTMLFormElement>) => {
-    e.preventDefault()
-
-    emailjs.sendForm(
-      'service_t2kqwuc',
-      'template_ajoy4bs',
-      form.current as HTMLFormElement,
-      'PzVgDgZCm337dkKD-',
-    )
-
-    if (form.current !== null) {
-      ;(form.current[0] as HTMLInputElement).value = ''
-    }
-  }
+  const formik = useFormik({
+    initialValues: {
+      user_email: '',
+    },
+    validationSchema: contactSchema,
+    onSubmit: (values, { resetForm }) => {
+      emailjs.sendForm(
+        'service_t2kqwuc',
+        'template_ajoy4bs',
+        form.current as HTMLFormElement,
+        'PzVgDgZCm337dkKD-',
+      )
+      resetForm()
+    },
+  })
 
   return (
     <Container flex="space-between" width="445px">
-      <form ref={form} onSubmit={sendEmail}>
+      <form ref={form} onSubmit={formik.handleSubmit}>
         <StyledInput
           type="text"
           placeholder="Your email"
+          autoComplete="off"
+          id="user_email"
           name="user_email"
+          onChange={formik.handleChange}
+          value={formik.values.user_email}
           disabled={disabled}
           isError={isError}
         />
@@ -43,3 +54,5 @@ export const InputWithButton = ({
     </Container>
   )
 }
+
+// {formik.errors.user_email ? <div>error</div> : null}
