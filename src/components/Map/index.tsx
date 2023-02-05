@@ -27,11 +27,7 @@ export const Map = () => {
 
   return (
     <MapWrapper className="map">
-      <StyledMapContainer
-        center={[53.9177318, 27.5945042]}
-        zoom={13}
-        scrollWheelZoom
-      >
+      <StyledMapContainer center={[53.9177318, 27.5945042]} zoom={15}>
         <TileLayer
           url={`${process.env.MAP_LAYER_path}=${process.env.MAP_LAYER_key}`}
         />

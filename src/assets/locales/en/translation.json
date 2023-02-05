@@ -102,7 +102,7 @@
     "text": "Sed ut perspiciatis unde omnis iste natus error volupta accusantium doloremque laudantium, totam remiga aperiam, eaque ipsa. Phasellus tristique eu nisl eu consectetur. Morbi urna massa, imperdiet in mauris et, euismod vestibulum lacus. Integer enim elit, tincidunt aliquam ligula id, lacinia auctor orci. Sed quis lobortis eros. Fusce id commodo libero."
   },
   "contactsPage": {
-    "title": "How can we help you?",
+    "title": "How can we <0>help you?</0>",
     "locations": [
       {
         "structureId": 0,

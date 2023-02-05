@@ -1,11 +1,13 @@
 import React from 'react'
-import { useTranslation } from 'react-i18next'
+import { Trans, useTranslation } from 'react-i18next'
 
 import { Map } from 'components/Map'
 import { Container } from 'components/UI/Container'
 import { Form } from 'components/UI/Form'
 import { Text } from 'components/UI/Text'
 import { theme } from 'styles/themes'
+
+import { Containerr, CusContainer, MoreContainer } from './styles'
 
 const contacts = [
   { title: 'Email', data: 'ensome@info.co.us' },
@@ -21,21 +23,33 @@ const Contacts = () => {
   return (
     <>
       <Container flex="center">
-        <Container flex="space-between" width="1110px">
-          <Container flex="column">
-            <Text typography={theme.typography.EB_HEADLINE_1}>
-              {t('contactsPage.title')}
-            </Text>
-            <Text typography={theme.typography.R_PARAGRAPH_3}>
-              {contacts.map(({ data, title }) => (
-                <>
-                  <h1>{title}</h1>
-                  <h2>{data}</h2>
-                </>
-              ))}
-            </Text>
-          </Container>
-          <Form />
+        <Container flex="space-between" width="1110px" margin="100px 0 120px 0">
+          <CusContainer>
+            <MoreContainer>
+              <Text
+                typography={theme.typography.EB_HEADLINE_1}
+                margin="0 0 400px 0"
+              >
+                <Trans i18nKey="contactsPage.title" components={[<span />]} />
+              </Text>
+              <Containerr>
+                {contacts.map(({ data, title }) => (
+                  <Container flex="column">
+                    <Text typography={theme.typography.SB_HEADLINE_7}>
+                      {title}
+                    </Text>
+                    <Text
+                      typography={theme.typography.R_PARAGRAPH_2}
+                      color="grey"
+                    >
+                      {data}
+                    </Text>
+                  </Container>
+                ))}
+              </Containerr>
+            </MoreContainer>
+            <Form />
+          </CusContainer>
         </Container>
       </Container>
       <Map />

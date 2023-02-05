@@ -10,8 +10,8 @@ export const TextFiled = ({ label, onChange, value }: ITextFieldProps) => (
       <Label>{label}</Label>
       <Input value={value} onChange={onChange} />
     </Block>
-    <EmailInput />
-    <Button type="small" background="white" color="black">
+
+    <Button background="white" color="black">
       Send
     </Button>
   </CustomTextField>

@@ -34,3 +34,12 @@ export const Field = styled.div`
   ${COLUMN}
   margin-bottom:20px;
 `
+
+export const FormButton = styled.button`
+  padding: 13px 40px;
+  border: none;
+  border-radius: 6px;
+  background: red;
+  color: white;
+`
+export const ErrorMessage = styled.div``
