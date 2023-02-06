@@ -16,10 +16,21 @@ export const StyledButton = styled.button<IButtonStyleProps>`
   color:${({ color }) => color};
   ${({ buttonType }) => buttonType && setButtonStyles(buttonType)}
   &:hover {
-    background: ${theme.colors.aliceBlue};
+    color: ${theme.colors.primary};
+    svg {
+      fill: ${theme.colors.primary};
+      stroke: ${theme.colors.primary};
+    }
   }
   &:disabled {
     color: ${theme.colors.grey};
+    svg {
+      fill: ${theme.colors.grey};
+      stroke: ${theme.colors.primary};
+    }
+  }
+  svg {
+    margin-right: 10px;
   }
 `
 

@@ -12,6 +12,7 @@ export const Text = ({
   color = theme.colors.black,
   typography,
   children,
+  сenter = false,
 }: ITextProps) => (
   <CustomTitle
     color={color}
@@ -19,6 +20,7 @@ export const Text = ({
     maxWidth={maxWidth}
     padding={padding}
     margin={margin}
+    сenter={сenter}
   >
     {children}
   </CustomTitle>

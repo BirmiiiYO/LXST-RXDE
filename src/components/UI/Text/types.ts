@@ -8,4 +8,5 @@ export interface ITextProps {
   maxWidth?: string
   padding?: string
   margin?: string
+  сenter?: boolean
 }

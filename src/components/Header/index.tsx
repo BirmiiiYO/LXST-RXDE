@@ -1,8 +1,8 @@
 import React, { FC } from 'react'
 import { useTranslation } from 'react-i18next'
 
-import player from 'assets/player.svg'
-import whiteLogo from 'assets/svg/logo/Logo_white.svg'
+import { PlayerIcon } from 'assets'
+import WhiteLogo from 'assets/images/Logo.png'
 import { Navigation } from 'components/Navigation'
 import { IModalProps } from 'components/Portal/types'
 import { Button } from 'components/UI/Button'
@@ -23,13 +23,13 @@ export const Header: FC<IHeaderProps> = ({ setIsOpen }) => {
   return (
     <Container background={theme.colors.secondary}>
       <Row>
-        <Logo src={whiteLogo} alt="logo" />
+        <Logo src={WhiteLogo} alt="logo" />
         {!isMobile ? (
           <>
             <Navigation />{' '}
             <Button
               padding="10px 14px"
-              icon={player}
+              icon={<PlayerIcon />}
               background={theme.colors.white}
               onClick={() => setIsOpen(true)}
             >

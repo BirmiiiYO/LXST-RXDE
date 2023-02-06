@@ -6,4 +6,5 @@ export interface ISectionProps {
   full?: boolean
 }
 
-export type ISectionStyleProps = Pick<ISectionProps, 'color'>
+export type IContainerStyleProps = Pick<ISectionProps, 'color'>
+export type IContentStyleProps = Pick<ISectionProps, 'full'>

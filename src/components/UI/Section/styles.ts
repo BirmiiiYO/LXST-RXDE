@@ -1,18 +1,19 @@
 import styled from 'styled-components'
 
 import { devices } from 'styles/breakpoints'
-import { CENTER, SPACE_BETWEEN, theme } from 'styles/themes'
+import { CENTER } from 'styles/themes'
 
-import { ISectionStyleProps } from './types'
+import { IContainerStyleProps, ISectionProps } from './types'
 
-export const SectionContainer = styled.div<ISectionStyleProps>`
+export const SectionContainer = styled.div<IContainerStyleProps>`
   background: ${({ color }) => color};
   width: 100%;
-  flex-direction: column;
   ${CENTER}
 `
-export const SectionContent = styled.div`
-  width: 1110px;
+export const SectionContent = styled.div<ISectionProps>`
+  width: ${({ full }) => (full ? '100%' : '1110px')};
+  ${CENTER}
+  flex-direction: column;
   @media ${devices.content} {
     width: 100%;
   }

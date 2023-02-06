@@ -8,8 +8,9 @@ import { ISectionProps } from './types'
 export const Section = ({
   color = theme.colors.white,
   children,
+  full = false,
 }: ISectionProps) => (
   <SectionContainer color={color}>
-    <SectionContent>{children}</SectionContent>
+    <SectionContent full={full}>{children}</SectionContent>
   </SectionContainer>
 )

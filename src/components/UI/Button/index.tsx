@@ -15,15 +15,17 @@ export const Button: FC<IButtonProps> = ({
   color = theme.colors.white,
   onClick,
 }) => (
-  <StyledButton
-    color={color}
-    padding={padding}
-    background={background}
-    buttonType={buttonType}
-    disabled={disabled}
-    onClick={onClick}
-  >
-    <Icon src={icon} />
-    {children}
-  </StyledButton>
+  <>
+    <StyledButton
+      color={color}
+      padding={padding}
+      background={background}
+      buttonType={buttonType}
+      disabled={disabled}
+      onClick={onClick}
+    >
+      {icon}
+      {children}
+    </StyledButton>
+  </>
 )

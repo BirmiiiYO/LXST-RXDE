@@ -1,13 +1,15 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 
-import whiteLogo from 'assets/svg/logo/Logo_white.svg'
-import behance_icon from 'assets/svg/socialsIcons/behance_icon.svg'
-import dribbble_icon from 'assets/svg/socialsIcons/dribbble_icon.svg'
-import fb_icon from 'assets/svg/socialsIcons/facebook_icon.svg'
-import inst_icon from 'assets/svg/socialsIcons/inst_icon.svg'
-import twitter_icon from 'assets/svg/socialsIcons/twitter_icon.svg'
-import youtube_icon from 'assets/svg/socialsIcons/youtube_icon.svg'
+import {
+  BehanceIcon,
+  DribbbleIcon,
+  FacebookIcon,
+  InstIcon,
+  TwitterIcon,
+  YoutubeIcon,
+} from 'assets'
+import WhiteLogo from 'assets/images/Logo.png'
 import { Button } from 'components/UI/Button'
 import { Container } from 'components/UI/Container'
 import { Text } from 'components/UI/Text'
@@ -27,12 +29,12 @@ import {
 } from './styles'
 
 const icons = [
-  behance_icon,
-  fb_icon,
-  youtube_icon,
-  dribbble_icon,
-  twitter_icon,
-  inst_icon,
+  <BehanceIcon />,
+  <DribbbleIcon />,
+  <FacebookIcon />,
+  <YoutubeIcon />,
+  <TwitterIcon />,
+  <InstIcon />,
 ]
 const contacts = [
   'ensome@info.co.us',
@@ -54,7 +56,7 @@ export const DesktopFooter = () => {
     <Content>
       <Information>
         <Block>
-          <Logo src={whiteLogo} alt="footer logo" />
+          <Logo src={WhiteLogo} alt="logo" />
           <Text
             typography={theme.typography.R_PARAGRAPH_3}
             color={theme.colors.grey}
@@ -62,12 +64,7 @@ export const DesktopFooter = () => {
           >
             {t('base.smallText')}
           </Text>
-          <Icons>
-            {' '}
-            {icons.map(icon => (
-              <Icon src={icon} />
-            ))}
-          </Icons>
+          <Icons> {icons.map(icon => icon)}</Icons>
         </Block>
         <Block>
           <Text

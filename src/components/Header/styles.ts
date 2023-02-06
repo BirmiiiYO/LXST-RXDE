@@ -14,7 +14,7 @@ export const Row = styled.div`
 `
 
 export const Logo = styled.img`
-  width: 146px;
+  width: 130px;
   height: 41px;
   @media ${devices.mobileL} {
     width: 92px;
