@@ -6,11 +6,11 @@ import { SectionContainer, SectionContent } from './styles'
 import { ISectionProps } from './types'
 
 export const Section = ({
-  color = theme.colors.white,
+  backgroundColor = 'white',
   children,
   full = false,
 }: ISectionProps) => (
-  <SectionContainer color={color}>
+  <SectionContainer backgroundColor={backgroundColor}>
     <SectionContent full={full}>{children}</SectionContent>
   </SectionContainer>
 )

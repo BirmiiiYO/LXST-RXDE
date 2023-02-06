@@ -4,7 +4,6 @@ import { useTranslation } from 'react-i18next'
 import { ClientsSection } from 'components/ClientsSection'
 import {
   BenefitsSection,
-  BlogSection,
   CardsSection,
   CompanyOverviewSection,
   ContactUsSection,

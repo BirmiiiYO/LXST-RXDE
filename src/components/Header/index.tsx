@@ -21,7 +21,7 @@ export const Header: FC<IHeaderProps> = ({ setIsOpen }) => {
   const { t } = useTranslation('translation')
 
   return (
-    <Container background={theme.colors.secondary}>
+    <Container background="secondary">
       <Row>
         <Logo src={WhiteLogo} alt="logo" />
         {!isMobile ? (
@@ -33,10 +33,7 @@ export const Header: FC<IHeaderProps> = ({ setIsOpen }) => {
               background={theme.colors.white}
               onClick={() => setIsOpen(true)}
             >
-              <Text
-                typography={theme.typography.SB_HEADLINE_7}
-                maxWidth="600px"
-              >
+              <Text typography="SBHeadline7" maxWidth="600px">
                 {t('base.watchDemo')}
               </Text>
             </Button>

@@ -12,21 +12,14 @@ import { Info } from './styles'
 export const SubscribeSection = () => {
   const { t } = useTranslation()
   return (
-    <Section color={theme.colors.secondary}>
-      <Container flex="space-between" padding="80px 0">
+    <Section backgroundColor="secondary">
+      <Container flex="space-between" padding="80px 0" background="secondary">
         {' '}
         <Info>
-          <Text
-            typography={theme.typography.EB_HEADLINE_2}
-            color={theme.colors.white}
-            margin="0 0 24px 0"
-          >
+          <Text typography="EbHeadline2" color="white" margin="0 0 24px 0">
             {t('base.subscribe')}
           </Text>
-          <Text
-            typography={theme.typography.R_PARAGRAPH_1}
-            color={theme.colors.white}
-          >
+          <Text typography="RParagraph1" color="white">
             {t('base.mediumText')}
           </Text>
         </Info>

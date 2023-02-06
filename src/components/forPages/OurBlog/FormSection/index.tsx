@@ -11,15 +11,13 @@ import { FormContainer } from './styles'
 export const FormSection = () => {
   const { t } = useTranslation()
   return (
-    <Container background={theme.colors.aliceBlue} flex="center">
+    <Container background="aliceBlue" flex="center">
       <FormContainer>
-        <Container flex="column" padding="0 125px 0 0">
-          <Text typography={theme.typography.EB_HEADLINE_2} maxWidth="540px">
+        <Container flex="column" padding="0 125px 0 0" background="aliceBlue">
+          <Text typography="EbHeadline2" maxWidth="540px">
             {t('aboutUsPage.formTitle')}
           </Text>
-          <Text typography={theme.typography.R_PARAGRAPH_2}>
-            {t('base.mediumText')}
-          </Text>
+          <Text typography="RParagraph2">{t('base.mediumText')}</Text>
         </Container>
         <Form />
       </FormContainer>

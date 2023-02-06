@@ -15,14 +15,8 @@ export const InfoSection = () => {
     <Container flex="column" width="1110px">
       <Container flex="space-between" margin="120px 0">
         <Container width="445px" flex="column">
-          <Text typography={theme.typography.EB_HEADLINE_1}>
-            {t('aboutUsPage.whoWeAre')}
-          </Text>
-          <Text
-            typography={theme.typography.R_PARAGRAPH_1}
-            color={theme.colors.grey}
-            margin="30px 0"
-          >
+          <Text>{t('aboutUsPage.whoWeAre')}</Text>
+          <Text typography="RParagraph1" color="grey" margin="30px 0">
             {t('aboutUsPage.text')}
           </Text>
         </Container>
@@ -31,14 +25,8 @@ export const InfoSection = () => {
       <Container flex="space-between" width="1110px" margin="0 0 134px 0">
         <Image src={bottomImg} alt="our mission" />
         <Container width="445px" flex="column">
-          <Text typography={theme.typography.EB_HEADLINE_1}>
-            {t('aboutUsPage.ourMission')}
-          </Text>
-          <Text
-            typography={theme.typography.R_PARAGRAPH_1}
-            color={theme.colors.grey}
-            margin="30px 0"
-          >
+          <Text>{t('aboutUsPage.ourMission')}</Text>
+          <Text typography="RParagraph1" color="grey" margin="30px 0">
             {t('aboutUsPage.text')}
           </Text>
         </Container>

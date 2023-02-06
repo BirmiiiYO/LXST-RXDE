@@ -5,8 +5,8 @@ import { IContainerProps } from './types'
 
 export const Container = ({
   children,
-  background = 'inherit',
-  color = 'inherit',
+  background = 'white',
+  color = 'black',
   flex = 'center',
   margin = '0',
   width = '100%',

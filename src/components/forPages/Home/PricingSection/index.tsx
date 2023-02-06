@@ -15,7 +15,7 @@ export const PricingSection = () => {
   const [activePrice, setActivePrice] = useState('Free trial')
   return (
     <Container width="1110px" margin="120px 0" flex="column">
-      <Text typography={theme.typography.EB_HEADLINE_2} margin="0 0 50px 0">
+      <Text typography="EbHeadline2" margin="0 0 50px 0">
         {t('homePage.ourPricingTitle')}
       </Text>
       <PayPalScriptProvider

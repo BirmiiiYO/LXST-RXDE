@@ -8,15 +8,13 @@ import { theme } from 'styles/themes'
 export const DescriptionSection = () => {
   const { t } = useTranslation()
   return (
-    <Container flex="space-between" padding="120px 0 90px 0">
-      <Text typography={theme.typography.EB_HEADLINE_1} color="white">
-        {t('ourTeamPage.title')}
-      </Text>
-      <Text
-        typography={theme.typography.R_PARAGRAPH_3}
-        maxWidth="540px"
-        color={theme.colors.aliceBlue}
-      >
+    <Container
+      flex="space-between"
+      padding="120px 0 90px 0"
+      background="secondary"
+    >
+      <Text color="white">{t('ourTeamPage.title')}</Text>
+      <Text typography="RParagraph3" maxWidth="540px" color="aliceBlue">
         {t('ourTeamPage.text')}
       </Text>
     </Container>

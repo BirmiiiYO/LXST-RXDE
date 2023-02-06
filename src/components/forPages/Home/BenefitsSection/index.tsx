@@ -12,16 +12,13 @@ export const BenefitsSection = () => {
   const { t } = useTranslation()
   const cards = t('cards.service', { returnObjects: true }) as []
   return (
-    <Container color={theme.colors.black} background={theme.colors.aliceBlue}>
+    <Container background="aliceBlue">
       <Content>
         <Info>
-          <Text typography={theme.typography.EB_HEADLINE_2} margin="0 0 30px 0">
+          <Text typography="EbHeadline2" margin="0 0 30px 0">
             {t('homePage.benefit')}
           </Text>
-          <Text
-            typography={theme.typography.R_PARAGRAPH_2}
-            color={theme.colors.grey}
-          >
+          <Text typography="RParagraph2" color="grey">
             {t('base.largeText')}
           </Text>
         </Info>

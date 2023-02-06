@@ -6,7 +6,6 @@ import { ContactUsSection } from 'components/ContactsUsSection'
 import { SolutionCards } from 'components/forPages/Solutions/SolutionCards'
 import { WhyChooseUsSection } from 'components/forPages/Solutions/WhyChooseUsSection'
 import { SubscribeSection } from 'components/SubcribeSection'
-import { Cards } from 'components/UI/Cards'
 import { ReviewCard } from 'components/UI/Cards/Review'
 import { Section } from 'components/UI/Section'
 import { Text } from 'components/UI/Text'
@@ -18,22 +17,16 @@ const Solutions = () => {
   return (
     <>
       <Section>
-        <Text
-          typography={theme.typography.B_HEADLINE_6}
-          color="blue"
-          margin="100px 0 15px 0"
-        >
+        <Text typography="BHeadline6" color="primary" margin="100px 0 15px 0">
           solutions
         </Text>
-        <Text typography={theme.typography.EB_HEADLINE_1}>
-          {t('solutionPage.title')}
-        </Text>
+        <Text>{t('solutionPage.title')}</Text>
         <Text
-          typography={theme.typography.R_PARAGRAPH_1}
           сenter
           color="grey"
           maxWidth="450px"
           margin="15px 0 0 0"
+          typography="RParagraph1"
         >
           {t('solutionPage.text')}
         </Text>

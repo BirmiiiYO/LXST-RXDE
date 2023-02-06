@@ -1,10 +1,12 @@
 import { ReactNode } from 'react'
-import { FlattenSimpleInterpolation } from 'styled-components'
+
+import { TColor } from 'types/Color'
+import { TTypography } from 'types/Typography'
 
 export interface ITextProps {
-  typography: FlattenSimpleInterpolation
+  typography?: TTypography
   children: ReactNode
-  color?: string
+  color?: TColor
   maxWidth?: string
   padding?: string
   margin?: string

@@ -30,7 +30,7 @@ export const CardsSection = ({
       padding="0 10px"
     >
       <Container flex="space-between">
-        <Text typography={theme.typography.EB_HEADLINE_2}>{title}</Text>
+        <Text typography="EbHeadline2">{title}</Text>
         <SpaceBetween>
           <ControlsDirection
             direction="right"

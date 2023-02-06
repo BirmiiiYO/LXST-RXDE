@@ -2,11 +2,13 @@ import styled from 'styled-components'
 
 import { devices } from 'styles/breakpoints'
 import { CENTER } from 'styles/themes'
+import { getColor } from 'utils/getColor'
 
 import { IContainerStyleProps, ISectionProps } from './types'
 
 export const SectionContainer = styled.div<IContainerStyleProps>`
-  background: ${({ color }) => color};
+  background: ${({ backgroundColor }) =>
+    backgroundColor && getColor(backgroundColor)};
   width: 100%;
   ${CENTER}
 `

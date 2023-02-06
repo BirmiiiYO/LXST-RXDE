@@ -15,17 +15,13 @@ export const FeaturesSection = () => {
     <>
       {' '}
       <Container width="1110px" flex="space-between" margin="120px 0">
-        <Text
-          typography={theme.typography.EB_HEADLINE_1}
-          maxWidth="450px"
-          margin="0 300px 0 0"
-        >
+        <Text typography="EbHeadline2" maxWidth="450px" margin="0 300px 0 0">
           <Trans i18nKey="homePage.featureTitle" components={[<span />]} />
         </Text>
         <Container flex="column">
           <Text
-            typography={theme.typography.R_PARAGRAPH_2}
-            color={theme.colors.grey}
+            typography="RParagraph2"
+            color="grey"
             maxWidth="400px"
             margin="0 0 30px 0"
           >
@@ -40,17 +36,12 @@ export const FeaturesSection = () => {
       <SolutionContainer>
         <Image src={featureImage} />
         <Description>
-          <Text
-            maxWidth="450px"
-            padding="10px"
-            color={theme.colors.black}
-            typography={theme.typography.EB_HEADLINE_2}
-          >
+          <Text maxWidth="450px" padding="10px" typography="EbHeadline2">
             {t('homePage.newSolution')}
           </Text>
           <Text
-            typography={theme.typography.R_PARAGRAPH_2}
-            color={theme.colors.grey}
+            typography="RParagraph2"
+            color="grey"
             maxWidth="540px"
             margin="0 0 30px 0"
           >

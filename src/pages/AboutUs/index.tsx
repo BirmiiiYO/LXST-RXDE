@@ -21,22 +21,14 @@ const AboutUs = () => {
   return (
     <AboutContainer>
       <TitleContainer>
-        <Text typography={theme.typography.EB_HEADLINE_1} margin="0 0 20px 0">
-          {t('aboutUsPage.title')}
-        </Text>
+        <Text margin="0 0 20px 0">{t('aboutUsPage.title')}</Text>
         <Breadcrumb>Home | About Us</Breadcrumb>
       </TitleContainer>
       <InfoSection />
       <NumberSection />
       <Container flex="column" width="1110px" margin="120px 0 30px 0">
-        <Text typography={theme.typography.EB_HEADLINE_1} margin=" 0 0 30px 0">
-          {t('aboutUsPage.ourCustomers')}
-        </Text>
-        <Text
-          maxWidth="445px"
-          typography={theme.typography.R_PARAGRAPH_1}
-          color={theme.colors.grey}
-        >
+        <Text margin=" 0 0 30px 0">{t('aboutUsPage.ourCustomers')}</Text>
+        <Text maxWidth="445px" typography="RParagraph1" color="grey">
           {t('base.mediumText')}
         </Text>
       </Container>

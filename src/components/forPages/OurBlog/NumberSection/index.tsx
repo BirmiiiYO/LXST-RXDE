@@ -10,15 +10,9 @@ export const NumberSection = () => {
   const { t } = useTranslation()
   const blocks = t('aboutUsPage.data', { returnObjects: true }) as []
   return (
-    <Container
-      flex="center"
-      background={theme.colors.aliceBlue}
-      padding="100px 0"
-    >
-      <Container flex="column" width="1110px">
-        <Text typography={theme.typography.EB_HEADLINE_1} margin="0 auto">
-          {t('aboutUsPage.inNumbers')}
-        </Text>
+    <Container flex="center" background="aliceBlue" padding="100px 0">
+      <Container flex="column" width="1110px" background="aliceBlue">
+        <Text margin="0 auto">{t('aboutUsPage.inNumbers')}</Text>
         <CompanyOverviewSection blocks={blocks} />
       </Container>
     </Container>

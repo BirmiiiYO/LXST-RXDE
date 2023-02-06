@@ -14,13 +14,11 @@ import { Button } from 'components/UI/Button'
 import { Container } from 'components/UI/Container'
 import { Text } from 'components/UI/Text'
 import { links } from 'constants/links'
-import { theme } from 'styles/themes'
 
 import {
   Block,
   Content,
   CustomLink,
-  Icon,
   Icons,
   Information,
   Logo,
@@ -57,63 +55,44 @@ export const DesktopFooter = () => {
       <Information>
         <Block>
           <Logo src={WhiteLogo} alt="logo" />
-          <Text
-            typography={theme.typography.R_PARAGRAPH_3}
-            color={theme.colors.grey}
-            maxWidth="285px"
-          >
+          <Text typography="RParagraph3" color="grey" maxWidth="285px">
             {t('base.smallText')}
           </Text>
           <Icons> {icons.map(icon => icon)}</Icons>
         </Block>
         <Block>
           <Text
-            typography={theme.typography.B_HEADLINE_6}
+            typography="BHeadline6"
             margin="0 0 31px 0"
             maxWidth="285px"
-            color={theme.colors.white}
+            color="white"
           >
             {t('footer.quickLink')}
           </Text>
           {links.map(({ name }) => (
-            <Text
-              typography={theme.typography.R_PARAGRAPH_3}
-              color={theme.colors.grey}
-              margin="0 0 12px 0"
-            >
+            <Text typography="RParagraph3" color="grey" margin="0 0 12px 0">
               <CustomLink to="/">{name}</CustomLink>
             </Text>
           ))}
         </Block>
         <Block>
-          <Text
-            typography={theme.typography.B_HEADLINE_6}
-            margin="0 0 31px 0"
-            color={theme.colors.white}
-          >
+          <Text typography="BHeadline6" margin="0 0 31px 0" color="white">
             Service
           </Text>
           {services.map(link => (
-            <Text
-              typography={theme.typography.R_PARAGRAPH_3}
-              color={theme.colors.grey}
-            >
+            <Text typography="RParagraph3" color="grey">
               <CustomLink to="/">{link}</CustomLink>
             </Text>
           ))}
         </Block>
         <Block>
-          <Text
-            typography={theme.typography.B_HEADLINE_6}
-            margin="0 0 31px 0"
-            color={theme.colors.white}
-          >
+          <Text typography="BHeadline6" margin="0 0 31px 0" color="white">
             Contact info
           </Text>
           {contacts.map(link => (
             <Text
-              typography={theme.typography.R_PARAGRAPH_3}
-              color={theme.colors.grey}
+              typography="RParagraph3"
+              color="grey"
               margin="0 0 12px 0"
               maxWidth="230px"
             >
@@ -123,10 +102,7 @@ export const DesktopFooter = () => {
         </Block>
       </Information>
       <PrivacyInfo>
-        <Text
-          typography={theme.typography.R_PARAGRAPH_3}
-          color={theme.colors.grey}
-        >
+        <Text typography="RParagraph3" color="grey">
           Ensome© 2022 All Rights Reserved
         </Text>
         <Container flex="space-between" width="400px">
@@ -143,17 +119,11 @@ export const DesktopFooter = () => {
           ))}
         </Container>
         <SpaceBetween>
-          <Text
-            typography={theme.typography.R_PARAGRAPH_3}
-            color={theme.colors.grey}
-          >
+          <Text typography="RParagraph3" color="grey">
             Privacy policy
           </Text>
 
-          <Text
-            typography={theme.typography.R_PARAGRAPH_3}
-            color={theme.colors.grey}
-          >
+          <Text typography="RParagraph3" color="grey">
             Terms of us
           </Text>
         </SpaceBetween>

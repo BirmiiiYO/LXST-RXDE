@@ -13,7 +13,7 @@ export const CompanyOverviewSection = () => {
   }) as []
   return (
     <Container>
-      <Text typography={theme.typography.EB_HEADLINE_2} margin="120px 0 50px 0">
+      <Text typography="EbHeadline2" margin="120px 0 50px 0">
         {t('companyOverviewSection.title')}
       </Text>
       <SpaceBetween>
@@ -25,11 +25,7 @@ export const CompanyOverviewSection = () => {
             </HowMuch>
           ))}
         </Data>
-        <Text
-          typography={theme.typography.R_PARAGRAPH_2}
-          color={theme.colors.grey}
-          maxWidth="450px"
-        >
+        <Text typography="RParagraph2" color="grey" maxWidth="450px">
           {t('base.mediumText')}
         </Text>
       </SpaceBetween>

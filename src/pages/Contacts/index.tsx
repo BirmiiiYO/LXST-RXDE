@@ -26,22 +26,14 @@ const Contacts = () => {
         <Container flex="space-between" width="1110px" margin="100px 0 120px 0">
           <CusContainer>
             <MoreContainer>
-              <Text
-                typography={theme.typography.EB_HEADLINE_1}
-                margin="0 0 400px 0"
-              >
+              <Text margin="0 0 400px 0">
                 <Trans i18nKey="contactsPage.title" components={[<span />]} />
               </Text>
               <Containerr>
                 {contacts.map(({ data, title }) => (
                   <Container flex="column">
-                    <Text typography={theme.typography.SB_HEADLINE_7}>
-                      {title}
-                    </Text>
-                    <Text
-                      typography={theme.typography.R_PARAGRAPH_2}
-                      color="grey"
-                    >
+                    <Text typography="SBHeadline7">{title}</Text>
+                    <Text typography="RParagraph2" color="grey">
                       {data}
                     </Text>
                   </Container>
