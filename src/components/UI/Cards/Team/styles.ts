@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 
+import { devices } from 'styles/breakpoints'
 import { theme } from 'styles/themes'
 
 import { IBackgroundStyleProps } from './types'
@@ -13,6 +14,10 @@ export const Container = styled.div<IBackgroundStyleProps>`
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 6px;
+  @media ${devices.laptop} {
+    width: 160px;
+    height: 220px;
+  }
 `
 
 export const Info = styled.div`

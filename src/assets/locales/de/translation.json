@@ -281,7 +281,7 @@
         ],
         "name": "Basic",
         "text": "Schnupperplan für Einsteiger",
-        "value": "dreißig"
+        "value": "100"
       },
       {
         "id": 4,
@@ -295,7 +295,7 @@
           "Alle Funktionen enthalten"
         ],
         "name": "Für die Firma",
-        "value": "niemand"
+        "value": "none"
       }
     ],
     "review": [

@@ -281,7 +281,7 @@
         ],
         "name": "Basique",
         "text": "Plan d'essai pour les débutants",
-        "value": "trente"
+        "value": "100"
       },
       {
         "id": 4,
@@ -295,7 +295,7 @@
           "Toutes les fonctionnalités incluses"
         ],
         "name": "Pour entreprise",
-        "value": "personne"
+        "value": "none"
       }
     ],
     "review": [

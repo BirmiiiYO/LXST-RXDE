@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 
+import { devices } from 'styles/breakpoints'
 import { theme } from 'styles/themes'
 
 import check from './check.svg'
@@ -10,6 +11,9 @@ export const Container = styled.div`
   padding: 41px 35px 35px 35px;
   box-shadow: ${theme.shadows.shadowCard3};
   border-radius: 6px;
+  @media ${devices.laptop} {
+    padding: 35px 25px 30px 25px;
+  }
 `
 
 export const Title = styled.h2`

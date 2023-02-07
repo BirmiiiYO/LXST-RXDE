@@ -37,7 +37,7 @@ export const FeaturesSection = () => {
         <Image src={featureImage} />
         <Description>
           <Text maxWidth="450px" padding="10px" typography="EbHeadline2">
-            {t('homePage.newSolution')}
+            {t('homePage.featureSubtitleTitle')}
           </Text>
           <Text
             typography="RParagraph2"

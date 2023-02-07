@@ -2,14 +2,13 @@ import React from 'react'
 import styled from 'styled-components'
 
 import { heroImages } from 'assets/images/HeroPage'
-import { Container } from 'components/UI/Container'
 
-const Sponsor = styled.img``
+import { ClientContainer, Sponsor } from './styles'
 
 export const ClientsSection = () => (
-  <Container margin="50px 10px 80px">
+  <ClientContainer>
     {heroImages.map(logo => (
       <Sponsor src={logo} alt="sponsors" />
     ))}
-  </Container>
+  </ClientContainer>
 )

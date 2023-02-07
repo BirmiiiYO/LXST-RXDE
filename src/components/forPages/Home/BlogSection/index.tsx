@@ -16,9 +16,7 @@ export const BlogSection = () => {
   return (
     <Container width="1110px" margin="0 0 120px 0" flex="column">
       <SpaceBetween>
-        <Text typography={theme.typography.EB_HEADLINE_2}>
-          {t('homePage.ourBlog')}
-        </Text>
+        <Text typography="EbHeadline2">{t('homePage.ourBlog')}</Text>
         <div>
           <ControlsDirection
             direction="right"
