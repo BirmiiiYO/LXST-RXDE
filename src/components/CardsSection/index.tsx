@@ -3,9 +3,10 @@ import React, { useState } from 'react'
 import { Container } from 'components/UI/Container'
 import { ControlsDirection } from 'components/UI/ControlsDirection'
 import { Text } from 'components/UI/Text'
+import { useAppSelector } from 'hooks/Redux'
 import { theme } from 'styles/themes'
 
-import { Cards, SpaceBetween } from './styles'
+import { Cards, CardsContainer, SpaceBetween } from './styles'
 import { ISwitchCardsProps } from './types'
 
 export const CardsSection = ({
@@ -23,13 +24,8 @@ export const CardsSection = ({
   }
 
   return (
-    <Container
-      width="1110px"
-      flex="column"
-      margin="157px 0 0 0"
-      padding="0 10px"
-    >
-      <Container flex="space-between">
+    <Container width="1110px" flex="column" margin="157px 0 0 0">
+      <CardsContainer>
         <Text typography="EbHeadline2">{title}</Text>
         <SpaceBetween>
           <ControlsDirection
@@ -43,7 +39,7 @@ export const CardsSection = ({
             disabled={activeCards + amount === length}
           />
         </SpaceBetween>
-      </Container>
+      </CardsContainer>
       <Cards>{render(activeCards, amount)}</Cards>
     </Container>
   )

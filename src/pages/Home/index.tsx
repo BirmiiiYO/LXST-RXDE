@@ -14,6 +14,7 @@ import {
 import { SubscribeSection } from 'components/SubcribeSection'
 import { BlogCard } from 'components/UI/Cards/Blog'
 import { ReviewCard } from 'components/UI/Cards/Review'
+import { useAppSelector } from 'hooks/Redux'
 
 import { Container } from './styles'
 
@@ -21,6 +22,7 @@ const Home = () => {
   const { t } = useTranslation()
   const reviews = t('cards.review', { returnObjects: true }) as []
   const blogs = t('cards.blog', { returnObjects: true }) as []
+  const isMobile = useAppSelector(state => state.PageWidthReducer.isMobile)
   return (
     <Container>
       <HeroSection />
@@ -29,7 +31,7 @@ const Home = () => {
       <ClientsSection />
       <BenefitsSection />
       <CardsSection
-        amount={3}
+        amount={isMobile ? 1 : 3}
         length={reviews.length}
         title={t('homePage.testImonalsTitle')}
         render={(activeCards, amount) =>
@@ -40,7 +42,7 @@ const Home = () => {
       />
       <PricingSection />
       <CardsSection
-        amount={2}
+        amount={isMobile ? 1 : 2}
         length={blogs.length}
         title={t('homePage.ourBlogTitle')}
         render={(activeCards, amount) =>

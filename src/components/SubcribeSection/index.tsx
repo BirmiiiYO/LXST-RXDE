@@ -5,7 +5,6 @@ import { Container } from 'components/UI/Container'
 import { InputWithButton } from 'components/UI/InputWithButton'
 import { Section } from 'components/UI/Section'
 import { Text } from 'components/UI/Text'
-import { theme } from 'styles/themes'
 
 import { Info } from './styles'
 
