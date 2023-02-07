@@ -15,13 +15,6 @@ export const Content = styled.div`
   }
 `
 
-export const Information = styled.div`
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 50px;
-`
-
 export const Logo = styled.img`
   max-width: 141px;
   margin-bottom: 20px;
@@ -30,7 +23,9 @@ export const Logo = styled.img`
 export const Block = styled.div`
   ${COLUMN}
 `
-export const Icons = styled.div``
+export const Icons = styled.div`
+  margin: 20px;
+`
 
 export const Text = styled.div`
   max-width: 285px;
@@ -60,4 +55,11 @@ export const CustomLink = styled(Link)`
 
 export const Mobile = styled.div`
   padding: 40px 0 20px 0;
+`
+
+export const LangIcon = styled.div`
+  svg {
+    width: 40px;
+    height: 20px;
+  }
 `

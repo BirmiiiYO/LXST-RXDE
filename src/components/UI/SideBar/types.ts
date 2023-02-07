@@ -1,7 +1,7 @@
-import { ReactNode } from 'react'
+import { MouseEventHandler, ReactNode } from 'react'
 
 export interface ISideBarProps {
   children: ReactNode
-  onClick: () => void
+  onClick: MouseEventHandler<HTMLDivElement> | undefined
   disabled?: boolean
 }

@@ -20,7 +20,6 @@ const Watch: ComponentStory<typeof Button> = args => (
 export const primary = learnMore.bind({})
 primary.args = {
   buttonType: EButtonType.PRIMARY,
-  icon: player,
 }
 export const round = learnMore.bind({})
 round.args = {
@@ -31,6 +30,5 @@ round.args = {
 export const borderWatch = Watch.bind({})
 borderWatch.args = {
   buttonType: EButtonType.BORDER_WATCH,
-  icon: player,
   padding: '100px ',
 }

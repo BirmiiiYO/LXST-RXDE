@@ -1,118 +1,132 @@
 {
   "base": {
-    "contactUs": "Свяжитесь с нами",
-    "discoverMore": "Узнать больше",
-    "doYouNeedHelp": "Вам нужна помощь?",
+    "contactUs": "Связаться с нами",
+    "discoverMore": "Открой для себя больше",
+    "doYouNeedHelp": "Нужна помощь?",
+    "learnMore": "Узнать больше",
     "largeText": "Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quaeab illo inventorye. ",
-    "learnMore": "Учить больше",
-    "mediumText": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit Laboriosam, nisi ut aliquid ex ea commodi.",
-    "reviewCardText": "«Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit Laboriosam, nisi ut aliquid ex ea commodi consequatur? ",
-    "send": "послать",
-    "email": "Ваш адрес электронной почты",
     "smallText": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
-    "subscribe": "Подпишитесь на нашу рассылку",
-    "watchDemo": "Посмотреть демо"
-  },
-  "helpSeciton": {
-    "title": "Вам нужна помощь?",
-    "text": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit Laboriosam, nisi ut aliquid ex ea commodi."
-  },
-  "subscribeSeciton": {
-    "title": "Подпишитесь на нашу рассылку",
-    "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+    "mediumText": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit Laboriosam, nisi ut aliquid ex ea commodi.",
+    "send": "Отправить",
+    "email": "Почта",
+    "enterName": "Введите ваше имя",
+    "enterEmail": "Введите адрес электронной почты",
+    "enterTheme": "Введите тему",
+    "enterMessage": "Введите сообщение",
+    "subscribe": "Подписывайтесь на новости",
+    "watchDemo": "Посмотреть демо",
+    "home": "Дом",
+    "aboutUs": "О нас",
+    "softwareTrends": "Тенденции разработки программного обеспечения в 2022 году ",
+    "contacts": "Контакты",
+    "ourTeam": "Наша команда",
+    "faqs": "Часто задаваемые вопросы",
+    "solutions": "Решения"
   },
   "companyOverviewSection": {
     "title": "Мы предоставляем услуги, которые гарантируют ваш успех",
     "data": [
       {
         "amount": "1830",
-        "name": "Проект выполнен"
+        "name": "Проектов выполнено"
       },
       {
         "amount": "834",
-        "name": "Довольные клиенты"
+        "name": "Довольных клиентов"
       },
       {
         "amount": "390",
-        "name": "Управление данными"
+        "name": "Управлений данными"
       }
     ]
   },
   "footer": {
     "privacyPolicy": "Политика конфиденциальности",
-    "quickLink": "Прямая ссылка",
+    "quickLink": "Быстрый доступ",
     "service": "Услуга",
     "services": [
       "Страницы",
       "Элементы",
-      "часто задаваемые вопросы",
+      "Часто задаваемые вопросы",
       "Цены",
-      "Карта сайта"
+      "Карта"
     ],
-    "termsOfUs": "Условия о нас"
+    "termsOfUs": "Условия использования"
   },
   "homePage": {
     "heroTitle": "Откройте для себя истинную силу ваших данных с помощью <0>Ensome</0>",
-    "featureTitle": "<0>новейший</0> платформа бизнес-аналитики",
+    "featureTitle": "<0>новейшая</0> платформа бизнес-аналитики",
     "featureSubtitleTitle": "Принципиально новые решения для данных",
     "benefitsTitle": "Преимущества Ensome",
     "testImonalsTitle": "Отзывы",
-    "ourPricingTitle": "Наши цены",
+    "ourPricingTitle": "Цены",
     "ourBlogTitle": "Преимущества Ensome",
-    "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo Inventor veritatis et Quasi architecto beatae vitae dicta sunt explicabo.",
-    "benefit": "Преимущества Энсоме",
-    "ourBlog": "Наш блог",
-    "newSolution": "Принципиально новые решения для данных"
+    "ourBlog": "Блог"
   },
   "servicePage": {
-    "title": "Услуги по анализу данных",
-    "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quaeab illo inventorye."
+    "title": "Услуги по анализу данных"
   },
   "aboutUsPage": {
     "title": "О нас",
-    "whoWeAre": "Кто мы есть",
-    "ourMission": "Наша миссия",
+    "whoWeAre": "Кто мы",
+    "ourMission": "Наша цель",
     "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab ill Inventor veritatis et Quasi architecto beatae vitae dicta sunt explicabo. ",
-    "inNumbers": "Энсом в цифрах",
+    "inNumbers": "Ensome в цифрах",
     "data": [
       {
-        "amount": "1830 г.",
-        "name": "Проект выполнен"
+        "amount": "1830",
+        "name": "Проектов выполнено"
       },
       {
         "amount": "200",
-        "name": "Аналитика данных"
+        "name": "Аналитики данных"
       },
       {
         "amount": "390",
-        "name": "Управление данными"
+        "name": "Управлений данными"
       },
       {
         "amount": "834",
-        "name": "Довольные клиенты"
+        "name": "Довольных клиентов"
       }
     ],
     "ourCustomers": "Наши клиенты",
     "reviewTitle": "Что говорят наши клиенты",
-    "formTitle": "Остались вопросы? "
-  },
-  "blogPage": {
-    "title": "Тенденции разработки программного обеспечения 2022 года объясняются преимуществами"
+    "formTitle": "Остались вопросы?"
   },
   "ourTeamPage": {
     "title": "Наша команда",
     "text": "Sed ut perspiciatis unde omnis iste natus error volupta accusantium doloremque laudantium, totam remiga aperiam, eaque ipsa. "
   },
   "contactsPage": {
-    "title": "Как мы можем тебе помочь?"
+    "title": "Как мы можем помочь <0>тебе?</0>",
+    "locations": [
+      {
+        "structureId": 1,
+        "lat": 35.1369274,
+        "lng": 135.5298123,
+        "name": "Oyamahigashicho 2 Go Park"
+      },
+      {
+        "structureId": 2,
+        "lat": 53.9185803,
+        "lng": 27.5935248,
+        "name": "BSUIR"
+      },
+      {
+        "structureId": 3,
+        "lat": 40.6838171,
+        "lng": -74.0593493,
+        "name": "Statue of Liberty"
+      }
+    ]
   },
   "faqPage": {
     "title": "Часто задаваемые вопросы",
-    "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam.",
     "faqs": [
       {
         "id": 1,
-        "question": "",
+        "question": "Что такое аналитика данных?",
         "text": "Phasellus tristique eu nisl eu consectetur.  "
       },
       {
@@ -128,29 +142,29 @@
       {
         "id": 4,
         "question": "Что такое исследовательский анализ данных (EDA)?",
-        "text": "Phasellus tristique eu nisl eu consectetur.  "
+        "text": "Phasellus tristique eu nisl eu consectetur."
       },
       {
         "id": 5,
         "question": "Что такое подтверждающий анализ данных (CDA)?",
-        "text": "Phasellus tristique eu nisl eu consectetur.  "
+        "text": "Phasellus tristique eu nisl eu consectetur."
       },
       {
         "id": 6,
         "question": "Что такое прогнозная аналитика?",
-        "text": "Phasellus tristique eu nisl eu consectetur.  "
+        "text": "Phasellus tristique eu nisl eu consectetur."
       },
       {
         "id": 7,
         "question": "Что такое визуализация данных",
-        "text": "Phasellus tristique eu nisl eu consectetur.  "
+        "text": "Phasellus tristique eu nisl eu consectetur."
       }
     ]
   },
   "solutionPage": {
     "title": "Решения для анализа данных",
-    "text": "Готовясь к вашему успеху, мы предоставляем действительно выдающиеся ИТ-решения.",
-    "whyChooseUs": "Почему нужно выбрать нас?",
+    "text": "Готовясь к вашему успеху, мы предоставляем действительно выдающиеся IT-решения.",
+    "whyChooseUs": "Почему именно мы?",
     "benefits": [
       {
         "id": 1,
@@ -159,7 +173,7 @@
       },
       {
         "id": 2,
-        "name": "Встроить аналитику",
+        "name": "Встраиваемая аналитика",
         "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque Corrpi quos dolores."
       },
       {
@@ -173,48 +187,68 @@
     "blog": [
       {
         "id": 1,
-        "date": "22 июня 2022 г.",
-        "image": "первый",
+        "date": "22 июня 2022",
+        "image": "https://industrywired.com/wp-content/uploads/2020/10/Retail.jpg",
         "name": "5 примеров веб-порталов, на которых может поучиться ваш бизнес",
         "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque Corrpi quos dolores et quas. ",
         "title": "Sed ut perspiciatis unde omnis at vero blanditils",
-        "topics": ["Приложение", "ИТ-директор", "Будущее"]
+        "topics": [
+          "App",
+          "IT",
+          "Future"
+        ]
       },
       {
         "id": 2,
-        "date": "05 июля 2021 г.",
-        "image": "второй",
+        "date": "05 июля 2021",
+        "image": "https://industrywired.com/wp-content/uploads/2020/10/Retail.jpg",
         "name": "Соответствие медицинских устройств ISO 13485",
         "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque Corrpi quos dolores et quas. ",
         "title": "Sed ut perspiciatis unde omnis at vero blanditils",
-        "topics": ["РЕДУКС", "ХРАНИТЬ", "Будущее"]
+        "topics": [
+          "Redux",
+          "Store",
+          "Future"
+        ]
       },
       {
         "id": 3,
-        "date": "14 февраля 2019 г.",
-        "image": "в третьих",
+        "date": "14 февраля 2019",
+        "image": "https://industrywired.com/wp-content/uploads/2020/10/Retail.jpg",
         "name": "Кадровое ПО: ключевые возможности и топовые продукты",
         "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque Corrpi quos dolores et quas. ",
         "title": "Sed ut perspiciatis unde omnis at vero blanditils",
-        "topics": ["Приложение", "ВЕБ", "СЛЕДУЮЩИЙ"]
+        "topics": [
+          "App",
+          "Web",
+          "NEXT"
+        ]
       },
       {
         "id": 4,
-        "date": "24 октября 2002 г.",
-        "image": "четвертый",
+        "date": "24 октября 2002",
+        "image": "https://industrywired.com/wp-content/uploads/2020/10/Retail.jpg",
         "name": "5 примеров веб-порталов, на которых может поучиться ваш бизнес",
         "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque Corrpi quos dolores et quas. ",
         "title": "Sed ut perspiciatis unde omnis at vero blanditils",
-        "topics": ["Приложение", "ИСО", "прошлый"]
+        "topics": [
+          "App",
+          "ISO",
+          "Future"
+        ]
       },
       {
         "id": 5,
-        "date": "1 января 1970 г.",
-        "image": "5",
+        "date": "1 января 1970",
+        "image": "https://industrywired.com/wp-content/uploads/2020/10/Retail.jpg",
         "name": "Соответствие медицинских устройств ISO 13485",
         "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque Corrpi quos dolores et quas. ",
         "title": "Sed ut perspiciatis unde omnis at vero blanditils",
-        "topics": ["Приложение", "ИТ-директор", "Будущее"]
+        "topics": [
+          "Приложение",
+          "ИТ-директор",
+          "Будущее"
+        ]
       }
     ],
     "price": [
@@ -224,9 +258,8 @@
           "Для небольших команд – 5 пользователей",
           "Поддержка сообщества"
         ],
-        "name": "Бесплатная пробная версия",
-        "text": "Пробный план для начинающих",
-        "value": "$00"
+        "name": "Free",
+        "value": "10"
       },
       {
         "id": 2,
@@ -235,9 +268,8 @@
           "Индивидуальная поддержка",
           "Индивидуальные данные — 60 ГБ"
         ],
-        "name": "Лайт",
-        "text": "Пробный план для начинающих",
-        "value": "99 долларов"
+        "name": "Lite",
+        "value": "99"
       },
       {
         "id": 3,
@@ -247,9 +279,9 @@
           "Индивидуальные данные — 120 ГБ",
           "Расширенные разрешения"
         ],
-        "name": "Базовый",
+        "name": "Basic",
         "text": "Пробный план для начинающих",
-        "value": "$00"
+        "value": "30"
       },
       {
         "id": 4,
@@ -262,28 +294,27 @@
           "Журнал аудита",
           "Все функции включены"
         ],
-        "name": "Для предприятий",
-        "text": "Пробный план для начинающих",
-        "value": "Обычай"
+        "name": "For company",
+        "value": "никто"
       }
     ],
     "review": [
       {
-        "avatar": "первый",
+        "avatar": "https://reventontech.com/wp-content/uploads/2022/07/reventon-testi3.jpg",
         "text": "«Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit Laboriosam, nisi ut aliquid ex ea commodi consequatur?  ",
         "name": "Алекс Берн",
         "position": "Генеральный директор PixelPerfect",
         "id": 1
       },
       {
-        "avatar": "второй",
+        "avatar": "https://reventontech.com/wp-content/uploads/2022/07/reventon-testi3.jpg",
         "text": "«Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit Laboriosam, nisi ut aliquid ex ea commodi consequatur?  ",
         "name": "Рубен Чифундо",
         "position": "Аналитик данных",
         "id": 2
       },
       {
-        "avatar": "в третьих",
+        "avatar": "https://reventontech.com/wp-content/uploads/2022/07/reventon-testi3.jpg",
         "text": "«Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit Laboriosam, nisi ut aliquid ex ea commodi consequatur?  ",
         "name": "Тигран Назарет",
         "position": "Генеральный директор NOX",
@@ -297,7 +328,7 @@
         "id": 4
       },
       {
-        "avatar": "5",
+        "avatar": "https://reventontech.com/wp-content/uploads/2022/07/reventon-testi3.jpg",
         "text": "«Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit Laboriosam, nisi ut aliquid ex ea commodi consequatur?  ",
         "name": "Рубен Чифундо",
         "position": "Аналитик данных",
@@ -306,37 +337,37 @@
     ],
     "service": [
       {
-        "icon": "активы/svg/AdvCards/brain.svg",
+        "icon": "https://cdn.icon-icons.com/icons2/3249/PNG/512/brain_circuit_filled_icon_200878.png",
         "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
         "title": "Машинное обучение",
         "id": 1
       },
       {
-        "icon": "активы/svg/AdvCards/graph.svg",
+        "icon": "https://cdn.icon-icons.com/icons2/3249/PNG/512/brain_circuit_filled_icon_200878.png",
         "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
         "title": "Встроить аналитику",
         "id": 2
       },
       {
-        "icon": "активы/svg/AdvCards/key.svg",
+        "icon": "https://cdn.icon-icons.com/icons2/3249/PNG/512/brain_circuit_filled_icon_200878.png",
         "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
         "title": "Контроль доступа",
         "id": 3
       },
       {
-        "icon": "активы/svg/AdvCards/trend.svg",
+        "icon": "https://cdn.icon-icons.com/icons2/3249/PNG/512/brain_circuit_filled_icon_200878.png",
         "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
         "title": "Аналитика данных",
         "id": 4
       },
       {
-        "icon": "активы/svg/AdvCards/key.svg",
+        "icon": "https://cdn.icon-icons.com/icons2/3249/PNG/512/brain_circuit_filled_icon_200878.png",
         "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
         "title": "Консультации по работе с большими данными",
         "id": 5
       },
       {
-        "icon": "активы/svg/AdvCards/trend.svg",
+        "icon": "https://cdn.icon-icons.com/icons2/3249/PNG/512/brain_circuit_filled_icon_200878.png",
         "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
         "title": "Искусственный интеллект",
         "id": 6
@@ -345,55 +376,55 @@
     "ourTeam": [
       {
         "id": 1,
-        "avatar": "",
+        "avatar": "https://assets.cdn.msgsndr.com/mWLvU4ZVnCMNK5P6TZuK/media/61ceb590016cd77f8a77f63e.jpeg",
         "name": "Саргис Григор",
         "position": "Аналитик данных"
       },
       {
         "id": 2,
-        "avatar": "",
+        "avatar": "https://revu.by/wp-content/uploads/2022/04/screenshot_21-350x500.jpg",
         "name": "Гор Саргис",
         "position": "Аналитик данных"
       },
       {
         "id": 3,
-        "avatar": "",
+        "avatar": "https://assets.cdn.msgsndr.com/mWLvU4ZVnCMNK5P6TZuK/media/61ceb590016cd77f8a77f63e.jpeg",
         "name": "Марал Мари",
         "position": "Аналитик данных"
       },
       {
         "id": 4,
-        "avatar": "",
+        "avatar": "https://revu.by/wp-content/uploads/2022/04/screenshot_21-350x500.jpg",
         "name": "Кохар Марин",
         "position": "Специалист по данным "
       },
       {
         "id": 5,
-        "avatar": "",
+        "avatar": "https://assets.cdn.msgsndr.com/mWLvU4ZVnCMNK5P6TZuK/media/61ceb590016cd77f8a77f63e.jpeg",
         "name": "Баграт Лев",
         "position": "Инженер данных"
       },
       {
         "id": 6,
-        "avatar": "",
+        "avatar": "https://revu.by/wp-content/uploads/2022/04/screenshot_21-350x500.jpg",
         "name": "Акоп Жирайр",
         "position": "Инженер данных"
       },
       {
         "id": 7,
-        "avatar": "",
+        "avatar": "https://assets.cdn.msgsndr.com/mWLvU4ZVnCMNK5P6TZuK/media/61ceb590016cd77f8a77f63e.jpeg",
         "name": "Арарат Оганнес",
         "position": "Аналитик данных"
       },
       {
         "id": 8,
-        "avatar": "",
+        "avatar": "https://revu.by/wp-content/uploads/2022/04/screenshot_21-350x500.jpg",
         "name": "Ева Восги",
         "position": "Специалист по данным"
       },
       {
         "id": 9,
-        "avatar": "",
+        "avatar": "https://assets.cdn.msgsndr.com/mWLvU4ZVnCMNK5P6TZuK/media/61ceb590016cd77f8a77f63e.jpeg",
         "name": "Эдуард Восги",
         "position": "Специалист по данным"
       }

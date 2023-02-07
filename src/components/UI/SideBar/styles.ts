@@ -3,16 +3,25 @@ import styled from 'styled-components'
 import { SPACE_BETWEEN, theme } from 'styles/themes'
 
 export const CustomSideBar = styled.div`
-  width: 400px;
   ${SPACE_BETWEEN}
   ${theme.typography.R_PARAGRAPH_1}
-  padding:20px 0;
+  color:white;
+  padding: 20px 0;
   border-bottom: 1px solid ${theme.colors.grey};
   &:hover {
     color: ${theme.colors.primary};
+    svg {
+      stroke: ${theme.colors.primary};
+    }
   }
   &:disabled {
     color: ${theme.colors.grey};
+    svg {
+      stroke: ${theme.colors.grey};
+    }
+  }
+  svg {
+    stroke: ${theme.colors.white};
   }
 `
 

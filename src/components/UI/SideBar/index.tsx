@@ -1,7 +1,8 @@
 import React from 'react'
 
-import tab from './category-tab.svg'
-import { CustomSideBar, Icon } from './styles'
+import { TabIcon } from 'assets/index'
+
+import { CustomSideBar } from './styles'
 import { ISideBarProps } from './types'
 
 export const SideBar = ({
@@ -11,6 +12,6 @@ export const SideBar = ({
 }: ISideBarProps) => (
   <CustomSideBar onClick={onClick}>
     {children}
-    <Icon src={tab} alt="tab icon" />
+    <TabIcon />
   </CustomSideBar>
 )

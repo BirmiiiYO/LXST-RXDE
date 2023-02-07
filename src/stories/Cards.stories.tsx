@@ -1,4 +1,4 @@
-import { ComponentStory } from '@storybook/react'
+import { ComponentMeta, ComponentStory } from '@storybook/react'
 import React from 'react'
 
 import { BlogCard } from 'components/UI/Cards/Blog'
@@ -41,9 +41,8 @@ export const BlogCards = Blog.bind({})
 BlogCards.args = {
   date: '22 June 2022',
   image: blogPhoto,
-  name: 'Staffing software: key capabilities and top products',
+  title: 'Staffing software: key capabilities and top products',
   text: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas. Quis autem vel eum iure...',
-  title: 'Sed ut perspiciatis unde omnis at vero blanditils',
   topics: ['App', 'CIO', 'Future'],
 }
 export const PriceCards = Price.bind({})
@@ -54,7 +53,6 @@ PriceCards.args = {
     'Individual data – 20GB',
   ],
   name: 'Starter',
-  text: 'Trial plan for starters',
   value: '00$',
 }
 

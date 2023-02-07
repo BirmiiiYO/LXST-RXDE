@@ -1,32 +1,34 @@
 {
   "base": {
-    "contactUs": "Nous contacter",
+    "contactUs": "Connecte-toi avec nous",
     "discoverMore": "Découvrir plus",
-    "doYouNeedHelp": "As-tu besoin d'aide?",
+    "doYouNeedHelp": "Besoin d'aide ?",
+    "learnMore": "Pour apprendre plus",
     "largeText": "Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quaeab illo inventore. ",
-    "learnMore": "Apprendre encore plus",
-    "mediumText": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi.",
-    "reviewCardText": "« Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur ? ",
-    "send": "Envoyer",
-    "email": "Votre e-mail",
     "smallText": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
-    "subscribe": "Abonnez-vous à notre newsletter",
-    "watchDemo": "Regarder la démo"
-  },
-  "helpSeciton": {
-    "title": "As-tu besoin d'aide?",
-    "text": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi."
-  },
-  "subscribeSeciton": {
-    "title": "Abonnez-vous à notre newsletter",
-    "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+    "mediumText": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit Laboriosam, nisi ut aliquid ex ea commodi.",
+    "send": "Envoyer",
+    "email": "Poster",
+    "enterName": "Entrez votre nom",
+    "enterEmail": "Entrez votre adresse email",
+    "enterTheme": "Entrez le sujet",
+    "enterMessage": "entrez votre message",
+    "subscribe": "Abonnez-vous aux nouvelles",
+    "watchDemo": "Voir la démo",
+    "home": "Loger",
+    "aboutUs": "À propos de nous",
+    "softwareTrends": "Tendances du développement logiciel en 2022 ",
+    "contacts": "Contacts",
+    "ourTeam": "notre équipe",
+    "faqs": "FAQ",
+    "solutions": "Solutions"
   },
   "companyOverviewSection": {
     "title": "Nous fournissons des services qui garantissent votre succès",
     "data": [
       {
         "amount": "1830",
-        "name": "Projet exécuté"
+        "name": "Projets terminés"
       },
       {
         "amount": "834",
@@ -34,79 +36,97 @@
       },
       {
         "amount": "390",
-        "name": "Gestion de données"
+        "name": "gestion de données"
       }
     ]
   },
   "footer": {
-    "privacyPolicy": "Politique de confidentialité",
-    "quickLink": "Lien rapide",
-    "service": "Un service",
-    "services": ["pages", "Éléments", "FAQ", "Tarification", "Plan du site"],
+    "privacyPolicy": "politique de confidentialité",
+    "quickLink": "Accès rapide",
+    "service": "Service",
+    "services": [
+      "pages",
+      "Éléments",
+      "FAQ",
+      "Des prix",
+      "Carte"
+    ],
     "termsOfUs": "Conditions d'utilisation"
   },
   "homePage": {
     "heroTitle": "Découvrez la véritable puissance de vos données avec <0>Ensome</0>",
-    "featureTitle": "Les <0>le plus récent</0> plate-forme d'analyse commerciale",
-    "featureSubtitleTitle": "Des solutions radicalement nouvelles pour les données",
-    "benefitsTitle": "Les avantages d'Ensome",
-    "testImonalsTitle": "Témoignages ",
-    "ourPricingTitle": "Nos tarifs",
-    "ourBlogTitle": "Les avantages d'Ensome",
-    "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
-    "benefit": "Les avantages d'Ensome",
-    "ourBlog": "Notre blog",
-    "newSolution": "Des solutions radicalement nouvelles pour les données"
+    "featureTitle": "<0>dernier</0> plateforme d'intelligence économique",
+    "featureSubtitleTitle": "Solutions de données révolutionnaires",
+    "benefitsTitle": "Avantages",
+    "testImonalsTitle": "Commentaires",
+    "ourPricingTitle": "Des prix",
+    "ourBlogTitle": "Avantages",
+    "ourBlog": "Blog"
   },
   "servicePage": {
-    "title": "Services d'analyse de données",
-    "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quaeab illo inventore."
+    "title": "Services d'analyse de données"
   },
   "aboutUsPage": {
     "title": "À propos de nous",
-    "whoWeAre": "Qui nous sommes",
-    "ourMission": "Notre mission",
-    "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab ill inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. ",
+    "whoWeAre": "Qui sommes nous",
+    "ourMission": "Notre objectif",
+    "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab ill Inventor veritatis et Quasi architecto beatae vitae dicta sunt explicabo. ",
     "inNumbers": "Ensome en chiffres",
     "data": [
       {
         "amount": "1830",
-        "name": "Projet exécuté"
+        "name": "Projets terminés"
       },
       {
         "amount": "200",
-        "name": "Analyse des données"
+        "name": "Analystes de données"
       },
       {
         "amount": "390",
-        "name": "Gestion de données"
+        "name": "gestion de données"
       },
       {
         "amount": "834",
         "name": "Clients satisfaits"
       }
     ],
-    "ourCustomers": "Nos clients",
+    "ourCustomers": "nos clients",
     "reviewTitle": "Ce que disent nos clients",
-    "formTitle": "Vous avez laissé des questions ? "
-  },
-  "blogPage": {
-    "title": "Les tendances du développement logiciel 2022 expliquées avec des avantages"
+    "formTitle": "Avez-vous des questions?"
   },
   "ourTeamPage": {
-    "title": "Notre équipe",
+    "title": "notre équipe",
     "text": "Sed ut perspiciatis unde omnis iste natus error volupta accusantium doloremque laudantium, totam remiga aperiam, eaque ipsa. "
   },
   "contactsPage": {
-    "title": "Comment pouvons-nous vous aider?"
+    "title": "Comment pouvons nous aider <0>toi ?</0>",
+    "locations": [
+      {
+        "structureId": 1,
+        "lat": 35.1369274,
+        "lng": 135.5298123,
+        "name": "Parc Oyamahigashicho 2 Go"
+      },
+      {
+        "structureId": 2,
+        "lat": 53.9185803,
+        "lng": 27.5935248,
+        "name": "BSUIR"
+      },
+      {
+        "structureId": 3,
+        "lat": 40.6838171,
+        "lng": -74.0593493,
+        "name": "Statue de la Liberté"
+      }
+    ]
   },
   "faqPage": {
-    "title": "Questions fréquemment posées",
-    "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam.",
+    "title": "FAQ",
     "faqs": [
       {
         "id": 1,
-        "question": "",
+        "question": "Qu'est-ce que l'analyse de données ?",
         "text": "Phasellus tristique eu nisl eu consectetur.  "
       },
       {
@@ -122,44 +142,44 @@
       {
         "id": 4,
         "question": "Qu'est-ce que l'analyse exploratoire des données (EDA) ?",
-        "text": "Phasellus tristique eu nisl eu consectetur.  "
+        "text": "Phasellus tristique eu nisl eu consectetur."
       },
       {
         "id": 5,
         "question": "Qu'est-ce que l'analyse des données de confirmation (CDA) ?",
-        "text": "Phasellus tristique eu nisl eu consectetur.  "
+        "text": "Phasellus tristique eu nisl eu consectetur."
       },
       {
         "id": 6,
         "question": "Qu'est-ce que l'analyse prédictive ?",
-        "text": "Phasellus tristique eu nisl eu consectetur.  "
+        "text": "Phasellus tristique eu nisl eu consectetur."
       },
       {
         "id": 7,
         "question": "Qu'est-ce que la visualisation de données",
-        "text": "Phasellus tristique eu nisl eu consectetur.  "
+        "text": "Phasellus tristique eu nisl eu consectetur."
       }
     ]
   },
   "solutionPage": {
     "title": "Solutions d'analyse de données",
     "text": "En préparant votre succès, nous fournissons des solutions informatiques vraiment exceptionnelles.",
-    "whyChooseUs": "Pourquoi nous choisir?",
+    "whyChooseUs": "Pourquoi nous?",
     "benefits": [
       {
         "id": 1,
         "name": "Apprentissage automatique",
-        "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores."
+        "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque Corrpi quos dolores."
       },
       {
         "id": 2,
-        "name": "Intégrer l'analytique",
-        "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores."
+        "name": "Analytique intégrée",
+        "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque Corrpi quos dolores."
       },
       {
         "id": 3,
         "name": "Contrôle d'accès",
-        "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores."
+        "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque Corrpi quos dolores."
       }
     ]
   },
@@ -168,169 +188,186 @@
       {
         "id": 1,
         "date": "22 juin 2022",
-        "image": "première",
+        "image": "https://industrywired.com/wp-content/uploads/2020/10/Retail.jpg",
         "name": "5 exemples de portails Web dont votre entreprise peut s'inspirer",
-        "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas. ",
+        "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque Corrpi quos dolores et quas. ",
         "title": "Sed ut perspiciatis unde omnis at vero blanditils",
-        "topics": ["Application", "DSI", "Futur"]
+        "topics": [
+          "Application",
+          "IL",
+          "Avenir"
+        ]
       },
       {
         "id": 2,
         "date": "05 juillet 2021",
-        "image": "seconde",
-        "name": "Conformité ISO 13485 des dispositifs médicaux",
-        "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas. ",
+        "image": "https://industrywired.com/wp-content/uploads/2020/10/Retail.jpg",
+        "name": "Conformité des dispositifs médicaux ISO 13485",
+        "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque Corrpi quos dolores et quas. ",
         "title": "Sed ut perspiciatis unde omnis at vero blanditils",
-        "topics": ["REDUX", "BOUTIQUE", "Futur"]
+        "topics": [
+          "redux",
+          "Magasin",
+          "Avenir"
+        ]
       },
       {
         "id": 3,
         "date": "14 février 2019",
-        "image": "troisième",
-        "name": "Logiciel de gestion du personnel : capacités clés et meilleurs produits",
-        "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas. ",
+        "image": "https://industrywired.com/wp-content/uploads/2020/10/Retail.jpg",
+        "name": "Logiciel RH : fonctionnalités clés et meilleurs produits",
+        "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque Corrpi quos dolores et quas. ",
         "title": "Sed ut perspiciatis unde omnis at vero blanditils",
-        "topics": ["Application", "LA TOILE", "SUIVANT"]
+        "topics": [
+          "Application",
+          "la toile",
+          "SUIVANT"
+        ]
       },
       {
         "id": 4,
         "date": "24 octobre 2002",
-        "image": "Quatrième",
+        "image": "https://industrywired.com/wp-content/uploads/2020/10/Retail.jpg",
         "name": "5 exemples de portails Web dont votre entreprise peut s'inspirer",
-        "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas. ",
+        "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque Corrpi quos dolores et quas. ",
         "title": "Sed ut perspiciatis unde omnis at vero blanditils",
-        "topics": ["Application", "ISO", "Passé"]
+        "topics": [
+          "Application",
+          "ISO",
+          "Avenir"
+        ]
       },
       {
         "id": 5,
         "date": "1er janvier 1970",
-        "image": "cinq",
-        "name": "Conformité ISO 13485 des dispositifs médicaux",
-        "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas. ",
+        "image": "https://industrywired.com/wp-content/uploads/2020/10/Retail.jpg",
+        "name": "Conformité des dispositifs médicaux ISO 13485",
+        "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque Corrpi quos dolores et quas. ",
         "title": "Sed ut perspiciatis unde omnis at vero blanditils",
-        "topics": ["Application", "DSI", "Futur"]
+        "topics": [
+          "Application",
+          "DSI",
+          "Avenir"
+        ]
       }
     ],
     "price": [
       {
         "id": 1,
         "infos": [
-          "Pour les petites équipes – 5 utilisateurs",
+          "Pour les petites équipes - 5 utilisateurs",
           "Soutien communautaire"
         ],
-        "name": "Essai gratuit",
-        "text": "Plan d'essai pour les débutants",
-        "value": "00 $"
+        "name": "Gratuit",
+        "value": "dix"
       },
       {
         "id": 2,
         "infos": [
-          "Pour les petites équipes – 15 utilisateurs",
+          "Pour les petites équipes - 15 utilisateurs",
           "Accompagnement individuel",
-          "Données individuelles – 60 Go"
+          "Données individuelles - 60 Go"
         ],
         "name": "léger",
-        "text": "Plan d'essai pour les débutants",
-        "value": "99 $"
+        "value": "99"
       },
       {
         "id": 3,
         "infos": [
-          "Pour les grandes équipes – 30 utilisateurs",
+          "Pour les grandes équipes - 30 utilisateurs",
           "Accompagnement individuel",
-          "Données individuelles – 120 Go",
-          "Autorisations avancées"
+          "Données individuelles - 120 Go",
+          "Autorisations étendues"
         ],
         "name": "Basique",
         "text": "Plan d'essai pour les débutants",
-        "value": "00 $"
+        "value": "trente"
       },
       {
         "id": 4,
         "infos": [
           "Membres d'équipe illimités",
           "Accompagnement individuel",
-          "Données individuelles illimitées",
-          "Autorisations avancées",
+          "Données personnalisées illimitées",
+          "Autorisations étendues",
           "Historique des données",
           "Journal d'audit",
-          "Toutes les fonctions incluses"
+          "Toutes les fonctionnalités incluses"
         ],
-        "name": "Pour les entreprises",
-        "text": "Plan d'essai pour les débutants",
-        "value": "Personnalisé"
+        "name": "Pour entreprise",
+        "value": "personne"
       }
     ],
     "review": [
       {
-        "avatar": "première",
-        "text": "« Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur ?  ",
+        "avatar": "https://reventontech.com/wp-content/uploads/2022/07/reventon-testi3.jpg",
+        "text": "\"Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit Laboriosam, nisi ut aliquid ex ea commodi consequatur ?  ",
         "name": "Alex Berne",
-        "position": "PDG par PixelPerfect",
+        "position": "PDG de PixelPerfect",
         "id": 1
       },
       {
-        "avatar": "seconde",
-        "text": "« Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur ?  ",
+        "avatar": "https://reventontech.com/wp-content/uploads/2022/07/reventon-testi3.jpg",
+        "text": "\"Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit Laboriosam, nisi ut aliquid ex ea commodi consequatur ?  ",
         "name": "Rubén Chifundo",
-        "position": "Analyste de données",
+        "position": "analyste de données",
         "id": 2
       },
       {
-        "avatar": "troisième",
-        "text": "« Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur ?  ",
-        "name": "Tigrane Nazaret",
-        "position": "PDG par NOX",
+        "avatar": "https://reventontech.com/wp-content/uploads/2022/07/reventon-testi3.jpg",
+        "text": "\"Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit Laboriosam, nisi ut aliquid ex ea commodi consequatur ?  ",
+        "name": "Tigrane Nazareth",
+        "position": "PDG de NOX",
         "id": 3
       },
       {
-        "avatar": "Quatrième",
-        "text": "« Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur ?  ",
+        "avatar": "quatrième",
+        "text": "\"Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit Laboriosam, nisi ut aliquid ex ea commodi consequatur ?  ",
         "name": "Alex Berne",
-        "position": "PDG par PixelPerfect",
+        "position": "PDG de PixelPerfect",
         "id": 4
       },
       {
-        "avatar": "cinq",
-        "text": "« Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur ?  ",
+        "avatar": "https://reventontech.com/wp-content/uploads/2022/07/reventon-testi3.jpg",
+        "text": "\"Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit Laboriosam, nisi ut aliquid ex ea commodi consequatur ?  ",
         "name": "Rubén Chifundo",
-        "position": "Analyste de données",
+        "position": "analyste de données",
         "id": 5
       }
     ],
     "service": [
       {
-        "icon": "assets/svg/AdvCards/brain.svg",
+        "icon": "https://cdn.icon-icons.com/icons2/3249/PNG/512/brain_circuit_filled_icon_200878.png",
         "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
         "title": "Apprentissage automatique",
         "id": 1
       },
       {
-        "icon": "assets/svg/AdvCards/graph.svg",
+        "icon": "https://cdn.icon-icons.com/icons2/3249/PNG/512/brain_circuit_filled_icon_200878.png",
         "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
         "title": "Intégrer l'analytique",
         "id": 2
       },
       {
-        "icon": "assets/svg/AdvCards/key.svg",
+        "icon": "https://cdn.icon-icons.com/icons2/3249/PNG/512/brain_circuit_filled_icon_200878.png",
         "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
         "title": "Contrôle d'accès",
         "id": 3
       },
       {
-        "icon": "assets/svg/AdvCards/trend.svg",
+        "icon": "https://cdn.icon-icons.com/icons2/3249/PNG/512/brain_circuit_filled_icon_200878.png",
         "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
         "title": "Analyse des données",
         "id": 4
       },
       {
-        "icon": "assets/svg/AdvCards/key.svg",
+        "icon": "https://cdn.icon-icons.com/icons2/3249/PNG/512/brain_circuit_filled_icon_200878.png",
         "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
         "title": "Conseil en mégadonnées",
         "id": 5
       },
       {
-        "icon": "assets/svg/AdvCards/trend.svg",
+        "icon": "https://cdn.icon-icons.com/icons2/3249/PNG/512/brain_circuit_filled_icon_200878.png",
         "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
         "title": "Intelligence artificielle",
         "id": 6
@@ -339,57 +376,57 @@
     "ourTeam": [
       {
         "id": 1,
-        "avatar": "",
+        "avatar": "https://assets.cdn.msgsndr.com/mWLvU4ZVnCMNK5P6TZuK/media/61ceb590016cd77f8a77f63e.jpeg",
         "name": "Sargis Grigor",
-        "position": "Analyste de données"
+        "position": "analyste de données"
       },
       {
         "id": 2,
-        "avatar": "",
+        "avatar": "https://revu.by/wp-content/uploads/2022/04/screenshot_21-350x500.jpg",
         "name": "Gor Sargis",
-        "position": "Analyste de données"
+        "position": "analyste de données"
       },
       {
         "id": 3,
-        "avatar": "",
-        "name": "Maral Mari",
-        "position": "Analyste de données"
+        "avatar": "https://assets.cdn.msgsndr.com/mWLvU4ZVnCMNK5P6TZuK/media/61ceb590016cd77f8a77f63e.jpeg",
+        "name": "Maral Marie",
+        "position": "analyste de données"
       },
       {
         "id": 4,
-        "avatar": "",
+        "avatar": "https://revu.by/wp-content/uploads/2022/04/screenshot_21-350x500.jpg",
         "name": "Kohar Marine",
-        "position": "Scientifique des données "
+        "position": "scientifique des données "
       },
       {
         "id": 5,
-        "avatar": "",
-        "name": "Lion de Bagrat",
+        "avatar": "https://assets.cdn.msgsndr.com/mWLvU4ZVnCMNK5P6TZuK/media/61ceb590016cd77f8a77f63e.jpeg",
+        "name": "Lev de Bagrat",
         "position": "Ingénieur de données"
       },
       {
         "id": 6,
-        "avatar": "",
-        "name": "Hakob Jiraïr",
+        "avatar": "https://revu.by/wp-content/uploads/2022/04/screenshot_21-350x500.jpg",
+        "name": "Hakob Zhirayr",
         "position": "Ingénieur de données"
       },
       {
         "id": 7,
-        "avatar": "",
-        "name": "Ararat Ohannes",
-        "position": "Analyste de données"
+        "avatar": "https://assets.cdn.msgsndr.com/mWLvU4ZVnCMNK5P6TZuK/media/61ceb590016cd77f8a77f63e.jpeg",
+        "name": "Ararat Hovhannes",
+        "position": "analyste de données"
       },
       {
         "id": 8,
-        "avatar": "",
-        "name": "Eva Vosgi",
-        "position": "Scientifique des données"
+        "avatar": "https://revu.by/wp-content/uploads/2022/04/screenshot_21-350x500.jpg",
+        "name": "Eva Vosgy",
+        "position": "scientifique des données"
       },
       {
         "id": 9,
-        "avatar": "",
+        "avatar": "https://assets.cdn.msgsndr.com/mWLvU4ZVnCMNK5P6TZuK/media/61ceb590016cd77f8a77f63e.jpeg",
         "name": "Edouard Vosgi",
-        "position": "Scientifique des données"
+        "position": "scientifique des données"
       }
     ]
   }

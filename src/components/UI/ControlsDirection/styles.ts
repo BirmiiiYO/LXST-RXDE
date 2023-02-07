@@ -11,6 +11,7 @@ export const ControlButton = styled.button<IControlsDirectionStyleProps>`
   border: none;
   color: red;
   border-radius: 20px;
+  margin: 0 10px;
   ${CENTER}
   background: ${theme.colors.tertiary};
   &:disabled {

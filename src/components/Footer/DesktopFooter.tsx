@@ -1,16 +1,9 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 
-import {
-  BehanceIcon,
-  DribbbleIcon,
-  FacebookIcon,
-  InstIcon,
-  TwitterIcon,
-  YoutubeIcon,
-} from 'assets'
 import WhiteLogo from 'assets/images/Logo.png'
-import { Button } from 'components/UI/Button'
+import { footerIcons } from 'assets/index'
+import { languageIcons } from 'assets/svg/languageIcons'
 import { Container } from 'components/UI/Container'
 import { Text } from 'components/UI/Text'
 import { links } from 'constants/links'
@@ -20,31 +13,16 @@ import {
   Content,
   CustomLink,
   Icons,
-  Information,
+  LangIcon,
   Logo,
   PrivacyInfo,
   SpaceBetween,
 } from './styles'
 
-const icons = [
-  <BehanceIcon />,
-  <DribbbleIcon />,
-  <FacebookIcon />,
-  <YoutubeIcon />,
-  <TwitterIcon />,
-  <InstIcon />,
-]
 const contacts = [
   'ensome@info.co.us',
   '+1 601-201-5580',
   '1642 Washington Avenue, Jackson, MS, Mississippi, 39201',
-]
-
-const languages = [
-  { lng: 'en', nativeName: 'English' },
-  { lng: 'de', nativeName: 'Deutsch' },
-  { lng: 'fr', nativeName: 'Français' },
-  { lng: 'ru', nativeName: 'Русский' },
 ]
 
 export const DesktopFooter = () => {
@@ -52,13 +30,17 @@ export const DesktopFooter = () => {
   const services = t('footer.services', { returnObjects: true }) as []
   return (
     <Content>
-      <Information>
+      <Container
+        flex="space-between"
+        margin="0 0 50px 0"
+        background="secondary"
+      >
         <Block>
           <Logo src={WhiteLogo} alt="logo" />
           <Text typography="RParagraph3" color="grey" maxWidth="285px">
             {t('base.smallText')}
           </Text>
-          <Icons> {icons.map(icon => icon)}</Icons>
+          <Icons> {footerIcons.map(icon => icon)}</Icons>
         </Block>
         <Block>
           <Text
@@ -100,22 +82,16 @@ export const DesktopFooter = () => {
             </Text>
           ))}
         </Block>
-      </Information>
+      </Container>
       <PrivacyInfo>
         <Text typography="RParagraph3" color="grey">
           Ensome© 2022 All Rights Reserved
         </Text>
-        <Container flex="space-between" width="400px">
-          {languages.map(({ nativeName, lng }) => (
-            <Button
-              background="white"
-              color="black"
-              padding="5px 10px"
-              key={lng}
-              onClick={() => i18n.changeLanguage(lng)}
-            >
-              {nativeName}
-            </Button>
+        <Container flex="space-between" width="400px" background="secondary">
+          {languageIcons.map(({ component, lng }) => (
+            <LangIcon key={lng} onClick={() => i18n.changeLanguage(lng)}>
+              {component}
+            </LangIcon>
           ))}
         </Container>
         <SpaceBetween>

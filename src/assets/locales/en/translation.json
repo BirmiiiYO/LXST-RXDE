@@ -3,28 +3,27 @@
     "contactUs": "Contact Us",
     "discoverMore": "Discover more",
     "doYouNeedHelp": "Do you need help?",
-    "largeText": "Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quaeab illo inventore. Donec tincidunt tempor quam, non mollis quam finibus nec.",
     "learnMore": "Learn more",
+    "largeText": "Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quaeab illo inventore. Donec tincidunt tempor quam, non mollis quam finibus nec.",
+    "smallText": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
     "mediumText": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi.",
-    "reviewCardText": "“Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis utem vel eum iure reprehender qui in ea voluptate velit esse quam nihil molesti consequatur, vel illum.”",
     "send": "Send",
     "email": "Your email",
     "enterName": "Enter your name",
     "enterEmail": "Enter your Email",
     "enterTheme": "Enter theme",
     "enterMessage": "Enter message",
-    "smallText": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
     "subscribe": "Subscribe to our newsletter",
-    "watchDemo": "Watch the demo"
+    "watchDemo": "Watch the demo",
+    "home":"Home",
+    "aboutUs":"About Us",
+    "softwareTrends":"2022 software development trends ",
+    "contacts":"Contacts",
+    "ourTeam":"Our team",
+    "faqs":"FAQs",
+    "solutions":"Solutions"
   },
-  "helpSeciton": {
-    "title": "Do you need help?",
-    "text": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi."
-  },
-  "subscribeSeciton": {
-    "title": "Subscribe to our newsletter",
-    "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
-  },
+
   "companyOverviewSection": {
     "title": "We provide services that guarantee your success",
     "data": [
@@ -57,14 +56,10 @@
     "testImonalsTitle": "Testimonials",
     "ourPricingTitle": "Our pricing",
     "ourBlogTitle": "The benefits of Ensome",
-    "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
-    "benefit": "The benefits of Ensome",
-    "ourBlog": "Our blog",
-    "newSolution": "Radically new solutions for data"
+    "ourBlog": "Our blog"
   },
   "servicePage": {
-    "title": "Data Analytics Services",
-    "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quaeab illo inventore."
+    "title": "Data Analytics Services"
   },
   "aboutUsPage": {
     "title": "About Us",
@@ -208,7 +203,7 @@
         "name": "ISO 13485 compliance of medical devices",
         "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas. Quis autem vel eum iure...",
         "title": "Sed ut perspiciatis unde omnis at vero blanditils",
-        "topics": ["REDUX", "STORE", "Future"]
+        "topics": ["Redux", "Store", "Future"]
       },
       {
         "id": 3,
@@ -217,7 +212,7 @@
         "name": "Staffing software: key capabilities and top products",
         "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas. Quis autem vel eum iure...",
         "title": "Sed ut perspiciatis unde omnis at vero blanditils",
-        "topics": ["App", "WEB", "NEXT"]
+        "topics": ["App", "Web", "NEXT"]
       },
       {
         "id": 4,
@@ -243,7 +238,6 @@
         "id": 1,
         "infos": ["For small teams – 5 users", "Community support"],
         "name": "Free trial",
-        "text": "Trial plan for starters",
         "value": "10"
       },
       {
@@ -254,7 +248,6 @@
           "Individual data – 60GB"
         ],
         "name": "Lite",
-        "text": "Trial plan for starters",
         "value": "99"
       },
       {
@@ -266,7 +259,6 @@
           "Advanced permissions"
         ],
         "name": "Basic",
-        "text": "Trial plan for starters",
         "value": "30"
       },
       {
@@ -281,41 +273,40 @@
           "All functions included"
         ],
         "name": "For enterprises",
-        "text": "Trial plan for starters",
         "value": "none"
       }
     ],
     "review": [
       {
-        "avatar": "first",
+        "avatar": "https://reventontech.com/wp-content/uploads/2022/07/reventon-testi3.jpg",
         "text": "“Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis utem vel eum iure reprehender qui in ea voluptate velit esse quam nihil molesti consequatur, vel illum.” ",
         "name": "Alex Bern",
         "position": "CEO by PixelPerfect",
         "id": 1
       },
       {
-        "avatar": "second",
+        "avatar": "https://reventontech.com/wp-content/uploads/2022/07/reventon-testi3.jpg",
         "text": "“Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis utem vel eum iure reprehender qui in ea voluptate velit esse quam nihil molesti consequatur, vel illum.” ",
         "name": "Ruben Chifundo",
         "position": "Data analyst",
         "id": 2
       },
       {
-        "avatar": "third",
+        "avatar": "https://reventontech.com/wp-content/uploads/2022/07/reventon-testi3.jpg",
         "text": "“Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis utem vel eum iure reprehender qui in ea voluptate velit esse quam nihil molesti consequatur, vel illum.” ",
         "name": "Tigran Nazaret",
         "position": "CEO by NOX",
         "id": 3
       },
       {
-        "avatar": "fourth",
+        "avatar": "https://reventontech.com/wp-content/uploads/2022/07/reventon-testi3.jpg",
         "text": "“Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis utem vel eum iure reprehender qui in ea voluptate velit esse quam nihil molesti consequatur, vel illum.” ",
         "name": "Alex Bern",
         "position": "CEO by PixelPerfect",
         "id": 4
       },
       {
-        "avatar": "five",
+        "avatar": "https://reventontech.com/wp-content/uploads/2022/07/reventon-testi3.jpg",
         "text": "“Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis utem vel eum iure reprehender qui in ea voluptate velit esse quam nihil molesti consequatur, vel illum.” ",
         "name": "Ruben Chifundo",
         "position": "Data analyst",
@@ -324,37 +315,37 @@
     ],
     "service": [
       {
-        "icon": "assets/svg/AdvCards/brain.svg",
+        "icon": "https://cdn.icon-icons.com/icons2/3249/PNG/512/brain_circuit_filled_icon_200878.png",
         "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
         "title": "Machine learning",
         "id": 1
       },
       {
-        "icon": "assets/svg/AdvCards/graph.svg",
+        "icon": "https://cdn.icon-icons.com/icons2/3249/PNG/512/brain_circuit_filled_icon_200878.png",
         "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
         "title": "Embed analytics",
         "id": 2
       },
       {
-        "icon": "assets/svg/AdvCards/key.svg",
+        "icon": "https://cdn.icon-icons.com/icons2/3249/PNG/512/brain_circuit_filled_icon_200878.png",
         "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
         "title": "Access control",
         "id": 3
       },
       {
-        "icon": "assets/svg/AdvCards/trend.svg",
+        "icon": "https://cdn.icon-icons.com/icons2/3249/PNG/512/brain_circuit_filled_icon_200878.png",
         "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
         "title": "Data analytics",
         "id": 4
       },
       {
-        "icon": "assets/svg/AdvCards/key.svg",
+        "icon": "https://cdn.icon-icons.com/icons2/3249/PNG/512/brain_circuit_filled_icon_200878.png",
         "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
         "title": "Big data consulting",
         "id": 5
       },
       {
-        "icon": "assets/svg/AdvCards/trend.svg",
+        "icon": "https://cdn.icon-icons.com/icons2/3249/PNG/512/brain_circuit_filled_icon_200878.png",
         "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
         "title": "Artificial intelligence",
         "id": 6
@@ -363,7 +354,7 @@
     "ourTeam": [
       {
         "id": 1,
-        "avatar": "https://revu.by/wp-content/uploads/2022/04/screenshot_21-350x500.jpg",
+        "avatar": "https://assets.cdn.msgsndr.com/mWLvU4ZVnCMNK5P6TZuK/media/61ceb590016cd77f8a77f63e.jpeg",
         "name": "Sargis Grigor",
         "position": "Data analyst"
       },
@@ -375,7 +366,7 @@
       },
       {
         "id": 3,
-        "avatar": "https://revu.by/wp-content/uploads/2022/04/screenshot_21-350x500.jpg",
+        "avatar": "https://assets.cdn.msgsndr.com/mWLvU4ZVnCMNK5P6TZuK/media/61ceb590016cd77f8a77f63e.jpeg",
         "name": "Maral Mari",
         "position": "Data analyst"
       },
@@ -387,7 +378,7 @@
       },
       {
         "id": 5,
-        "avatar": "https://revu.by/wp-content/uploads/2022/04/screenshot_21-350x500.jpg",
+        "avatar": "https://assets.cdn.msgsndr.com/mWLvU4ZVnCMNK5P6TZuK/media/61ceb590016cd77f8a77f63e.jpeg",
         "name": "Bagrat Leo",
         "position": "Data engineer"
       },
@@ -399,7 +390,7 @@
       },
       {
         "id": 7,
-        "avatar": "https://revu.by/wp-content/uploads/2022/04/screenshot_21-350x500.jpg",
+        "avatar": "https://assets.cdn.msgsndr.com/mWLvU4ZVnCMNK5P6TZuK/media/61ceb590016cd77f8a77f63e.jpeg",
         "name": "Ararat Ohannes",
         "position": "Data analyst"
       },
@@ -411,7 +402,7 @@
       },
       {
         "id": 9,
-        "avatar": "https://revu.by/wp-content/uploads/2022/04/screenshot_21-350x500.jpg",
+        "avatar": "https://assets.cdn.msgsndr.com/mWLvU4ZVnCMNK5P6TZuK/media/61ceb590016cd77f8a77f63e.jpeg",
         "name": "Eduard Vosgi",
         "position": "Data scientist"
       }

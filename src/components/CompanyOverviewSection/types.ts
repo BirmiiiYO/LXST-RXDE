@@ -1,5 +1,5 @@
 interface IBlock {
-  title: string
+  name: string
   amount: string
 }
 
