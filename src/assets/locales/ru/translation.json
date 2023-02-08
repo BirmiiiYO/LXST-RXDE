@@ -105,19 +105,19 @@
         "structureId": 1,
         "lat": 35.1369274,
         "lng": 135.5298123,
-        "name": "Oyamahigashicho 2 Go Park"
+        "name": "Парк в японии"
       },
       {
         "structureId": 2,
         "lat": 53.9185803,
         "lng": 27.5935248,
-        "name": "BSUIR"
+        "name": "БГУИР"
       },
       {
         "structureId": 3,
         "lat": 40.6838171,
         "lng": -74.0593493,
-        "name": "Statue of Liberty"
+        "name": "Статуя свободы"
       }
     ]
   },

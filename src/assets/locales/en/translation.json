@@ -100,25 +100,22 @@
     "title": "How can we <0>help you?</0>",
     "locations": [
       {
-        "structureId": 0,
-        "address": "ул. Петруся Бровки 6, Минск",
-        "lat": 53.9177318,
-        "lng": 27.5945042,
-        "name": "БГУИР, корпус № 1"
-      },
-      {
         "structureId": 1,
-        "address": "ул. Петруся Бровки 4, Минск",
-        "lat": 53.9185803,
-        "lng": 27.5935248,
-        "name": "БГУИР, корпус № 2"
+        "lat": 35.1369274,
+        "lng": 135.5298123,
+        "name": "Oyamahigashicho 2 Go Park"
       },
       {
         "structureId": 2,
-        "address": "ул. Петруся Бровки 10, Минск",
-        "lat": 53.9171845,
-        "lng": 27.595426,
-        "name": "БГУИР, корпус № 3"
+        "lat": 53.9185803,
+        "lng": 27.5935248,
+        "name": "BSUIR"
+      },
+      {
+        "structureId": 3,
+        "lat": 40.6838171,
+        "lng": -74.0593493,
+        "name": "statue of Liberty"
       }
     ]
   },
