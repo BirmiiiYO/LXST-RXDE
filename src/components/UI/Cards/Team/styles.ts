@@ -14,16 +14,16 @@ export const Container = styled.div<IBackgroundStyleProps>`
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 6px;
-  @media ${devices.laptop} {
-    width: 160px;
-    height: 220px;
-  }
 `
 
 export const Info = styled.div`
   position: absolute;
   bottom: 24px;
   left: 25px;
+  @media ${devices.laptop} {
+    bottom: 14px;
+    left: 14px;
+  }
 `
 
 export const Name = styled.h3`

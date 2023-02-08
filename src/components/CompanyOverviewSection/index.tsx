@@ -7,7 +7,7 @@ import { Amount, Block } from './styles'
 import { ICompanyOverviewProps } from './types'
 
 export const CompanyOverviewSection = ({ blocks }: ICompanyOverviewProps) => (
-  <Container flex="space-between" padding="70px 10px">
+  <Container flex="space-between" padding="70px 10px" background="aliceBlue">
     {blocks.map(({ name, amount }) => (
       <Block>
         <Amount>{amount}</Amount>

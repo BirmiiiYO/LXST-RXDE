@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import { Container } from 'components/UI/Container'
 import { ControlsDirection } from 'components/UI/ControlsDirection'
 import { Text } from 'components/UI/Text'
+import { useAppSelector } from 'hooks/Redux'
 
 import { Cards, SpaceBetween } from './styles'
 import { ISwitchCardsProps } from './types'
@@ -13,6 +14,7 @@ export const CardsSection = ({
   amount,
   render,
 }: ISwitchCardsProps) => {
+  const isMobile = useAppSelector(state => state.PageWidthReducer.isMobile)
   const [activeCards, setActiveCards] = useState(0)
   const next = () => {
     setActiveCards(activeCards + 1)
@@ -38,7 +40,7 @@ export const CardsSection = ({
           />
         </SpaceBetween>
       </Container>
-      <Cards>{render(activeCards, amount)}</Cards>
+      <Cards>{render(activeCards, !isMobile ? amount : 1)}</Cards>
     </Container>
   )
 }
