@@ -1,7 +1,7 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 
-import { ServiceCard } from 'components/UI/Cards/Service'
+import { SolutionCard } from 'components/UI/Cards/Solution'
 
 import { SolutionsCards } from './styles'
 
@@ -10,8 +10,8 @@ export const SolutionCards = () => {
   const solutions = t('cards.service', { returnObjects: true }) as []
   return (
     <SolutionsCards>
-      {solutions.map(({ id, ...rest }) => (
-        <ServiceCard key={id} {...rest} />
+      {solutions.map(({ id, title, advantages }) => (
+        <SolutionCard key={id} advantages={advantages} title={title} id={id} />
       ))}
     </SolutionsCards>
   )

@@ -11,7 +11,7 @@ export const CardsSection = () => {
   return (
     <Cards>
       {cards.map(({ icon, id, text, title }) => (
-        <ServiceCard icon={icon} text={text} title={title} key={id} />
+        <ServiceCard icon={icon} text={text} title={title} key={id} id={id} />
       ))}
     </Cards>
   )

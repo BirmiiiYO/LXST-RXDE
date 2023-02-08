@@ -11,6 +11,7 @@ export const Container = styled.div`
   @media ${devices.laptop} {
     padding: 30px 25px;
   }
+  cursor: pointer;
 `
 
 export const Icon = styled.img`

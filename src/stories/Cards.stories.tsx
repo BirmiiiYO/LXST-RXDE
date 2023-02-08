@@ -14,55 +14,13 @@ import teamAvatar from 'components/UI/Cards/Team/teamAvatar.png'
 
 export default {
   title: 'All cards',
-}
+} as ComponentMeta<typeof SolutionCard>
 
-const AdvantageService: ComponentStory<typeof ServiceCard> = args => (
-  <ServiceCard {...args} />
-)
-const Blog: ComponentStory<typeof BlogCard> = args => <BlogCard {...args} />
-const Price: ComponentStory<typeof PriceCard> = args => <PriceCard {...args} />
-
-const Review: ComponentStory<typeof ReviewCard> = args => (
-  <ReviewCard {...args} />
-)
 const Solution: ComponentStory<typeof SolutionCard> = args => (
   <SolutionCard {...args} />
 )
 const Team: ComponentStory<typeof TeamCard> = args => <TeamCard {...args} />
 
-export const AdvantageServiceCards = AdvantageService.bind({})
-AdvantageServiceCards.args = {
-  icon: brain,
-  text: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.',
-  title: 'Machine learning',
-}
-
-export const BlogCards = Blog.bind({})
-BlogCards.args = {
-  date: '22 June 2022',
-  image: blogPhoto,
-  title: 'Staffing software: key capabilities and top products',
-  text: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas. Quis autem vel eum iure...',
-  topics: ['App', 'CIO', 'Future'],
-}
-export const PriceCards = Price.bind({})
-PriceCards.args = {
-  infos: [
-    'For small teams – 5 users',
-    'Community support',
-    'Individual data – 20GB',
-  ],
-  name: 'Starter',
-  value: '00$',
-}
-
-export const ReviewCards = Review.bind({})
-ReviewCards.args = {
-  avatar,
-  name: 'Alex Bern',
-  position: 'CEO by PixelPerfect',
-  text: '“Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum.”',
-}
 export const SolutionCards = Solution.bind({})
 SolutionCards.args = {
   advantages: [

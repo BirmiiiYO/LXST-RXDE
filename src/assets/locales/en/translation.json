@@ -318,37 +318,67 @@
         "icon": "https://cdn.icon-icons.com/icons2/3249/PNG/512/brain_circuit_filled_icon_200878.png",
         "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
         "title": "Machine learning",
-        "id": 1
+        "id": 1,
+        "advantages": [
+          "Extract, transform, load (ETL)",
+          "Extract, load, transform (ELT)",
+          "Data governance"
+        ]
       },
       {
         "icon": "https://cdn.icon-icons.com/icons2/3249/PNG/512/brain_circuit_filled_icon_200878.png",
         "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
         "title": "Embed analytics",
-        "id": 2
+        "id": 2,
+        "advantages": [
+          "Extract, transform, load (ETL)",
+          "Extract, load, transform (ELT)",
+          "Data governance"
+        ]
       },
       {
         "icon": "https://cdn.icon-icons.com/icons2/3249/PNG/512/brain_circuit_filled_icon_200878.png",
         "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
         "title": "Access control",
-        "id": 3
+        "id": 3,
+        "advantages": [
+          "Extract, transform, load (ETL)",
+          "Extract, load, transform (ELT)",
+          "Data governance"
+        ]
       },
       {
         "icon": "https://cdn.icon-icons.com/icons2/3249/PNG/512/brain_circuit_filled_icon_200878.png",
         "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
         "title": "Data analytics",
-        "id": 4
+        "id": 4,
+        "advantages": [
+          "Extract, transform, load (ETL)",
+          "Extract, load, transform (ELT)",
+          "Data governance"
+        ]
       },
       {
         "icon": "https://cdn.icon-icons.com/icons2/3249/PNG/512/brain_circuit_filled_icon_200878.png",
         "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
         "title": "Big data consulting",
-        "id": 5
+        "id": 5,
+        "advantages": [
+          "Extract, transform, load (ETL)",
+          "Extract, load, transform (ELT)",
+          "Data governance"
+        ]
       },
       {
         "icon": "https://cdn.icon-icons.com/icons2/3249/PNG/512/brain_circuit_filled_icon_200878.png",
         "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
         "title": "Artificial intelligence",
-        "id": 6
+        "id": 6,
+        "advantages": [
+          "Extract, transform, load (ETL)",
+          "Extract, load, transform (ELT)",
+          "Data governance"
+        ]
       }
     ],
     "ourTeam": [
