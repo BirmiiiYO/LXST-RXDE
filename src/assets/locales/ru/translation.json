@@ -192,11 +192,7 @@
         "name": "5 примеров веб-порталов, на которых может поучиться ваш бизнес",
         "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque Corrpi quos dolores et quas. ",
         "title": "Sed ut perspiciatis unde omnis at vero blanditils",
-        "topics": [
-          "App",
-          "IT",
-          "Future"
-        ]
+        "topics": ["App", "IT", "Future"]
       },
       {
         "id": 2,
@@ -205,11 +201,7 @@
         "name": "Соответствие медицинских устройств ISO 13485",
         "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque Corrpi quos dolores et quas. ",
         "title": "Sed ut perspiciatis unde omnis at vero blanditils",
-        "topics": [
-          "Redux",
-          "Store",
-          "Future"
-        ]
+        "topics": ["Redux", "Store", "Future"]
       },
       {
         "id": 3,
@@ -218,11 +210,7 @@
         "name": "Кадровое ПО: ключевые возможности и топовые продукты",
         "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque Corrpi quos dolores et quas. ",
         "title": "Sed ut perspiciatis unde omnis at vero blanditils",
-        "topics": [
-          "App",
-          "Web",
-          "NEXT"
-        ]
+        "topics": ["App", "Web", "NEXT"]
       },
       {
         "id": 4,
@@ -231,11 +219,7 @@
         "name": "5 примеров веб-порталов, на которых может поучиться ваш бизнес",
         "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque Corrpi quos dolores et quas. ",
         "title": "Sed ut perspiciatis unde omnis at vero blanditils",
-        "topics": [
-          "App",
-          "ISO",
-          "Future"
-        ]
+        "topics": ["App", "ISO", "Future"]
       },
       {
         "id": 5,
@@ -244,11 +228,7 @@
         "name": "Соответствие медицинских устройств ISO 13485",
         "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque Corrpi quos dolores et quas. ",
         "title": "Sed ut perspiciatis unde omnis at vero blanditils",
-        "topics": [
-          "Приложение",
-          "ИТ-директор",
-          "Будущее"
-        ]
+        "topics": ["Приложение", "ИТ-директор", "Будущее"]
       }
     ],
     "price": [

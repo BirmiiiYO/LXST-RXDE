@@ -44,13 +44,7 @@
     "privacyPolicy": "politique de confidentialité",
     "quickLink": "Accès rapide",
     "service": "Service",
-    "services": [
-      "pages",
-      "Éléments",
-      "FAQ",
-      "Des prix",
-      "Carte"
-    ],
+    "services": ["pages", "Éléments", "FAQ", "Des prix", "Carte"],
     "termsOfUs": "Conditions d'utilisation"
   },
   "homePage": {
@@ -192,11 +186,7 @@
         "name": "5 exemples de portails Web dont votre entreprise peut s'inspirer",
         "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque Corrpi quos dolores et quas. ",
         "title": "Sed ut perspiciatis unde omnis at vero blanditils",
-        "topics": [
-          "Application",
-          "IL",
-          "Avenir"
-        ]
+        "topics": ["Application", "IL", "Avenir"]
       },
       {
         "id": 2,
@@ -205,11 +195,7 @@
         "name": "Conformité des dispositifs médicaux ISO 13485",
         "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque Corrpi quos dolores et quas. ",
         "title": "Sed ut perspiciatis unde omnis at vero blanditils",
-        "topics": [
-          "redux",
-          "Magasin",
-          "Avenir"
-        ]
+        "topics": ["redux", "Magasin", "Avenir"]
       },
       {
         "id": 3,
@@ -218,11 +204,7 @@
         "name": "Logiciel RH : fonctionnalités clés et meilleurs produits",
         "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque Corrpi quos dolores et quas. ",
         "title": "Sed ut perspiciatis unde omnis at vero blanditils",
-        "topics": [
-          "Application",
-          "la toile",
-          "SUIVANT"
-        ]
+        "topics": ["Application", "la toile", "SUIVANT"]
       },
       {
         "id": 4,
@@ -231,11 +213,7 @@
         "name": "5 exemples de portails Web dont votre entreprise peut s'inspirer",
         "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque Corrpi quos dolores et quas. ",
         "title": "Sed ut perspiciatis unde omnis at vero blanditils",
-        "topics": [
-          "Application",
-          "ISO",
-          "Avenir"
-        ]
+        "topics": ["Application", "ISO", "Avenir"]
       },
       {
         "id": 5,
@@ -244,11 +222,7 @@
         "name": "Conformité des dispositifs médicaux ISO 13485",
         "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque Corrpi quos dolores et quas. ",
         "title": "Sed ut perspiciatis unde omnis at vero blanditils",
-        "topics": [
-          "Application",
-          "DSI",
-          "Avenir"
-        ]
+        "topics": ["Application", "DSI", "Avenir"]
       }
     ],
     "price": [
