@@ -2,19 +2,20 @@ import { PayPalScriptProvider } from '@paypal/react-paypal-js'
 import React, { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 
+import { Modal } from 'components/Portal'
 import { PriceCard } from 'components/UI/Cards/Price'
 import { Container } from 'components/UI/Container'
 import { Text } from 'components/UI/Text'
 import { theme } from 'styles/themes'
 
-import { Cards } from './styles'
+import { Cards, PriceContainer } from './styles'
 
 export const PricingSection = () => {
   const { t } = useTranslation()
   const cards = t('cards.price', { returnObjects: true }) as []
-  const [activePrice, setActivePrice] = useState('Free trial')
+  const [activeCard, setActiveCard] = useState<number>()
   return (
-    <Container width="1110px" margin="120px 0" flex="column">
+    <PriceContainer id="priceSection">
       <Text typography="EbHeadline2" margin="0 0 50px 0">
         {t('homePage.ourPricingTitle')}
       </Text>
@@ -24,16 +25,16 @@ export const PricingSection = () => {
         <Cards>
           {cards.map(({ id, infos, name, value }) => (
             <PriceCard
-              onClick={() => setActivePrice(name)}
+              onClick={() => setActiveCard(id)}
               infos={infos}
               name={name}
               value={value}
               key={id}
-              active={name === activePrice}
+              active={id === activeCard}
             />
           ))}
         </Cards>
       </PayPalScriptProvider>
-    </Container>
+    </PriceContainer>
   )
 }

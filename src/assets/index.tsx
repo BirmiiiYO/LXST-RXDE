@@ -11,8 +11,8 @@ import { ReactComponent as InstIcon } from './svg/socialsIcons/inst_icon.svg'
 import { ReactComponent as TwitterIcon } from './svg/socialsIcons/twitter_icon.svg'
 import { ReactComponent as YoutubeIcon } from './svg/socialsIcons/youtube_icon.svg'
 import { ReactComponent as TabIcon } from './category-tab.svg'
-
-export { WhiteLogo, PlayerIcon, MenuIcon, RightIcon, TabIcon }
+import { ReactComponent as CloseIcon } from './close.svg'
+export { WhiteLogo, PlayerIcon, MenuIcon, RightIcon, TabIcon,CloseIcon }
 
 export const footerIcons = [
   <BehanceIcon />,

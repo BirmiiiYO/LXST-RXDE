@@ -1,14 +1,17 @@
 import React, { FC } from 'react'
 import { createPortal } from 'react-dom'
 
-import close from './close.svg'
-import { Icon, ModalContainer, PortalContainer } from './styles'
+import { CloseIcon } from 'assets'
+
+import { ModalContainer, PortalContainer } from './styles'
 import { IModalProps } from './types'
 
 export const Modal: FC<IModalProps> = ({
   children,
   containerElement,
   isOpen,
+  height,
+  width,
   setIsOpen,
 }) => {
   if (!isOpen) {
@@ -16,9 +19,9 @@ export const Modal: FC<IModalProps> = ({
   }
   return createPortal(
     <PortalContainer>
-      <ModalContainer>
+      <ModalContainer width={width} height={height}>
         {children}
-        <Icon src={close} alt="close demo" onClick={() => setIsOpen(false)} />
+        <CloseIcon onClick={() => setIsOpen && setIsOpen(false)} />
       </ModalContainer>
     </PortalContainer>,
     containerElement,

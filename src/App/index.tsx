@@ -38,6 +38,8 @@ const App = () => {
         containerElement={document.body}
         isOpen={isOpen}
         setIsOpen={setIsOpen}
+        width="80vw"
+        height="90vh"
       >
         <YoutubeVideo url="https://www.youtube.com/embed/dQw4w9WgXcQ" />
       </Modal>

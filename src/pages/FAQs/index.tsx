@@ -15,7 +15,9 @@ const FAQs = () => {
         <Text typography="BHeadline6" color="primary" margin="140px 0 0 0">
           FAQs
         </Text>
-        <Text margin="15px 0">{t('faqPage.title')}</Text>
+        <Text margin="15px 0" сenter>
+          {t('faqPage.title')}
+        </Text>
         <Text
           typography="RParagraph1"
           color="grey"

@@ -1,18 +1,20 @@
 import { FunctionComponent, ReactNode, SVGProps } from 'react'
 
+import { TTypography } from 'types/Typography'
+
 export type TButtonType = 'primary' | 'round' | 'border-watch'
 
 export interface IButtonProps {
   buttonType?: TButtonType
-  children?: ReactNode
+  children?: ReactNode | ReactNode[]
   icon?: FunctionComponent<SVGProps<SVGSVGElement>>
   padding?: string
   disabled?: boolean
-  background?: string
-  color?: string
+  primary?: boolean
   onClick?: () => void
+  typography?: TTypography
 }
 export type IButtonStyleProps = Pick<
   IButtonProps,
-  'buttonType' | 'background' | 'color' | 'padding'
+  'buttonType' | 'primary' | 'padding' | 'typography'
 >

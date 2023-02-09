@@ -8,15 +8,12 @@ export const setButtonStyles = (type: TButtonType) => {
   switch (type) {
     case EButtonType.BORDER_WATCH:
       return css`
-        ${theme.typography.B_HEADLINE_6}
-        border-radius: ${theme.BORDER_RADIUS.S}px;
-        border: 1px solid ${theme.colors.primary};
-        box-shadow: ${theme.shadows.none};
+        box-shadow: none;
+        border: none;
       `
     case EButtonType.ROUND:
       return css`
         position: relative;
-        ${theme.typography.SB_HEADLINE_7}
         border-radius: ${theme.BORDER_RADIUS.CIRCLE}%;
         border: none;
         box-shadow: ${theme.shadows.none};
@@ -38,17 +35,8 @@ export const setButtonStyles = (type: TButtonType) => {
     // default primary
     default:
       return css`
-        ${theme.typography.B_HEADLINE_6}
         border-radius: ${theme.BORDER_RADIUS.S}px;
         border: none;
-        box-shadow: ${theme.shadows.shadowButton};
-
-        &:not([hover]):active {
-          box-shadow: ${theme.shadows.none};
-        }
-        &:disabled {
-          box-shadow: ${theme.shadows.none};
-        }
       `
   }
 }

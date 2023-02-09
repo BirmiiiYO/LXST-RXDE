@@ -29,8 +29,8 @@ export const Header: FC<IHeaderProps> = ({ setIsOpen }) => {
             <Navigation />{' '}
             <Button
               padding="10px 14px"
+              primary={false}
               icon={<PlayerIcon />}
-              background={theme.colors.white}
               onClick={() => setIsOpen(true)}
             >
               <Text typography="SBHeadline7" maxWidth="600px">

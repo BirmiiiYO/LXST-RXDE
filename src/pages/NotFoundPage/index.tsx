@@ -24,7 +24,6 @@ const NotFoundPage = () => {
         </Container>
       </Section>
       <ContactUsSection />
-      <SubscribeSection />
     </>
   )
 }

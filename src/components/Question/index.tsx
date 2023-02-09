@@ -18,7 +18,7 @@ export const Question = ({ answer, question }: IQuestinProps) => {
         <Text color={isOpen ? 'primary' : 'black'} typography="BHeadline4">
           {question}
         </Text>
-        <Button isOpen={isOpen}>{isOpen ? <Plus /> : <Minus />}</Button>
+        <Button isOpen={isOpen}>{isOpen ? <Minus /> : <Plus />}</Button>
       </QuestionBlock>
       {isOpen && (
         <Text
