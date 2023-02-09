@@ -3,8 +3,6 @@ import styled from 'styled-components'
 
 import { COLUMN, theme } from 'styles/themes'
 
-import right from './right.svg'
-
 export const List = styled.ul`
   padding: 35px 20px;
   border-radius: 6px;
@@ -22,14 +20,23 @@ export const Item = styled(Link)`
   ${theme.typography.SB_HEADLINE_7}
   color: ${theme.colors.white};
   padding: 5px;
-  &::after {
-    content: url(${right});
-    padding-left: 10px;
+  svg {
+    margin-left: 5px;
+    fill: ${theme.colors.white};
+    stroke: ${theme.colors.white};
   }
   &:active {
     color: ${theme.colors.grey};
+    svg {
+      fill: ${theme.colors.grey};
+      stroke: ${theme.colors.grey};
+    }
   }
   &:hover {
     color: ${theme.colors.grey};
+    svg {
+      fill: ${theme.colors.grey};
+      stroke: ${theme.colors.grey};
+    }
   }
 `

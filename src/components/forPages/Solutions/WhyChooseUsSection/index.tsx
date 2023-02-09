@@ -1,10 +1,10 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 
+import whyChooseUs from 'assets/images/Solutions/whyChooseUs.png'
 import { Container } from 'components/UI/Container'
 import { Text } from 'components/UI/Text'
 
-import Photo from './img_0011.png'
 import { Benefit, Image, TextBlock } from './styles'
 
 export const WhyChooseUsSection = () => {
@@ -12,7 +12,7 @@ export const WhyChooseUsSection = () => {
   const benefits = t('solutionPage.benefits', { returnObjects: true }) as []
   return (
     <Container flex="space-between">
-      <Image src={Photo} alt="WhyUs" />
+      <Image src={whyChooseUs} alt="WhyUs" />
       <TextBlock>
         <Text typography="EbHeadline2">{t('solutionPage.whyChooseUs')}</Text>
         {benefits.map(({ id, name, text }) => (

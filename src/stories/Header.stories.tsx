@@ -8,9 +8,9 @@ export default {
   component: Header,
 } as ComponentMeta<typeof Header>
 
-const Template: ComponentStory<typeof Header> = () => <Header />
+const Template: ComponentStory<typeof Header> = args => <Header {...args} />
 
 export const Info = Template.bind({})
 Info.args = {
-  title: 'Info',
+  setIsOpen: () => console.log('zxc'),
 }

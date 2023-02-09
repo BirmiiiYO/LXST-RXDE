@@ -3,15 +3,14 @@ import { useTranslation } from 'react-i18next'
 
 import { Breadcrumb } from 'components/Breadcrumb'
 import { ClientsSection } from 'components/ClientsSection'
+import { InfoSection } from 'components/forPages/AboutUs/InfoSection'
 import { CardsSection } from 'components/forPages/Home'
 import { FormSection } from 'components/forPages/OurBlog/FormSection'
-import { InfoSection } from 'components/forPages/OurBlog/InfoSection'
 import { NumberSection } from 'components/forPages/OurBlog/NumberSection'
 import { SubscribeSection } from 'components/SubcribeSection'
 import { ReviewCard } from 'components/UI/Cards/Review'
 import { Container } from 'components/UI/Container'
 import { Text } from 'components/UI/Text'
-import { theme } from 'styles/themes'
 
 import { AboutContainer, TitleContainer } from './styles'
 

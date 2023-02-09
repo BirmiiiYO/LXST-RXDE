@@ -1,11 +1,10 @@
 import React from 'react'
 import { Trans, useTranslation } from 'react-i18next'
 
-import featureImage from 'assets/images/featuresSection.png'
+import featureImage from 'assets/images/Home/featuresSection.png'
 import { Button } from 'components/UI/Button'
 import { Container } from 'components/UI/Container'
 import { Text } from 'components/UI/Text'
-import { theme } from 'styles/themes'
 
 import { Description, Image, SolutionContainer } from './styles'
 
@@ -28,7 +27,6 @@ export const FeaturesSection = () => {
             {t('base.mediumText')}
           </Text>
           <div>
-            {/*  почему так... */}
             <Button>{t('base.discoverMore')}</Button>
           </div>
         </Container>

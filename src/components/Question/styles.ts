@@ -1,6 +1,5 @@
 import styled, { css } from 'styled-components'
 
-import { Text } from 'components/UI/Text'
 import { theme } from 'styles/themes'
 
 import { IQuestinStyleProps } from './types'
@@ -16,6 +15,7 @@ export const TabStyled = styled.div`
   border: 1px solid ${theme.colors.grey};
   border-radius: 6px;
   cursor: pointer;
+  box-shadow: ${theme.shadows.shadowDropdown};
 `
 
 export const QuestionBlock = styled.div`

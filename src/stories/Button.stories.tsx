@@ -1,7 +1,6 @@
 import { ComponentMeta, ComponentStory } from '@storybook/react'
 import React from 'react'
 
-import player from 'assets/player.svg'
 import { Button } from 'components/UI/Button'
 import { EButtonType } from 'constants/buttonType'
 

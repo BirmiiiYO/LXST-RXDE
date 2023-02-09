@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 
+import { CheckMarkIcon } from 'assets/index'
 import { PayPal } from 'components/PayPal'
 import { Modal } from 'components/Portal'
 import { PriceButton } from 'components/UI/PriceButton'
@@ -27,7 +28,10 @@ export const PriceCard = ({
         <PriceButton onClick={openPayPal} active={active} />
         <List>
           {infos.map(info => (
-            <Info>{info}</Info>
+            <Info>
+              <CheckMarkIcon />
+              {info}
+            </Info>
           ))}
         </List>
       </Container>

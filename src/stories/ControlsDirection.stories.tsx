@@ -15,5 +15,5 @@ const Template: ComponentStory<typeof ControlsDirection> = args => (
 export const ControlsDirectionComponent = Template.bind({})
 ControlsDirectionComponent.args = {
   direction: 'left',
-  disabled: true,
+  disabled: false,
 }

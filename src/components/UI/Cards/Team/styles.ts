@@ -10,7 +10,12 @@ export const Container = styled.div<IBackgroundStyleProps>`
   width: 350px;
   height: 500px;
   color: ${theme.colors.white};
-  background-image: url(${({ avatar }) => avatar});
+  background-image: linear-gradient(
+      180deg,
+      rgba(40, 50, 66, 0) 26.37%,
+      #283850 103.66%
+    ),
+    url(${({ avatar }) => avatar});
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 6px;

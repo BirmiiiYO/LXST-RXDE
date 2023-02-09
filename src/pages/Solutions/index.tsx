@@ -9,7 +9,6 @@ import { SubscribeSection } from 'components/SubcribeSection'
 import { ReviewCard } from 'components/UI/Cards/Review'
 import { Section } from 'components/UI/Section'
 import { Text } from 'components/UI/Text'
-import { theme } from 'styles/themes'
 
 const Solutions = () => {
   const { t } = useTranslation()

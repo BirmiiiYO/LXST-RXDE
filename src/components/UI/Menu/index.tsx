@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import { MenuIcon } from 'assets'
 import { DropDown } from 'components/UI/Dropdown'
 
-import { Icon, StyledMenu } from './styles'
+import { StyledMenu } from './styles'
 
 export const Menu = () => {
   const [active, setActive] = useState(false)

@@ -1,12 +1,26 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
-import right from './right.svg'
-import { CustomLink, Image } from './styles'
+import { RightIcon } from 'assets'
+
+import { CustomLink } from './styles'
 import { ILinkProps } from './types'
 
-export const Link = ({ disabled, icon, children }: ILinkProps) => (
-  <CustomLink disabled={disabled}>
-    {children}
-    {icon && <Image src={right} alt="zxc" />}
-  </CustomLink>
-)
+export const Link = ({
+  disabled = false,
+  icon,
+  children,
+  to = '/',
+}: ILinkProps) => {
+  const navigate = useNavigate()
+
+  const navigateTo = () => {
+    navigate(to)
+  }
+  return (
+    <CustomLink onClick={navigateTo} disabled={disabled}>
+      {children}
+      {icon && <RightIcon />}
+    </CustomLink>
+  )
+}

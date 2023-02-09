@@ -1,7 +1,7 @@
 import React from 'react'
 import { Trans, useTranslation } from 'react-i18next'
 
-import heroImage from 'assets/images/heroSection.png'
+import heroImage from 'assets/images/Home/heroSection.png'
 import { Button } from 'components/UI/Button'
 import { Text } from 'components/UI/Text'
 
@@ -24,7 +24,11 @@ export const HeroSection = () => {
           {t('base.largeText')}
         </Text>
         <ButtonContainer>
-          <Button buttonType="round" padding="47px 23px">
+          <Button
+            buttonType="round"
+            padding="47px 23px"
+            typography="SBHeadline7"
+          >
             {t('base.learnMore')}
           </Button>
         </ButtonContainer>

@@ -1,7 +1,6 @@
 import React from 'react'
-import styled from 'styled-components'
 
-import { heroImages } from 'assets/images/HeroPage'
+import { heroImages } from 'assets/images/Clients'
 
 import { ClientContainer, Sponsor } from './styles'
 

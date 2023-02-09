@@ -12,7 +12,9 @@ import { ReactComponent as TwitterIcon } from './svg/socialsIcons/twitter_icon.s
 import { ReactComponent as YoutubeIcon } from './svg/socialsIcons/youtube_icon.svg'
 import { ReactComponent as TabIcon } from './category-tab.svg'
 import { ReactComponent as CloseIcon } from './close.svg'
-export { WhiteLogo, PlayerIcon, MenuIcon, RightIcon, TabIcon,CloseIcon }
+import { ReactComponent as CheckMarkIcon } from './checkMark.svg'
+
+export { WhiteLogo, PlayerIcon, MenuIcon, RightIcon, TabIcon,CloseIcon,CheckMarkIcon }
 
 export const footerIcons = [
   <BehanceIcon />,

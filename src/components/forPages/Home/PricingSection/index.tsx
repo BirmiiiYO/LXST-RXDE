@@ -2,11 +2,8 @@ import { PayPalScriptProvider } from '@paypal/react-paypal-js'
 import React, { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 
-import { Modal } from 'components/Portal'
 import { PriceCard } from 'components/UI/Cards/Price'
-import { Container } from 'components/UI/Container'
 import { Text } from 'components/UI/Text'
-import { theme } from 'styles/themes'
 
 import { Cards, PriceContainer } from './styles'
 

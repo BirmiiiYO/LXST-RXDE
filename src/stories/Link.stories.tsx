@@ -13,7 +13,4 @@ const Template: ComponentStory<typeof Link> = args => (
 )
 
 export const LinkIcon = Template.bind({})
-LinkIcon.args = { disabled: false, withIcon: false }
-
-export const LinkComp = Template.bind({})
-LinkComp.args = { disabled: true, withIcon: true }
+LinkIcon.args = { disabled: false, icon: false }

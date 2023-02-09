@@ -12,7 +12,7 @@ export const StyledTag = styled.button`
   font-size: 14px;
   line-height: 24px;
   padding: 3px 11px;
-  border: 1px solid ${theme.colors.background};
+  border: 1px solid ${theme.colors.aliceBlue};
   border-radius: 6px;
   &:not([disabled]):hover {
     color: ${theme.colors.white};

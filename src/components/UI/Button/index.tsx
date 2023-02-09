@@ -10,7 +10,7 @@ export const Button: FC<IButtonProps> = ({
   disabled = false,
   icon,
   primary = true,
-  typography = 'BHeadline4',
+  typography = 'BHeadline6',
   padding = '15px 52px',
   children,
   onClick,

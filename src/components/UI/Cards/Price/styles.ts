@@ -1,9 +1,8 @@
 import { PayPalButtons } from '@paypal/react-paypal-js'
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 
 import { theme } from 'styles/themes'
 
-import check from './check.svg'
 import { IPriceCardStyleProps } from './types'
 
 export const Container = styled.div<IPriceCardStyleProps>`
@@ -13,9 +12,14 @@ export const Container = styled.div<IPriceCardStyleProps>`
   padding: 50px 35px;
   ${({ active }) =>
     active
-      ? `
- background: ${theme.colors.primary};
- color: ${theme.colors.white};`
+      ? css`
+          background: ${theme.colors.primary};
+          color: ${theme.colors.white};
+          svg {
+            fill: ${theme.colors.white};
+            stroke: ${theme.colors.white};
+          }
+        `
       : ''}
 `
 
@@ -39,9 +43,10 @@ export const List = styled.div`
 export const Info = styled.div`
   ${theme.typography.R_PARAGRAPH_3}
   margin-bottom: 15px;
-  &::before {
-    content: url(${check});
-    padding-right: 5px;
+  svg {
+    margin-right: 10px;
+    fill: ${theme.colors.primary};
+    stroke: ${theme.colors.primary};
   }
 `
 
