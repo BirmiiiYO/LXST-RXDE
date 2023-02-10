@@ -14,7 +14,15 @@ import { ReactComponent as TabIcon } from './category-tab.svg'
 import { ReactComponent as CloseIcon } from './close.svg'
 import { ReactComponent as CheckMarkIcon } from './checkMark.svg'
 
-export { WhiteLogo, PlayerIcon, MenuIcon, RightIcon, TabIcon,CloseIcon,CheckMarkIcon }
+export {
+  WhiteLogo,
+  PlayerIcon,
+  MenuIcon,
+  RightIcon,
+  TabIcon,
+  CloseIcon,
+  CheckMarkIcon,
+}
 
 export const footerIcons = [
   <BehanceIcon />,
