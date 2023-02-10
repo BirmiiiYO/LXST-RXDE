@@ -34,7 +34,7 @@ export const InputWithButton = ({
   })
 
   return (
-    <Container flex="space-between" width="445px">
+    <Container flex="space-between" width="445px" background="secondary">
       <form ref={form} onSubmit={formik.handleSubmit}>
         <StyledInput
           type="text"

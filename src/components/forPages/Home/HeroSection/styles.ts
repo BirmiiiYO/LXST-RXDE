@@ -12,6 +12,10 @@ export const Container = styled.div`
     width: 100vw;
     padding: 0 10px;
   }
+  @media ${devices.tablet} {
+    flex-direction: column;
+    justify-content: center;
+  }
 `
 export const Text = styled.span`
   ${theme.typography.R_PARAGRAPH_2}

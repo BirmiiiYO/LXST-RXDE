@@ -1,5 +1,6 @@
 import React from 'react'
 import { Trans, useTranslation } from 'react-i18next'
+import { useNavigate } from 'react-router-dom'
 
 import heroImage from 'assets/images/Home/heroSection.png'
 import { Button } from 'components/UI/Button'
@@ -9,6 +10,8 @@ import { ButtonContainer, Container, HeroImage } from './styles'
 
 export const HeroSection = () => {
   const { t } = useTranslation()
+  const navigate = useNavigate()
+
   return (
     <>
       <Container>
@@ -28,6 +31,7 @@ export const HeroSection = () => {
             buttonType="round"
             padding="47px 23px"
             typography="SBHeadline7"
+            onClick={() => navigate('/services')}
           >
             {t('base.learnMore')}
           </Button>

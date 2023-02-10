@@ -11,6 +11,7 @@ export const Container = ({
   margin = '0',
   width = '100%',
   padding = '0',
+  mobileColumn = true,
 }: IContainerProps) => (
   <StyledContainer
     background={background}
@@ -19,6 +20,7 @@ export const Container = ({
     margin={margin}
     width={width}
     padding={padding}
+    mobileColumn={mobileColumn}
   >
     {children}
   </StyledContainer>

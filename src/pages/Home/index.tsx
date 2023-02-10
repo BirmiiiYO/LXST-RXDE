@@ -26,7 +26,7 @@ const Home = () => {
   return (
     <Container>
       <HeroSection />
-      <FeaturesSection />
+      <FeaturesSection />У
       <CompanyOverviewSection />
       <ClientsSection />
       <BenefitsSection />

@@ -25,7 +25,7 @@ const Contacts = () => {
         <Container flex="space-between" width="1110px" margin="100px 0 120px 0">
           <CusContainer>
             <MoreContainer>
-              <Text margin="0 0 400px 0">
+              <Text margin="50px 50px 250px 0">
                 <Trans i18nKey="contactsPage.title" components={[<span />]} />
               </Text>
               <Containerr>

@@ -12,6 +12,7 @@ export interface IContainerProps {
   color?: TColor
   flex?: TFlex
   padding?: string
+  mobileColumn?: boolean
 }
 
 export type IContainerStyleProps = Omit<IContainerProps, 'children'>

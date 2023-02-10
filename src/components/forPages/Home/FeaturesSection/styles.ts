@@ -33,6 +33,10 @@ export const SolutionContainer = styled.div`
   justify-content: flex-start;
   align-items: center;
   background-color: ${theme.colors.aliceBlue};
+  @media ${devices.tablet} {
+    flex-direction: column;
+    justify-content: center;
+  }
 `
 
 export const Image = styled.img`

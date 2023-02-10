@@ -24,6 +24,7 @@ export const StyledInput = styled.input<IInputWithButtonProps>`
       : theme.colors.rhythmicBlue};
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
+
   &::placeholder {
     color: ${({ disabled }) =>
       disabled ? theme.colors.grey : theme.colors.black};

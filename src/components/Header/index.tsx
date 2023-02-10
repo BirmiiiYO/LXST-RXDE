@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import React, { FC, FunctionComponent, SVGProps } from 'react'
 import { useTranslation } from 'react-i18next'
 
 import { PlayerIcon } from 'assets'
@@ -29,7 +29,11 @@ export const Header: FC<IHeaderProps> = ({ setIsOpen }) => {
             <Button
               padding="10px 14px"
               primary={false}
-              icon={<PlayerIcon />}
+              icon={
+                (<PlayerIcon />) as unknown as FunctionComponent<
+                  SVGProps<SVGSVGElement>
+                >
+              }
               onClick={() => setIsOpen(true)}
             >
               <Text typography="SBHeadline7" maxWidth="600px">

@@ -1,5 +1,6 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 
+import { devices } from 'styles/breakpoints'
 import { getColor } from 'utils/getColor'
 import { setFlexStyle } from 'utils/setFlexStyle'
 
@@ -11,8 +12,19 @@ export const StyledContainer = styled.div<IContainerStyleProps>`
   padding: ${({ padding }) => padding};
   width: ${({ width }) => width};
   color: ${({ color }) => color && getColor(color)};
-  ${({ flex }) => flex && setFlexStyle(flex)}
-  @media (max-width: 1110px) {
+  ${({ flex, mobileColumn }) => flex && setFlexStyle(flex, mobileColumn)};
+  @media ${devices.content} {
     width: 100%;
   }
+  @media ${devices.tablet} {
+    flex-direction: column;
+  }
+  ${({ mobileColumn }) =>
+    mobileColumn &&
+    css`
+      @media ${devices.tablet} {
+        flex-direction: column;
+        justify-content: center;
+      }
+    `}
 `
