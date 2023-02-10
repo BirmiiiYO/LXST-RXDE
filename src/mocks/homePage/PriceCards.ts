@@ -1,8 +1,3 @@
-import brain from 'assets/svg/AdvCards/brain.svg'
-import graph from 'assets/svg/AdvCards/graph.svg'
-import key from 'assets/svg/AdvCards/key.svg'
-import trend from 'assets/svg/AdvCards/trend.svg'
-
 interface IPriceCardProps {
   infos: string[]
   value: string

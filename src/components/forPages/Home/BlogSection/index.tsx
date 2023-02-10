@@ -5,7 +5,6 @@ import { BlogCard } from 'components/UI/Cards/Blog'
 import { Container } from 'components/UI/Container'
 import { ControlsDirection } from 'components/UI/ControlsDirection'
 import { Text } from 'components/UI/Text'
-import { theme } from 'styles/themes'
 
 import { Cards, SpaceBetween } from '../../../CardsSection/styles'
 

@@ -1,5 +1,7 @@
 import { css } from 'styled-components'
 
+import { devices } from './breakpoints'
+
 const theme = {
   colors: {
     primary: '#185CFF',
@@ -147,6 +149,9 @@ const SPACE_BETWEEN = `
   display: flex;
   justify-content: space-between;
   align-items:center;
+  @media ${devices.tablet} {
+    flex-direction:column;
+  }
   `
 const COLUMN = `
   display: flex;

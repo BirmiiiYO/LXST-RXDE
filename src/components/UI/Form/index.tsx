@@ -8,12 +8,12 @@ import {
   Container,
   ErrorMessage,
   Field,
-  FormButton,
   Input,
   Label,
   List,
   Title,
 } from './styles'
+import { Button } from '../Button'
 
 const formSchema = yup.object().shape({
   email: yup.string().email('invalid').required(),
@@ -98,7 +98,9 @@ export const Form = () => {
           />
           {/* <ErrorMessage name="message" /> */}
         </Field>
-        <FormButton type="submit">Send</FormButton>
+        <Button buttonType="primary" type="submit">
+          Send
+        </Button>
       </List>
       <div />
     </Container>

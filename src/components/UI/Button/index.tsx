@@ -1,7 +1,5 @@
 import React, { FC } from 'react'
 
-import { theme } from 'styles/themes'
-
 import { StyledButton } from './styles'
 import { IButtonProps } from './types'
 

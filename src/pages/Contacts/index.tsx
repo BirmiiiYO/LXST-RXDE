@@ -5,7 +5,6 @@ import { Map } from 'components/Map'
 import { Container } from 'components/UI/Container'
 import { Form } from 'components/UI/Form'
 import { Text } from 'components/UI/Text'
-import { theme } from 'styles/themes'
 
 import { Containerr, CusContainer, MoreContainer } from './styles'
 

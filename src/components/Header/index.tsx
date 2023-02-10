@@ -10,7 +10,6 @@ import { Container } from 'components/UI/Container'
 import { Menu } from 'components/UI/Menu'
 import { Text } from 'components/UI/Text'
 import { useAppSelector } from 'hooks/Redux'
-import { theme } from 'styles/themes'
 
 import { Logo, Row } from './styles'
 

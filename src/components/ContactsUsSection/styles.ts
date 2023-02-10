@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-import { CENTER, SPACE_BETWEEN, theme } from 'styles/themes'
+import { CENTER, theme } from 'styles/themes'
 
 export const Content = styled.div`
   max-width: 540px;

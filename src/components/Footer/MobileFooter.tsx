@@ -6,7 +6,7 @@ import { Container } from 'components/UI/Container'
 import { SideBar } from 'components/UI/SideBar'
 import { Text } from 'components/UI/Text'
 
-import { Icon, Logo, Mobile } from './styles'
+import { Logo } from './styles'
 
 export const MobileFooter = () => {
   const [open, setOpen] = useState(false)

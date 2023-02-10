@@ -4,7 +4,6 @@ import { useTranslation } from 'react-i18next'
 import { Container } from 'components/UI/Container'
 import { Form } from 'components/UI/Form'
 import { Text } from 'components/UI/Text'
-import { theme } from 'styles/themes'
 
 import { FormContainer } from './styles'
 

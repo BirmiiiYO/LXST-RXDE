@@ -2,7 +2,7 @@ import React from 'react'
 
 import { RightIcon } from 'assets'
 
-import { ControlButton, Icon } from './styles'
+import { ControlButton } from './styles'
 import { IControlsDirectionProps } from './types'
 
 export const ControlsDirection = ({

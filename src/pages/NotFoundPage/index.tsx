@@ -2,7 +2,6 @@ import React, { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 
 import { ContactUsSection } from 'components/ContactsUsSection'
-import { SubscribeSection } from 'components/SubcribeSection'
 import { Container } from 'components/UI/Container'
 import { Section } from 'components/UI/Section'
 import { Text } from 'components/UI/Text'
@@ -11,7 +10,7 @@ const NotFoundPage = () => {
   const navigate = useNavigate()
   useEffect(() => {
     setTimeout(() => navigate('/'), 3000)
-  }, [])
+  }, [navigate])
   return (
     <>
       <Section>

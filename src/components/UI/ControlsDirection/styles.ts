@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 import { devices } from 'styles/breakpoints'
-import { CENTER, COLUMN, SPACE_BETWEEN, theme } from 'styles/themes'
+import { CENTER, theme } from 'styles/themes'
 
 import { IControlsDirectionStyleProps } from './types'
 

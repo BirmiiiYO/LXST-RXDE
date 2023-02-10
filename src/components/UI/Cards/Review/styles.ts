@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-import { SPACE_BETWEEN, theme } from 'styles/themes'
+import { theme } from 'styles/themes'
 
 export const Container = styled.div`
   width: 330px;

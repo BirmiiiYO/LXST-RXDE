@@ -5,7 +5,6 @@ import { CompanyOverviewSection } from 'components/CompanyOverviewSection'
 import { Container } from 'components/UI/Container'
 import { Text } from 'components/UI/Text'
 import { useAppSelector } from 'hooks/Redux'
-import { theme } from 'styles/themes'
 
 export const NumberSection = () => {
   const { t } = useTranslation()

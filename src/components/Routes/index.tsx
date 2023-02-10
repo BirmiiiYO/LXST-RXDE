@@ -1,6 +1,7 @@
 import React, { Suspense, lazy } from 'react'
 import { Route, Routes } from 'react-router-dom'
 
+import { PayPal } from 'components/PayPal'
 import { Loader } from 'components/UI/Loader'
 import { EPagePaths } from 'constants/router'
 
@@ -31,6 +32,7 @@ export const Routing = () => (
       <Route path={EPagePaths.SERVICE} element={<Service />} />
       <Route path={EPagePaths.SOLUTION} element={<Solution />} />
       <Route path={EPagePaths.ERROR} element={<NotFoundPage />} />
+      <Route path="/paypal" element={<PayPal name="zxc" value="1000" />} />
     </Routes>
   </Suspense>
 )

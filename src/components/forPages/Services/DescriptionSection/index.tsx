@@ -2,7 +2,6 @@ import React from 'react'
 import { useTranslation } from 'react-i18next'
 
 import { Text } from 'components/UI/Text'
-import { theme } from 'styles/themes'
 
 import { Container } from './styles'
 
