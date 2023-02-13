@@ -11,7 +11,7 @@ export const Cards = styled.ul`
 
 export const PriceContainer = styled.div`
   width: 1110px;
-  margin: 120px 0;
+  margin: 120px 0 0;
   ${COLUMN}
   @media (max-width: 1110px) {
     width: 100%;

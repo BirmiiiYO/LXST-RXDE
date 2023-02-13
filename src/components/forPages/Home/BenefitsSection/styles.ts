@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-import { SPACE_BETWEEN, theme } from 'styles/themes'
+import { CENTER, SPACE_BETWEEN, theme } from 'styles/themes'
 
 export const Content = styled.div`
   max-width: 1110px;
@@ -9,16 +9,15 @@ export const Content = styled.div`
 `
 export const Info = styled.div`
   margin-right: 50px;
-`
-
-export const Text = styled.div`
-  ${theme.typography.R_PARAGRAPH_2}
-  color:${theme.colors.grey};
-  max-width: 540px;
+  max-width: 450px;
 `
 export const Cards = styled.ul`
-  display: flex;
+  ${CENTER}
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
+  padding: 120px 0;
+  & > * {
+    &:nth-child(2n + 1) {
+      margin-top: -100px;
+    }
+  }
 `

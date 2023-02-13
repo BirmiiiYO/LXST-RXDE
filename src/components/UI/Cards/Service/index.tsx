@@ -1,7 +1,9 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
-import { Container, Icon, Text, Title } from './styles'
+import { Text } from 'components/UI/Text'
+
+import { Container, Icon } from './styles'
 import { IdvantageServiceCardProps } from './types'
 
 export const ServiceCard = ({
@@ -17,8 +19,12 @@ export const ServiceCard = ({
   return (
     <Container onClick={changePage}>
       <Icon src={icon} alt="logo of services card" />
-      <Title>{title}</Title>
-      <Text>{text}</Text>
+      <Text typography="BHeadline5" margin="10px 0 5px 0">
+        {title}
+      </Text>
+      <Text typography="RParagraph3" color="grey" margin="0 0 15px 0">
+        {text}
+      </Text>
     </Container>
   )
 }
