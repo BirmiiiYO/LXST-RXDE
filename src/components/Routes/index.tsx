@@ -16,6 +16,7 @@ const SolutionsPage = lazy(() => import('pages/Solutions'))
 const Service = lazy(() => import('pages/Service'))
 const Solution = lazy(() => import('pages/Solution'))
 const NotFoundPage = lazy(() => import('pages/NotFoundPage'))
+const TeamMemberPage = lazy(() => import('pages/TeamMember'))
 
 export const Routing = () => (
   <Suspense fallback={<Loader />}>
@@ -31,6 +32,7 @@ export const Routing = () => (
       <Route path={EPagePaths.SOLUTIONS} element={<SolutionsPage />} />
       <Route path={EPagePaths.SERVICE} element={<Service />} />
       <Route path={EPagePaths.SOLUTION} element={<Solution />} />
+      <Route path={EPagePaths.TEAM_MEMBER} element={<TeamMemberPage />} />
       <Route path={EPagePaths.ERROR} element={<NotFoundPage />} />
       <Route path="/paypal" element={<PayPal name="zxc" value="1000" />} />
     </Routes>

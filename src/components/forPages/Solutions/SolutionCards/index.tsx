@@ -8,6 +8,7 @@ import { SolutionsCards } from './styles'
 export const SolutionCards = () => {
   const { t } = useTranslation()
   const solutions = t('cards.service', { returnObjects: true }) as []
+  console.log(solutions)
   return (
     <SolutionsCards>
       {solutions.map(({ id, title, advantages }) => (

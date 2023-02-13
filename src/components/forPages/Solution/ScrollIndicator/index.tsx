@@ -1,11 +1,15 @@
 import React, { FC } from 'react'
 
+import { ScrollContainer, Tab } from './styles'
 import { IScrollIndicatorProps } from './types'
 
-export const ScrollIndicator: FC<IScrollIndicatorProps> = ({ tabs }) => (
-  <div>
+export const ScrollIndicator: FC<IScrollIndicatorProps> = ({
+  tabs,
+  active,
+}) => (
+  <ScrollContainer>
     {tabs.map(tab => (
-      <div>{tab}</div>
+      <Tab active={active === tab}>{tab}</Tab>
     ))}
-  </div>
+  </ScrollContainer>
 )

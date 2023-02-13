@@ -9,5 +9,6 @@ export const enum EPagePaths {
   SERVICES = '/services',
   SOLUTION = '/solutions/:id',
   SERVICE = '/services/:id',
+  TEAM_MEMBER = '/our-team/:id',
   ERROR = '*',
 }

@@ -329,13 +329,13 @@
         {"title": "Types of data visualizations", "text":"Vestibulum varius mattis sagittis. Cras pharetra rutrum ante. Pellentesque pulvinar, odio ut convallis lobortis, massa ante mattis neque, a sagittis orci leo in quam. Ut convallis ex orci, nec sodales urna convallis ac. Sed cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor in vehicula arcu:",
         "extraList":[
           {"extraTitle":"Symbol maps", "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor in vehicula arcu."},
-          {"title":"Line charts", "text":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam."},
-          {"title":"", "text":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam."},
-          {"title":"Pie charts", "text":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna."},
-          {"title":"Tables", "text":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl."},
-          {"title":"Histograms", "text":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor."},
-          {"title":"Scatter plots", "text":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor in vehicula arcu."}
-
+          {"extraTitle":"Line charts", "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam."},
+          {"extraTitle":"Big data consulting", "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam."},
+          {"extraTitle":"Pie charts", "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna."},
+          {"extraTitle":"Tables", "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl."},
+          {"extraTitle":"Histograms", "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor."},
+          {"extraTitle":"Scatter plots", "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor in vehicula arcu."}
+    
         ], 
         "icon":"https://cdn-images-1.medium.com/fit/t/1600/480/1*9dsmqIQNnh6iJdbXwkXZlA.jpeg"},
         {"title": "Data visualization practices", "text":"Vestibulum varius mattis sagittis. Cras pharetra rutrum ante. Pellentesque pulvinar, odio ut convallis lobortis, massa ante mattis neque, a sagittis orci leo in quam. Ut convallis ex orci, nec sodales urna convallis ac. Sed cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor in vehicula arcu. Phasellus sed venenatis leo. Cras pulvinar, eros sed dictum semper, orci ipsum scelerisque tortor, at euismod sem lectus sed ex. Praesent purus orci, rutrum ac aliquet nec, egestas sit amet nibh.","extraList":[],  
@@ -360,14 +360,14 @@
           "icon":""},
         {"title": "Types of data visualizations", "text":"Vestibulum varius mattis sagittis. Cras pharetra rutrum ante. Pellentesque pulvinar, odio ut convallis lobortis, massa ante mattis neque, a sagittis orci leo in quam. Ut convallis ex orci, nec sodales urna convallis ac. Sed cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor in vehicula arcu:",
         "extraList":[
-          {"title":"Symbol maps", "text":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor in vehicula arcu."},
-          {"title":"Line charts", "text":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam."},
-          {"title":"", "text":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam."},
-          {"title":"Pie charts", "text":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna."},
-          {"title":"Tables", "text":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl."},
-          {"title":"Histograms", "text":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor."},
-          {"title":"Scatter plots", "text":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor in vehicula arcu."}
-
+          {"extraTitle":"Symbol maps", "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor in vehicula arcu."},
+          {"extraTitle":"Line charts", "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam."},
+          {"extraTitle":"Big data consulting", "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam."},
+          {"extraTitle":"Pie charts", "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna."},
+          {"extraTitle":"Tables", "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl."},
+          {"extraTitle":"Histograms", "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor."},
+          {"extraTitle":"Scatter plots", "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor in vehicula arcu."}
+    
         ], 
         "icon":"https://cdn-images-1.medium.com/fit/t/1600/480/1*9dsmqIQNnh6iJdbXwkXZlA.jpeg"},
         {"title": "Data visualization practices", "text":"Vestibulum varius mattis sagittis. Cras pharetra rutrum ante. Pellentesque pulvinar, odio ut convallis lobortis, massa ante mattis neque, a sagittis orci leo in quam. Ut convallis ex orci, nec sodales urna convallis ac. Sed cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor in vehicula arcu. Phasellus sed venenatis leo. Cras pulvinar, eros sed dictum semper, orci ipsum scelerisque tortor, at euismod sem lectus sed ex. Praesent purus orci, rutrum ac aliquet nec, egestas sit amet nibh.","extraList":[],  
@@ -391,16 +391,7 @@
           "extraList":[],  
           "icon":""},
         {"title": "Types of data visualizations", "text":"Vestibulum varius mattis sagittis. Cras pharetra rutrum ante. Pellentesque pulvinar, odio ut convallis lobortis, massa ante mattis neque, a sagittis orci leo in quam. Ut convallis ex orci, nec sodales urna convallis ac. Sed cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor in vehicula arcu:",
-        "extraList":[
-          {"title":"Symbol maps", "text":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor in vehicula arcu."},
-          {"title":"Line charts", "text":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam."},
-          {"title":"", "text":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam."},
-          {"title":"Pie charts", "text":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna."},
-          {"title":"Tables", "text":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl."},
-          {"title":"Histograms", "text":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor."},
-          {"title":"Scatter plots", "text":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor in vehicula arcu."}
-
-        ], 
+        "extraList":[], 
         "icon":"https://cdn-images-1.medium.com/fit/t/1600/480/1*9dsmqIQNnh6iJdbXwkXZlA.jpeg"},
         {"title": "Data visualization practices", "text":"Vestibulum varius mattis sagittis. Cras pharetra rutrum ante. Pellentesque pulvinar, odio ut convallis lobortis, massa ante mattis neque, a sagittis orci leo in quam. Ut convallis ex orci, nec sodales urna convallis ac. Sed cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor in vehicula arcu. Phasellus sed venenatis leo. Cras pulvinar, eros sed dictum semper, orci ipsum scelerisque tortor, at euismod sem lectus sed ex. Praesent purus orci, rutrum ac aliquet nec, egestas sit amet nibh.","extraList":[],  
         "icon":"https://sun9-12.userapi.com/impf/kPWVhZucvNr0bH6WR6fq772DezAIoa13kz5ahw/cobaMJy_5ag.jpg?size=1920x768&quality=95&crop=0,215,2426,969&sign=301fb1753c2cb293431709547fb5d6ff&type=cover_group"},
@@ -424,14 +415,14 @@
           "icon":""},
         {"title": "Types of data visualizations", "text":"Vestibulum varius mattis sagittis. Cras pharetra rutrum ante. Pellentesque pulvinar, odio ut convallis lobortis, massa ante mattis neque, a sagittis orci leo in quam. Ut convallis ex orci, nec sodales urna convallis ac. Sed cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor in vehicula arcu:",
         "extraList":[
-          {"title":"Symbol maps", "text":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor in vehicula arcu."},
-          {"title":"Line charts", "text":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam."},
-          {"title":"", "text":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam."},
-          {"title":"Pie charts", "text":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna."},
-          {"title":"Tables", "text":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl."},
-          {"title":"Histograms", "text":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor."},
-          {"title":"Scatter plots", "text":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor in vehicula arcu."}
-
+          {"extraTitle":"Symbol maps", "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor in vehicula arcu."},
+          {"extraTitle":"Line charts", "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam."},
+          {"extraTitle":"Big data consulting", "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam."},
+          {"extraTitle":"Pie charts", "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna."},
+          {"extraTitle":"Tables", "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl."},
+          {"extraTitle":"Histograms", "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor."},
+          {"extraTitle":"Scatter plots", "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor in vehicula arcu."}
+    
         ], 
         "icon":"https://cdn-images-1.medium.com/fit/t/1600/480/1*9dsmqIQNnh6iJdbXwkXZlA.jpeg"},
         {"title": "Data visualization practices", "text":"Vestibulum varius mattis sagittis. Cras pharetra rutrum ante. Pellentesque pulvinar, odio ut convallis lobortis, massa ante mattis neque, a sagittis orci leo in quam. Ut convallis ex orci, nec sodales urna convallis ac. Sed cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor in vehicula arcu. Phasellus sed venenatis leo. Cras pulvinar, eros sed dictum semper, orci ipsum scelerisque tortor, at euismod sem lectus sed ex. Praesent purus orci, rutrum ac aliquet nec, egestas sit amet nibh.","extraList":[],  
@@ -455,16 +446,7 @@
           "extraList":[],  
           "icon":""},
         {"title": "Types of data visualizations", "text":"Vestibulum varius mattis sagittis. Cras pharetra rutrum ante. Pellentesque pulvinar, odio ut convallis lobortis, massa ante mattis neque, a sagittis orci leo in quam. Ut convallis ex orci, nec sodales urna convallis ac. Sed cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor in vehicula arcu:",
-        "extraList":[
-          {"title":"Symbol maps", "text":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor in vehicula arcu."},
-          {"title":"Line charts", "text":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam."},
-          {"title":"", "text":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam."},
-          {"title":"Pie charts", "text":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna."},
-          {"title":"Tables", "text":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl."},
-          {"title":"Histograms", "text":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor."},
-          {"title":"Scatter plots", "text":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor in vehicula arcu."}
-
-        ], 
+        "extraList":[], 
         "icon":"https://cdn-images-1.medium.com/fit/t/1600/480/1*9dsmqIQNnh6iJdbXwkXZlA.jpeg"},
         {"title": "Data visualization practices", "text":"Vestibulum varius mattis sagittis. Cras pharetra rutrum ante. Pellentesque pulvinar, odio ut convallis lobortis, massa ante mattis neque, a sagittis orci leo in quam. Ut convallis ex orci, nec sodales urna convallis ac. Sed cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor in vehicula arcu. Phasellus sed venenatis leo. Cras pulvinar, eros sed dictum semper, orci ipsum scelerisque tortor, at euismod sem lectus sed ex. Praesent purus orci, rutrum ac aliquet nec, egestas sit amet nibh.","extraList":[],  
         "icon":"https://sun9-12.userapi.com/impf/kPWVhZucvNr0bH6WR6fq772DezAIoa13kz5ahw/cobaMJy_5ag.jpg?size=1920x768&quality=95&crop=0,215,2426,969&sign=301fb1753c2cb293431709547fb5d6ff&type=cover_group"},
@@ -487,16 +469,7 @@
           "extraList":[],  
           "icon":""},
         {"title": "Types of data visualizations", "text":"Vestibulum varius mattis sagittis. Cras pharetra rutrum ante. Pellentesque pulvinar, odio ut convallis lobortis, massa ante mattis neque, a sagittis orci leo in quam. Ut convallis ex orci, nec sodales urna convallis ac. Sed cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor in vehicula arcu:",
-        "extraList":[
-          {"title":"Symbol maps", "text":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor in vehicula arcu."},
-          {"title":"Line charts", "text":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam."},
-          {"title":"", "text":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam."},
-          {"title":"Pie charts", "text":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna."},
-          {"title":"Tables", "text":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl."},
-          {"title":"Histograms", "text":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor."},
-          {"title":"Scatter plots", "text":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor in vehicula arcu."}
-
-        ], 
+        "extraList":[], 
         "icon":"https://cdn-images-1.medium.com/fit/t/1600/480/1*9dsmqIQNnh6iJdbXwkXZlA.jpeg"},
         {"title": "Data visualization practices", "text":"Vestibulum varius mattis sagittis. Cras pharetra rutrum ante. Pellentesque pulvinar, odio ut convallis lobortis, massa ante mattis neque, a sagittis orci leo in quam. Ut convallis ex orci, nec sodales urna convallis ac. Sed cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor in vehicula arcu. Phasellus sed venenatis leo. Cras pulvinar, eros sed dictum semper, orci ipsum scelerisque tortor, at euismod sem lectus sed ex. Praesent purus orci, rutrum ac aliquet nec, egestas sit amet nibh.","extraList":[],  
         "icon":"https://sun9-12.userapi.com/impf/kPWVhZucvNr0bH6WR6fq772DezAIoa13kz5ahw/cobaMJy_5ag.jpg?size=1920x768&quality=95&crop=0,215,2426,969&sign=301fb1753c2cb293431709547fb5d6ff&type=cover_group"},
@@ -510,19 +483,28 @@
         "id": 1,
         "avatar": "https://assets.cdn.msgsndr.com/mWLvU4ZVnCMNK5P6TZuK/media/61ceb590016cd77f8a77f63e.jpeg",
         "name": "Sargis Grigor",
-        "position": "Data analyst"
+        "position": "Data analyst",
+        "facebook":"https://www.facebook.com/",
+        "twitter":"https://twitter.com/home?lang=ru",
+        "linkedin":"https://www.linkedin.com/feed/"
       },
       {
         "id": 2,
         "avatar": "https://revu.by/wp-content/uploads/2022/04/screenshot_21-350x500.jpg",
         "name": "Gor Sargis",
-        "position": "Data analyst"
+        "position": "Data analyst",
+        "facebook":"https://www.facebook.com/",
+        "twitter":"https://twitter.com/home?lang=ru",
+        "linkedin":"https://www.linkedin.com/feed/"
       },
       {
         "id": 3,
         "avatar": "https://assets.cdn.msgsndr.com/mWLvU4ZVnCMNK5P6TZuK/media/61ceb590016cd77f8a77f63e.jpeg",
         "name": "Maral Mari",
-        "position": "Data analyst"
+        "position": "Data analyst",
+        "facebook":"https://www.facebook.com/",
+        "twitter":"https://twitter.com/home?lang=ru",
+        "linkedin":"https://www.linkedin.com/feed/"
       },
       {
         "id": 4,
@@ -534,31 +516,46 @@
         "id": 5,
         "avatar": "https://assets.cdn.msgsndr.com/mWLvU4ZVnCMNK5P6TZuK/media/61ceb590016cd77f8a77f63e.jpeg",
         "name": "Bagrat Leo",
-        "position": "Data engineer"
+        "position": "Data engineer",
+        "facebook":"https://www.facebook.com/",
+        "twitter":"https://twitter.com/home?lang=ru",
+        "linkedin":"https://www.linkedin.com/feed/"
       },
       {
         "id": 6,
         "avatar": "https://revu.by/wp-content/uploads/2022/04/screenshot_21-350x500.jpg",
         "name": "Hakob Jirair",
-        "position": "Data engineer"
+        "position": "Data engineer",
+        "facebook":"https://www.facebook.com/",
+        "twitter":"https://twitter.com/home?lang=ru",
+        "linkedin":"https://www.linkedin.com/feed/"
       },
       {
         "id": 7,
         "avatar": "https://assets.cdn.msgsndr.com/mWLvU4ZVnCMNK5P6TZuK/media/61ceb590016cd77f8a77f63e.jpeg",
         "name": "Ararat Ohannes",
-        "position": "Data analyst"
+        "position": "Data analyst",
+        "facebook":"https://www.facebook.com/",
+        "twitter":"https://twitter.com/home?lang=ru",
+        "linkedin":"https://www.linkedin.com/feed/"
       },
       {
         "id": 8,
         "avatar": "https://revu.by/wp-content/uploads/2022/04/screenshot_21-350x500.jpg",
         "name": "Eva Vosgi",
-        "position": "Data scientist"
+        "position": "Data scientist",
+        "facebook":"https://www.facebook.com/",
+        "twitter":"https://twitter.com/home?lang=ru",
+        "linkedin":"https://www.linkedin.com/feed/"
       },
       {
         "id": 9,
         "avatar": "https://assets.cdn.msgsndr.com/mWLvU4ZVnCMNK5P6TZuK/media/61ceb590016cd77f8a77f63e.jpeg",
         "name": "Eduard Vosgi",
-        "position": "Data scientist"
+        "position": "Data scientist",
+        "facebook":"https://www.facebook.com/",
+        "twitter":"https://twitter.com/home?lang=ru",
+        "linkedin":"https://www.linkedin.com/feed/"
       }
     ]
   }

@@ -13,6 +13,7 @@ import { Text } from 'components/UI/Text'
 const Solutions = () => {
   const { t } = useTranslation()
   const solutions = t('cards.review', { returnObjects: true }) as []
+
   return (
     <>
       <Section>

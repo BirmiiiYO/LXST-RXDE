@@ -13,7 +13,7 @@ import { ReactComponent as YoutubeIcon } from './svg/socialsIcons/youtube_icon.s
 import { ReactComponent as TabIcon } from './category-tab.svg'
 import { ReactComponent as CloseIcon } from './close.svg'
 import { ReactComponent as CheckMarkIcon } from './checkMark.svg'
-
+import { ReactComponent as DotIcon } from './Dot.svg'
 export {
   WhiteLogo,
   PlayerIcon,
@@ -22,6 +22,7 @@ export {
   TabIcon,
   CloseIcon,
   CheckMarkIcon,
+  DotIcon,
 }
 
 export const footerIcons = [
