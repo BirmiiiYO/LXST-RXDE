@@ -1,17 +1,12 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 import { useParams } from 'react-router-dom'
-import styled from 'styled-components'
 
+import { ArticleBlock } from 'components/forPages/Service/ArticleBlock'
+import { AsideBlock } from 'components/forPages/Service/Aside'
+import { Container } from 'components/UI/Container'
+import { PageHeader } from 'components/UI/PageHeader'
 import { Section } from 'components/UI/Section'
-import { Text } from 'components/UI/Text'
-
-const Image = styled.img`
-  max-width: 200px;
-  padding: 10px;
-  border: 1px solid grey;
-  border-radius: 10px;
-`
 
 const Service = () => {
   const { id } = useParams()
@@ -21,13 +16,20 @@ const Service = () => {
     arrayId => arrayId.id === Number(id),
   )
   return (
-    <Section>
-      <Text margin="50px 0 20px">{title}</Text>
-      <Image src={icon} alt="image service page" />
-      <Text typography="BHeadline5" color="secondary" margin="20px 0 50px">
-        {text}
-      </Text>
-    </Section>
+    <>
+      <PageHeader
+        title="Access control"
+        breadcrumbs={['Home', 'Access control']}
+        type="dark"
+        subtitle="Sed ut perspiciatis unde omnis iste natus error volupta accusantium doloremque laudantium, totam remiga aperiam, eaque ipsa."
+      />
+      <Section>
+        <Container flex="space-between" width="1110px" padding="120px 0">
+          <ArticleBlock />
+          <AsideBlock />
+        </Container>
+      </Section>
+    </>
   )
 }
 

@@ -13,8 +13,8 @@ export const DescriptionSection = () => {
         Services
       </Text>
       <Text margin="15px 0">{t('servicePage.title')}</Text>
-      <Text typography="RParagraph2" color="grey" maxWidth="600px">
-        {t('servicePage.text')}
+      <Text typography="RParagraph2" color="grey" maxWidth="600px" сenter>
+        {t('base.mediumText')}
       </Text>
     </Container>
   )

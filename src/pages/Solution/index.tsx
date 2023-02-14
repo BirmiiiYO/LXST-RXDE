@@ -24,8 +24,8 @@ const Solution = () => {
       <Section>
         <PageHeader
           title={topTitle}
-          subtitle={['Home', topTitle]}
-          background="aliceBlue"
+          breadcrumbs={['Home', topTitle]}
+          type="light"
         />
         <SolutionContainer>
           <ScrollIndicator

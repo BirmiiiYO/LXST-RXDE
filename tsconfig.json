@@ -31,5 +31,10 @@
       "mocks/*": ["mocks/*"]
     }
   },
-  "include": ["src", "src/react-app-env.d.ts", "src/image.d.ts"]
+  "include": [
+    "src",
+    "src/react-app-env.d.ts",
+    "src/image.d.ts",
+    "src/components/forPages/Service/ArticleBlock/.tsx"
+  ]
 }
