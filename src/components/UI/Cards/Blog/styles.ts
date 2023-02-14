@@ -5,6 +5,7 @@ import { theme } from 'styles/themes'
 
 export const Container = styled.div`
   max-width: 540px;
+  cursor: pointer;
   box-shadow: ${theme.shadows.shadowCard3};
   border-radius: 6px;
   @media ${devices.laptop} {
@@ -44,7 +45,7 @@ export const Topic = styled.span`
   line-height: 24px;
   color: ${theme.colors.primary};
   padding: 3px 11px;
-  border: 1px solid ${theme.colors.background};
+  border: 1px solid ${theme.colors.aliceBlue};
   border-radius: 6px;
   margin-right: 17px;
 `

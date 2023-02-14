@@ -1,24 +1,52 @@
 import React, { FC } from 'react'
 
-import { PageHeaderContainer, SubTitleContainer } from './styles'
+import { BreadCrumbContainer, PageHeaderContainer } from './styles'
 import { IPageHeaderProps } from './types'
+import { Container } from '../Container'
+import { Section } from '../Section'
 import { Text } from '../Text'
 
 export const PageHeader: FC<IPageHeaderProps> = ({
-  background = 'white',
   subtitle,
   title,
+  breadcrumbs,
+  type = 'light',
 }) => (
-  <PageHeaderContainer background={background}>
-    <Text typography="EbHeadline1" сenter>
-      {title}
-    </Text>
-    <SubTitleContainer>
-      {subtitle.map(text => (
-        <Text typography="MHeadline7" color="grey">
-          {text}
+  <PageHeaderContainer type={type}>
+    {type === 'light' ? (
+      <>
+        {' '}
+        <Text typography="EbHeadline1" сenter>
+          {title}
         </Text>
-      ))}
-    </SubTitleContainer>
+        <BreadCrumbContainer position={type === 'light'}>
+          {breadcrumbs.map(text => (
+            <Text typography="MHeadline7" color="grey">
+              {text}
+            </Text>
+          ))}
+        </BreadCrumbContainer>
+      </>
+    ) : (
+      <>
+        <BreadCrumbContainer position={type === 'light'}>
+          {breadcrumbs.map(text => (
+            <Text typography="MHeadline7" color="grey">
+              {text}
+            </Text>
+          ))}
+        </BreadCrumbContainer>
+        <Section backgroundColor="secondary">
+          <Container flex="space-between" background="secondary" width="1110px">
+            <Text typography="EbHeadline1" color="white">
+              {title}
+            </Text>
+            <Text typography="RParagraph3" color="white" maxWidth="350px">
+              {subtitle}
+            </Text>
+          </Container>
+        </Section>
+      </>
+    )}
   </PageHeaderContainer>
 )

@@ -1,25 +1,30 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 
 import { CENTER, theme } from 'styles/themes'
 
-import { IPageHeaderStyleProps } from './types'
+import { IBreadCrumbStyleProps, IPageHeaderStyleProps } from './types'
 
 export const PageHeaderContainer = styled.div<IPageHeaderStyleProps>`
-  background: ${({ background }) => background};
-  padding: 100px 0 160px;
+  position: relative;
+  background: ${({ type }) =>
+    type === 'light' ? theme.colors.aliceBlue : theme.colors.secondary};
+  padding: ${({ type }) =>
+    type === 'light' ? '100px 0 160px' : '0 0 120px 0'};
   width: 100vw;
 `
 
-export const SubTitleContainer = styled.div`
+export const BreadCrumbContainer = styled.div<IBreadCrumbStyleProps>`
   ${CENTER}
-  margin-top:20px;
+
+  margin: ${({ position }) => (position ? '20px' : '20px 0 120px 0')};
   & > * {
     &:not(:last-child):after {
       content: '|';
       margin: 10px;
     }
     &:last-child {
-      color: ${theme.colors.black};
+      color: ${({ position }) =>
+        position ? theme.colors.black : theme.colors.white};
     }
   }
 `

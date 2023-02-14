@@ -1,7 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 
-import { Breadcrumb } from 'components/Breadcrumb'
 import { ClientsSection } from 'components/ClientsSection'
 import { InfoSection } from 'components/forPages/AboutUs/InfoSection'
 import { CardsSection } from 'components/forPages/Home'
@@ -10,6 +9,7 @@ import { NumberSection } from 'components/forPages/OurBlog/NumberSection'
 import { SubscribeSection } from 'components/SubcribeSection'
 import { ReviewCard } from 'components/UI/Cards/Review'
 import { Container } from 'components/UI/Container'
+import { PageHeader } from 'components/UI/PageHeader'
 import { Text } from 'components/UI/Text'
 
 import { AboutContainer, TitleContainer } from './styles'
@@ -19,10 +19,11 @@ const AboutUs = () => {
   const reviews = t('cards.review', { returnObjects: true }) as []
   return (
     <AboutContainer>
-      <TitleContainer>
-        <Text margin="0 0 20px 0">{t('aboutUsPage.title')}</Text>
-        <Breadcrumb>Home | About Us</Breadcrumb>
-      </TitleContainer>
+      <PageHeader
+        title="About Us"
+        breadcrumbs={['Home', 'About Us']}
+        type="light"
+      />
       <InfoSection />
       <NumberSection />
       <Container flex="column" width="1110px" margin="120px 0 30px 0">

@@ -1,4 +1,5 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 import { useAppSelector } from 'hooks/Redux'
 
@@ -11,10 +12,15 @@ export const BlogCard = ({
   text,
   title,
   topics,
+  id,
 }: IBlogCardProps) => {
   const isMobile = useAppSelector(state => state.PageWidthReducer.isMobile)
+  const navigate = useNavigate()
+  const changePage = () => {
+    navigate(`/blog/${id}`)
+  }
   return (
-    <Container>
+    <Container onClick={changePage}>
       <Icon src={image} alt="logo of services card" />
       <Date>{date}</Date>
       <Title>{title}</Title>
