@@ -15,7 +15,7 @@ import { SolutionContainer } from './styles'
 const Solution = () => {
   const { id } = useParams()
   const { t } = useTranslation()
-  const solutions = t('cards.ourTeam', { returnObjects: true }) as []
+  const solutions = t('cards.service', { returnObjects: true }) as []
   const { title: topTitle, fullPage } = solutions.find(
     el => el.id === Number(id),
   )

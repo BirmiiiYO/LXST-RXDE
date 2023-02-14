@@ -7,6 +7,7 @@ import { IBackgroundStyleProps } from './types'
 
 export const Container = styled.div<IBackgroundStyleProps>`
   position: relative;
+  cursor: pointer;
   width: 350px;
   height: 500px;
   color: ${theme.colors.white};
