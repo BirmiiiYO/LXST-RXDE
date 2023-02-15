@@ -33,7 +33,7 @@ const Home = () => {
       <CardsSection
         amount={isMobile ? 1 : 3}
         length={reviews.length}
-        title={t('homePage.testImonalsTitle')}
+        title={t('base.testImonalsTitle')}
         render={(activeCards, amount) =>
           reviews
             .slice(activeCards, activeCards + amount)
@@ -44,7 +44,7 @@ const Home = () => {
       <CardsSection
         amount={isMobile ? 1 : 2}
         length={blogs.length}
-        title={t('homePage.ourBlogTitle')}
+        title={t('base.ourBlog')}
         render={(activeCards, amount) =>
           blogs
             .slice(activeCards, activeCards + amount)

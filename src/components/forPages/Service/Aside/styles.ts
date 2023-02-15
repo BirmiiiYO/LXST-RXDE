@@ -1,5 +1,5 @@
 import styled from 'styled-components'
 
 export const AsideContainer = styled.div`
-  width: 50%;
+  max-width: 450px;
 `

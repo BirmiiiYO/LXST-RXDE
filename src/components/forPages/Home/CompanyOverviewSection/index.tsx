@@ -7,7 +7,7 @@ import { Amount, Container, Data, HowMuch, Name, SpaceBetween } from './styles'
 
 export const CompanyOverviewSection = () => {
   const { t } = useTranslation()
-  const overviews = t('companyOverviewSection.data', {
+  const overviews = t('aboutUsPage.data', {
     returnObjects: true,
   }) as []
   return (
@@ -17,7 +17,7 @@ export const CompanyOverviewSection = () => {
       </Text>
       <SpaceBetween>
         <Data>
-          {overviews.map(({ amount, name }) => (
+          {overviews.slice(0, 3).map(({ amount, name }) => (
             <HowMuch>
               <Amount>{amount}</Amount>
               <Name>{name}</Name>

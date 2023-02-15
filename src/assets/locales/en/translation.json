@@ -21,6 +21,7 @@
     "softwareTrends": "2022 software development trends ",
     "contacts": "Contacts",
     "ourTeam": "Our team",
+    "services":"services",
     "faqs": "FAQs",
     "testImonalsTitle": "Testimonials",
     "solutions": "Solutions",
@@ -417,7 +418,6 @@
       },
       {
         "icon": "https://cdn.icon-icons.com/icons2/3249/PNG/512/brain_circuit_filled_icon_200878.png",
-        "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
         "title": "Embed analytics",
         "id": 1,
         "fullPage":[
@@ -460,7 +460,7 @@
       },
       {
         "icon": "https://cdn.icon-icons.com/icons2/3249/PNG/512/brain_circuit_filled_icon_200878.png",
-        "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
+
         "title": "Access control",
         "id": 2,
         "fullPage":[
@@ -503,7 +503,7 @@
       },
       {
         "icon": "https://cdn.icon-icons.com/icons2/3249/PNG/512/brain_circuit_filled_icon_200878.png",
-        "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
+ 
         "title": "Data analytics",
         "id": 3,
         "fullPage":[
@@ -546,7 +546,7 @@
       },
       {
         "icon": "https://cdn.icon-icons.com/icons2/3249/PNG/512/brain_circuit_filled_icon_200878.png",
-        "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
+  
         "title": "Big data consulting",
         "id": 4,
         "fullPage":[
@@ -589,7 +589,7 @@
       },
       {
         "icon": "https://cdn.icon-icons.com/icons2/3249/PNG/512/brain_circuit_filled_icon_200878.png",
-        "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
+
         "title": "Artificial intelligence",
         "id": 5,
 

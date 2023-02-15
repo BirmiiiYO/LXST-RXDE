@@ -1,4 +1,4 @@
-export interface IdvantageServiceCardProps {
+export interface IServiceCardProps {
   icon: string
   title: string
   text: string

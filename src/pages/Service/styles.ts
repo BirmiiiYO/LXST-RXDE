@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
-export const SolutionContainer = styled.div`
+export const ServiceContainer = styled.div`
   display: flex;
   position: relative;
   width: 100%;
-  justify-content: flex-end;
+  margin: 120px 0;
 `

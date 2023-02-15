@@ -15,7 +15,7 @@ export const BenefitsSection = () => {
       <Content>
         <Info>
           <Text typography="EbHeadline2" margin="0 0 30px 0">
-            {t('homePage.benefitsTitle')}
+            {t('homePage.ourBlogTitle')}
           </Text>
           <Text typography="RParagraph2" color="grey">
             {t('base.largeText')}

@@ -4,8 +4,9 @@ import { SPACE_BETWEEN, theme } from 'styles/themes'
 
 export const CustomSideBar = styled.div`
   ${SPACE_BETWEEN}
+  width:100%;
   ${theme.typography.R_PARAGRAPH_1}
-  color:white;
+  color:${theme.colors.black};
   padding: 20px 0;
   border-bottom: 1px solid ${theme.colors.grey};
   &:hover {

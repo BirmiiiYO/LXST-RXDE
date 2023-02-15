@@ -3,13 +3,12 @@ interface IExtraList {
   extraText: string
 }
 
-interface IBlogProps {
+interface ISolution {
   icon: string
   text: string
   title: string
   extraList: IExtraList[]
 }
 
-export interface IServiceArticleProps {
-  blocks: IBlogProps[]
-}
+export interface ISolutionArticleProps {
+  blocks: ISolution[]

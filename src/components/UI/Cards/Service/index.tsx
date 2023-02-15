@@ -4,14 +4,9 @@ import { useNavigate } from 'react-router-dom'
 import { Text } from 'components/UI/Text'
 
 import { Container, Icon } from './styles'
-import { IdvantageServiceCardProps } from './types'
+import { IServiceCardProps } from './types'
 
-export const ServiceCard = ({
-  icon,
-  text,
-  title,
-  id,
-}: IdvantageServiceCardProps) => {
+export const ServiceCard = ({ icon, text, title, id }: IServiceCardProps) => {
   const navigate = useNavigate()
   const changePage = () => {
     navigate(`/services/${id}`)
