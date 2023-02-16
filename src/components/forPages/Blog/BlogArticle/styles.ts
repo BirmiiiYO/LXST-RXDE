@@ -16,7 +16,11 @@ export const Date = styled.div`
   }
 `
 
-export const Views = styled.div``
+export const Views = styled.div`
+  svg {
+    margin-right: 5px;
+  }
+`
 
 export const Share = styled.div`
   ${theme.typography.R_PARAGRAPH_3}

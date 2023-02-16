@@ -8,6 +8,7 @@ export const Container = styled.div`
   max-width: 1110px;
   position: relative;
   ${SPACE_BETWEEN}
+  align-items:center;
   @media ${devices.content} {
     width: 100vw;
     padding: 0 10px;

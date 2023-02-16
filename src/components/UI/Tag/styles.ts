@@ -18,7 +18,6 @@ export const StyledTag = styled.button`
   &:not([disabled]):hover {
     color: ${theme.colors.white};
     background-color: ${theme.colors.primary};
-    border: none;
   }
 
   &:disabled {

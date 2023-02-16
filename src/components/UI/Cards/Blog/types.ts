@@ -3,6 +3,8 @@ export interface IBlogCardProps {
   date: string
   title: string
   image: string
-  text: string
   topics: string[]
+  size?: 'small' | 'default'
 }
+
+export type IBlogCardStyleProps = Required<Pick<IBlogCardProps, 'size'>>

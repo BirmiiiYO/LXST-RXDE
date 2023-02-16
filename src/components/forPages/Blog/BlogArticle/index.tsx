@@ -1,7 +1,7 @@
 import React, { FC } from 'react'
 import { useTranslation } from 'react-i18next'
 
-import { DateIcon } from 'assets'
+import { DateIcon, ViewIcon } from 'assets'
 import { Tag } from 'components/UI/Tag'
 import { Text } from 'components/UI/Text'
 
@@ -37,9 +37,12 @@ export const BlogArticle: FC<IBlogArticleProps> = ({
         {t('blogPage.fullText')}
       </Text>
       <InfoContainer>
-        <Views>{views} Views</Views>
+        <Views>
+          <ViewIcon />
+          {views} {t('base.views')}
+        </Views>
         <Share>
-          Share:{' '}
+          {t('base.share')}:{' '}
           {share.map(({ link, name }) => (
             <a href={link} target="_blank" rel="noreferrer">
               {name}
@@ -48,7 +51,7 @@ export const BlogArticle: FC<IBlogArticleProps> = ({
         </Share>
         <Tags>
           {' '}
-          Tags:{' '}
+          {t('blogPage.tags')}:{' '}
           {topics.map(tag => (
             <Tag>{tag}</Tag>
           ))}

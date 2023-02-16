@@ -1,6 +1,8 @@
 {
   "base": {
     "contactUs": "Contact Us",
+    "share":"Share",
+    "views":"Views",
     "discoverMore": "Discover more",
     "doYouNeedHelp": "Do you need help?",
     "learnMore": "Learn more",
@@ -79,6 +81,11 @@
   },
   "blogPage": {
     "title": "Blog",
+    "popularPost":"Popular posts",
+    "relatedPost":"Related Post",
+    "categoriesTitle":"Categories",
+    "categories":["Software development","Information security","Internet of things","Digital transformation","Healthcare it"],
+    "tags":"Tags",
 "fullText":"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas. Nulla rhoncus consectetur eros non iaculis “Vivamus lectus enim, convallis nec dapibus vel, semper id ante. Morbi pulvinar sapien nulla, eu dignissim enim ullamcorper vitae”. Ut sit amet neque vel mauris consequat aliquam at in arcu. Ut vulputate, augue luctus dignissim pretium, elit magna placerat elit, at venenati lacus arcu eget quam. Fusce nec cursus mi, sed blandit. Phasellus tristique eu nisl eu consectetur. Morbi urna massa, imperdiet in mauris et, euismod vestibulum lacus. Integer enim elit, tincidunt aliq uam ligula id, lacinia auctor orci. Sed quis lobortis eros. Fusce id commodo libero. Praesent mollis velit ac accumsan ultrices. Ut convallis ipsum pulvinar ante maximus suscipit.Mauris purus diam, iaculis non leo nec, ultricies fringilla odio. Fusce feugiat elit facilisis volutpat venenatis. Vestibulum tempor ligula vel orci consectetur, eu euismod augue bibendum. In volutpat libero velit, et mattis tortor placerat eget.Ut nec aliquam urna, et varius massa. Praesent eu nisl ac ex maximus iaculis. Sed placerat, ligula vel tempor pellentesque, odio ipsum lobortis orci, sit amet fermentum ex nunc ac diam."
   },
   "ourTeamPage": {

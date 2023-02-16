@@ -12,7 +12,8 @@ export const StyledContainer = styled.div<IContainerStyleProps>`
   padding: ${({ padding }) => padding};
   width: ${({ width }) => width};
   color: ${({ color }) => color && getColor(color)};
-  ${({ flex, mobileColumn }) => flex && setFlexStyle(flex, mobileColumn)};
+  ${({ flex, mobileColumn }) =>
+    flex && mobileColumn && setFlexStyle(flex, mobileColumn)};
   @media ${devices.content} {
     width: 100%;
   }

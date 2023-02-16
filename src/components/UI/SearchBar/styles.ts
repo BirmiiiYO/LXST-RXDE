@@ -7,9 +7,12 @@ export const StyledInput = styled.input`
   height: 54px;
   border: none;
   padding: 15px 25px;
+  margin-right: -5px;
   ${theme.typography.SB_PARAGRAPH_3}
-  border: 1px solid grey;
-  border-radius: 6px;
+  border: 1px solid ${theme.colors.rhythmicBlue};
+
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
   &::placeholder {
     color: theme.colors.grey;
   }

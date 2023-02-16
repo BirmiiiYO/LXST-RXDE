@@ -14,7 +14,6 @@ import { SolutionContainer } from './styles'
 const Solution = () => {
   const { id } = useParams()
   const [activeTitle, setActiveTitle] = useState('')
-  const scrollRef = useRef()
   const { t } = useTranslation()
   const solutions = t('cards.solutions', { returnObjects: true }) as []
   const { title: topTitle, fullPage } = solutions.find(
@@ -33,7 +32,7 @@ const Solution = () => {
     return () => {
       window.removeEventListener('scroll', scrollTracking)
     }
-  }, [fullPage, scrollRef])
+  }, [fullPage])
   return (
     <>
       <Section>
@@ -42,7 +41,7 @@ const Solution = () => {
           breadcrumbs={['Home', topTitle]}
           type="light"
         />
-        <SolutionContainer ref={scrollRef}>
+        <SolutionContainer>
           <ScrollIndicator
             active={activeTitle}
             tabs={fullPage.map(({ title }) => title)}

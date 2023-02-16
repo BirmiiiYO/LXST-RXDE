@@ -10,10 +10,10 @@ import { IBlogCardProps } from './types'
 export const BlogCard = ({
   date,
   image,
-  text,
   title,
   topics,
   id,
+  size = 'default',
 }: IBlogCardProps) => {
   const isMobile = useAppSelector(state => state.PageWidthReducer.isMobile)
   const { t } = useTranslation()
@@ -22,7 +22,7 @@ export const BlogCard = ({
     navigate(`/blog/${id}`)
   }
   return (
-    <Container onClick={changePage}>
+    <Container onClick={changePage} size={size}>
       <Icon src={image} alt="logo of services card" />
       <Date>{date}</Date>
       <Title>{title}</Title>

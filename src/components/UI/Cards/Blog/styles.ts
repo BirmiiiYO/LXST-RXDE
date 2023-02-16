@@ -1,12 +1,15 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 
 import { devices } from 'styles/breakpoints'
 import { theme } from 'styles/themes'
 
-export const Container = styled.div`
-  width: 540px;
+import { IBlogCardStyleProps } from './types'
+
+export const Container = styled.div<IBlogCardStyleProps>`
+  max-width: 540px;
   max-height: 600px;
   cursor: pointer;
+  margin: 5px;
   box-shadow: ${theme.shadows.shadowCard3};
   border-radius: 6px;
   @media ${devices.laptop} {
