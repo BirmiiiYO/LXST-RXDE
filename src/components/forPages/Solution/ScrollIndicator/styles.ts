@@ -13,7 +13,7 @@ export const Tab = styled.div<IScrollIndicatorStyleProps>`
 `
 
 export const ScrollContainer = styled.div`
-  position: absolute;
+  position: fixed;
   top: 130px;
   left: 0;
 `

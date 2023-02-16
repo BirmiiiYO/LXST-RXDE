@@ -10,9 +10,9 @@ import { ISolutionArticleProps } from './types'
 export const SolutionArticle: FC<ISolutionArticleProps> = ({ blocks }) => {
   const { t } = useTranslation()
   return (
-    <ArticleContainer>
+    <ArticleContainer id="solution">
       {blocks.map(({ extraList, icon, title }) => (
-        <InfoContainer>
+        <InfoContainer id="title">
           <Text typography="EbHeadline2" margin="0 0 30px 0">
             {title}
           </Text>

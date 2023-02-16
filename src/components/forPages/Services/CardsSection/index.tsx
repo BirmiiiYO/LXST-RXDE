@@ -10,7 +10,7 @@ export const CardsSection = () => {
   const cards = t('cards.service', { returnObjects: true }) as []
   return (
     <Cards>
-      {cards.map(({ icon, id, text, title }) => (
+      {cards.map(({ icon, id, title }) => (
         <ServiceCard
           icon={icon}
           text={t('base.smallText')}
