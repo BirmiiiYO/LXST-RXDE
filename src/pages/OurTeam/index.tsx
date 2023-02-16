@@ -2,7 +2,7 @@ import React from 'react'
 
 import { DescriptionSection } from 'components/forPages/OurTeam/DescriptionSection'
 import { TeamCardsSection } from 'components/forPages/OurTeam/TeamCardsSection'
-import { SubscribeSection } from 'components/SubcribeSection'
+import { SubscribeSection } from 'components/SubscribeSection'
 import { Section } from 'components/UI/Section'
 
 const OurTeam = () => (

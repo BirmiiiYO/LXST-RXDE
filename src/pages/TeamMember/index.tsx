@@ -7,7 +7,7 @@ import {
   LinkedinLogo,
   TwitterLogo,
 } from 'assets/svg/socialsIcons'
-import { SubscribeSection } from 'components/SubcribeSection'
+import { SubscribeSection } from 'components/SubscribeSection'
 import { Form } from 'components/UI/Form'
 import { Section } from 'components/UI/Section'
 import { Text } from 'components/UI/Text'

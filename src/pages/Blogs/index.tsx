@@ -2,7 +2,7 @@ import React from 'react'
 import { useTranslation } from 'react-i18next'
 
 import { BlogCards } from 'components/forPages/OurBlog/BlogCards'
-import { SubscribeSection } from 'components/SubcribeSection'
+import { SubscribeSection } from 'components/SubscribeSection'
 import { BlogCard } from 'components/UI/Cards/Blog'
 import { PageHeader } from 'components/UI/PageHeader'
 import { Section } from 'components/UI/Section'

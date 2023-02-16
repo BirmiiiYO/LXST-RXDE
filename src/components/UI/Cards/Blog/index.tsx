@@ -1,4 +1,5 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 import { useNavigate } from 'react-router-dom'
 
 import { useAppSelector } from 'hooks/Redux'
@@ -15,6 +16,7 @@ export const BlogCard = ({
   id,
 }: IBlogCardProps) => {
   const isMobile = useAppSelector(state => state.PageWidthReducer.isMobile)
+  const { t } = useTranslation()
   const navigate = useNavigate()
   const changePage = () => {
     navigate(`/blog/${id}`)
@@ -24,7 +26,7 @@ export const BlogCard = ({
       <Icon src={image} alt="logo of services card" />
       <Date>{date}</Date>
       <Title>{title}</Title>
-      {!isMobile && <Text>{text}</Text>}
+      {!isMobile && <Text>{t('base.smallText')}</Text>}
       <List>
         {' '}
         {topics.map(topic => (

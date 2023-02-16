@@ -180,7 +180,24 @@
         "topics": ["App", "CIO", "Future"],
         "fullPage":{
 "views":481,
-"share":[{"linkedin":"https://www.youtube.com/"},{"inst":"https://www.youtube.com/"},{"twitter":"https://www.youtube.com/"},{"google":"https://www.youtube.com/"}]
+"share":[
+  {
+    "name":"linkedin",
+    "link":"https://www.youtube.com/"
+  },
+  {
+    "name":"instagram",
+    "link":"https://www.youtube.com/"
+    },
+    {
+      "name":"youtube",
+      "link":"https://www.youtube.com/"
+    },
+    {
+      "name":"twitter",
+      "link":"https://www.youtube.com/"
+      }
+    ]
         }
       },
       {

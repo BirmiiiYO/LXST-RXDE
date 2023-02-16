@@ -1,9 +1,17 @@
 import React, { FC } from 'react'
 import { useTranslation } from 'react-i18next'
 
+import { CheckMarkIcon } from 'assets'
 import { Text } from 'components/UI/Text'
 
-import { Block, ExtraBlock, Image, MainContainer } from './styles'
+import {
+  Block,
+  ExtraBlock,
+  ExtraList,
+  Image,
+  ImageBlock,
+  MainContainer,
+} from './styles'
 import { IArticleBlockProps } from './types'
 
 export const ArticleBlock: FC<IArticleBlockProps> = ({ blocks }) => {
@@ -18,9 +26,24 @@ export const ArticleBlock: FC<IArticleBlockProps> = ({ blocks }) => {
           <Text typography="RParagraph2" color="grey">
             {t('base.mediumText')}
           </Text>
-          {icon && <Image src={icon} alt={title} />}
-          {extraList.length > 0 &&
-            extraList.map(item => <ExtraBlock>{item}</ExtraBlock>)}
+          <ImageBlock>
+            {icon && (
+              <Image
+                src={icon}
+                alt={title}
+                isExtraList={extraList.length > 0}
+              />
+            )}
+            <ExtraList>
+              {extraList.length > 0 &&
+                extraList.map(item => (
+                  <ExtraBlock>
+                    <CheckMarkIcon />
+                    {item}
+                  </ExtraBlock>
+                ))}
+            </ExtraList>
+          </ImageBlock>
         </Block>
       ))}
     </MainContainer>

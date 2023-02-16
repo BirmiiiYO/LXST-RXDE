@@ -1,7 +1,7 @@
 import { ComponentMeta, ComponentStory } from '@storybook/react'
 import React from 'react'
 
-import { SubscribeSection } from 'components/SubcribeSection'
+import { SubscribeSection } from 'components/SubscribeSection'
 
 export default {
   title: 'Subscribe section',

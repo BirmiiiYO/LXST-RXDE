@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next'
 
 import { ContactUsSection } from 'components/ContactsUsSection'
 import { DropDownSection } from 'components/DropDownSection'
-import { SubscribeSection } from 'components/SubcribeSection'
+import { SubscribeSection } from 'components/SubscribeSection'
 import { Section } from 'components/UI/Section'
 import { Text } from 'components/UI/Text'
 
@@ -25,7 +25,7 @@ const FAQs = () => {
           maxWidth="540px"
           сenter
         >
-          {t('faqPage.text')}
+          {t('base.mediumText')}
         </Text>
       </Section>
       <DropDownSection />

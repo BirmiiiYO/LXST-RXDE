@@ -7,3 +7,7 @@ interface IServiceArticleBlock {
 export interface IArticleBlockProps {
   blocks: IServiceArticleBlock[]
 }
+
+export interface IImageStyleProps {
+  isExtraList: boolean
+}

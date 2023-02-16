@@ -10,8 +10,8 @@ export const DropDownSection = () => {
   return (
     <>
       <Section>
-        {questions.map(({ id, question, text }) => (
-          <Question answer={text} question={question} key={id} />
+        {questions.map(({ id, question, answer }) => (
+          <Question answer={answer} question={question} key={id} />
         ))}
       </Section>
     </>

@@ -4,7 +4,8 @@ import { devices } from 'styles/breakpoints'
 import { theme } from 'styles/themes'
 
 export const Container = styled.div`
-  max-width: 540px;
+  width: 540px;
+  max-height: 600px;
   cursor: pointer;
   box-shadow: ${theme.shadows.shadowCard3};
   border-radius: 6px;
@@ -15,6 +16,7 @@ export const Container = styled.div`
 
 export const Icon = styled.img`
   width: 100%;
+  height: 300px;
 `
 
 export const Title = styled.h1`

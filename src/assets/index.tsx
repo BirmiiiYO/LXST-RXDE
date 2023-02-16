@@ -14,6 +14,7 @@ import { ReactComponent as TabIcon } from './category-tab.svg'
 import { ReactComponent as CloseIcon } from './close.svg'
 import { ReactComponent as CheckMarkIcon } from './checkMark.svg'
 import { ReactComponent as DotIcon } from './Dot.svg'
+import { ReactComponent as DateIcon } from './dataIcon.svg'
 export {
   WhiteLogo,
   PlayerIcon,
@@ -23,6 +24,7 @@ export {
   CloseIcon,
   CheckMarkIcon,
   DotIcon,
+  DateIcon
 }
 
 export const footerIcons = [

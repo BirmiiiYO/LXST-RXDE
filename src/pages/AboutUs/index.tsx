@@ -6,13 +6,13 @@ import { InfoSection } from 'components/forPages/AboutUs/InfoSection'
 import { CardsSection } from 'components/forPages/Home'
 import { FormSection } from 'components/forPages/OurBlog/FormSection'
 import { NumberSection } from 'components/forPages/OurBlog/NumberSection'
-import { SubscribeSection } from 'components/SubcribeSection'
+import { SubscribeSection } from 'components/SubscribeSection'
 import { ReviewCard } from 'components/UI/Cards/Review'
 import { Container } from 'components/UI/Container'
 import { PageHeader } from 'components/UI/PageHeader'
 import { Text } from 'components/UI/Text'
 
-import { AboutContainer, TitleContainer } from './styles'
+import { AboutContainer } from './styles'
 
 const AboutUs = () => {
   const { t } = useTranslation()

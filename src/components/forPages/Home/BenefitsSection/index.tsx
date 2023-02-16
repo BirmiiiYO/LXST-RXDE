@@ -22,10 +22,10 @@ export const BenefitsSection = () => {
           </Text>
         </Info>
         <Cards>
-          {cards.slice(0, 4).map(({ icon, id, text, title }) => (
+          {cards.slice(0, 4).map(({ icon, id, title }) => (
             <ServiceCard
               icon={icon}
-              text={text}
+              text={t('base.smallText')}
               title={title}
               key={id}
               id={id}

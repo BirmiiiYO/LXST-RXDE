@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom'
 
 import { ArticleBlock } from 'components/forPages/Service/ArticleBlock'
 import { AsideBlock } from 'components/forPages/Service/Aside'
-import { SubscribeSection } from 'components/SubcribeSection'
+import { SubscribeSection } from 'components/SubscribeSection'
 import { Container } from 'components/UI/Container'
 import { Form } from 'components/UI/Form'
 import { PageHeader } from 'components/UI/PageHeader'

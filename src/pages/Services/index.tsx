@@ -6,7 +6,7 @@ import { ContactUsSection } from 'components/ContactsUsSection'
 import { CompanyOverviewSection } from 'components/forPages/Home/CompanyOverviewSection'
 import { CardsSection } from 'components/forPages/Services/CardsSection'
 import { DescriptionSection } from 'components/forPages/Services/DescriptionSection'
-import { SubscribeSection } from 'components/SubcribeSection'
+import { SubscribeSection } from 'components/SubscribeSection'
 
 import { Container } from './styles'
 

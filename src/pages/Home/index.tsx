@@ -11,7 +11,7 @@ import {
   HeroSection,
   PricingSection,
 } from 'components/forPages/Home'
-import { SubscribeSection } from 'components/SubcribeSection'
+import { SubscribeSection } from 'components/SubscribeSection'
 import { BlogCard } from 'components/UI/Cards/Blog'
 import { ReviewCard } from 'components/UI/Cards/Review'
 import { useAppSelector } from 'hooks/Redux'

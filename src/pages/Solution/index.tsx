@@ -5,7 +5,7 @@ import { useParams } from 'react-router-dom'
 import { ContactUsSection } from 'components/ContactsUsSection'
 import { ScrollIndicator } from 'components/forPages/Solution/ScrollIndicator'
 import { SolutionArticle } from 'components/forPages/Solution/SolutionArticle'
-import { SubscribeSection } from 'components/SubcribeSection'
+import { SubscribeSection } from 'components/SubscribeSection'
 import { PageHeader } from 'components/UI/PageHeader'
 import { Section } from 'components/UI/Section'
 

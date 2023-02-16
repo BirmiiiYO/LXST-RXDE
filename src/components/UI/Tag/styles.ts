@@ -14,6 +14,7 @@ export const StyledTag = styled.button`
   padding: 3px 11px;
   border: 1px solid ${theme.colors.aliceBlue};
   border-radius: 6px;
+  margin: 5px;
   &:not([disabled]):hover {
     color: ${theme.colors.white};
     background-color: ${theme.colors.primary};
