@@ -10,47 +10,36 @@ export const Container = styled.div<IBlogCardStyleProps>`
   max-height: 600px;
   cursor: pointer;
   margin: 5px;
-  box-shadow: ${theme.shadows.shadowCard3};
   border-radius: 6px;
   @media ${devices.laptop} {
     max-width: 272px;
   }
+  ${({ size }) =>
+    size === 'default'
+      ? css`
+          box-shadow: ${theme.shadows.shadowCard3};
+        `
+      : css`
+          display: flex;
+          vertical-align: middle;
+        `}
 `
 
-export const Icon = styled.img`
+export const Icon = styled.img<IBlogCardStyleProps>`
   width: 100%;
   height: 300px;
-`
-
-export const Title = styled.h1`
-  ${theme.typography.B_HEADLINE_4}
-  margin: 0 35px 15px 25px;
-`
-
-export const Text = styled.div`
-  ${theme.typography.R_PARAGRAPH_2}
-  color:${theme.colors.grey};
-  margin: 17px 35px 20px;
-`
-
-export const Date = styled.div`
-  ${theme.typography.R_PARAGRAPH_3}
-  color:${theme.colors.grey};
-  margin: 30px 0 17px 35px;
+  border-radius: 6px;
+  ${({ size }) =>
+    size === 'default'
+      ? css``
+      : css`
+          max-width: 190px;
+          height: 100%;
+        `}
 `
 
 export const List = styled.div`
   padding: 0 0 30px 35px;
 `
 
-export const Topic = styled.span`
-  font-family: 'Manrope';
-  font-weight: 800;
-  font-size: 14px;
-  line-height: 24px;
-  color: ${theme.colors.primary};
-  padding: 3px 11px;
-  border: 1px solid ${theme.colors.aliceBlue};
-  border-radius: 6px;
-  margin-right: 17px;
-`
+export const InfoBlock = styled.div<IBlogCardStyleProps>``

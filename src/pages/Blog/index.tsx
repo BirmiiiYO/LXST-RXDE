@@ -52,7 +52,7 @@ const OneBlogPage = () => {
             </Text>
             <RelatedBlock>
               {blogs.slice(2, 5).map(data => (
-                <BlogCard {...data} />
+                <BlogCard {...data} size="small" />
               ))}
             </RelatedBlock>
           </LeftBlock>
@@ -65,7 +65,7 @@ const OneBlogPage = () => {
               {blogs
                 .filter(({ fullPage: full }) => full.views > 2000)
                 .map(data => (
-                  <BlogCard {...data} />
+                  <BlogCard {...data} size="small" />
                 ))}
             </PopularBlock>
             <Text typography="BHeadline4" margin="60px 0 0 0">

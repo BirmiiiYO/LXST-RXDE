@@ -23,8 +23,7 @@ export const ModalContainer = styled.div<TModalStyleProps>`
     position: absolute;
     top: -10px;
     right: -10px;
-    padding: 10px;
-    border-radius: 6px;
+    margin: 10px;
     background: ${theme.colors.aliceBlue};
     cursor: pointer;
   }
