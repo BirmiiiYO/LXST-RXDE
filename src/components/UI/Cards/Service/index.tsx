@@ -17,7 +17,7 @@ export const ServiceCard = ({ icon, text, title, id }: IServiceCardProps) => {
       <Text typography="BHeadline5" margin="10px 0 5px 0">
         {title}
       </Text>
-      <Text typography="RParagraph3" color="grey" margin="0 0 15px 0">
+      <Text typography="RParagraph3" color="grey">
         {text}
       </Text>
     </Container>

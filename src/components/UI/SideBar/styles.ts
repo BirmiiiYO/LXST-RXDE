@@ -2,11 +2,13 @@ import styled from 'styled-components'
 
 import { SPACE_BETWEEN, theme } from 'styles/themes'
 
-export const CustomSideBar = styled.div`
+import { ISideBarStyleProps } from './types'
+
+export const CustomSideBar = styled.div<ISideBarStyleProps>`
   ${SPACE_BETWEEN}
   width:100%;
   ${theme.typography.R_PARAGRAPH_1}
-  color:${theme.colors.black};
+  color:${({ color }) => color};
   padding: 20px 0;
   border-bottom: 1px solid ${theme.colors.grey};
   &:hover {
@@ -24,8 +26,4 @@ export const CustomSideBar = styled.div`
   svg {
     stroke: ${theme.colors.white};
   }
-`
-
-export const Icon = styled.img`
-  padding-left: 10px;
 `

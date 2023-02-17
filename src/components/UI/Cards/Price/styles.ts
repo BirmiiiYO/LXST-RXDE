@@ -10,6 +10,7 @@ export const Container = styled.div<IPriceCardStyleProps>`
   width: 255px;
   box-shadow: ${theme.shadows.shadowCard3};
   padding: 50px 35px;
+  margin: 10px auto;
   ${({ active }) =>
     active
       ? css`

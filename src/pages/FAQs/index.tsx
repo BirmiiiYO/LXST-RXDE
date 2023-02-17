@@ -15,15 +15,15 @@ const FAQs = () => {
         <Text typography="BHeadline6" color="primary" margin="140px 0 0 0">
           FAQs
         </Text>
-        <Text margin="15px 0" сenter>
+        <Text margin="15px 0" center>
           {t('faqPage.title')}
         </Text>
         <Text
           typography="RParagraph1"
           color="grey"
-          margin="0 0 120px 0"
+          margin="0 5px 120px 5px"
           maxWidth="540px"
-          сenter
+          center
         >
           {t('base.mediumText')}
         </Text>

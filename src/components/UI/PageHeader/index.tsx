@@ -16,7 +16,7 @@ export const PageHeader: FC<IPageHeaderProps> = ({
     {type === 'light' ? (
       <>
         {' '}
-        <Text typography="EbHeadline1" сenter>
+        <Text typography="EbHeadline1" center>
           {title}
         </Text>
         <BreadCrumbContainer position={type === 'light'}>

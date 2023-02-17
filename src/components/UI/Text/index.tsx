@@ -10,7 +10,7 @@ export const Text = ({
   color = 'black',
   typography = 'EbHeadline1',
   children,
-  сenter = false,
+  center: сenter = false,
 }: ITextProps) => (
   <CustomTitle
     color={color}
@@ -18,7 +18,7 @@ export const Text = ({
     maxWidth={maxWidth}
     padding={padding}
     margin={margin}
-    сenter={сenter}
+    center={сenter}
   >
     {children}
   </CustomTitle>

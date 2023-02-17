@@ -15,7 +15,7 @@ const NotFoundPage = () => {
     <>
       <Section>
         <Container flex="center">
-          <Text typography="RParagraph1" padding="120px 0 0" сenter>
+          <Text typography="RParagraph1" padding="120px 0 0" center>
             {' '}
             Error page, You will be redirected to the home page automatically in
             3 seconds

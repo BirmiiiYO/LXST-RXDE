@@ -47,6 +47,7 @@ export const PrivacyInfo = styled.div`
 
 export const SpaceBetween = styled.div`
   width: 250px;
+  background: ${theme.colors.secondary};
   ${SPACE_BETWEEN}
 `
 export const CustomLink = styled(Link)`

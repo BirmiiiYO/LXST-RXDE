@@ -8,9 +8,9 @@ import { ISideBarProps } from './types'
 export const SideBar = ({
   children,
   onClick,
-  disabled = false,
+  color = 'black',
 }: ISideBarProps) => (
-  <CustomSideBar onClick={onClick}>
+  <CustomSideBar onClick={onClick} color={color}>
     {children}
     <TabIcon />
   </CustomSideBar>

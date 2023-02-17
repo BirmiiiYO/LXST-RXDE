@@ -22,7 +22,7 @@ const Solutions = () => {
         </Text>
         <Text>{t('solutionPage.title')}</Text>
         <Text
-          сenter
+          center
           color="grey"
           maxWidth="450px"
           margin="15px 0 0 0"
@@ -37,7 +37,7 @@ const Solutions = () => {
         <CardsSection
           amount={3}
           length={solutions.length}
-          title={t('homePage.testImonalsTitle')}
+          title={t('base.testImonalsTitle')}
           render={(activeCards, amount) =>
             solutions
               .slice(activeCards, activeCards + amount)

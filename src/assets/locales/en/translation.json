@@ -16,7 +16,8 @@
     "enterEmail": "Enter your Email",
     "enterTheme": "Enter theme",
     "enterMessage": "Enter message",
-    "subscribe": "Subscribe to our newsletter",
+    "subscribeToNews": "Subscribe to our newsletter",
+    "subscribe":"Subscribe",
     "watchDemo": "Watch the demo",
     "home": "Home",
     "aboutUs": "About Us",
@@ -37,7 +38,9 @@
     "privacyPolicy": "Privacy policy",
     "quickLink": "Quick link",
     "service": "Service",
+    "contactInfo":"Contact info",
     "services": ["Pages", "Elements", "FAQ", "Pricing", "Site map"],
+    "followUs":"Follow us",
     "termsOfUs": "Terms of us"
   },
   "homePage": {

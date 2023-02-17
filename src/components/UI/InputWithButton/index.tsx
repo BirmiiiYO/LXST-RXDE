@@ -1,11 +1,13 @@
 import emailjs from '@emailjs/browser'
 import { useFormik } from 'formik'
 import React, { useRef } from 'react'
+import { useTranslation } from 'react-i18next'
 import * as yup from 'yup'
 
-import { StyledButton, StyledInput } from './styles'
+import { useAppSelector } from 'hooks/Redux'
+
+import { Form, StyledButton, StyledInput } from './styles'
 import { IInputWithButtonProps } from './types'
-import { Container } from '../Container'
 
 const contactSchema = yup.object().shape({
   user_email: yup.string().email('invalid').required(),
@@ -16,7 +18,8 @@ export const InputWithButton = ({
   isError = false,
 }: IInputWithButtonProps) => {
   const form = useRef<HTMLFormElement>(null)
-
+  const { t } = useTranslation()
+  const isMobile = useAppSelector(state => state.PageWidthReducer.isMobile)
   const formik = useFormik({
     initialValues: {
       user_email: '',
@@ -34,11 +37,11 @@ export const InputWithButton = ({
   })
 
   return (
-    <Container flex="space-between" width="445px" background="secondary">
-      <form ref={form} onSubmit={formik.handleSubmit}>
+    <>
+      <Form ref={form} onSubmit={formik.handleSubmit}>
         <StyledInput
           type="text"
-          placeholder="Your email"
+          placeholder={t('base.email') as string}
           autoComplete="off"
           id="user_email"
           name="user_email"
@@ -48,10 +51,10 @@ export const InputWithButton = ({
           isError={isError}
         />
         <StyledButton disabled={disabled} type="submit">
-          Send
+          {!isMobile ? t('base.send') : t('base.subscribe')}
         </StyledButton>
-      </form>
-    </Container>
+      </Form>
+    </>
   )
 }
 

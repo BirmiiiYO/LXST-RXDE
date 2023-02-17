@@ -4,14 +4,16 @@ import { devices } from 'styles/breakpoints'
 import { theme } from 'styles/themes'
 
 export const Container = styled.div`
-  max-width: 205px;
-  max-height: 205px;
+  width: 305px;
+  max-height: 305px;
   background: ${theme.colors.white};
   overflow: hidden;
   box-shadow: ${theme.shadows.shadowCard3};
   padding: 25px;
   margin: 10px;
   @media ${devices.laptop} {
+    width: 205px;
+    height: 205px;
     padding: 15px;
     margin: 5px;
   }

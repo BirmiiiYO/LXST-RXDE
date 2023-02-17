@@ -12,7 +12,7 @@ export const CustomTitle = styled.h1<ITextProps>`
   max-width: ${({ maxWidth }) => maxWidth};
   padding: ${({ padding }) => padding};
   margin: ${({ margin }) => margin};
-  ${({ сenter }) => (сenter ? `text-align:center;` : '')}
+  ${({ center: сenter }) => (сenter ? `text-align:center;` : '')}
   & span {
     color: ${theme.colors.primary};
   }

@@ -11,7 +11,7 @@ export const MainContainer = styled.div`
 `
 
 export const Block = styled.div`
-  margin: 30px 0;
+  margin: 15px 0;
 `
 export const Image = styled.img<IImageStyleProps>`
   ${({ isExtraList }) =>

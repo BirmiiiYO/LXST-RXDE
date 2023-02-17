@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React from 'react'
+import { useTranslation } from 'react-i18next'
 
 import { footerIcons } from 'assets'
 import WhiteLogo from 'assets/images/Logo.png'
@@ -6,37 +7,38 @@ import { Container } from 'components/UI/Container'
 import { SideBar } from 'components/UI/SideBar'
 import { Text } from 'components/UI/Text'
 
-import { Logo } from './styles'
+import { Logo, SpaceBetween } from './styles'
 
 export const MobileFooter = () => {
-  const [open, setOpen] = useState(false)
-
-  const changeOpenBlock = () => {
-    setOpen(!open)
-  }
+  const { t } = useTranslation()
 
   return (
     <Container flex="column" background="secondary" padding="10px">
       <Logo src={WhiteLogo} alt="logo" />
-      <SideBar onClick={changeOpenBlock}>Quick line</SideBar>
-      {open && <h1>zxc</h1>}
-      <SideBar onClick={changeOpenBlock}>Service</SideBar>
-      <SideBar onClick={changeOpenBlock}>Contact info</SideBar>
-      <Container flex="space-between" background="secondary" padding="10px">
-        <Text typography="RParagraph3" color="white">
-          Follow us
+      <SideBar onClick={() => 1} color="white">
+        {t('footer.quickLink')}
+      </SideBar>
+      <SideBar onClick={() => 1} color="white">
+        {t('footer.service')}
+      </SideBar>
+      <SideBar onClick={() => 1} color="white">
+        {t('footer.contactInfo')}
+      </SideBar>
+      <Container background="secondary" margin="20px 0" flex="space-between">
+        <Text typography="RParagraph3" color="white" margin="0 0 10px 0">
+          {t('footer.followUs')}
         </Text>
-        <Container background="secondary">
-          {footerIcons.map(icon => icon)}
-        </Container>
+        <SpaceBetween>{footerIcons.map(icon => icon)}</SpaceBetween>
       </Container>
       <Container flex="space-between" background="secondary" padding="10px">
-        <Text typography="RParagraph3" color="white">
-          Privacy policy
-        </Text>
-        <Text typography="RParagraph3" color="white">
-          Terms of us
-        </Text>
+        <SpaceBetween>
+          <Text typography="RParagraph3" color="white">
+            {t('footer.privacyPolicy')}
+          </Text>
+          <Text typography="RParagraph3" color="white">
+            {t('footer.termsOfUs')}
+          </Text>
+        </SpaceBetween>
       </Container>
       <Text typography="RParagraph3" color="steelTeal">
         Ensome© 2022 All Rights Reserved
