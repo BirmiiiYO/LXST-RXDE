@@ -36,7 +36,6 @@ export const Routing = () => (
       <Route path={EPagePaths.TEAM_MEMBER} element={<TeamMemberPage />} />
       <Route path={EPagePaths.SINGLE_BLOG} element={<OneBlogPage />} />
       <Route path={EPagePaths.ERROR} element={<NotFoundPage />} />
-      <Route path="/paypal" element={<PayPal name="zxc" value="1000" />} />
     </Routes>
   </Suspense>
 )

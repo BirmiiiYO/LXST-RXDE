@@ -1,4 +1,5 @@
 export interface IPriceCardProps {
+  id: number
   name: string
   value: string
   infos: string[]

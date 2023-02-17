@@ -6,7 +6,7 @@ export interface IModalProps {
   width: string
   height: string
   isOpen?: boolean
-  setIsOpen?: Dispatch<SetStateAction<boolean>>
+  setIsOpen: Dispatch<SetStateAction<boolean>>
 }
 
 export type TModalStyleProps = Pick<IModalProps, 'height' | 'width'>

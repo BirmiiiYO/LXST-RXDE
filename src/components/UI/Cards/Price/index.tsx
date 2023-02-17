@@ -18,18 +18,7 @@ export const PriceCard = ({
   const [isOpen, setIsOpen] = useState(false)
 
   const openPayPal = () => {
-    window.open(
-      '/paypal',
-      'ModalPopUp',
-      'toolbar=no,' +
-        'scrollbars=no,' +
-        'location=no,' +
-        'statusbar=no,' +
-        'menubar=no,' +
-        'resizable=0,' +
-        'width=400,' +
-        'height=400,',
-    )
+    setIsOpen(true)
   }
   return (
     <>

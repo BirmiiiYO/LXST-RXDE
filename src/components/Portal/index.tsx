@@ -2,7 +2,6 @@ import React, { FC } from 'react'
 import { createPortal } from 'react-dom'
 
 import { CloseIcon } from 'assets'
-import { Button } from 'components/UI/Button'
 
 import { ModalContainer, PortalContainer } from './styles'
 import { IModalProps } from './types'
@@ -15,6 +14,9 @@ export const Modal: FC<IModalProps> = ({
   width,
   setIsOpen,
 }) => {
+  const closeModal = () => {
+    setIsOpen(false)
+  }
   if (!isOpen) {
     return null
   }
@@ -23,7 +25,7 @@ export const Modal: FC<IModalProps> = ({
       <ModalContainer width={width} height={height}>
         {children}
 
-        <CloseIcon onClick={() => setIsOpen(false)} />
+        <CloseIcon onClick={closeModal} />
       </ModalContainer>
     </PortalContainer>,
     containerElement,

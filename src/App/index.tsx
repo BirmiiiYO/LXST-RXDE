@@ -15,13 +15,13 @@ import { PageWidthSlice } from 'store/Slices/PageWidthSlice'
 const App = () => {
   const dispatch = useAppDispatch()
   const { setWidth } = PageWidthSlice.actions
-  const isMoblie = useMobile()
+  const isMobile = useMobile()
 
   const [isOpen, setIsOpen] = useState(false)
 
   useEffect(() => {
-    dispatch(setWidth(isMoblie))
-  }, [dispatch, isMoblie, setWidth])
+    dispatch(setWidth(isMobile))
+  }, [dispatch, isMobile, setWidth])
 
   return (
     <>

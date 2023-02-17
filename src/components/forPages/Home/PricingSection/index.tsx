@@ -10,15 +10,19 @@ export const PricingSection = () => {
   const { t } = useTranslation()
   const cards = t('cards.price', { returnObjects: true }) as []
   const [activeCard, setActiveCard] = useState<number>()
+  const changeActiveCard = (id: number) => {
+    setActiveCard(id)
+  }
   return (
-    <PriceContainer id="priceSection">
+    <PriceContainer>
       <Text typography="EbHeadline2" margin="0 0 50px 0">
         {t('homePage.ourPricingTitle')}
       </Text>
       <Cards>
         {cards.map(({ id, infos, name, value }) => (
           <PriceCard
-            onClick={() => setActiveCard(id)}
+            id={id}
+            onClick={() => changeActiveCard(id)}
             infos={infos}
             name={name}
             value={value}
