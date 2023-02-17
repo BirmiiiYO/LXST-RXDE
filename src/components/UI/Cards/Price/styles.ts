@@ -9,8 +9,9 @@ export const Container = styled.div<IPriceCardStyleProps>`
   height: 535px;
   width: 255px;
   box-shadow: ${theme.shadows.shadowCard3};
-  padding: 50px 35px;
+  padding: 50px 35px 0;
   margin: 10px auto;
+  overflow-y: auto;
   ${({ active }) =>
     active
       ? css`

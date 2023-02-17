@@ -1,76 +1,69 @@
 {
   "base": {
     "contactUs": "Связаться с нами",
-    "discoverMore": "Открой для себя больше",
-    "doYouNeedHelp": "Нужна помощь?",
+    "share": "Поделиться",
+    "views": "Просмотров",
+    "discoverMore": "Откройте больше",
+    "doYouNeedHelp": "Вам нужна помощь?",
     "learnMore": "Узнать больше",
+    "choosePlan": "Выберите план",
     "largeText": "Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quaeab illo inventorye. ",
     "smallText": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
     "mediumText": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit Laboriosam, nisi ut aliquid ex ea commodi.",
     "send": "Отправить",
-    "email": "Почта",
+    "email": "Ваш адрес электронной почты",
     "enterName": "Введите ваше имя",
     "enterEmail": "Введите адрес электронной почты",
     "enterTheme": "Введите тему",
     "enterMessage": "Введите сообщение",
-    "subscribe": "Подписывайтесь на новости",
+    "subscribeToNews": "Подписаться на нашу новостную рассылку",
+    "subscribe": "Подписаться",
     "watchDemo": "Посмотреть демо",
     "home": "Дом",
     "aboutUs": "О нас",
     "softwareTrends": "Тенденции разработки программного обеспечения в 2022 году ",
     "contacts": "Контакты",
     "ourTeam": "Наша команда",
+    "services": "услуги",
     "faqs": "Часто задаваемые вопросы",
-    "solutions": "Решения"
+    "testImonalsTitle": "Отзывы",
+    "solutions": "Решения",
+    "ourBlog": "Наш блог"
   },
   "companyOverviewSection": {
-    "title": "Мы предоставляем услуги, которые гарантируют ваш успех",
-    "data": [
-      {
-        "amount": "1830",
-        "name": "Проектов выполнено"
-      },
-      {
-        "amount": "834",
-        "name": "Довольных клиентов"
-      },
-      {
-        "amount": "390",
-        "name": "Управлений данными"
-      }
-    ]
+    "title": "Мы предоставляем услуги, которые гарантируют ваш успех"
   },
   "footer": {
     "privacyPolicy": "Политика конфиденциальности",
-    "quickLink": "Быстрый доступ",
-    "service": "Услуга",
+    "quickLink": "Быстрый переход",
+    "service": "Услуги",
+    "contactInfo": "Контактная информация",
     "services": [
       "Страницы",
       "Элементы",
       "Часто задаваемые вопросы",
       "Цены",
-      "Карта"
+      "Где мы"
     ],
+    "followUs": "Подписывайтесь на нас",
     "termsOfUs": "Условия использования"
   },
   "homePage": {
     "heroTitle": "Откройте для себя истинную силу ваших данных с помощью <0>Ensome</0>",
-    "featureTitle": "<0>новейшая</0> платформа бизнес-аналитики",
+    "featureTitle": "<0>Новейшая</0> платформа бизнес-аналитики",
     "featureSubtitleTitle": "Принципиально новые решения для данных",
-    "benefitsTitle": "Преимущества Ensome",
-    "testImonalsTitle": "Отзывы",
     "ourPricingTitle": "Цены",
-    "ourBlogTitle": "Преимущества Ensome",
-    "ourBlog": "Блог"
+    "ourBlogTitle": "Преимущества Ensome"
   },
   "servicePage": {
-    "title": "Услуги по анализу данных"
+    "title": "Услуги по анализу данных",
+    "serviceText": "Vestibulum varius mattis sagittis."
   },
   "aboutUsPage": {
     "title": "О нас",
     "whoWeAre": "Кто мы",
-    "ourMission": "Наша цель",
-    "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab ill Inventor veritatis et Quasi architecto beatae vitae dicta sunt explicabo. ",
+    "ourMission": "Наша миссия",
+    "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo Inventor veritatis et Quasi architecto beatae vitae dicta sunt explicabo. ",
     "inNumbers": "Ensome в цифрах",
     "data": [
       {
@@ -83,7 +76,7 @@
       },
       {
         "amount": "390",
-        "name": "Управлений данными"
+        "name": "Управления данными"
       },
       {
         "amount": "834",
@@ -92,20 +85,35 @@
     ],
     "ourCustomers": "Наши клиенты",
     "reviewTitle": "Что говорят наши клиенты",
-    "formTitle": "Остались вопросы?"
+    "formTitle": "Остались вопросы? "
+  },
+  "blogPage": {
+    "title": "Блог",
+    "popularPost": "Популярные посты",
+    "relatedPost": "Похожие посты",
+    "categoriesTitle": "Категории",
+    "categories": [
+      "Разработка программного обеспечения",
+      "Информационная безопасность",
+      "Интернет вещи",
+      "Цифровая трансформация",
+      "Здравоохранение"
+    ],
+    "tags": "Теги",
+    "fullText": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque Corrpi quos dolores et quas. "
   },
   "ourTeamPage": {
     "title": "Наша команда",
     "text": "Sed ut perspiciatis unde omnis iste natus error volupta accusantium doloremque laudantium, totam remiga aperiam, eaque ipsa. "
   },
   "contactsPage": {
-    "title": "Как мы можем помочь <0>тебе?</0>",
+    "title": "Как мы можем <0>вам помочь?</0>",
     "locations": [
       {
         "structureId": 1,
         "lat": 35.1369274,
         "lng": 135.5298123,
-        "name": "Парк в японии"
+        "name": "Оямахигашичо 2 Го Парк"
       },
       {
         "structureId": 2,
@@ -117,7 +125,7 @@
         "structureId": 3,
         "lat": 40.6838171,
         "lng": -74.0593493,
-        "name": "Статуя свободы"
+        "name": "статуя Свободы"
       }
     ]
   },
@@ -127,37 +135,37 @@
       {
         "id": 1,
         "question": "Что такое аналитика данных?",
-        "text": "Phasellus tristique eu nisl eu consectetur.  "
+        "answer": "Phasellus tristique eu nisl eu consectetur.  "
       },
       {
         "id": 2,
         "question": "Что такое интеллектуальный анализ данных?",
-        "text": "Phasellus tristique eu nisl eu consectetur.  "
+        "answer": "Phasellus tristique eu nisl eu consectetur.  "
       },
       {
         "id": 3,
         "question": "Что такое бизнес-аналитика?",
-        "text": "Phasellus tristique eu nisl eu consectetur.  "
+        "answer": "Phasellus tristique eu nisl eu consectetur.  "
       },
       {
         "id": 4,
         "question": "Что такое исследовательский анализ данных (EDA)?",
-        "text": "Phasellus tristique eu nisl eu consectetur."
+        "answer": "Phasellus tristique eu nisl eu consectetur.  "
       },
       {
         "id": 5,
         "question": "Что такое подтверждающий анализ данных (CDA)?",
-        "text": "Phasellus tristique eu nisl eu consectetur."
+        "answer": "Phasellus tristique eu nisl eu consectetur.  "
       },
       {
         "id": 6,
         "question": "Что такое прогнозная аналитика?",
-        "text": "Phasellus tristique eu nisl eu consectetur."
+        "answer": "Phasellus tristique eu nisl eu consectetur.  "
       },
       {
         "id": 7,
         "question": "Что такое визуализация данных",
-        "text": "Phasellus tristique eu nisl eu consectetur."
+        "answer": "Phasellus tristique eu nisl eu consectetur.  "
       }
     ]
   },
@@ -186,84 +194,259 @@
   "cards": {
     "blog": [
       {
-        "id": 1,
+        "id": 0,
         "date": "22 июня 2022",
         "image": "https://industrywired.com/wp-content/uploads/2020/10/Retail.jpg",
-        "name": "5 примеров веб-порталов, на которых может поучиться ваш бизнес",
-        "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque Corrpi quos dolores et quas. ",
         "title": "Sed ut perspiciatis unde omnis at vero blanditils",
-        "topics": ["App", "IT", "Future"]
+        "topics": ["App", "CIO", "Future"],
+        "fullPage": {
+          "views": 481,
+          "share": [
+            {
+              "name": "linkedin",
+              "link": "https://www.youtube.com/"
+            },
+            {
+              "name": "instagram",
+              "link": "https://www.youtube.com/"
+            },
+            {
+              "name": "YouTube",
+              "link": "https://www.youtube.com/"
+            },
+            {
+              "name": "twitter",
+              "link": "https://www.youtube.com/"
+            }
+          ]
+        }
+      },
+      {
+        "id": 1,
+        "date": "05 июля 2021",
+        "image": "https://cdn.shopify.com/s/files/1/0268/7480/6307/files/ccc_480x480.jpg?v=1641444746",
+        "title": "Кадровое ПО: ключевые возможности и топовые продукты",
+        "topics": ["Redux", "Store", "Future"],
+        "fullPage": {
+          "views": 5000,
+          "share": [
+            {
+              "linkedin": "https://www.youtube.com/"
+            },
+            {
+              "inst": "https://www.youtube.com/"
+            },
+            {
+              "twitter": "https://www.youtube.com/"
+            },
+            {
+              "google": "https://www.youtube.com/"
+            }
+          ]
+        }
       },
       {
         "id": 2,
-        "date": "05 июля 2021",
-        "image": "https://industrywired.com/wp-content/uploads/2020/10/Retail.jpg",
-        "name": "Соответствие медицинских устройств ISO 13485",
-        "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque Corrpi quos dolores et quas. ",
-        "title": "Sed ut perspiciatis unde omnis at vero blanditils",
-        "topics": ["Redux", "Store", "Future"]
+        "date": "14 февраля 2019",
+        "image": "https://www.meme-arsenal.com/memes/6baa33d804ac9fcb1498586e7301bcfd.jpg",
+        "title": "Бизнес-анализ поможет вам в финансах",
+        "topics": [ "Web", "NEXT"],
+        "fullPage": {
+          "views": 941,
+          "share": [
+            {
+              "linkedin": "https://www.youtube.com/"
+            },
+            {
+              "inst": "https://www.youtube.com/"
+            },
+            {
+              "twitter": "https://www.youtube.com/"
+            },
+            {
+              "google": "https://www.youtube.com/"
+            }
+          ]
+        }
       },
       {
         "id": 3,
-        "date": "14 февраля 2019",
-        "image": "https://industrywired.com/wp-content/uploads/2020/10/Retail.jpg",
-        "name": "Кадровое ПО: ключевые возможности и топовые продукты",
-        "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque Corrpi quos dolores et quas. ",
-        "title": "Sed ut perspiciatis unde omnis at vero blanditils",
-        "topics": ["App", "Web", "NEXT"]
+        "date": "24 октября 2002",
+        "image": "https://avatars.mds.yandex.net/i?id=4b6d878db96c874f87057a34c5b44153-5910485-images-thumbs",
+        "title": "Преимущества телемедицины в домах престарелых",
+        "topics": ["ISO"],
+        "fullPage": {
+          "views": 332,
+          "share": [
+            {
+              "linkedin": "https://www.youtube.com/"
+            },
+            {
+              "inst": "https://www.youtube.com/"
+            },
+            {
+              "twitter": "https://www.youtube.com/"
+            },
+            {
+              "google": "https://www.youtube.com/"
+            }
+          ]
+        }
       },
       {
         "id": 4,
-        "date": "24 октября 2002",
-        "image": "https://industrywired.com/wp-content/uploads/2020/10/Retail.jpg",
-        "name": "5 примеров веб-порталов, на которых может поучиться ваш бизнес",
-        "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque Corrpi quos dolores et quas. ",
+        "date": "1 января 1970",
+        "image": "https://avatars.mds.yandex.net/i?id=4c818bb3d38332d509bf978a658c16929067c9c5-8173407-images-thumbs",
         "title": "Sed ut perspiciatis unde omnis at vero blanditils",
-        "topics": ["App", "ISO", "Future"]
+        "topics": ["RTK", "Future"],
+        "fullPage": {
+          "views": 228,
+          "share": [
+            {
+              "linkedin": "https://www.youtube.com/"
+            },
+            {
+              "inst": "https://www.youtube.com/"
+            },
+            {
+              "twitter": "https://www.youtube.com/"
+            },
+            {
+              "google": "https://www.youtube.com/"
+            }
+          ]
+        }
       },
       {
         "id": 5,
         "date": "1 января 1970",
+        "image": "https://cdn.shopify.com/s/files/1/2631/0760/articles/5db715334d39bc64c600f95d_cyber-security-consultant_ec154fbc-07ed-4991-a5de-dc2ae7028dd1.jpg?v=1587894800",
+        "title": "Грязный, чистый или чистый: каково качество ваших больших данных?",
+        "topics": ["BSUIR"],
+        "fullPage": {
+          "views": 1337,
+          "share": [
+            {
+              "linkedin": "https://www.youtube.com/"
+            },
+            {
+              "inst": "https://www.youtube.com/"
+            },
+            {
+              "twitter": "https://www.youtube.com/"
+            },
+            {
+              "google": "https://www.youtube.com/"
+            }
+          ]
+        }
+      },
+      {
+        "id": 6,
+        "date": "22 июня 2022",
         "image": "https://industrywired.com/wp-content/uploads/2020/10/Retail.jpg",
-        "name": "Соответствие медицинских устройств ISO 13485",
-        "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque Corrpi quos dolores et quas. ",
         "title": "Sed ut perspiciatis unde omnis at vero blanditils",
-        "topics": ["Приложение", "ИТ-директор", "Будущее"]
+        "topics": ["App", "CIO", "Future"],
+        "fullPage": {
+          "views": 481,
+          "share": [
+            {
+              "linkedin": "https://www.youtube.com/"
+            },
+            {
+              "inst": "https://www.youtube.com/"
+            },
+            {
+              "twitter": "https://www.youtube.com/"
+            },
+            {
+              "google": "https://www.youtube.com/"
+            }
+          ]
+        }
+      },
+      {
+        "id": 7,
+        "date": "05 июля 2021",
+        "image": "https://cdn.shopify.com/s/files/1/0268/7480/6307/files/ccc_480x480.jpg?v=1641444746",
+        "title": "Кадровое ПО: ключевые возможности и топовые продукты",
+        "topics": ["Redux", "Store", "Future"],
+        "fullPage": {
+          "views": 5000,
+          "share": [
+            {
+              "linkedin": "https://www.youtube.com/"
+            },
+            {
+              "inst": "https://www.youtube.com/"
+            },
+            {
+              "twitter": "https://www.youtube.com/"
+            },
+            {
+              "google": "https://www.youtube.com/"
+            }
+          ]
+        }
+      },
+      {
+        "id": 8,
+        "date": "14 февраля 2019",
+        "image": "https://www.meme-arsenal.com/memes/6baa33d804ac9fcb1498586e7301bcfd.jpg",
+        "title": "Бизнес-анализ поможет вам в финансах",
+        "topics": [ "Web", "NEXT"],
+        "fullPage": {
+          "views": 941,
+          "share": [
+            {
+              "linkedin": "https://www.youtube.com/"
+            },
+            {
+              "inst": "https://www.youtube.com/"
+            },
+            {
+              "twitter": "https://www.youtube.com/"
+            },
+            {
+              "google": "https://www.youtube.com/"
+            }
+          ]
+        }
       }
     ],
     "price": [
       {
-        "id": 1,
+        "id": 0,
         "infos": [
           "Для небольших команд – 5 пользователей",
           "Поддержка сообщества"
         ],
-        "name": "Free",
+        "name": "Бесплатная пробная версия",
         "value": "10"
       },
       {
-        "id": 2,
+        "id": 1,
         "infos": [
           "Для небольших команд — 15 пользователей",
           "Индивидуальная поддержка",
           "Индивидуальные данные — 60 ГБ"
         ],
-        "name": "Lite",
+        "name": "Лайт",
         "value": "99"
       },
       {
-        "id": 3,
+        "id": 2,
         "infos": [
           "Для больших команд — 30 пользователей",
           "Индивидуальная поддержка",
           "Индивидуальные данные — 120 ГБ",
           "Расширенные разрешения"
         ],
-        "name": "Basic",
+        "name": "Базовый",
         "value": "30"
       },
       {
-        "id": 4,
+        "id": 3,
         "infos": [
           "Неограниченное количество членов команды",
           "Индивидуальная поддержка",
@@ -273,7 +456,7 @@
           "Журнал аудита",
           "Все функции включены"
         ],
-        "name": "For enterprises",
+        "name": "Для предприятий",
         "value": "none"
       }
     ],
@@ -283,129 +466,907 @@
         "text": "«Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit Laboriosam, nisi ut aliquid ex ea commodi consequatur?  ",
         "name": "Алекс Берн",
         "position": "Генеральный директор PixelPerfect",
-        "id": 1
+        "id": 0
       },
       {
         "avatar": "https://reventontech.com/wp-content/uploads/2022/07/reventon-testi3.jpg",
         "text": "«Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit Laboriosam, nisi ut aliquid ex ea commodi consequatur?  ",
         "name": "Рубен Чифундо",
         "position": "Аналитик данных",
-        "id": 2
+        "id": 1
       },
       {
         "avatar": "https://reventontech.com/wp-content/uploads/2022/07/reventon-testi3.jpg",
         "text": "«Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit Laboriosam, nisi ut aliquid ex ea commodi consequatur?  ",
         "name": "Тигран Назарет",
         "position": "Генеральный директор NOX",
-        "id": 3
+        "id": 2
       },
       {
-        "avatar": "четвертый",
+        "avatar": "https://reventontech.com/wp-content/uploads/2022/07/reventon-testi3.jpg",
         "text": "«Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit Laboriosam, nisi ut aliquid ex ea commodi consequatur?  ",
         "name": "Алекс Берн",
         "position": "Генеральный директор PixelPerfect",
-        "id": 4
+        "id": 3
       },
       {
         "avatar": "https://reventontech.com/wp-content/uploads/2022/07/reventon-testi3.jpg",
         "text": "«Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit Laboriosam, nisi ut aliquid ex ea commodi consequatur?  ",
         "name": "Рубен Чифундо",
         "position": "Аналитик данных",
+        "id": 4
+      },
+      {
+        "avatar": "https://reventontech.com/wp-content/uploads/2022/07/reventon-testi3.jpg",
+        "text": "«Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit Laboriosam, nisi ut aliquid ex ea commodi consequatur?  ",
+        "name": "Тигран Назарет",
+        "position": "Генеральный директор NOX",
         "id": 5
+      },
+      {
+        "avatar": "https://reventontech.com/wp-content/uploads/2022/07/reventon-testi3.jpg",
+        "text": "«Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit Laboriosam, nisi ut aliquid ex ea commodi consequatur?  ",
+        "name": "Алекс Берн",
+        "position": "Генеральный директор PixelPerfect",
+        "id": 6
       }
     ],
     "service": [
       {
-        "icon": "https://cdn.icon-icons.com/icons2/3249/PNG/512/brain_circuit_filled_icon_200878.png",
-        "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
+        "icon": "https://cdn.icon-icons.com/icons2/3250/PNG/512/brain_circuit_filled_icon_201561.png",
         "title": "Машинное обучение",
-        "id": 1
+        "id": 0,
+        "fullPage": [
+          {
+            "title": "Клиент",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Типы визуализации данных",
+            "extraList": [],
+            "icon": "https://avatars.mds.yandex.net/i?id=aca6e1f33fb2b8c6dac505adcdfb7215-5192485-images-thumbs"
+          },
+          {
+            "title": "Испытание",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Решение",
+            "extraList": [
+              "Скрытый мобильный доступ",
+              "Сервисы определения местоположения",
+              "Управление посетителями",
+              "Координация кибербезопасности"
+            ],
+            "icon": "https://media.istockphoto.com/videos/asian-businessmen-and-businesswomen-meeting-brainstorming-some-new-video-id1321106823?s=640x640"
+          },
+          {
+            "title": "Полученные результаты",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Технологии",
+            "extraList": [],
+            "icon": ""
+          }
+        ]
       },
       {
         "icon": "https://cdn.icon-icons.com/icons2/3249/PNG/512/brain_circuit_filled_icon_200878.png",
-        "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
         "title": "Встроить аналитику",
-        "id": 2
+        "id": 1,
+        "fullPage": [
+          {
+            "title": "Клиент",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Типы визуализации данных",
+            "extraList": [],
+            "icon": "https://avatars.mds.yandex.net/i?id=aca6e1f33fb2b8c6dac505adcdfb7215-5192485-images-thumbs"
+          },
+          {
+            "title": "Испытание",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Решение",
+            "extraList": [
+              "Скрытый мобильный доступ",
+              "Сервисы определения местоположения",
+              "Управление посетителями",
+              "Координация кибербезопасности"
+            ],
+            "icon": "https://media.istockphoto.com/videos/asian-businessmen-and-businesswomen-meeting-brainstorming-some-new-video-id1321106823?s=640x640"
+          },
+          {
+            "title": "Полученные результаты",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Технологии",
+            "extraList": [],
+            "icon": ""
+          }
+        ]
       },
       {
         "icon": "https://cdn.icon-icons.com/icons2/3249/PNG/512/brain_circuit_filled_icon_200878.png",
-        "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
         "title": "Контроль доступа",
-        "id": 3
+        "id": 2,
+        "fullPage": [
+          {
+            "title": "Клиент",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Типы визуализации данных",
+            "extraList": [],
+            "icon": "https://avatars.mds.yandex.net/i?id=aca6e1f33fb2b8c6dac505adcdfb7215-5192485-images-thumbs"
+          },
+          {
+            "title": "Испытание",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Решение",
+            "extraList": [
+              "Скрытый мобильный доступ",
+              "Сервисы определения местоположения",
+              "Управление посетителями",
+              "Координация кибербезопасности"
+            ],
+            "icon": "https://media.istockphoto.com/videos/asian-businessmen-and-businesswomen-meeting-brainstorming-some-new-video-id1321106823?s=640x640"
+          },
+          {
+            "title": "Полученные результаты",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Технологии",
+            "extraList": [],
+            "icon": ""
+          }
+        ]
       },
       {
         "icon": "https://cdn.icon-icons.com/icons2/3249/PNG/512/brain_circuit_filled_icon_200878.png",
-        "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
         "title": "Аналитика данных",
-        "id": 4
+        "id": 3,
+        "fullPage": [
+          {
+            "title": "Клиент",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Типы визуализации данных",
+            "extraList": [],
+            "icon": "https://avatars.mds.yandex.net/i?id=aca6e1f33fb2b8c6dac505adcdfb7215-5192485-images-thumbs"
+          },
+          {
+            "title": "Испытание",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Решение",
+            "extraList": [
+              "Скрытый мобильный доступ",
+              "Сервисы определения местоположения",
+              "Управление посетителями",
+              "Координация кибербезопасности"
+            ],
+            "icon": "https://media.istockphoto.com/videos/asian-businessmen-and-businesswomen-meeting-brainstorming-some-new-video-id1321106823?s=640x640"
+          },
+          {
+            "title": "Полученные результаты",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Технологии",
+            "extraList": [],
+            "icon": ""
+          }
+        ]
       },
       {
         "icon": "https://cdn.icon-icons.com/icons2/3249/PNG/512/brain_circuit_filled_icon_200878.png",
-        "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
         "title": "Консультации по работе с большими данными",
-        "id": 5
+        "id": 4,
+        "fullPage": [
+          {
+            "title": "Клиент",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Типы визуализации данных",
+            "extraList": [],
+            "icon": "https://avatars.mds.yandex.net/i?id=aca6e1f33fb2b8c6dac505adcdfb7215-5192485-images-thumbs"
+          },
+          {
+            "title": "Испытание",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Решение",
+            "extraList": [
+              "Скрытый мобильный доступ",
+              "Сервисы определения местоположения",
+              "Управление посетителями",
+              "Координация кибербезопасности"
+            ],
+            "icon": "https://media.istockphoto.com/videos/asian-businessmen-and-businesswomen-meeting-brainstorming-some-new-video-id1321106823?s=640x640"
+          },
+          {
+            "title": "Полученные результаты",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Технологии",
+            "extraList": [],
+            "icon": ""
+          }
+        ]
       },
       {
         "icon": "https://cdn.icon-icons.com/icons2/3249/PNG/512/brain_circuit_filled_icon_200878.png",
-        "text": "At vero eos et accusamus et iusto odio dignissimos duciu quili blandit praesentium voluptatum ipsa quae ab illo.",
         "title": "Искусственный интеллект",
-        "id": 6
+        "id": 5,
+        "fullPage": [
+          {
+            "title": "Клиент",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Типы визуализации данных",
+            "extraList": [],
+            "icon": "https://avatars.mds.yandex.net/i?id=aca6e1f33fb2b8c6dac505adcdfb7215-5192485-images-thumbs"
+          },
+          {
+            "title": "Испытание",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Решение",
+            "extraList": [
+              "Скрытый мобильный доступ",
+              "Сервисы определения местоположения",
+              "Управление посетителями",
+              "Координация кибербезопасности"
+            ],
+            "icon": "https://media.istockphoto.com/videos/asian-businessmen-and-businesswomen-meeting-brainstorming-some-new-video-id1321106823?s=640x640"
+          },
+          {
+            "title": "Полученные результаты",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Технологии",
+            "extraList": [],
+            "icon": ""
+          }
+        ]
       }
     ],
     "ourTeam": [
       {
-        "id": 1,
+        "id": 0,
         "avatar": "https://assets.cdn.msgsndr.com/mWLvU4ZVnCMNK5P6TZuK/media/61ceb590016cd77f8a77f63e.jpeg",
         "name": "Саргис Григор",
-        "position": "Аналитик данных"
+        "position": "Аналитик данных",
+        "socials": [
+          {
+            "linkedin": "https://www.youtube.com/"
+          },
+          {
+            "inst": "https://www.youtube.com/"
+          },
+          {
+            "twitter": "https://www.youtube.com/"
+          },
+          {
+            "google": "https://www.youtube.com/"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "avatar": "https://revu.by/wp-content/uploads/2022/04/screenshot_21-350x500.jpg",
+        "name": "Гор Саргис",
+        "position": "Аналитик данных",
+        "socials": [
+          {
+            "linkedin": "https://www.youtube.com/"
+          },
+          {
+            "inst": "https://www.youtube.com/"
+          },
+          {
+            "twitter": "https://www.youtube.com/"
+          },
+          {
+            "google": "https://www.youtube.com/"
+          }
+        ]
       },
       {
         "id": 2,
-        "avatar": "https://revu.by/wp-content/uploads/2022/04/screenshot_21-350x500.jpg",
-        "name": "Гор Саргис",
-        "position": "Аналитик данных"
+        "avatar": "https://assets.cdn.msgsndr.com/mWLvU4ZVnCMNK5P6TZuK/media/61ceb590016cd77f8a77f63e.jpeg",
+        "name": "Марал Мари",
+        "position": "Аналитик данных",
+        "socials": [
+          {
+            "linkedin": "https://www.youtube.com/"
+          },
+          {
+            "inst": "https://www.youtube.com/"
+          },
+          {
+            "twitter": "https://www.youtube.com/"
+          },
+          {
+            "google": "https://www.youtube.com/"
+          }
+        ]
       },
       {
         "id": 3,
-        "avatar": "https://assets.cdn.msgsndr.com/mWLvU4ZVnCMNK5P6TZuK/media/61ceb590016cd77f8a77f63e.jpeg",
-        "name": "Марал Мари",
-        "position": "Аналитик данных"
+        "avatar": "https://revu.by/wp-content/uploads/2022/04/screenshot_21-350x500.jpg",
+        "name": "Кохар Марин",
+        "position": "Специалист по данным ",
+        "socials": [
+          {
+            "linkedin": "https://www.youtube.com/"
+          },
+          {
+            "inst": "https://www.youtube.com/"
+          },
+          {
+            "twitter": "https://www.youtube.com/"
+          },
+          {
+            "google": "https://www.youtube.com/"
+          }
+        ]
       },
       {
         "id": 4,
-        "avatar": "https://revu.by/wp-content/uploads/2022/04/screenshot_21-350x500.jpg",
-        "name": "Кохар Марин",
-        "position": "Специалист по данным "
+        "avatar": "https://assets.cdn.msgsndr.com/mWLvU4ZVnCMNK5P6TZuK/media/61ceb590016cd77f8a77f63e.jpeg",
+        "name": "Баграт Лев",
+        "position": "Инженер данных",
+        "socials": [
+          {
+            "linkedin": "https://www.youtube.com/"
+          },
+          {
+            "inst": "https://www.youtube.com/"
+          },
+          {
+            "twitter": "https://www.youtube.com/"
+          },
+          {
+            "google": "https://www.youtube.com/"
+          }
+        ]
       },
       {
         "id": 5,
-        "avatar": "https://assets.cdn.msgsndr.com/mWLvU4ZVnCMNK5P6TZuK/media/61ceb590016cd77f8a77f63e.jpeg",
-        "name": "Баграт Лев",
-        "position": "Инженер данных"
+        "avatar": "https://revu.by/wp-content/uploads/2022/04/screenshot_21-350x500.jpg",
+        "name": "Акоп Жирайр",
+        "position": "Инженер данных",
+        "socials": [
+          {
+            "linkedin": "https://www.youtube.com/"
+          },
+          {
+            "inst": "https://www.youtube.com/"
+          },
+          {
+            "twitter": "https://www.youtube.com/"
+          },
+          {
+            "google": "https://www.youtube.com/"
+          }
+        ]
       },
       {
         "id": 6,
-        "avatar": "https://revu.by/wp-content/uploads/2022/04/screenshot_21-350x500.jpg",
-        "name": "Акоп Жирайр",
-        "position": "Инженер данных"
+        "avatar": "https://assets.cdn.msgsndr.com/mWLvU4ZVnCMNK5P6TZuK/media/61ceb590016cd77f8a77f63e.jpeg",
+        "name": "Арарат Оганнес",
+        "position": "Аналитик данных",
+        "socials": [
+          {
+            "linkedin": "https://www.youtube.com/"
+          },
+          {
+            "inst": "https://www.youtube.com/"
+          },
+          {
+            "twitter": "https://www.youtube.com/"
+          },
+          {
+            "google": "https://www.youtube.com/"
+          }
+        ]
       },
       {
         "id": 7,
-        "avatar": "https://assets.cdn.msgsndr.com/mWLvU4ZVnCMNK5P6TZuK/media/61ceb590016cd77f8a77f63e.jpeg",
-        "name": "Арарат Оганнес",
-        "position": "Аналитик данных"
+        "avatar": "https://revu.by/wp-content/uploads/2022/04/screenshot_21-350x500.jpg",
+        "name": "Ева Восги",
+        "position": "Специалист по данным",
+        "socials": [
+          {
+            "linkedin": "https://www.youtube.com/"
+          },
+          {
+            "inst": "https://www.youtube.com/"
+          },
+          {
+            "twitter": "https://www.youtube.com/"
+          },
+          {
+            "google": "https://www.youtube.com/"
+          }
+        ]
       },
       {
         "id": 8,
-        "avatar": "https://revu.by/wp-content/uploads/2022/04/screenshot_21-350x500.jpg",
-        "name": "Ева Восги",
-        "position": "Специалист по данным"
-      },
-      {
-        "id": 9,
         "avatar": "https://assets.cdn.msgsndr.com/mWLvU4ZVnCMNK5P6TZuK/media/61ceb590016cd77f8a77f63e.jpeg",
         "name": "Эдуард Восги",
-        "position": "Специалист по данным"
+        "position": "Специалист по данным",
+        "socials": [
+          {
+            "linkedin": "https://www.youtube.com/"
+          },
+          {
+            "inst": "https://www.youtube.com/"
+          },
+          {
+            "twitter": "https://www.youtube.com/"
+          },
+          {
+            "google": "https://www.youtube.com/"
+          }
+        ]
+      }
+    ],
+    "solutions": [
+      {
+        "id": 0,
+        "title": "Интеграция данных",
+        "advantages": [
+          "Извлечение, преобразование, загрузка (ETL)",
+          "Извлечение, загрузка, преобразование (ELT)",
+          "Управление данными"
+        ],
+        "fullPage": [
+          {
+            "title": "Что такое визуализация данных?",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Типы визуализации данных",
+            "extraList": [
+              {
+                "extraTitle": "Карты символов",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Линейные графики",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Консультации по работе с большими данными",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Круговые диаграммы",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Столы",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Гистограммы",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Графики рассеяния",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              }
+            ],
+            "icon": "https://cdn-images-1.medium.com/fit/t/1600/480/1*9dsmqIQNnh6iJdbXwkXZlA.jpeg"
+          },
+          {
+            "title": "Практики визуализации данных",
+            "extraList": [],
+            "icon": "https://sun9-12.userapi.com/impf/kPWVhZucvNr0bH6WR6fq772DezAIoa13kz5ahw/cobaMJy_5ag.jpg?size=1920x768"
+          },
+          {
+            "title": "Визуализация данных в Ensome",
+            "extraList": [],
+            "icon": ""
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "title": "Хранилище данных",
+        "advantages": [
+          "Извлечение, преобразование, загрузка (ETL)",
+          "Управление данными",
+          "Извлечение, загрузка, преобразование (ELT)"
+        ],
+        "fullPage": [
+          {
+            "title": "Что такое визуализация данных?",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Типы визуализации данных",
+            "extraList": [
+              {
+                "extraTitle": "Карты символов",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Линейные графики",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Консультации по работе с большими данными",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Круговые диаграммы",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Столы",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Гистограммы",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Графики рассеяния",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              }
+            ],
+            "icon": "https://cdn-images-1.medium.com/fit/t/1600/480/1*9dsmqIQNnh6iJdbXwkXZlA.jpeg"
+          },
+          {
+            "title": "Практики визуализации данных",
+            "extraList": [],
+            "icon": "https://sun9-12.userapi.com/impf/kPWVhZucvNr0bH6WR6fq772DezAIoa13kz5ahw/cobaMJy_5ag.jpg?size=1920x768"
+          },
+          {
+            "title": "Визуализация данных в Ensome",
+            "extraList": [],
+            "icon": ""
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Большие данные",
+        "advantages": [
+          "Управление данными",
+          "Извлечение, преобразование, загрузка (ETL)",
+          "Извлечение, загрузка, преобразование (ELT)"
+        ],
+        "fullPage": [
+          {
+            "title": "Что такое визуализация данных?",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Типы визуализации данных",
+            "extraList": [
+              {
+                "extraTitle": "Карты символов",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Линейные графики",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Консультации по работе с большими данными",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Круговые диаграммы",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Столы",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Гистограммы",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Графики рассеяния",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              }
+            ],
+            "icon": "https://cdn-images-1.medium.com/fit/t/1600/480/1*9dsmqIQNnh6iJdbXwkXZlA.jpeg"
+          },
+          {
+            "title": "Практики визуализации данных",
+            "extraList": [],
+            "icon": "https://sun9-12.userapi.com/impf/kPWVhZucvNr0bH6WR6fq772DezAIoa13kz5ahw/cobaMJy_5ag.jpg?size=1920x768"
+          },
+          {
+            "title": "Визуализация данных в Ensome",
+            "extraList": [],
+            "icon": ""
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Хранилище данных",
+        "advantages": [
+          "Извлечение, преобразование, загрузка (ETL)",
+          "Извлечение, загрузка, преобразование (ELT)",
+          "Управление данными"
+        ],
+        "fullPage": [
+          {
+            "title": "Что такое визуализация данных?",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Типы визуализации данных",
+            "extraList": [
+              {
+                "extraTitle": "Карты символов",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Линейные графики",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Консультации по работе с большими данными",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Круговые диаграммы",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Столы",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Гистограммы",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Графики рассеяния",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              }
+            ],
+            "icon": "https://cdn-images-1.medium.com/fit/t/1600/480/1*9dsmqIQNnh6iJdbXwkXZlA.jpeg"
+          },
+          {
+            "title": "Практики визуализации данных",
+            "extraList": [],
+            "icon": "https://sun9-12.userapi.com/impf/kPWVhZucvNr0bH6WR6fq772DezAIoa13kz5ahw/cobaMJy_5ag.jpg?size=1920x768"
+          },
+          {
+            "title": "Визуализация данных в Ensome",
+            "extraList": [],
+            "icon": ""
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "BI самообслуживания",
+        "advantages": [
+          "Управление данными",
+          "Извлечение, преобразование, загрузка (ETL)",
+          "Извлечение, загрузка, преобразование (ELT)"
+        ],
+        "fullPage": [
+          {
+            "title": "Что такое визуализация данных?",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Типы визуализации данных",
+            "extraList": [
+              {
+                "extraTitle": "Карты символов",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Линейные графики",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Консультации по работе с большими данными",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Круговые диаграммы",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Столы",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Гистограммы",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Графики рассеяния",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              }
+            ],
+            "icon": "https://cdn-images-1.medium.com/fit/t/1600/480/1*9dsmqIQNnh6iJdbXwkXZlA.jpeg"
+          },
+          {
+            "title": "Практики визуализации данных",
+            "extraList": [],
+            "icon": "https://sun9-12.userapi.com/impf/kPWVhZucvNr0bH6WR6fq772DezAIoa13kz5ahw/cobaMJy_5ag.jpg?size=1920x768"
+          },
+          {
+            "title": "Визуализация данных в Ensome",
+            "extraList": [],
+            "icon": ""
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Интеграция данных",
+        "advantages": [
+          "Извлечение, преобразование, загрузка (ETL)",
+          "Извлечение, загрузка, преобразование (ELT)",
+          "Управление данными"
+        ],
+        "fullPage": [
+          {
+            "title": "Что такое визуализация данных?",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Типы визуализации данных",
+            "extraList": [
+              {
+                "extraTitle": "Карты символов",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Линейные графики",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Консультации по работе с большими данными",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Круговые диаграммы",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Столы",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Гистограммы",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Графики рассеяния",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              }
+            ],
+            "icon": "https://cdn-images-1.medium.com/fit/t/1600/480/1*9dsmqIQNnh6iJdbXwkXZlA.jpeg"
+          },
+          {
+            "title": "Практики визуализации данных",
+            "extraList": [],
+            "icon": "https://sun9-12.userapi.com/impf/kPWVhZucvNr0bH6WR6fq772DezAIoa13kz5ahw/cobaMJy_5ag.jpg?size=1920x768"
+          },
+          {
+            "title": "Визуализация данных в Ensome",
+            "extraList": [],
+            "icon": ""
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Визуализация данных",
+        "advantages": [
+          "Извлечение, преобразование, загрузка (YTL)",
+          "Управление данными",
+          "Извлечение, загрузка, преобразование (ETL)"
+        ],
+        "fullPage": [
+          {
+            "title": "Что такое визуализация данных?",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Типы визуализации данных",
+            "extraList": [
+              {
+                "extraTitle": "Карты символов",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Линейные графики",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Консультации по работе с большими данными",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Круговые диаграммы",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Столы",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Гистограммы",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Графики рассеяния",
+                "extraText": "convallis ex orci, nec sodales urna convallis ac. "
+              }
+            ],
+            "icon": "https://cdn-images-1.medium.com/fit/t/1600/480/1*9dsmqIQNnh6iJdbXwkXZlA.jpeg"
+          },
+          {
+            "title": "Практики визуализации данных",
+            "extraList": [],
+            "icon": "https://sun9-12.userapi.com/impf/kPWVhZucvNr0bH6WR6fq772DezAIoa13kz5ahw/cobaMJy_5ag.jpg?size=1920x768"
+          },
+          {
+            "title": "Визуализация данных в Ensome",
+            "extraList": [],
+            "icon": ""
+          }
+        ]
       }
     ]
   }
