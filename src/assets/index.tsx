@@ -16,6 +16,9 @@ import { ReactComponent as CheckMarkIcon } from './checkMark.svg'
 import { ReactComponent as DotIcon } from './Dot.svg'
 import { ReactComponent as DateIcon } from './dataIcon.svg'
 import { ReactComponent as ViewIcon } from './view.svg'
+import { ReactComponent as MailIcon } from './mail.svg'
+import { ReactComponent as CallIcon } from './call.svg'
+import { ReactComponent as LocationIcon } from './location.svg'
 export {
   WhiteLogo,
   PlayerIcon,
@@ -26,7 +29,8 @@ export {
   CheckMarkIcon,
   DotIcon,
   DateIcon,
-  ViewIcon
+  ViewIcon,
+  MailIcon, CallIcon, LocationIcon
 }
 
 export const footerIcons = [

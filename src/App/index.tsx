@@ -4,6 +4,7 @@ import { ErrorBoundary } from 'components/ErrorBoundary'
 import { Footer } from 'components/Footer'
 import { Header } from 'components/Header'
 import { Modal } from 'components/Portal'
+import { PortalContainer } from 'components/Portal/styles'
 import { Routing } from 'components/Routes'
 import { Container } from 'components/UI/Container'
 import { Loader } from 'components/UI/Loader'
@@ -25,7 +26,13 @@ const App = () => {
 
   return (
     <>
-      <Suspense fallback={<Loader />}>
+      <Suspense
+        fallback={
+          <PortalContainer>
+            <Loader />
+          </PortalContainer>
+        }
+      >
         <Container flex="column">
           <Header setIsOpen={setIsOpen} />
           <ErrorBoundary>

@@ -1,7 +1,5 @@
 import { css } from 'styled-components'
 
-import { devices } from './breakpoints'
-
 const theme = {
   colors: {
     primary: '#185CFF',

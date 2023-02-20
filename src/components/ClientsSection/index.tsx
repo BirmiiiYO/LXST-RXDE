@@ -1,13 +1,14 @@
 import React from 'react'
 
 import { heroImages } from 'assets/images/Clients'
+import { Container } from 'components/UI/Container'
+import { Image } from 'components/UI/Image'
 
-import { ClientContainer, Sponsor } from './styles'
 
 export const ClientsSection = () => (
-  <ClientContainer>
+  <Container width="1110px">
     {heroImages.map(logo => (
-      <Sponsor src={logo} alt="sponsors" />
+      <Image src={logo} alt="sponsors" />
     ))}
-  </ClientContainer>
+  </Container>
 )

@@ -7,22 +7,26 @@ import { Navigation } from 'components/Navigation'
 import { IModalProps } from 'components/Portal/types'
 import { Button } from 'components/UI/Button'
 import { Container } from 'components/UI/Container'
+import { Image } from 'components/UI/Image'
 import { Menu } from 'components/UI/Menu'
 import { Text } from 'components/UI/Text'
 import { useAppSelector } from 'hooks/Redux'
 
-import { Logo, Row } from './styles'
+import { Row } from './styles'
 
 type IHeaderProps = Required<Pick<IModalProps, 'setIsOpen'>>
 
 export const Header: FC<IHeaderProps> = ({ setIsOpen }) => {
   const isMobile = useAppSelector(state => state.PageWidthReducer.isMobile)
   const { t } = useTranslation('translation')
+  const changeVisibility = () => {
+    setIsOpen(true)
+  }
 
   return (
     <Container background="secondary">
       <Row id="nav">
-        <Logo src={WhiteLogo} alt="logo" />
+        <Image width="141px" src={WhiteLogo} alt="logo" />
         {!isMobile ? (
           <>
             <Navigation />{' '}
@@ -34,7 +38,7 @@ export const Header: FC<IHeaderProps> = ({ setIsOpen }) => {
                   SVGProps<SVGSVGElement>
                 >
               }
-              onClick={() => setIsOpen(true)}
+              onClick={changeVisibility}
             >
               <Text typography="SBHeadline7" maxWidth="600px">
                 {t('base.watchDemo')}

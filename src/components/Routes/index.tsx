@@ -1,7 +1,7 @@
 import React, { Suspense, lazy } from 'react'
 import { Route, Routes } from 'react-router-dom'
 
-import { PayPal } from 'components/PayPal'
+import { PortalContainer } from 'components/Portal/styles'
 import { Loader } from 'components/UI/Loader'
 import { EPagePaths } from 'constants/router'
 
@@ -20,7 +20,13 @@ const TeamMemberPage = lazy(() => import('pages/TeamMember'))
 const OneBlogPage = lazy(() => import('pages/Blog'))
 
 export const Routing = () => (
-  <Suspense fallback={<Loader />}>
+  <Suspense
+    fallback={
+      <PortalContainer>
+        <Loader />
+      </PortalContainer>
+    }
+  >
     <Routes>
       <Route path={EPagePaths.HOME} element={<HomePage />} />
 

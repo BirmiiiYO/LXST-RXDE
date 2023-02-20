@@ -4,17 +4,18 @@ import { useTranslation } from 'react-i18next'
 import { footerIcons } from 'assets'
 import WhiteLogo from 'assets/images/Logo.png'
 import { Container } from 'components/UI/Container'
+import { Image } from 'components/UI/Image'
 import { SideBar } from 'components/UI/SideBar'
 import { Text } from 'components/UI/Text'
 
-import { Logo, SpaceBetween } from './styles'
+import { SpaceBetween } from './styles'
 
 export const MobileFooter = () => {
   const { t } = useTranslation()
 
   return (
     <Container flex="column" background="secondary" padding="10px">
-      <Logo src={WhiteLogo} alt="logo" />
+      <Image width="141px" margin="0 0 20px 0" src={WhiteLogo} alt="logo" />
       <SideBar onClick={() => 1} color="white">
         {t('footer.quickLink')}
       </SideBar>

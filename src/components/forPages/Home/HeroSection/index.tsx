@@ -11,7 +11,9 @@ import { ButtonContainer, Container, HeroImage } from './styles'
 export const HeroSection = () => {
   const { t } = useTranslation()
   const navigate = useNavigate()
-
+  const openPage = () => {
+    navigate('/services')
+  }
   return (
     <>
       <Container>
@@ -31,7 +33,7 @@ export const HeroSection = () => {
             buttonType="round"
             padding="47px 23px"
             typography="SBHeadline7"
-            onClick={() => navigate('/services')}
+            onClick={openPage}
           >
             {t('base.learnMore')}
           </Button>

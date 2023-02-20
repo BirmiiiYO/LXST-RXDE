@@ -15,11 +15,6 @@ export const Content = styled.div`
   }
 `
 
-export const Logo = styled.img`
-  max-width: 141px;
-  margin-bottom: 20px;
-`
-
 export const Block = styled.div`
   ${COLUMN}
 `
@@ -32,10 +27,6 @@ export const Text = styled.div`
   ${theme.typography.R_PARAGRAPH_3}
   color:${theme.colors.grey};
   margin-bottom: 12px;
-`
-
-export const Icon = styled.img`
-  margin: 20px 15px 0 0;
 `
 
 export const PrivacyInfo = styled.div`

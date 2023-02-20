@@ -32,7 +32,6 @@ export const setButtonStyles = (type: TButtonType) => {
           box-shadow: ${theme.shadows.none};
         }
       `
-    // default primary
     default:
       return css`
         border-radius: ${theme.BORDER_RADIUS.S}px;

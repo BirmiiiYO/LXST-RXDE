@@ -4,8 +4,8 @@ import { devices } from 'styles/breakpoints'
 import { theme } from 'styles/themes'
 
 export const Container = styled.div`
-  width: 305px;
-  max-height: 305px;
+  width: 255px;
+  height: 255px;
   background: ${theme.colors.white};
   overflow: hidden;
   box-shadow: ${theme.shadows.shadowCard3};

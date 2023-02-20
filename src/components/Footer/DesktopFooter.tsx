@@ -5,7 +5,9 @@ import WhiteLogo from 'assets/images/Logo.png'
 import { footerIcons } from 'assets/index'
 import { languageIcons } from 'assets/svg/languageIcons'
 import { Container } from 'components/UI/Container'
+import { Image } from 'components/UI/Image'
 import { Text } from 'components/UI/Text'
+import { contacts } from 'constants/contacts'
 import { links } from 'constants/links'
 
 import {
@@ -14,16 +16,9 @@ import {
   CustomLink,
   Icons,
   LangIcon,
-  Logo,
   PrivacyInfo,
   SpaceBetween,
 } from './styles'
-
-const contacts = [
-  'ensome@info.co.us',
-  '+1 601-201-5580',
-  '1642 Washington Avenue, Jackson, MS, Mississippi, 39201',
-]
 
 export const DesktopFooter = () => {
   const { t, i18n } = useTranslation()
@@ -36,7 +31,7 @@ export const DesktopFooter = () => {
         background="secondary"
       >
         <Block>
-          <Logo src={WhiteLogo} alt="logo" />
+          <Image width="141px" margin="0 0 20px 0" src={WhiteLogo} alt="logo" />
           <Text typography="RParagraph3" color="grey" maxWidth="285px">
             {t('base.smallText')}
           </Text>
@@ -59,7 +54,7 @@ export const DesktopFooter = () => {
         </Block>
         <Block>
           <Text typography="BHeadline6" margin="0 0 31px 0" color="white">
-            Service
+            {t('footer.service')}
           </Text>
           {services.map(link => (
             <Text typography="RParagraph3" color="grey">
@@ -69,7 +64,7 @@ export const DesktopFooter = () => {
         </Block>
         <Block>
           <Text typography="BHeadline6" margin="0 0 31px 0" color="white">
-            Contact info
+            {t('footer.contactInfo')}
           </Text>
           {contacts.map(link => (
             <Text
@@ -96,11 +91,11 @@ export const DesktopFooter = () => {
         </Container>
         <SpaceBetween>
           <Text typography="RParagraph3" color="grey">
-            Privacy policy
+            {t('footer.privacyPolicy')}
           </Text>
 
           <Text typography="RParagraph3" color="grey">
-            Terms of us
+            {t('footer.termsOfUs')}
           </Text>
         </SpaceBetween>
       </PrivacyInfo>

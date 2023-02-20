@@ -9,14 +9,16 @@ import { Container } from 'components/UI/Container'
 import { Form } from 'components/UI/Form'
 import { PageHeader } from 'components/UI/PageHeader'
 import { Section } from 'components/UI/Section'
+import { Text } from 'components/UI/Text'
+import { contacts } from 'constants/contacts'
 
-import { ServiceContainer } from './styles'
+import { InfoContainer, ServiceContainer } from './styles'
 
 const Service = () => {
   const { id } = useParams()
   const { t } = useTranslation()
   const services = t('cards.service', { returnObjects: true }) as []
-  const { icon, title, fullPage } = services.find(
+  const { title, fullPage } = services.find(
     arrayId => arrayId.id === Number(id),
   )
   return (
@@ -32,7 +34,23 @@ const Service = () => {
           <ArticleBlock blocks={fullPage} />
           <AsideBlock titles={services.map(({ title }) => title)} />
         </ServiceContainer>
-        <Form />
+      </Section>
+      <Section backgroundColor="aliceBlue">
+        <Container background="aliceBlue" margin="120px 0">
+          <InfoContainer>
+            <Text typography="EbHeadline2">Contact information</Text>
+            <Text typography="RParagraph1" color="grey" margin="35px 0 45px 0">
+              Fill up the form and our Team will get back to you with 25 hours.
+            </Text>
+            {contacts.map(text => (
+              <Text typography="RParagraph2" margin="0 0 15px 0">
+                {' '}
+                {text}
+              </Text>
+            ))}
+          </InfoContainer>
+          <Form />
+        </Container>
       </Section>
       <SubscribeSection />
     </>

@@ -4,7 +4,7 @@ import { TFlex } from 'components/UI/Container/types'
 import { devices } from 'styles/breakpoints'
 import { CENTER, COLUMN, SPACE_BETWEEN } from 'styles/themes'
 
-export const setFlexStyle = (position: TFlex, mobileColumn: boolean) => {
+export const setFlexStyle = (position: TFlex) => {
   switch (position) {
     case 'column':
       return COLUMN

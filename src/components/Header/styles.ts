@@ -12,5 +12,3 @@ export const Row = styled.div`
     padding: 20px 16px;
   }
 `
-
-export const Logo = styled.img``

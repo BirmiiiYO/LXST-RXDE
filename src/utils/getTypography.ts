@@ -50,8 +50,6 @@ export const getTypography = (
     case 'SBParagraph3':
       return SB_PARAGRAPH_3
     case 'EbHeadline1':
-      return EB_HEADLINE_1
-    // как обьединить в два кейса
     default:
       return EB_HEADLINE_1
   }
