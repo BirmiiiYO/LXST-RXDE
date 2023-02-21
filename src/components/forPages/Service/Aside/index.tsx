@@ -18,7 +18,7 @@ export const AsideBlock: FC<IASideProps> = ({ titles }) => {
         {t('base.services')}
       </Text>
       {titles.map(title => (
-        <SideBar onClick={() => console.log('zxc')}>{title}</SideBar>
+        <SideBar elements={titles}>{title}</SideBar>
       ))}
     </AsideContainer>
   )

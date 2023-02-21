@@ -12,6 +12,9 @@ import { Description, Image, SolutionContainer } from './styles'
 export const FeaturesSection = () => {
   const { t } = useTranslation()
   const navigate = useNavigate()
+  const openSolutionsPage = () => {
+    navigate('/solutions')
+  }
   return (
     <>
       {' '}
@@ -29,7 +32,7 @@ export const FeaturesSection = () => {
             {t('base.mediumText')}
           </Text>
           <div>
-            <Button onClick={() => navigate('/solutions')}>
+            <Button onClick={openSolutionsPage}>
               {t('base.discoverMore')}
             </Button>
           </div>
@@ -49,7 +52,7 @@ export const FeaturesSection = () => {
           >
             {t('base.largeText')}
           </Text>
-          <Button>{t('base.learnMore')}</Button>
+          <Button onClick={openSolutionsPage}>{t('base.learnMore')}</Button>
         </Description>
       </SolutionContainer>
     </>

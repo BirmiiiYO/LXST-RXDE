@@ -9,7 +9,7 @@ import { Text } from 'components/UI/Text'
 import { Cards, SpaceBetween } from '../../../CardsSection/styles'
 
 export const BlogSection = () => {
-  const [aciveReviews, setActive] = useState(0)
+  const [activeReviews, setActive] = useState(0)
   const { t } = useTranslation()
   const cards = t('cards.blog', { returnObjects: true }) as []
   return (
@@ -19,23 +19,23 @@ export const BlogSection = () => {
         <div>
           <ControlsDirection
             direction="right"
-            onClick={() => setActive(aciveReviews - 1)}
+            onClick={() => setActive(activeReviews - 1)}
           />
           <ControlsDirection
             direction="left"
-            onClick={() => setActive(aciveReviews + 1)}
+            onClick={() => setActive(activeReviews + 1)}
           />
         </div>
       </SpaceBetween>
       <Cards>
         {cards
-          .slice(aciveReviews, aciveReviews + 2)
-          .map(({ date, id, image, name, text, topics }) => (
+          .slice(activeReviews, activeReviews + 2)
+          .map(({ date, id, image, name, topics }) => (
             <BlogCard
+              id={id}
               image={image}
               date={date}
               title={name}
-              text={text}
               topics={topics}
               key={id}
             />

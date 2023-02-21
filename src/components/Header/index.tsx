@@ -26,7 +26,7 @@ export const Header: FC<IHeaderProps> = ({ setIsOpen }) => {
   return (
     <Container background="secondary">
       <Row id="nav">
-        <Image width="141px" src={WhiteLogo} alt="logo" />
+        <Image width="120px" src={WhiteLogo} alt="logo" />
         {!isMobile ? (
           <>
             <Navigation />{' '}

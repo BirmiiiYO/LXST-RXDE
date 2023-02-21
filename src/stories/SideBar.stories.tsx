@@ -9,12 +9,11 @@ export default {
 } as ComponentMeta<typeof SideBar>
 
 const Template: ComponentStory<typeof SideBar> = args => (
-  // eslint-disable-next-line react/destructuring-assignment
   <SideBar {...args}>{args.children}</SideBar>
 )
 
 export const Classic = Template.bind({})
 Classic.args = {
   children: 'Software development',
-  onClick: () => console.log('click side bar'),
+  elements: ['zxc', 'dsa', 'qwe'],
 }

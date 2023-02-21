@@ -16,7 +16,9 @@ export const List = styled.span`
     margin: 5px;
   }
 `
-export const ArticleContainer = styled.div``
+export const ArticleContainer = styled.div`
+  min-height: 500px;
+`
 
 export const Image = styled.img`
   width: 100%;

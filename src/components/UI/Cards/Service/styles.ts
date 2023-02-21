@@ -22,4 +22,5 @@ export const Container = styled.div`
 
 export const Icon = styled.img`
   width: 30px;
+  mix-blend-mode: darken;
 `
