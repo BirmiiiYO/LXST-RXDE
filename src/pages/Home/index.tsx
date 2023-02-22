@@ -25,10 +25,10 @@ const Home = () => {
   const isMobile = useAppSelector(state => state.PageWidthReducer.isMobile)
   return (
     <Container>
-      <HeroSection />
-      <FeaturesSection />
+      {/* <HeroSection /> */}
+      {/* <FeaturesSection />
       <CompanyOverviewSection />
-      <ClientsSection />
+      <ClientsSection /> */}
       <BenefitsSection />
       <CardsSection
         amount={isMobile ? 1 : 3}

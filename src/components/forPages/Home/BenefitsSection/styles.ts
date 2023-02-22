@@ -13,7 +13,7 @@ export const Info = styled.div`
 `
 export const Cards = styled.ul`
   ${CENTER}
-  width:1000px;
+  max-width:1000px;
   margin-left: 50px;
   flex-wrap: wrap;
 
@@ -27,7 +27,6 @@ export const Cards = styled.ul`
     }
   }
   @media ${devices.content} {
-    width: 100%;
     grid-row: auto;
     padding: 5px;
     overflow-x: scroll;

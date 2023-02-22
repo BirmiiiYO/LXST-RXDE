@@ -22,7 +22,5 @@ jobs:
           cache: npm
       - name: Install deps
         run: npm ci
-      # - name: ESLint
-      #   run: npm run lint
       - name: Fix codestyle with prettier
         run: npm run prettier
