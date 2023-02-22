@@ -50,8 +50,8 @@ export const Mobile = styled.div`
 `
 
 export const LangIcon = styled.div`
-  svg {
-    width: 40px;
-    height: 20px;
-  }
+  ${theme.typography.B_HEADLINE_6}
+  color:${theme.colors.white};
+  padding: 5px;
+  cursor: pointer;
 `

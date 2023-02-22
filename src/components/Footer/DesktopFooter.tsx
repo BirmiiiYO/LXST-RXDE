@@ -1,13 +1,13 @@
-import React from 'react'
+import React, { MouseEvent } from 'react'
 import { useTranslation } from 'react-i18next'
 
 import WhiteLogo from 'assets/images/Logo.png'
 import { footerIcons } from 'assets/index'
-import { languageIcons } from 'assets/svg/languageIcons'
 import { Container } from 'components/UI/Container'
 import { Image } from 'components/UI/Image'
 import { Text } from 'components/UI/Text'
 import { contacts } from 'constants/contacts'
+import { languages } from 'constants/languages'
 import { links } from 'constants/links'
 
 import {
@@ -23,6 +23,10 @@ import {
 export const DesktopFooter = () => {
   const { t, i18n } = useTranslation()
   const services = t('footer.services', { returnObjects: true }) as []
+
+  const changeLng = (e: MouseEvent<HTMLElement>) => {
+    i18n.changeLanguage(e.target.id)
+  }
   return (
     <Content>
       <Container
@@ -83,9 +87,9 @@ export const DesktopFooter = () => {
           Ensome© 2022 All Rights Reserved
         </Text>
         <Container flex="space-between" width="400px" background="secondary">
-          {languageIcons.map(({ component, lng }) => (
-            <LangIcon key={lng} onClick={() => i18n.changeLanguage(lng)}>
-              {component}
+          {languages.map(lng => (
+            <LangIcon key={lng} id={lng} onClick={changeLng}>
+              {lng}
             </LangIcon>
           ))}
         </Container>

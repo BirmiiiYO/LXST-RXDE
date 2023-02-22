@@ -6,8 +6,8 @@ import { theme } from 'styles/themes'
 import { IBlogCardStyleProps } from './types'
 
 export const Container = styled.div<IBlogCardStyleProps>`
-  max-width: 540px;
-  max-height: 600px;
+  width: 540px;
+  min-height: 585px;
   cursor: pointer;
   margin: 5px;
   border-radius: 6px;
@@ -22,6 +22,8 @@ export const Container = styled.div<IBlogCardStyleProps>`
       : css`
           display: flex;
           vertical-align: middle;
+          max-width: 540px;
+          min-height: 130px;
         `}
 `
 

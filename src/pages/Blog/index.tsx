@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion */
-import React from 'react'
+import React, { ChangeEvent, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { useParams } from 'react-router-dom'
 
@@ -27,12 +27,17 @@ const OneBlogPage = () => {
   const { t } = useTranslation()
   const { id } = useParams()
   const blogs = t('cards.blog', { returnObjects: true }) as IBlogPageProps[]
-  const categories = t('blogPage.categories', { returnObjects: true }) as []
   const { date, image, title, topics, fullPage } = blogs!.find(
     ({ id: blogId }) => blogId === Number(id),
   ) as IBlogPageProps
+  const [activeTag, setActiveTag] = useState(topics[0])
+
+  const categories = t('blogPage.categories', { returnObjects: true }) as []
 
   const allTopics = unique(blogs.map(blog => blog.topics).flat())
+  const changeInputValue = (e: ChangeEvent<HTMLInputElement>) => {
+    setActiveTag(e.target.value)
+  }
   return (
     <>
       <PageHeader type="light" title={title} breadcrumbs={['Home', title]} />
@@ -51,13 +56,17 @@ const OneBlogPage = () => {
               {t('blogPage.relatedPost')}
             </Text>
             <RelatedBlock>
-              {blogs.slice(2, 5).map(data => (
-                <BlogCard {...data} size="small" />
-              ))}
+              {blogs
+                .filter(({ topics: tags }) =>
+                  activeTag ? tags.includes(activeTag) : true,
+                )
+                .map(data => (
+                  <BlogCard {...data} size="small" />
+                ))}
             </RelatedBlock>
           </LeftBlock>
           <RightBlock>
-            <SearchBar value="zxc" changeValue={() => 1} />
+            <SearchBar value={activeTag} changeValue={changeInputValue} />
             <Text typography="BHeadline4" margin="60px 0 30px">
               {t('blogPage.popularPost')}
             </Text>
@@ -72,7 +81,7 @@ const OneBlogPage = () => {
               {t('blogPage.categoriesTitle')}
             </Text>
             {categories.map(item => (
-              <SideBar onClick={() => 1}>{item}</SideBar>
+              <SideBar elements={categories}>{item}</SideBar>
             ))}
             <Text typography="BHeadline4" margin="60px 0 30px">
               {t('blogPage.tags')}

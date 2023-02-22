@@ -1,6 +1,6 @@
-import { Dispatch, SetStateAction } from 'react'
+import { ChangeEvent } from 'react'
 
 export interface ISearchBarProps {
   value: string
-  changeValue: Dispatch<SetStateAction<string>>
+  changeValue: (e: ChangeEvent<HTMLInputElement>) => void
 }
