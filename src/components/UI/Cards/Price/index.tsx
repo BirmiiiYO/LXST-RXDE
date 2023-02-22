@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import { CheckMarkIcon } from 'assets/index'
+import { CheckMarkIcon } from 'assets/svg/icons'
 import { PayPal } from 'components/PayPal'
 import { Modal } from 'components/Portal'
 import { PriceButton } from 'components/UI/PriceButton'

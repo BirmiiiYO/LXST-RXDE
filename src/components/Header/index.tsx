@@ -1,8 +1,8 @@
 import React, { FC, FunctionComponent, SVGProps } from 'react'
 import { useTranslation } from 'react-i18next'
 
-import { PlayerIcon } from 'assets'
 import WhiteLogo from 'assets/images/Logo.png'
+import { PlayerIcon } from 'assets/svg/icons'
 import { Navigation } from 'components/Navigation'
 import { IModalProps } from 'components/Portal/types'
 import { Button } from 'components/UI/Button'

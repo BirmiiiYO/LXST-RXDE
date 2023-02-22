@@ -2,7 +2,7 @@ import React from 'react'
 import { useTranslation } from 'react-i18next'
 
 import whyChooseUs from 'assets/images/Solutions/whyChooseUs.png'
-import { CheckMarkIcon } from 'assets/index'
+import { CheckMarkIcon } from 'assets/svg/icons'
 import { Container } from 'components/UI/Container'
 import { Text } from 'components/UI/Text'
 

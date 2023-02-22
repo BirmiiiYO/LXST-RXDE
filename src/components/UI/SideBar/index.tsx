@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import { TabIcon } from 'assets/index'
+import { TabIcon } from 'assets/svg/icons'
 
 import { CustomSideBar } from './styles'
 import { ISideBarProps } from './types'

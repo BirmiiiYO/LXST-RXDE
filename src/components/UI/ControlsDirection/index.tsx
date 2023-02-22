@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { RightIcon } from 'assets'
+import { RightIcon } from 'assets/svg/icons'
 
 import { ControlButton } from './styles'
 import { IControlsDirectionProps } from './types'

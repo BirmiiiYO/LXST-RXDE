@@ -1,7 +1,7 @@
 import React, { FC } from 'react'
 import { useTranslation } from 'react-i18next'
 
-import { CheckMarkIcon } from 'assets'
+import { CheckMarkIcon } from 'assets/svg/icons'
 import { Text } from 'components/UI/Text'
 
 import {

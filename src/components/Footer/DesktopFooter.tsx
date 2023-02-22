@@ -2,7 +2,7 @@ import React, { MouseEvent } from 'react'
 import { useTranslation } from 'react-i18next'
 
 import WhiteLogo from 'assets/images/Logo.png'
-import { footerIcons } from 'assets/index'
+import { footerIcons } from 'assets/svg/socialsIcons'
 import { Container } from 'components/UI/Container'
 import { Image } from 'components/UI/Image'
 import { Text } from 'components/UI/Text'

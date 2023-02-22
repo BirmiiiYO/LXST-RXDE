@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
-import { RightIcon } from 'assets'
+import { RightIcon } from 'assets/svg/icons'
 
 import { CustomLink } from './styles'
 import { ILinkProps } from './types'

@@ -1,7 +1,7 @@
 import React, { FC } from 'react'
 import { createPortal } from 'react-dom'
 
-import { CloseIcon } from 'assets'
+import { CloseIcon } from 'assets/svg/icons'
 
 import { ModalContainer, PortalContainer } from './styles'
 import { IModalProps } from './types'

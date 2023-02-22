@@ -1,7 +1,7 @@
 import React, { FC } from 'react'
 import { useTranslation } from 'react-i18next'
 
-import { DateIcon, ViewIcon } from 'assets'
+import { DateIcon, ViewIcon } from 'assets/svg/icons'
 import { Tag } from 'components/UI/Tag'
 import { Text } from 'components/UI/Text'
 

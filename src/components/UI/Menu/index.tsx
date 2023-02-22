@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-// import { MenuIcon } from 'assets'
+import { MenuIcon } from 'assets/svg/icons'
 import { DropDown } from 'components/UI/Dropdown'
 
 import { StyledMenu } from './styles'
@@ -13,7 +13,7 @@ export const Menu = () => {
   }
   return (
     <StyledMenu>
-      <div onClick={toggleActive}>X</div>
+      <MenuIcon onClick={toggleActive} />
       {active && <DropDown />}
     </StyledMenu>
   )

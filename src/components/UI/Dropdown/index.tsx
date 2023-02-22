@@ -1,7 +1,6 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 
-import { RightIcon } from 'assets'
+import { RightIcon } from 'assets/svg/icons'
 import { links } from 'constants/links'
 
 import { Item, List } from './styles'

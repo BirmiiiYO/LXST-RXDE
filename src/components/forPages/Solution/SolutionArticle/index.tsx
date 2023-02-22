@@ -1,7 +1,7 @@
 import React, { FC } from 'react'
 import { useTranslation } from 'react-i18next'
 
-import { DotIcon } from 'assets'
+import { DotIcon } from 'assets/svg/icons'
 import { Text } from 'components/UI/Text'
 
 import { ArticleContainer, Image, InfoContainer, List } from './styles'
