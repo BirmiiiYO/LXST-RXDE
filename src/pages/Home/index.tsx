@@ -15,20 +15,24 @@ import { SubscribeSection } from 'components/SubscribeSection'
 import { BlogCard } from 'components/UI/Cards/Blog'
 import { ReviewCard } from 'components/UI/Cards/Review'
 import { useAppSelector } from 'hooks/Redux'
+import { IBlogCardDataProps } from 'types/locales/Blog'
+import { IReviewCardDataProps } from 'types/locales/Review'
 
 import { Container } from './styles'
 
 const Home = () => {
   const { t } = useTranslation()
-  const reviews = t('cards.review', { returnObjects: true }) as []
-  const blogs = t('cards.blog', { returnObjects: true }) as []
+  const reviews = t('cards.review', {
+    returnObjects: true,
+  }) as IReviewCardDataProps[]
+  const blogs = t('cards.blog', { returnObjects: true }) as IBlogCardDataProps[]
   const isMobile = useAppSelector(state => state.PageWidthReducer.isMobile)
   return (
     <Container>
-      {/* <HeroSection /> */}
-      {/* <FeaturesSection />
+      <HeroSection />
+      <FeaturesSection />
       <CompanyOverviewSection />
-      <ClientsSection /> */}
+      <ClientsSection />
       <BenefitsSection />
       <CardsSection
         amount={isMobile ? 1 : 3}
