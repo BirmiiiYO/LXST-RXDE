@@ -28,6 +28,9 @@ export const Input = styled.input`
   border: none;
   padding: 6px 0;
   border-bottom: 1px solid ${theme.colors.grey};
+  &:invalid {
+    border-bottom: 2px solid ${theme.colors.redError};
+  }
 `
 
 export const Field = styled.div`

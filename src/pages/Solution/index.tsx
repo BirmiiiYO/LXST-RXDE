@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { useParams } from 'react-router-dom'
 
@@ -8,6 +8,7 @@ import { SolutionArticle } from 'components/forPages/Solution/SolutionArticle'
 import { SubscribeSection } from 'components/SubscribeSection'
 import { PageHeader } from 'components/UI/PageHeader'
 import { Section } from 'components/UI/Section'
+import { ISolutionCardDataProps } from 'types/locales/Solution'
 
 import { SolutionContainer } from './styles'
 
@@ -15,15 +16,17 @@ const Solution = () => {
   const { id } = useParams()
   const [activeTitle, setActiveTitle] = useState('')
   const { t } = useTranslation()
-  const solutions = t('cards.solutions', { returnObjects: true }) as []
+  const solutions = t('cards.solutions', {
+    returnObjects: true,
+  }) as ISolutionCardDataProps[]
   const { title: topTitle, fullPage } = solutions.find(
     el => el.id === Number(id),
-  )
+  ) as ISolutionCardDataProps
   useEffect(() => {
     const scrollTracking = () => {
       const scrollDistance = window.scrollY
-      document.querySelectorAll('#title').forEach((el, i) => {
-        if (el.offsetTop <= scrollDistance) {
+      document.querySelectorAll<HTMLElement>('#title').forEach((value, i) => {
+        if (value.offsetTop <= scrollDistance) {
           setActiveTitle(fullPage[i].title)
         }
       })
@@ -35,12 +38,12 @@ const Solution = () => {
   }, [fullPage])
   return (
     <>
+      <PageHeader
+        title={topTitle}
+        breadcrumbs={['Home', topTitle]}
+        type="light"
+      />
       <Section>
-        <PageHeader
-          title={topTitle}
-          breadcrumbs={['Home', topTitle]}
-          type="light"
-        />
         <SolutionContainer>
           <ScrollIndicator
             active={activeTitle}

@@ -1,5 +1,3 @@
-import React from 'react'
-
 import { ReactComponent as WhiteLogo } from './Logo_white.svg'
 import { ReactComponent as PlayerIcon } from './player.svg'
 import { ReactComponent as MenuIcon } from './Menu.svg'

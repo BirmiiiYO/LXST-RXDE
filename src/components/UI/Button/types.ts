@@ -13,8 +13,9 @@ export interface IButtonProps {
   primary?: boolean
   onClick?: () => void
   typography?: TTypography
+  type?: string
 }
 export type IButtonStyleProps = Pick<
   IButtonProps,
-  'buttonType' | 'primary' | 'padding' | 'typography'
+  'buttonType' | 'primary' | 'padding' | 'typography' | 'type'
 >

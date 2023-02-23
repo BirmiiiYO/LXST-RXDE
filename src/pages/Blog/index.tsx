@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-non-null-assertion */
 import React, { ChangeEvent, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { useParams } from 'react-router-dom'
@@ -27,7 +26,7 @@ const OneBlogPage = () => {
   const { t } = useTranslation()
   const { id } = useParams()
   const blogs = t('cards.blog', { returnObjects: true }) as IBlogPageProps[]
-  const { date, image, title, topics, fullPage } = blogs!.find(
+  const { date, image, title, topics, fullPage } = blogs.find(
     ({ id: blogId }) => blogId === Number(id),
   ) as IBlogPageProps
   const [activeTag, setActiveTag] = useState(topics[0])

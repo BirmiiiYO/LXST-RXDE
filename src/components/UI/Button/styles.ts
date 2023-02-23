@@ -50,6 +50,7 @@ export const StyledButton = styled.button<IButtonStyleProps>`
           }
         `}
   align-items: center;
+  cursor: pointer;
   padding: ${({ padding }) => padding};
   ${({ buttonType }) => buttonType && setButtonStyles(buttonType)}
   svg {

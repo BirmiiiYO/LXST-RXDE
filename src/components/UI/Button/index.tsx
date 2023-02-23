@@ -7,6 +7,7 @@ export const Button: FC<IButtonProps> = ({
   buttonType = 'primary',
   disabled = false,
   icon,
+  type = 'button',
   primary = true,
   typography = 'BHeadline6',
   padding = '15px 52px',
@@ -21,6 +22,7 @@ export const Button: FC<IButtonProps> = ({
       buttonType={buttonType}
       disabled={disabled}
       onClick={onClick}
+      type={type}
     >
       {icon}
       {children}

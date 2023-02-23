@@ -19,7 +19,10 @@ export const Block = styled.div`
   ${COLUMN}
 `
 export const Icons = styled.div`
-  margin: 20px;
+  margin: 20px 0;
+  & > * {
+    margin: 3px;
+  }
 `
 
 export const Text = styled.div`

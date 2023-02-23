@@ -10,7 +10,7 @@ export const PageHeaderContainer = styled.div<IPageHeaderStyleProps>`
     type === 'light' ? theme.colors.aliceBlue : theme.colors.secondary};
   padding: ${({ type }) =>
     type === 'light' ? '100px 0 160px' : '0 0 120px 0'};
-  width: 100vw;
+  width: 100%;
 `
 
 export const BreadCrumbContainer = styled.div<IBreadCrumbStyleProps>`

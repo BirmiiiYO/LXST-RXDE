@@ -25,7 +25,7 @@ export const DesktopFooter = () => {
   const services = t('footer.services', { returnObjects: true }) as []
 
   const changeLng = (e: MouseEvent<HTMLElement>) => {
-    i18n.changeLanguage(e.target.id)
+    i18n.changeLanguage((e.target as Element).id)
   }
   return (
     <Content>

@@ -11,16 +11,19 @@ import { PageHeader } from 'components/UI/PageHeader'
 import { Section } from 'components/UI/Section'
 import { Text } from 'components/UI/Text'
 import { contacts } from 'constants/contacts'
+import { IServiceCardDataProps } from 'types/locales/Service'
 
 import { InfoContainer, ServiceContainer } from './styles'
 
 const Service = () => {
   const { id } = useParams()
   const { t } = useTranslation()
-  const services = t('cards.service', { returnObjects: true }) as []
+  const services = t('cards.service', {
+    returnObjects: true,
+  }) as IServiceCardDataProps[]
   const { title, fullPage } = services.find(
     arrayId => arrayId.id === Number(id),
-  )
+  ) as IServiceCardDataProps
   return (
     <>
       <PageHeader
@@ -32,7 +35,9 @@ const Service = () => {
       <Section>
         <ServiceContainer>
           <ArticleBlock blocks={fullPage} />
-          <AsideBlock titles={services.map(({ title }) => title)} />
+          <AsideBlock
+            titles={services.map(({ title: asideTitle }) => asideTitle)}
+          />
         </ServiceContainer>
       </Section>
       <Section backgroundColor="aliceBlue">

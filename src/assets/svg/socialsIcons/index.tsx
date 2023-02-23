@@ -16,8 +16,7 @@ export const footerIcons = [
     <FacebookLogo />,
     <YoutubeLogo />,
     <TwitterLogo />,
-    <InstLogo />,
-    <LinkedinLogo/>
+    <InstLogo />
   ]
   
   export {BehanceLogo,DribbleLogo,FacebookLogo,InstLogo,LinkedinLogo,TwitterLogo,YoutubeLogo}

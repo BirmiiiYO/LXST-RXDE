@@ -5,4 +5,5 @@ export const SolutionContainer = styled.div`
   position: relative;
   width: 100%;
   justify-content: flex-end;
+  padding-top: 120px;
 `

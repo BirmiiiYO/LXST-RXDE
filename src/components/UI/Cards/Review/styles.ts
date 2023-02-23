@@ -12,6 +12,7 @@ export const Container = styled.div`
 export const Avatar = styled.img`
   border-radius: ${theme.BORDER_RADIUS.CIRCLE}%;
   margin-right: 25px;
+  max-width: 80px;
 `
 
 export const Name = styled.h3`
