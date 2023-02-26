@@ -23,7 +23,7 @@ export const SolutionArticle: FC<ISolutionArticleProps> = ({ blocks }) => {
           {extraList.length > 0 &&
             extraList.map(({ extraTitle, extraText }) => (
               <List>
-                <DotIcon /> {extraTitle} - {extraText}
+                {extraTitle} - {extraText}
               </List>
             ))}
         </InfoContainer>

@@ -7,14 +7,12 @@ export const InfoContainer = styled.div`
   margin: 70px 0;
   ${COLUMN}
 `
-export const List = styled.span`
+export const List = styled.li`
   ${theme.typography.R_PARAGRAPH_1}
   display: flex;
   color: grey;
   margin-top: 30px;
-  svg {
-    margin: 5px;
-  }
+  list-style-type: disc;
 `
 export const ArticleContainer = styled.div`
   min-height: 500px;
