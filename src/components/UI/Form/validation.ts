@@ -3,7 +3,7 @@ import { FormikHelpers } from 'formik'
 import { RefObject } from 'react'
 import * as yup from 'yup'
 
-interface IInitialValues {
+export interface IInitialValues {
   name: string
   email: string
   theme: string
@@ -11,10 +11,14 @@ interface IInitialValues {
 }
 
 export const formSchema = yup.object().shape({
-  email: yup.string().email('invalid').required(),
-  name: yup.string().required(),
+  email: yup
+    .string()
+    .email('invalid')
+    .required('email required')
+    .typeError('incorrect email'),
+  name: yup.string().required().required('name required'),
   theme: yup.string(),
-  message: yup.string().max(100).required(),
+  message: yup.string().max(100).required().typeError('max length 100 symbols'),
 })
 
 export const form = (formRef: RefObject<HTMLFormElement>) => ({

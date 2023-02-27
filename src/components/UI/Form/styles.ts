@@ -45,4 +45,6 @@ export const FormButton = styled.button`
   background: red;
   color: white;
 `
-export const ErrorMessage = styled.div``
+export const ErrorText = styled.span`
+  color: ${theme.colors.redError};
+`

@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next'
 
 import {
   Container,
-  ErrorMessage,
+  ErrorText,
   Field,
   Input,
   Label,
@@ -32,6 +32,7 @@ export const Form = () => {
             onChange={formik.handleChange}
             value={formik.values.name}
           />
+          {formik.errors.name && <ErrorText>{formik.errors.name}</ErrorText>}
         </Field>
         <Field>
           <Label>Email</Label>
@@ -43,7 +44,7 @@ export const Form = () => {
             onChange={formik.handleChange}
             value={formik.values.email}
           />
-          <ErrorMessage />
+          {formik.errors.email && <ErrorText>{formik.errors.email}</ErrorText>}
         </Field>
         <Field>
           <Label>Theme</Label>
@@ -54,7 +55,8 @@ export const Form = () => {
             placeholder={t('base.enterTheme') as string}
             onChange={formik.handleChange}
             value={formik.values.theme}
-          />
+          />{' '}
+          {formik.errors.theme && <ErrorText>{formik.errors.theme}</ErrorText>}
         </Field>
         <Field>
           <Label>Message</Label>
@@ -65,7 +67,10 @@ export const Form = () => {
             placeholder={t('base.enterMessage') as string}
             onChange={formik.handleChange}
             value={formik.values.message}
-          />
+          />{' '}
+          {formik.errors.message && (
+            <ErrorText>{formik.errors.message}</ErrorText>
+          )}
         </Field>
         <Button buttonType="primary" type="submit">
           {t('base.send')}
