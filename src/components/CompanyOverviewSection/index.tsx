@@ -1,18 +1,20 @@
 import React from 'react'
 
-import { Amount, Block, Container, Content, Title } from './styles'
+import { Container } from 'components/UI/Container'
+import { Text } from 'components/UI/Text'
 
-const blocks = [{ title: '', amount: 342 }]
+import { Amount, Block } from './styles'
+import { ICompanyOverviewProps } from './types'
 
-export const CompanyOverviewSection = () => (
-  <Container>
-    <Content>
-      {blocks.map(({ title, amount }) => (
-        <Block>
-          <Amount>{amount}</Amount>
-          <Title>{title}</Title>
-        </Block>
-      ))}
-    </Content>
+export const CompanyOverviewSection = ({ blocks }: ICompanyOverviewProps) => (
+  <Container flex="space-between" padding="70px 10px" background="aliceBlue">
+    {blocks.map(({ name, amount }) => (
+      <Block>
+        <Amount>{amount}</Amount>
+        <Text typography="RParagraph1" color="grey">
+          {name}
+        </Text>
+      </Block>
+    ))}
   </Container>
 )

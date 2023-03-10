@@ -1,26 +1,35 @@
 import styled from 'styled-components'
 
-import { CENTER, SPACE_BETWEEN, theme } from 'styles/themes'
+import { devices } from 'styles/breakpoints'
+import { CENTER, SPACE_BETWEEN } from 'styles/themes'
 
-export const Container = styled.div`
-    max-width:100%
-    color:${theme.colors.grey}
-    ${CENTER}
-`
 export const Content = styled.div`
   max-width: 1110px;
   ${SPACE_BETWEEN}
+  padding:50px 0;
 `
 export const Info = styled.div`
-  margin: 302px 30px;
+  max-width: 300px;
 `
-export const Title = styled.div`
-  ${theme.typography.EB_HEADLINE_2}
-  margin-bottom:30px;
+export const Cards = styled.ul`
+  ${CENTER}
+  max-width:1000px;
+  margin-left: 50px;
+  flex-wrap: wrap;
+
+  padding: 120px 0;
+  & > * {
+    &:nth-child(2n + 1) {
+      margin-top: -100px;
+      @media ${devices.content} {
+        margin-top: 0;
+      }
+    }
+  }
+  @media ${devices.content} {
+    grid-row: auto;
+    padding: 5px;
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
 `
-export const Text = styled.div`
-  ${theme.typography.R_PARAGRAPH_1}
-  color:${theme.colors.grey};
-  max-width: 540px;
-`
-export const Cards = styled.div``

@@ -1,0 +1,13 @@
+export type TColor =
+  | 'primary'
+  | 'secondary'
+  | 'tertiary'
+  | 'indigo'
+  | 'steelTeal'
+  | 'rhythmicBlue'
+  | 'black'
+  | 'grey'
+  | 'aliceBlue'
+  | 'redError'
+  | 'white'
+  | 'bluberry'

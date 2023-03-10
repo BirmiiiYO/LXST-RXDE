@@ -1,20 +1,39 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 
-import { Cards, Container, Content, Info, Text, Title } from './styles'
+import { ServiceCard } from 'components/UI/Cards/Service'
+import { Container } from 'components/UI/Container'
+import { Section } from 'components/UI/Section'
+import { Text } from 'components/UI/Text'
 
-export const BenefitsSection = () => (
-  <Container>
-    <Content>
-      <Info>
-        <Title>The benefits of Ensome </Title>
-        <Text>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-          ab illo inventore veritatis et quasi architecto beatae vitae dicta
-          sunt explicabo.
-        </Text>
-      </Info>
-      <Cards>zxc</Cards>
-    </Content>
-  </Container>
-)
+import { Cards, Info } from './styles'
+
+export const BenefitsSection = () => {
+  const { t } = useTranslation()
+  const cards = t('cards.service', { returnObjects: true }) as []
+  return (
+    <Section backgroundColor="aliceBlue">
+      <Container padding="120px 0" background="aliceBlue">
+        <Info>
+          <Text typography="EbHeadline2" margin="0 0 30px 0">
+            {t('homePage.ourBlogTitle')}
+          </Text>
+          <Text typography="RParagraph2" color="grey">
+            {t('base.largeText')}
+          </Text>
+        </Info>
+        <Cards>
+          {cards.slice(0, 4).map(({ icon, id, title }) => (
+            <ServiceCard
+              icon={icon}
+              text={t('base.smallText')}
+              title={title}
+              key={id}
+              id={id}
+            />
+          ))}
+        </Cards>
+      </Container>
+    </Section>
+  )
+}

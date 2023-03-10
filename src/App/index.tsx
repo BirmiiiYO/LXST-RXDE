@@ -1,65 +1,56 @@
-import React, { Suspense, lazy, useMemo } from 'react'
-import { Route, Routes, useLocation } from 'react-router-dom'
+import React, { Suspense, useEffect, useState } from 'react'
 
-// eslint-disable-next-line import/order
+import { ErrorBoundary } from 'components/ErrorBoundary'
+import { Footer } from 'components/Footer'
 import { Header } from 'components/Header'
-
-import { EPagePaths } from 'constants/router'
-
-import { Container } from './styles'
-
-const HomePage = lazy(() => import('pages/Home'))
-const ContactsPage = lazy(() => import('pages/Contacts'))
-const AboutUsPage = lazy(() => import('pages/AboutUs'))
-const TeamPage = lazy(() => import('pages/OurTeam'))
-const FAQPage = lazy(() => import('pages/FAQs'))
-const ServicesPage = lazy(() => import('pages/Services'))
-const SolutionsPage = lazy(() => import('pages/Solutions'))
-// const ServicePage = lazy(() => import('pages/Service'))
-// const SolutionPage = lazy(() => import('pages/Solution'))
-const BlogPage = lazy(() => import('pages/Blog'))
+import { Modal } from 'components/Portal'
+import { PortalContainer } from 'components/Portal/styles'
+import { Routing } from 'components/Routes'
+import { Container } from 'components/UI/Container'
+import { Loader } from 'components/UI/Loader'
+import { YoutubeVideo } from 'components/YoutubeVideo'
+import { useAppDispatch } from 'hooks/Redux'
+import useMobile from 'hooks/useMobile'
+import { PageWidthSlice } from 'store/Slices/PageWidthSlice'
 
 const App = () => {
-  const { pathname } = useLocation()
+  const dispatch = useAppDispatch()
+  const { setWidth } = PageWidthSlice.actions
+  const isMobile = useMobile()
 
-  // const shouldRenderSubSections = useMemo(() => {
-  //   switch (pathname) {
-  //     case EPagePaths.CONTACTS:
-  //       return null
-  //     case EPagePaths.TEAM:
-  //     case EPagePaths.ABOUT_US:
-  //     case EPagePaths.SOLUTIONS:
-  //       return <SubscribeSection />
-  //     default:
-  //       return (
-  //         <>
-  //           <HelperSection />
-  //           <SubscribeSection />
-  //         </>
-  //       )
-  //   }
-  // }, [pathname])
+  const [isOpen, setIsOpen] = useState(false)
+
+  useEffect(() => {
+    dispatch(setWidth(isMobile))
+  }, [dispatch, isMobile, setWidth])
 
   return (
-    <Container>
-      <Header />
-      {/* <VideoBackground /> */}
-      <Suspense fallback="Loading...">
-        <Routes>
-          <Route path={EPagePaths.HOME} element={<HomePage />} />
-          <Route path={EPagePaths.SOLUTIONS}>
-            <Route index element={<SolutionsPage />} />
-          </Route>
-          <Route path={EPagePaths.CONTACTS} element={<ContactsPage />} />
-          <Route path={EPagePaths.ABOUT_US} element={<AboutUsPage />} />
-          <Route path={EPagePaths.TEAM} element={<TeamPage />} />
-          <Route path={EPagePaths.FAQ} element={<FAQPage />} />
-          <Route path={EPagePaths.SERVICES}>
-            <Route index element={<ServicesPage />} />
-          </Route>
-        </Routes>
+    <>
+      <Suspense
+        fallback={
+          <PortalContainer>
+            <Loader />
+          </PortalContainer>
+        }
+      >
+        <Container flex="column">
+          <Header setIsOpen={setIsOpen} />
+          <ErrorBoundary>
+            <Routing />
+          </ErrorBoundary>
+          <Footer />
+        </Container>
       </Suspense>
-    </Container>
+      <Modal
+        containerElement={document.body}
+        isOpen={isOpen}
+        setIsOpen={setIsOpen}
+        width="80vw"
+        height="90vh"
+      >
+        <YoutubeVideo url="https://www.youtube.com/embed/dQw4w9WgXcQ" />
+      </Modal>
+    </>
   )
 }
 

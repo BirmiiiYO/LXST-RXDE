@@ -1,13 +1,7 @@
 import styled from 'styled-components'
 
 import { devices } from 'styles/breakpoints'
-import { CENTER, COLUMN, SPACE_BETWEEN, theme } from 'styles/themes'
-
-export const TextContainer = styled.div`
-  max-width: 1110px;
-  margin: 120px 0;
-  ${SPACE_BETWEEN}
-`
+import { theme } from 'styles/themes'
 
 export const Title = styled.h1`
   max-width: 450px;
@@ -25,10 +19,6 @@ export const Title = styled.h1`
   }
 `
 
-export const TextAndButton = styled.div`
-  ${COLUMN}
-`
-
 export const Text = styled.p`
   max-width: 440px;
   padding: 10px;
@@ -42,7 +32,11 @@ export const SolutionContainer = styled.div`
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background-color: ${theme.colors.background};
+  background-color: ${theme.colors.aliceBlue};
+  @media ${devices.tablet} {
+    flex-direction: column;
+    justify-content: center;
+  }
 `
 
 export const Image = styled.img`
@@ -53,11 +47,4 @@ export const Image = styled.img`
 export const Description = styled.div`
   max-width: 450px;
   padding: 10px;
-`
-
-export const DescriptionTitle = styled.h2`
-  max-width: 450px;
-  padding: 10px;
-  color: ${theme.colors.black};
-  ${theme.typography.EB_HEADLINE_2}
 `

@@ -1,20 +1,28 @@
 import styled from 'styled-components'
 
-import { CENTER, SPACE_BETWEEN, theme } from 'styles/themes'
+import { devices } from 'styles/breakpoints'
+import { COLUMN, theme } from 'styles/themes'
 
-export const Container = styled.div`
-  ${CENTER}
-  background:${theme.colors.primary};
-  color: ${theme.colors.white};
+export const Block = styled.div`
+  ${COLUMN}
+  background:${theme.colors.aliceBlue};
+  &:not(:last-child) {
+    padding: 0 63px;
+    border-right: 1px solid ${theme.colors.rhythmicBlue};
+  }
+  @media ${devices.laptop} {
+    padding: 10px;
+  }
 `
-export const Content = styled.div`
-  width: 1110px;
-  ${SPACE_BETWEEN}
-  padding:70px 0;
+
+export const Amount = styled.div`
+  font-family: 'Open Sans';
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 112px;
+  color: ${theme.colors.primary};
+  @media ${devices.laptop} {
+    font-size: 30px;
+    line-height: 70px;
+  }
 `
-
-export const Block = styled.div``
-
-export const Title = styled.div``
-
-export const Amount = styled.div``

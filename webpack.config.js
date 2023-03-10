@@ -27,6 +27,8 @@ module.exports = {
       directory: path.join(__dirname, 'build'),
     },
     port: 3000,
+    hot: true,
+    historyApiFallback: true,
   },
   module: {
     rules: [
@@ -49,6 +51,10 @@ module.exports = {
       {
         test: /\\.(png|jp(e*)g|svg|gif)$/,
         use: ['file-loader'],
+      },
+      {
+        test: /\.css$/i,
+        use: ['css-loader'],
       },
     ],
   },

@@ -1,0 +1,1377 @@
+{
+  "base": {
+    "contactUs": "Contactez-nous",
+    "share": "Partager",
+    "views": "Vues",
+    "discoverMore": "Découvrir plus",
+    "doYouNeedHelp": "As-tu besoin d'aide?",
+    "learnMore": "Apprendre encore plus",
+    "choosePlan": "Choisissez un forfait",
+    "largeText": "Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quaeab illo inventore. ",
+    "smallText": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+    "mediumText": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi.",
+    "send": "Envoyer",
+    "email": "Votre e-mail",
+    "enterName": "Entrez votre nom",
+    "enterEmail": "Entrer votre Email",
+    "enterTheme": "Entrez le thème",
+    "enterMessage": "Entrez le message",
+    "subscribeToNews": "Abonnez-vous à notre newsletter",
+    "subscribe": "S'abonner",
+    "watchDemo": "Regarder la démo",
+    "home": "Maison",
+    "aboutUs": "À propos de nous",
+    "softwareTrends": "Tendances de développement logiciel 2022 ",
+    "contacts": "Contacts",
+    "ourTeam": "Notre équipe",
+    "services": "prestations de service",
+    "faqs": "FAQ",
+    "testImonalsTitle": "Témoignages",
+    "solutions": "Solutions",
+    "ourBlog": "Notre blog"
+  },
+  "companyOverviewSection": {
+    "title": "Nous fournissons des services qui garantissent votre succès"
+  },
+  "footer": {
+    "privacyPolicy": "Politique de confidentialité",
+    "quickLink": "Lien rapide",
+    "service": "Service",
+    "contactInfo": "Informations de contact",
+    "services": [
+      "pages",
+      "Éléments",
+      "FAQ",
+      "Tarification",
+      "Plan du site"
+    ],
+    "followUs": "Suivez-nous",
+    "termsOfUs": "Conditions d'utilisation"
+  },
+  "homePage": {
+    "heroTitle": "Découvrez la véritable puissance de vos données avec <0>Ensome</0>",
+    "featureTitle": "Le <0>le plus récent</0> plate-forme d'analyse commerciale",
+    "featureSubtitleTitle": "Des solutions radicalement nouvelles pour les données",
+    "ourPricingTitle": "Nos tarifs",
+    "ourBlogTitle": "Les avantages d'Ensome"
+  },
+  "servicePage": {
+    "title": "Services d'analyse de données",
+    "serviceText": "Vestibulum varius mattis sagittis. "
+  },
+  "aboutUsPage": {
+    "title": "À propos de nous",
+    "whoWeAre": "Qui nous sommes",
+    "ourMission": "Notre mission",
+    "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. ",
+    "inNumbers": "Ensome en chiffres",
+    "data": [
+      {
+        "amount": "1830",
+        "name": "Projet exécuté"
+      },
+      {
+        "amount": "200",
+        "name": "Analyse des données"
+      },
+      {
+        "amount": "390",
+        "name": "Gestion de données"
+      },
+      {
+        "amount": "834",
+        "name": "Clients satisfaits"
+      }
+    ],
+    "ourCustomers": "Nos clients",
+    "reviewTitle": "Ce que disent nos clients",
+    "formTitle": "Vous avez laissé des questions ? "
+  },
+  "blogPage": {
+    "title": "Blog",
+    "popularPost": "Articles populaires",
+    "relatedPost": "Article similaire",
+    "categoriesTitle": "Catégories",
+    "categories": [
+      "Développement de logiciels",
+      "Sécurité des informations",
+      "Internet des objets",
+      "Transformation numérique",
+      "Santé il"
+    ],
+    "tags": "Mots clés",
+    "fullText": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas. "
+  },
+  "ourTeamPage": {
+    "title": "Notre équipe",
+    "text": "Sed ut perspiciatis unde omnis iste natus error volupta accusantium doloremque laudantium, totam remiga aperiam, eaque ipsa. "
+  },
+  "contactsPage": {
+    "title": "Comment pouvons-nous <0>T'aider?</0>",
+    "locations": [
+      {
+        "structureId": 1,
+        "lat": 35.1369274,
+        "lng": 135.5298123,
+        "name": "Parc Oyamahigashicho 2 Go"
+      },
+      {
+        "structureId": 2,
+        "lat": 53.9185803,
+        "lng": 27.5935248,
+        "name": "BSUIR"
+      },
+      {
+        "structureId": 3,
+        "lat": 40.6838171,
+        "lng": -74.0593493,
+        "name": "statue de la Liberté"
+      }
+    ]
+  },
+  "faqPage": {
+    "title": "Questions fréquemment posées",
+    "faqs": [
+      {
+        "id": 1,
+        "question": "Que sont les analyses de données ?",
+        "answer": "Phasellus tristique eu nisl eu consectetur.  "
+      },
+      {
+        "id": 2,
+        "question": "Qu'est-ce que l'exploration de données ?",
+        "answer": "Phasellus tristique eu nisl eu consectetur.  "
+      },
+      {
+        "id": 3,
+        "question": "Qu'est-ce que l'intelligence économique ?",
+        "answer": "Phasellus tristique eu nisl eu consectetur.  "
+      },
+      {
+        "id": 4,
+        "question": "Qu'est-ce que l'analyse exploratoire des données (EDA) ?",
+        "answer": "Phasellus tristique eu nisl eu consectetur.  "
+      },
+      {
+        "id": 5,
+        "question": "Qu'est-ce que l'analyse des données de confirmation (CDA) ?",
+        "answer": "Phasellus tristique eu nisl eu consectetur.  "
+      },
+      {
+        "id": 6,
+        "question": "Qu'est-ce que l'analyse prédictive ?",
+        "answer": "Phasellus tristique eu nisl eu consectetur.  "
+      },
+      {
+        "id": 7,
+        "question": "Qu'est-ce que la visualisation de données",
+        "answer": "Phasellus tristique eu nisl eu consectetur.  "
+      }
+    ]
+  },
+  "solutionPage": {
+    "title": "Solutions d'analyse de données",
+    "text": "En préparant votre succès, nous fournissons des solutions informatiques vraiment exceptionnelles.",
+    "whyChooseUs": "Pourquoi nous choisir?",
+    "benefits": [
+      {
+        "id": 1,
+        "name": "Apprentissage automatique",
+        "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores."
+      },
+      {
+        "id": 2,
+        "name": "Intégrer l'analytique",
+        "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores."
+      },
+      {
+        "id": 3,
+        "name": "Contrôle d'accès",
+        "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores."
+      }
+    ]
+  },
+  "cards": {
+    "blog": [
+      {
+        "id": 0,
+        "date": "22 juin 2022",
+        "image": "https://industrywired.com/wp-content/uploads/2020/10/Retail.jpg",
+        "title": "Sed ut perspiciatis unde omnis at vero blanditils",
+        "topics": [
+          "Application",
+          "DSI",
+          "Avenir"
+        ],
+        "fullPage": {
+          "views": 481,
+          "share": [
+            {
+              "name": "LinkedIn",
+              "link": "https://www.youtube.com/"
+            },
+            {
+              "name": "Instagram",
+              "link": "https://www.youtube.com/"
+            },
+            {
+              "name": "Youtube",
+              "link": "https://www.youtube.com/"
+            },
+            {
+              "name": "Twitter",
+              "link": "https://www.youtube.com/"
+            }
+          ]
+        }
+      },
+      {
+        "id": 1,
+        "date": "05 juillet 2021",
+        "image": "https://cdn.shopify.com/s/files/1/0268/7480/6307/files/ccc_480x480.jpg?v=1641444746",
+        "title": "Logiciel de gestion du personnel : capacités clés et meilleurs produits",
+        "topics": ["Redux", "Store", "Future"],
+        "fullPage": {
+          "views": 5000,
+          "share": [
+            {
+              "linkedin": "https://www.youtube.com/"
+            },
+            {
+              "inst": "https://www.youtube.com/"
+            },
+            {
+              "twitter": "https://www.youtube.com/"
+            },
+            {
+              "google": "https://www.youtube.com/"
+            }
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "date": "14 février 2019",
+        "image": "https://www.meme-arsenal.com/memes/6baa33d804ac9fcb1498586e7301bcfd.jpg",
+        "title": "L'analyse commerciale vous aide dans la finance",
+        "topics": [ "Web", "NEXT"],
+        "fullPage": {
+          "views": 941,
+          "share": [
+            {
+              "linkedin": "https://www.youtube.com/"
+            },
+            {
+              "inst": "https://www.youtube.com/"
+            },
+            {
+              "twitter": "https://www.youtube.com/"
+            },
+            {
+              "google": "https://www.youtube.com/"
+            }
+          ]
+        }
+      },
+      {
+        "id": 3,
+        "date": "24 octobre 2002",
+        "image": "https://avatars.mds.yandex.net/i?id=4b6d878db96c874f87057a34c5b44153-5910485-images-thumbs",
+        "title": "Avantages de la télémédecine dans les maisons de retraite",
+        "topics": ["ISO"],
+        "fullPage": {
+          "views": 332,
+          "share": [
+            {
+              "linkedin": "https://www.youtube.com/"
+            },
+            {
+              "inst": "https://www.youtube.com/"
+            },
+            {
+              "twitter": "https://www.youtube.com/"
+            },
+            {
+              "google": "https://www.youtube.com/"
+            }
+          ]
+        }
+      },
+      {
+        "id": 4,
+        "date": "1er janvier 1970",
+        "image": "https://avatars.mds.yandex.net/i?id=4c818bb3d38332d509bf978a658c16929067c9c5-8173407-images-thumbs",
+        "title": "Sed ut perspiciatis unde omnis at vero blanditils",
+        "topics": ["RTK", "Future"],
+        "fullPage": {
+          "views": 228,
+          "share": [
+            {
+              "linkedin": "https://www.youtube.com/"
+            },
+            {
+              "inst": "https://www.youtube.com/"
+            },
+            {
+              "twitter": "https://www.youtube.com/"
+            },
+            {
+              "google": "https://www.youtube.com/"
+            }
+          ]
+        }
+      },
+      {
+        "id": 5,
+        "date": "1er janvier 1970",
+        "image": "https://cdn.shopify.com/s/files/1/2631/0760/articles/5db715334d39bc64c600f95d_cyber-security-consultant_ec154fbc-07ed-4991-a5de-dc2ae7028dd1.jpg?v=1587894800",
+        "title": "Dirty, clean ou cleanish : quelle est la qualité de vos mégadonnées ?",
+        "topics": ["BSUIR"],
+        "fullPage": {
+          "views": 1337,
+          "share": [
+            {
+              "linkedin": "https://www.youtube.com/"
+            },
+            {
+              "inst": "https://www.youtube.com/"
+            },
+            {
+              "twitter": "https://www.youtube.com/"
+            },
+            {
+              "google": "https://www.youtube.com/"
+            }
+          ]
+        }
+      },
+      {
+        "id": 6,
+        "date": "22 juin 2022",
+        "image": "https://industrywired.com/wp-content/uploads/2020/10/Retail.jpg",
+        "title": "Sed ut perspiciatis unde omnis at vero blanditils",
+        "topics": ["App", "CIO", "Future"],
+        "fullPage": {
+          "views": 481,
+          "share": [
+            {
+              "linkedin": "https://www.youtube.com/"
+            },
+            {
+              "inst": "https://www.youtube.com/"
+            },
+            {
+              "twitter": "https://www.youtube.com/"
+            },
+            {
+              "google": "https://www.youtube.com/"
+            }
+          ]
+        }
+      },
+      {
+        "id": 7,
+        "date": "05 juillet 2021",
+        "image": "https://cdn.shopify.com/s/files/1/0268/7480/6307/files/ccc_480x480.jpg?v=1641444746",
+        "title": "Logiciel de gestion du personnel : capacités clés et meilleurs produits",
+        "topics": ["Redux", "Store", "Future"],
+        "fullPage": {
+          "views": 5000,
+          "share": [
+            {
+              "linkedin": "https://www.youtube.com/"
+            },
+            {
+              "inst": "https://www.youtube.com/"
+            },
+            {
+              "twitter": "https://www.youtube.com/"
+            },
+            {
+              "google": "https://www.youtube.com/"
+            }
+          ]
+        }
+      },
+      {
+        "id": 8,
+        "date": "14 février 2019",
+        "image": "https://www.meme-arsenal.com/memes/6baa33d804ac9fcb1498586e7301bcfd.jpg",
+        "title": "L'analyse commerciale vous aide dans la finance",
+        "topics": [ "Web", "NEXT"],
+        "fullPage": {
+          "views": 941,
+          "share": [
+            {
+              "linkedin": "https://www.youtube.com/"
+            },
+            {
+              "inst": "https://www.youtube.com/"
+            },
+            {
+              "twitter": "https://www.youtube.com/"
+            },
+            {
+              "google": "https://www.youtube.com/"
+            }
+          ]
+        }
+      }
+    ],
+    "price": [
+      {
+        "id": 0,
+        "infos": [
+          "Pour les petites équipes – 5 utilisateurs",
+          "Soutien communautaire"
+        ],
+        "name": "Essai gratuit",
+        "value": "10"
+      },
+      {
+        "id": 1,
+        "infos": [
+          "Pour les petites équipes – 15 utilisateurs",
+          "Accompagnement individuel",
+          "Données individuelles – 60 Go"
+        ],
+        "name": "léger",
+        "value": "99"
+      },
+      {
+        "id": 2,
+        "infos": [
+          "Pour les grandes équipes – 30 utilisateurs",
+          "Accompagnement individuel",
+          "Données individuelles – 120 Go",
+          "Autorisations avancées"
+        ],
+        "name": "Basique",
+        "value": "30"
+      },
+      {
+        "id": 3,
+        "infos": [
+          "Membres d'équipe illimités",
+          "Accompagnement individuel",
+          "Données individuelles illimitées",
+          "Autorisations avancées",
+          "Historique des données",
+          "Journal d'audit",
+          "Toutes les fonctions incluses"
+        ],
+        "name": "Pour les entreprises",
+        "value": "none"
+      }
+    ],
+    "review": [
+      {
+        "avatar": "https://reventontech.com/wp-content/uploads/2022/07/reventon-testi3.jpg",
+        "text": "« Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur ?  ",
+        "name": "Alex Berne",
+        "position": "PDG par PixelPerfect",
+        "id": 0
+      },
+      {
+        "avatar": "https://reventontech.com/wp-content/uploads/2022/07/reventon-testi3.jpg",
+        "text": "« Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur ?  ",
+        "name": "Rubén Chifundo",
+        "position": "Analyste de données",
+        "id": 1
+      },
+      {
+        "avatar": "https://reventontech.com/wp-content/uploads/2022/07/reventon-testi3.jpg",
+        "text": "« Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur ?  ",
+        "name": "Tigrane Nazaret",
+        "position": "PDG par NOX",
+        "id": 2
+      },
+      {
+        "avatar": "https://reventontech.com/wp-content/uploads/2022/07/reventon-testi3.jpg",
+        "text": "« Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur ?  ",
+        "name": "Alex Berne",
+        "position": "PDG par PixelPerfect",
+        "id": 3
+      },
+      {
+        "avatar": "https://reventontech.com/wp-content/uploads/2022/07/reventon-testi3.jpg",
+        "text": "« Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur ?  ",
+        "name": "Rubén Chifundo",
+        "position": "Analyste de données",
+        "id": 4
+      },
+      {
+        "avatar": "https://reventontech.com/wp-content/uploads/2022/07/reventon-testi3.jpg",
+        "text": "« Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur ?  ",
+        "name": "Tigrane Nazaret",
+        "position": "PDG par NOX",
+        "id": 5
+      },
+      {
+        "avatar": "https://reventontech.com/wp-content/uploads/2022/07/reventon-testi3.jpg",
+        "text": "« Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur ?  ",
+        "name": "Alex Berne",
+        "position": "PDG par PixelPerfect",
+        "id": 6
+      }
+    ],
+    "service": [
+      {
+        "icon": "https://cdn.icon-icons.com/icons2/3250/PNG/512/brain_circuit_filled_icon_201561.png",
+        "title": "Apprentissage automatique",
+        "id": 0,
+        "fullPage": [
+          {
+            "title": "Client",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Types de visualisations de données",
+            "extraList": [],
+            "icon": "https://avatars.mds.yandex.net/i?id=aca6e1f33fb2b8c6dac505adcdfb7215-5192485-images-thumbs"
+          },
+          {
+            "title": "Défi",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Solution",
+            "extraList": [
+              "Accès mobile masqué",
+              "Services de location",
+              "Gestion des visiteurs",
+              "Coordination de la cybersécurité"
+            ],
+            "icon": "https://media.istockphoto.com/videos/asian-businessmen-and-businesswomen-meeting-brainstorming-some-new-video-id1321106823?s=640x640"
+          },
+          {
+            "title": "Résultats",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Les technologies",
+            "extraList": [],
+            "icon": ""
+          }
+        ]
+      },
+      {
+        "icon": "https://cdn.icon-icons.com/icons2/3249/PNG/512/brain_circuit_filled_icon_200878.png",
+        "title": "Intégrer l'analytique",
+        "id": 1,
+        "fullPage": [
+          {
+            "title": "Client",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Types de visualisations de données",
+            "extraList": [],
+            "icon": "https://avatars.mds.yandex.net/i?id=aca6e1f33fb2b8c6dac505adcdfb7215-5192485-images-thumbs"
+          },
+          {
+            "title": "Défi",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Solution",
+            "extraList": [
+              "Accès mobile masqué",
+              "Services de location",
+              "Gestion des visiteurs",
+              "Coordination de la cybersécurité"
+            ],
+            "icon": "https://media.istockphoto.com/videos/asian-businessmen-and-businesswomen-meeting-brainstorming-some-new-video-id1321106823?s=640x640"
+          },
+          {
+            "title": "Résultats",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Les technologies",
+            "extraList": [],
+            "icon": ""
+          }
+        ]
+      },
+      {
+        "icon": "https://cdn.icon-icons.com/icons2/3249/PNG/512/brain_circuit_filled_icon_200878.png",
+        "title": "Contrôle d'accès",
+        "id": 2,
+        "fullPage": [
+          {
+            "title": "Client",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Types de visualisations de données",
+            "extraList": [],
+            "icon": "https://avatars.mds.yandex.net/i?id=aca6e1f33fb2b8c6dac505adcdfb7215-5192485-images-thumbs"
+          },
+          {
+            "title": "Défi",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Solution",
+            "extraList": [
+              "Accès mobile masqué",
+              "Services de location",
+              "Gestion des visiteurs",
+              "Coordination de la cybersécurité"
+            ],
+            "icon": "https://media.istockphoto.com/videos/asian-businessmen-and-businesswomen-meeting-brainstorming-some-new-video-id1321106823?s=640x640"
+          },
+          {
+            "title": "Résultats",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Les technologies",
+            "extraList": [],
+            "icon": ""
+          }
+        ]
+      },
+      {
+        "icon": "https://cdn.icon-icons.com/icons2/3249/PNG/512/brain_circuit_filled_icon_200878.png",
+        "title": "Analyse des données",
+        "id": 3,
+        "fullPage": [
+          {
+            "title": "Client",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Types de visualisations de données",
+            "extraList": [],
+            "icon": "https://avatars.mds.yandex.net/i?id=aca6e1f33fb2b8c6dac505adcdfb7215-5192485-images-thumbs"
+          },
+          {
+            "title": "Défi",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Solution",
+            "extraList": [
+              "Accès mobile masqué",
+              "Services de location",
+              "Gestion des visiteurs",
+              "Coordination de la cybersécurité"
+            ],
+            "icon": "https://media.istockphoto.com/videos/asian-businessmen-and-businesswomen-meeting-brainstorming-some-new-video-id1321106823?s=640x640"
+          },
+          {
+            "title": "Résultats",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Les technologies",
+            "extraList": [],
+            "icon": ""
+          }
+        ]
+      },
+      {
+        "icon": "https://cdn.icon-icons.com/icons2/3249/PNG/512/brain_circuit_filled_icon_200878.png",
+        "title": "Conseil en mégadonnées",
+        "id": 4,
+        "fullPage": [
+          {
+            "title": "Client",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Types de visualisations de données",
+            "extraList": [],
+            "icon": "https://avatars.mds.yandex.net/i?id=aca6e1f33fb2b8c6dac505adcdfb7215-5192485-images-thumbs"
+          },
+          {
+            "title": "Défi",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Solution",
+            "extraList": [
+              "Accès mobile masqué",
+              "Services de location",
+              "Gestion des visiteurs",
+              "Coordination de la cybersécurité"
+            ],
+            "icon": "https://media.istockphoto.com/videos/asian-businessmen-and-businesswomen-meeting-brainstorming-some-new-video-id1321106823?s=640x640"
+          },
+          {
+            "title": "Résultats",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Les technologies",
+            "extraList": [],
+            "icon": ""
+          }
+        ]
+      },
+      {
+        "icon": "https://cdn.icon-icons.com/icons2/3249/PNG/512/brain_circuit_filled_icon_200878.png",
+        "title": "Intelligence artificielle",
+        "id": 5,
+        "fullPage": [
+          {
+            "title": "Client",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Types de visualisations de données",
+            "extraList": [],
+            "icon": "https://avatars.mds.yandex.net/i?id=aca6e1f33fb2b8c6dac505adcdfb7215-5192485-images-thumbs"
+          },
+          {
+            "title": "Défi",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Solution",
+            "extraList": [
+              "Accès mobile masqué",
+              "Services de location",
+              "Gestion des visiteurs",
+              "Coordination de la cybersécurité"
+            ],
+            "icon": "https://media.istockphoto.com/videos/asian-businessmen-and-businesswomen-meeting-brainstorming-some-new-video-id1321106823?s=640x640"
+          },
+          {
+            "title": "Résultats",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Les technologies",
+            "extraList": [],
+            "icon": ""
+          }
+        ]
+      }
+    ],
+    "ourTeam": [
+      {
+        "id": 0,
+        "avatar": "https://assets.cdn.msgsndr.com/mWLvU4ZVnCMNK5P6TZuK/media/61ceb590016cd77f8a77f63e.jpeg",
+        "name": "Sargis Grigor",
+        "position": "Analyste de données",
+        "socials": [
+          {
+            "linkedin": "https://www.youtube.com/"
+          },
+          {
+            "inst": "https://www.youtube.com/"
+          },
+          {
+            "twitter": "https://www.youtube.com/"
+          },
+          {
+            "google": "https://www.youtube.com/"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "avatar": "https://revu.by/wp-content/uploads/2022/04/screenshot_21-350x500.jpg",
+        "name": "Gor Sargis",
+        "position": "Analyste de données",
+        "socials": [
+          {
+            "linkedin": "https://www.youtube.com/"
+          },
+          {
+            "inst": "https://www.youtube.com/"
+          },
+          {
+            "twitter": "https://www.youtube.com/"
+          },
+          {
+            "google": "https://www.youtube.com/"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "avatar": "https://assets.cdn.msgsndr.com/mWLvU4ZVnCMNK5P6TZuK/media/61ceb590016cd77f8a77f63e.jpeg",
+        "name": "Maral Mari",
+        "position": "Analyste de données",
+        "socials": [
+          {
+            "linkedin": "https://www.youtube.com/"
+          },
+          {
+            "inst": "https://www.youtube.com/"
+          },
+          {
+            "twitter": "https://www.youtube.com/"
+          },
+          {
+            "google": "https://www.youtube.com/"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "avatar": "https://revu.by/wp-content/uploads/2022/04/screenshot_21-350x500.jpg",
+        "name": "Kohar Marine",
+        "position": "Scientifique des données ",
+        "socials": [
+          {
+            "linkedin": "https://www.youtube.com/"
+          },
+          {
+            "inst": "https://www.youtube.com/"
+          },
+          {
+            "twitter": "https://www.youtube.com/"
+          },
+          {
+            "google": "https://www.youtube.com/"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "avatar": "https://assets.cdn.msgsndr.com/mWLvU4ZVnCMNK5P6TZuK/media/61ceb590016cd77f8a77f63e.jpeg",
+        "name": "Lion de Bagrat",
+        "position": "Ingénieur de données",
+        "socials": [
+          {
+            "linkedin": "https://www.youtube.com/"
+          },
+          {
+            "inst": "https://www.youtube.com/"
+          },
+          {
+            "twitter": "https://www.youtube.com/"
+          },
+          {
+            "google": "https://www.youtube.com/"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "avatar": "https://revu.by/wp-content/uploads/2022/04/screenshot_21-350x500.jpg",
+        "name": "Hakob Jiraïr",
+        "position": "Ingénieur de données",
+        "socials": [
+          {
+            "linkedin": "https://www.youtube.com/"
+          },
+          {
+            "inst": "https://www.youtube.com/"
+          },
+          {
+            "twitter": "https://www.youtube.com/"
+          },
+          {
+            "google": "https://www.youtube.com/"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "avatar": "https://assets.cdn.msgsndr.com/mWLvU4ZVnCMNK5P6TZuK/media/61ceb590016cd77f8a77f63e.jpeg",
+        "name": "Ararat Ohannes",
+        "position": "Analyste de données",
+        "socials": [
+          {
+            "linkedin": "https://www.youtube.com/"
+          },
+          {
+            "inst": "https://www.youtube.com/"
+          },
+          {
+            "twitter": "https://www.youtube.com/"
+          },
+          {
+            "google": "https://www.youtube.com/"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "avatar": "https://revu.by/wp-content/uploads/2022/04/screenshot_21-350x500.jpg",
+        "name": "Eva Vosgi",
+        "position": "Scientifique des données",
+        "socials": [
+          {
+            "linkedin": "https://www.youtube.com/"
+          },
+          {
+            "inst": "https://www.youtube.com/"
+          },
+          {
+            "twitter": "https://www.youtube.com/"
+          },
+          {
+            "google": "https://www.youtube.com/"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "avatar": "https://assets.cdn.msgsndr.com/mWLvU4ZVnCMNK5P6TZuK/media/61ceb590016cd77f8a77f63e.jpeg",
+        "name": "Edouard Vosgi",
+        "position": "Scientifique des données",
+        "socials": [
+          {
+            "linkedin": "https://www.youtube.com/"
+          },
+          {
+            "inst": "https://www.youtube.com/"
+          },
+          {
+            "twitter": "https://www.youtube.com/"
+          },
+          {
+            "google": "https://www.youtube.com/"
+          }
+        ]
+      }
+    ],
+    "solutions": [
+      {
+        "id": 0,
+        "title": "Intégration de données",
+        "advantages": [
+          "Extraire, transformer, charger (ETL)",
+          "Extraire, charger, transformer (ELT)",
+          "Gouvernance des données"
+        ],
+        "fullPage": [
+          {
+            "title": "Qu'est-ce que la visualisation de données ?",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Types de visualisations de données",
+            "extraList": [
+              {
+                "extraTitle": "Cartes de symboles",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Graphiques linéaires",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Conseil en mégadonnées",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Camemberts",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "les tables",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Histogrammes",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Nuages ​​de points",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              }
+            ],
+            "icon": "https://cdn-images-1.medium.com/fit/t/1600/480/1*9dsmqIQNnh6iJdbXwkXZlA.jpeg"
+          },
+          {
+            "title": "Pratiques de visualisation des données",
+            "extraList": [],
+            "icon": "https://sun9-12.userapi.com/impf/kPWVhZucvNr0bH6WR6fq772DezAIoa13kz5ahw/cobaMJy_5ag.jpg?size=1920x768"
+          },
+          {
+            "title": "Visualisation des données dans Ensome",
+            "extraList": [],
+            "icon": ""
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "title": "Entreposage de données",
+        "advantages": [
+          "Extraire, transformer, charger (ETL)",
+          "Gouvernance des données",
+          "Extraire, charger, transformer (ELT)"
+        ],
+        "fullPage": [
+          {
+            "title": "Qu'est-ce que la visualisation de données ?",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Types de visualisations de données",
+            "extraList": [
+              {
+                "extraTitle": "Cartes de symboles",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Graphiques linéaires",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Conseil en mégadonnées",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Camemberts",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "les tables",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Histogrammes",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Nuages ​​de points",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              }
+            ],
+            "icon": "https://cdn-images-1.medium.com/fit/t/1600/480/1*9dsmqIQNnh6iJdbXwkXZlA.jpeg"
+          },
+          {
+            "title": "Pratiques de visualisation des données",
+            "extraList": [],
+            "icon": "https://sun9-12.userapi.com/impf/kPWVhZucvNr0bH6WR6fq772DezAIoa13kz5ahw/cobaMJy_5ag.jpg?size=1920x768"
+          },
+          {
+            "title": "Visualisation des données dans Ensome",
+            "extraList": [],
+            "icon": ""
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Big Data",
+        "advantages": [
+          "Gouvernance des données",
+          "Extraire, transformer, charger (ETL)",
+          "Extraire, charger, transformer (ELT)"
+        ],
+        "fullPage": [
+          {
+            "title": "Qu'est-ce que la visualisation de données ?",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Types de visualisations de données",
+            "extraList": [
+              {
+                "extraTitle": "Cartes de symboles",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Graphiques linéaires",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Conseil en mégadonnées",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Camemberts",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "les tables",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Histogrammes",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Nuages ​​de points",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              }
+            ],
+            "icon": "https://cdn-images-1.medium.com/fit/t/1600/480/1*9dsmqIQNnh6iJdbXwkXZlA.jpeg"
+          },
+          {
+            "title": "Pratiques de visualisation des données",
+            "extraList": [],
+            "icon": "https://sun9-12.userapi.com/impf/kPWVhZucvNr0bH6WR6fq772DezAIoa13kz5ahw/cobaMJy_5ag.jpg?size=1920x768"
+          },
+          {
+            "title": "Visualisation des données dans Ensome",
+            "extraList": [],
+            "icon": ""
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Entreposage de données",
+        "advantages": [
+          "Extraire, transformer, charger (ETL)",
+          "Extraire, charger, transformer (ELT)",
+          "Gouvernance des données"
+        ],
+        "fullPage": [
+          {
+            "title": "Qu'est-ce que la visualisation de données ?",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Types de visualisations de données",
+            "extraList": [
+              {
+                "extraTitle": "Cartes de symboles",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Graphiques linéaires",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Conseil en mégadonnées",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Camemberts",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "les tables",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Histogrammes",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Nuages ​​de points",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              }
+            ],
+            "icon": "https://cdn-images-1.medium.com/fit/t/1600/480/1*9dsmqIQNnh6iJdbXwkXZlA.jpeg"
+          },
+          {
+            "title": "Pratiques de visualisation des données",
+            "extraList": [],
+            "icon": "https://sun9-12.userapi.com/impf/kPWVhZucvNr0bH6WR6fq772DezAIoa13kz5ahw/cobaMJy_5ag.jpg?size=1920x768"
+          },
+          {
+            "title": "Visualisation des données dans Ensome",
+            "extraList": [],
+            "icon": ""
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "BI en libre-service",
+        "advantages": [
+          "Gouvernance des données",
+          "Extraire, transformer, charger (ETL)",
+          "Extraire, charger, transformer (ELT)"
+        ],
+        "fullPage": [
+          {
+            "title": "Qu'est-ce que la visualisation de données ?",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Types de visualisations de données",
+            "extraList": [
+              {
+                "extraTitle": "Cartes de symboles",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Graphiques linéaires",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Conseil en mégadonnées",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Camemberts",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "les tables",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Histogrammes",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Nuages ​​de points",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              }
+            ],
+            "icon": "https://cdn-images-1.medium.com/fit/t/1600/480/1*9dsmqIQNnh6iJdbXwkXZlA.jpeg"
+          },
+          {
+            "title": "Pratiques de visualisation des données",
+            "extraList": [],
+            "icon": "https://sun9-12.userapi.com/impf/kPWVhZucvNr0bH6WR6fq772DezAIoa13kz5ahw/cobaMJy_5ag.jpg?size=1920x768"
+          },
+          {
+            "title": "Visualisation des données dans Ensome",
+            "extraList": [],
+            "icon": ""
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Intégration de données",
+        "advantages": [
+          "Extraire, transformer, charger (ETL)",
+          "Extraire, charger, transformer (ELT)",
+          "Gouvernance des données"
+        ],
+        "fullPage": [
+          {
+            "title": "Qu'est-ce que la visualisation de données ?",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Types de visualisations de données",
+            "extraList": [
+              {
+                "extraTitle": "Cartes de symboles",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Graphiques linéaires",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Conseil en mégadonnées",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Camemberts",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "les tables",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Histogrammes",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Nuages ​​de points",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              }
+            ],
+            "icon": "https://cdn-images-1.medium.com/fit/t/1600/480/1*9dsmqIQNnh6iJdbXwkXZlA.jpeg"
+          },
+          {
+            "title": "Pratiques de visualisation des données",
+            "extraList": [],
+            "icon": "https://sun9-12.userapi.com/impf/kPWVhZucvNr0bH6WR6fq772DezAIoa13kz5ahw/cobaMJy_5ag.jpg?size=1920x768"
+          },
+          {
+            "title": "Visualisation des données dans Ensome",
+            "extraList": [],
+            "icon": ""
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Visualisation de données",
+        "advantages": [
+          "Extraire, transformer, charger (YTL)",
+          "Gouvernance des données",
+          "Extraire, charger, transformer (ETL)"
+        ],
+        "fullPage": [
+          {
+            "title": "Qu'est-ce que la visualisation de données ?",
+            "extraList": [],
+            "icon": ""
+          },
+          {
+            "title": "Types de visualisations de données",
+            "extraList": [
+              {
+                "extraTitle": "Cartes de symboles",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Graphiques linéaires",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Conseil en mégadonnées",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Camemberts",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "les tables",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Histogrammes",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              },
+              {
+                "extraTitle": "Nuages ​​de points",
+                "extraText": "convallis ex orci, nca sodales urna convallis ac. "
+              }
+            ],
+            "icon": "https://cdn-images-1.medium.com/fit/t/1600/480/1*9dsmqIQNnh6iJdbXwkXZlA.jpeg"
+          },
+          {
+            "title": "Pratiques de visualisation des données",
+            "extraList": [],
+            "icon": "https://sun9-12.userapi.com/impf/kPWVhZucvNr0bH6WR6fq772DezAIoa13kz5ahw/cobaMJy_5ag.jpg?size=1920x768"
+          },
+          {
+            "title": "Visualisation des données dans Ensome",
+            "extraList": [],
+            "icon": ""
+          }
+        ]
+      }
+    ]
+  }
+}

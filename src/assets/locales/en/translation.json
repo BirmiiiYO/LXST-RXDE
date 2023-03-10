@@ -1,0 +1,1151 @@
+{
+  "base": {
+    "contactUs": "Contact Us",
+    "share":"Share",
+    "views":"Views",
+    "discoverMore": "Discover more",
+    "doYouNeedHelp": "Do you need help?",
+    "learnMore": "Learn more",
+    "choosePlan": "Choose plan",
+    "largeText": "Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quaeab illo inventore. Donec tincidunt tempor quam, non mollis quam finibus nec.",
+    "smallText": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+    "mediumText": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi.",
+    "send": "Send",
+    "email": "Your email",
+    "enterName": "Enter your name",
+    "enterEmail": "Enter your Email",
+    "enterTheme": "Enter theme",
+    "enterMessage": "Enter message",
+    "subscribeToNews": "Subscribe to our newsletter",
+    "subscribe":"Subscribe",
+    "watchDemo": "Watch the demo",
+    "home": "Home",
+    "aboutUs": "About Us",
+    "softwareTrends": "2022 software development trends ",
+    "contacts": "Contacts",
+    "ourTeam": "Our team",
+    "services":"services",
+    "faqs": "FAQs",
+    "testImonalsTitle": "Testimonials",
+    "solutions": "Solutions",
+    "ourBlog": "Our blog"
+  },
+
+  "companyOverviewSection": {
+    "title": "We provide services that guarantee your success"
+  },
+  "footer": {
+    "privacyPolicy": "Privacy policy",
+    "quickLink": "Quick link",
+    "service": "Service",
+    "contactInfo":"Contact info",
+    "services": ["Pages", "Elements", "FAQ", "Pricing", "Site map"],
+    "followUs":"Follow us",
+    "termsOfUs": "Terms of us"
+  },
+  "homePage": {
+    "heroTitle": "Find true power in your data with <0>Ensome</0>",
+    "featureTitle": "The <0>newest</0> business analytics platform",
+    "featureSubtitleTitle": "Radically new solutions for data",
+    "ourPricingTitle": "Our pricing",
+    "ourBlogTitle": "The benefits of Ensome"
+  },
+  "servicePage": {
+    "title": "Data Analytics Services",
+    "serviceText":"Vestibulum varius mattis sagittis. Cras pharetra rutrum ante. Pellentesque pulvinar, odio ut convallis lobortis, massa ante mattis neque, a sagittis orci leo in quam. Ut convallis ex orci, nec sodales urna convallis ac. Sed cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor in vehicula arcu."
+  },
+  "aboutUsPage": {
+    "title": "About Us",
+    "whoWeAre": "Who we are",
+    "ourMission": "Our mission",
+    "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Donec tincidunt tempor quam, non mollis quam finibus nec. Quisque finibus consequat felis vel pretium. Aliquam gravida nisi vel convallis ultricies. Integer ante sapien, consequat et dolor vel, cursus lacinia lectus.",
+    "inNumbers": "Ensome in numbers",
+    "data": [
+      {
+        "amount": "1830+",
+        "name": "Project executed"
+      },
+      {
+        "amount": "200",
+        "name": "Data analytics"
+      },
+      {
+        "amount": "390",
+        "name": "Data management"
+      },
+      {
+        "amount": "834+",
+        "name": "Satisfied customers"
+      }
+    ],
+    "ourCustomers": "Our customers",
+    "reviewTitle": "What our customers say",
+    "formTitle": "Left questions? Contacts us now for a free consultation and free trial!"
+  },
+  "blogPage": {
+    "title": "Blog",
+    "popularPost":"Popular posts",
+    "relatedPost":"Related Post",
+    "categoriesTitle":"Categories",
+    "categories":["Software development","Information security","Internet of things","Digital transformation","Healthcare it"],
+    "tags":"Tags",
+"fullText":"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas. Nulla rhoncus consectetur eros non iaculis “Vivamus lectus enim, convallis nec dapibus vel, semper id ante. Morbi pulvinar sapien nulla, eu dignissim enim ullamcorper vitae”. Ut sit amet neque vel mauris consequat aliquam at in arcu. Ut vulputate, augue luctus dignissim pretium, elit magna placerat elit, at venenati lacus arcu eget quam. Fusce nec cursus mi, sed blandit. Phasellus tristique eu nisl eu consectetur. Morbi urna massa, imperdiet in mauris et, euismod vestibulum lacus. Integer enim elit, tincidunt aliq uam ligula id, lacinia auctor orci. Sed quis lobortis eros. Fusce id commodo libero. Praesent mollis velit ac accumsan ultrices. Ut convallis ipsum pulvinar ante maximus suscipit.Mauris purus diam, iaculis non leo nec, ultricies fringilla odio. Fusce feugiat elit facilisis volutpat venenatis. Vestibulum tempor ligula vel orci consectetur, eu euismod augue bibendum. In volutpat libero velit, et mattis tortor placerat eget.Ut nec aliquam urna, et varius massa. Praesent eu nisl ac ex maximus iaculis. Sed placerat, ligula vel tempor pellentesque, odio ipsum lobortis orci, sit amet fermentum ex nunc ac diam."
+  },
+  "ourTeamPage": {
+    "title": "Our team",
+    "text": "Sed ut perspiciatis unde omnis iste natus error volupta accusantium doloremque laudantium, totam remiga aperiam, eaque ipsa. Phasellus tristique eu nisl eu consectetur. Morbi urna massa, imperdiet in mauris et, euismod vestibulum lacus. Integer enim elit, tincidunt aliquam ligula id, lacinia auctor orci. Sed quis lobortis eros. Fusce id commodo libero."
+  },
+  "contactsPage": {
+    "title": "How can we <0>help you?</0>",
+    "locations": [
+      {
+        "structureId": 1,
+        "lat": 35.1369274,
+        "lng": 135.5298123,
+        "name": "Oyamahigashicho 2 Go Park"
+      },
+      {
+        "structureId": 2,
+        "lat": 53.9185803,
+        "lng": 27.5935248,
+        "name": "BSUIR"
+      },
+      {
+        "structureId": 3,
+        "lat": 40.6838171,
+        "lng": -74.0593493,
+        "name": "statue of Liberty"
+      }
+    ]
+  },
+  "faqPage": {
+    "title": "Frequently asked questions",
+    "faqs": [
+      {
+        "id": 1,
+        "question": "What are data analytics?",
+        "answer": "Phasellus tristique eu nisl eu consectetur. Morbi urna massa, imperdiet in mauris et, euismod vestibulum lacus. Integer enim elit, tincidunt aliquam ligula id, lacinia auctor orci. Sed quis lobortis eros. "
+      },
+      {
+        "id": 2,
+        "question": "What is data mining?",
+        "answer": "Phasellus tristique eu nisl eu consectetur. Morbi urna massa, imperdiet in mauris et, euismod vestibulum lacus. Integer enim elit, tincidunt aliquam ligula id, lacinia auctor orci. Sed quis lobortis eros. "
+      },
+      {
+        "id": 3,
+        "question": "What is business intelligence?",
+        "answer": "Phasellus tristique eu nisl eu consectetur. Morbi urna massa, imperdiet in mauris et, euismod vestibulum lacus. Integer enim elit, tincidunt aliquam ligula id, lacinia auctor orci. Sed quis lobortis eros. "
+      },
+      {
+        "id": 4,
+        "question": "What is exploratory data analysis (EDA)?",
+        "answer": "Phasellus tristique eu nisl eu consectetur. Morbi urna massa, imperdiet in mauris et, euismod vestibulum lacus. Integer enim elit, tincidunt aliquam ligula id, lacinia auctor orci. Sed quis lobortis eros. "
+      },
+      {
+        "id": 5,
+        "question": "What is confirmatory data analysis (CDA)?",
+        "answer": "Phasellus tristique eu nisl eu consectetur. Morbi urna massa, imperdiet in mauris et, euismod vestibulum lacus. Integer enim elit, tincidunt aliquam ligula id, lacinia auctor orci. Sed quis lobortis eros. "
+      },
+      {
+        "id": 6,
+        "question": "What are predictive analytics?",
+        "answer": "Phasellus tristique eu nisl eu consectetur. Morbi urna massa, imperdiet in mauris et, euismod vestibulum lacus. Integer enim elit, tincidunt aliquam ligula id, lacinia auctor orci. Sed quis lobortis eros. "
+      },
+      {
+        "id": 7,
+        "question": "What is data visualisation",
+        "answer": "Phasellus tristique eu nisl eu consectetur. Morbi urna massa, imperdiet in mauris et, euismod vestibulum lacus. Integer enim elit, tincidunt aliquam ligula id, lacinia auctor orci. Sed quis lobortis eros. "
+      }
+    ]
+  },
+  "solutionPage": {
+    "title": "Data analytics solutions",
+    "text": "Getting ready for your success, we provide truly outstanding IT solutions.",
+    "whyChooseUs": "Why choose us?",
+    "benefits": [
+      {
+        "id": 1,
+        "name": "Machine learning",
+        "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores."
+      },
+      {
+        "id": 2,
+        "name": "Embed analytics",
+        "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores."
+      },
+      {
+        "id": 3,
+        "name": "Access control",
+        "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores."
+      }
+    ]
+  },
+  "cards": {
+    "blog": [
+      {
+        "id": 0,
+        "date": "22 June 2022",
+        "image": "https://cdn.shopify.com/s/files/1/0268/7480/6307/files/ccc_480x480.jpg?v=1641444746",
+        "title": "Sed ut perspiciatis unde omnis at vero blanditils",
+        "topics": ["App", "CIO", "Future"],
+        "fullPage":{
+"views":481,
+"share":[
+  {
+    "name":"linkedin",
+    "link":"https://www.youtube.com/"
+  },
+  {
+    "name":"instagram",
+    "link":"https://www.youtube.com/"
+    },
+    {
+      "name":"youtube",
+      "link":"https://www.youtube.com/"
+    },
+    {
+      "name":"twitter",
+      "link":"https://www.youtube.com/"
+      }
+    ]
+        }
+      },
+      {
+        "id": 1,
+        "date": "05 Jule 2021",
+        "image": "https://cdn.shopify.com/s/files/1/0268/7480/6307/files/ccc_480x480.jpg?v=1641444746",
+        "title": "Staffing software: key capabilities and top products",
+        "topics": ["Redux", "Store", "Future"],
+        "fullPage":{
+           
+"views":5000,
+"share":[{"linkedin":"https://www.youtube.com/"},{"inst":"https://www.youtube.com/"},{"twitter":"https://www.youtube.com/"},{"google":"https://www.youtube.com/"}]
+        }
+      },
+      {
+        "id": 2,
+        "date": "14 February 2019",
+        "image": "https://www.meme-arsenal.com/memes/6baa33d804ac9fcb1498586e7301bcfd.jpg",
+        "title": "Business analysis helps you  in finance",
+        "topics": [ "Web", "NEXT"],
+        "fullPage":{
+           
+"views":941,
+"share":[{"linkedin":"https://www.youtube.com/"},{"inst":"https://www.youtube.com/"},{"twitter":"https://www.youtube.com/"},{"google":"https://www.youtube.com/"}]
+        }
+      },
+      {
+        "id": 3,
+        "date": "24 October 2002",
+        "image": "https://avatars.mds.yandex.net/i?id=4b6d878db96c874f87057a34c5b44153-5910485-images-thumbs&n=13&exp=1",
+        "title": "Benefits of telemedicine in nursing homes",
+        "topics": ["ISO"],
+        "fullPage":{
+           
+"views":332,
+"share":[{"linkedin":"https://www.youtube.com/"},{"inst":"https://www.youtube.com/"},{"twitter":"https://www.youtube.com/"},{"google":"https://www.youtube.com/"}]
+        }
+      },
+      {
+        "id": 4,
+        "date": "1 January 1970",
+        "image": "https://cdn.shopify.com/s/files/1/0268/7480/6307/files/ccc_480x480.jpg?v=1641444746",
+        "title": "Sed ut perspiciatis unde omnis at vero blanditils",
+        "topics": ["RTK", "Future"],
+ "fullPage":{
+           
+"views":228,
+"share":[{"linkedin":"https://www.youtube.com/"},{"inst":"https://www.youtube.com/"},{"twitter":"https://www.youtube.com/"},{"google":"https://www.youtube.com/"}]
+        }
+      },
+      {
+        "id": 5,
+        "date": "1 January 1970",
+        "image": "https://img1.akspic.ru/previews/9/0/2/9/2/129209/129209-dvoichnoe_chislo-uzor-simmetriya-arhitektura-sinij-550x310.jpg",
+        "title": "Dirty, clean or cleanish: what’s the quality of your big data?",
+        "topics": ["BSUIR"],
+        "fullPage":{
+"views":1337,
+"share":[{"linkedin":"https://www.youtube.com/"},{"inst":"https://www.youtube.com/"},{"twitter":"https://www.youtube.com/"},{"google":"https://www.youtube.com/"}]
+        }
+      },
+      {
+        "id": 6,
+        "date": "22 June 2022",
+        "image": "https://img1.akspic.ru/previews/9/0/2/9/2/129209/129209-dvoichnoe_chislo-uzor-simmetriya-arhitektura-sinij-550x310.jpg",
+        "title": "Sed ut perspiciatis unde omnis at vero blanditils",
+        "topics": ["App", "CIO", "Future"],
+        "fullPage":{
+         
+"views":481,
+"share":[{"linkedin":"https://www.youtube.com/"},{"inst":"https://www.youtube.com/"},{"twitter":"https://www.youtube.com/"},{"google":"https://www.youtube.com/"}]
+        }
+      },
+      {
+        "id": 7,
+        "date": "05 Jule 2021",
+        "image": "https://img1.akspic.ru/previews/9/0/2/9/2/129209/129209-dvoichnoe_chislo-uzor-simmetriya-arhitektura-sinij-550x310.jpg",
+        "title": "Staffing software: key capabilities and top products",
+        "topics": ["Redux", "Store", "Future"],
+        "fullPage":{
+           
+"views":5000,
+"share":[{"linkedin":"https://www.youtube.com/"},{"inst":"https://www.youtube.com/"},{"twitter":"https://www.youtube.com/"},{"google":"https://www.youtube.com/"}]
+        }
+      },
+      {
+        "id": 8,
+        "date": "14 February 2019",
+        "image": "https://www.meme-arsenal.com/memes/6baa33d804ac9fcb1498586e7301bcfd.jpg",
+        "title": "Business analysis helps you  in finance",
+        "topics": [ "Web", "NEXT"],
+        "fullPage":{
+         
+"views":941,
+"share":[{"linkedin":"https://www.youtube.com/"},{"inst":"https://www.youtube.com/"},{"twitter":"https://www.youtube.com/"},{"google":"https://www.youtube.com/"}]
+        }
+      }
+    ],
+    "price": [
+      {
+        "id": 0,
+        "infos": ["For small teams – 5 users", "Community support"],
+        "name": "Free trial",
+        "value": "10"
+      },
+      {
+        "id": 1,
+        "infos": [
+          "For small teams – 15 users",
+          "Individual support",
+          "Individual data – 60GB"
+        ],
+        "name": "Lite",
+        "value": "99"
+      },
+      {
+        "id": 2,
+        "infos": [
+          "For big teams – 30 users",
+          "Individual support",
+          "Individual data – 120GB",
+          "Advanced permissions"
+        ],
+        "name": "Basic",
+        "value": "30"
+      },
+      {
+        "id": 3,
+        "infos": [
+          "Unlimited team members",
+          "Individual support",
+          "Unlimited Individual data",
+          "Advanced permissions",
+          "Data history",
+          "Audit log",
+          "All functions included"
+        ],
+        "name": "For enterprises",
+        "value": "none"
+      }
+    ],
+    "review": [
+      {
+        "avatar": "https://uploads-ssl.webflow.com/628504c7a9f3a71be178cb4f/628e316a538f3a2b856db2c5_Header%201.webp",
+        "text": "“Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis utem vel eum iure reprehender qui in ea voluptate velit esse quam nihil molesti consequatur, vel illum.” ",
+        "name": "Alex Bern",
+        "position": "CEO by PixelPerfect",
+        "id": 0
+      },
+      {
+        "avatar": "https://uploads-ssl.webflow.com/628504c7a9f3a71be178cb4f/628e316a538f3a2b856db2c5_Header%201.webp",
+        "text": "“Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis utem vel eum iure reprehender qui in ea voluptate velit esse quam nihil molesti consequatur, vel illum.” ",
+        "name": "Ruben Chifundo",
+        "position": "Data analyst",
+        "id": 1
+      },
+      {
+        "avatar": "https://uploads-ssl.webflow.com/628504c7a9f3a71be178cb4f/628e316a538f3a2b856db2c5_Header%201.webp",
+        "text": "“Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis utem vel eum iure reprehender qui in ea voluptate velit esse quam nihil molesti consequatur, vel illum.” ",
+        "name": "Tigran Nazaret",
+        "position": "CEO by NOX",
+        "id": 2
+      },
+      {
+        "avatar": "https://uploads-ssl.webflow.com/628504c7a9f3a71be178cb4f/628e316a538f3a2b856db2c5_Header%201.webp",
+        "text": "“Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis utem vel eum iure reprehender qui in ea voluptate velit esse quam nihil molesti consequatur, vel illum.” ",
+        "name": "Alex Bern",
+        "position": "CEO by PixelPerfect",
+        "id": 3
+      },
+      {
+        "avatar": "https://uploads-ssl.webflow.com/628504c7a9f3a71be178cb4f/628e316a538f3a2b856db2c5_Header%201.webp",
+        "text": "“Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis utem vel eum iure reprehender qui in ea voluptate velit esse quam nihil molesti consequatur, vel illum.” ",
+        "name": "Ruben Chifundo",
+        "position": "Data analyst",
+        "id": 4
+      },
+      {
+        "avatar": "https://uploads-ssl.webflow.com/628504c7a9f3a71be178cb4f/628e316a538f3a2b856db2c5_Header%201.webp",
+        "text": "“Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis utem vel eum iure reprehender qui in ea voluptate velit esse quam nihil molesti consequatur, vel illum.” ",
+        "name": "Tigran Nazaret",
+        "position": "CEO by NOX",
+        "id": 5
+      },
+      {
+        "avatar": "https://uploads-ssl.webflow.com/628504c7a9f3a71be178cb4f/628e316a538f3a2b856db2c5_Header%201.webp",
+        "text": "“Ut enim ad minima veniam, quis nostrum exercitationem ullam corpor suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis utem vel eum iure reprehender qui in ea voluptate velit esse quam nihil molesti consequatur, vel illum.” ",
+        "name": "Alex Bern",
+        "position": "CEO by PixelPerfect",
+        "id": 6
+      }
+    ],
+    "service": [
+      {
+        "icon": "https://cdn.icon-icons.com/icons2/3250/PNG/512/brain_circuit_filled_icon_201561.png",
+        "title": "Machine learning",
+        "id": 0,
+        "fullPage":[
+          {
+            "title": "Customer", 
+            "extraList":[],  
+            "icon":""
+          },
+        { 
+          "title": "Types of data visualizations", 
+          "extraList":[], 
+        "icon":"https://avatars.mds.yandex.net/i?id=aca6e1f33fb2b8c6dac505adcdfb7215-5192485-images-thumbs&n=13&exp=1"
+      },
+        {
+          "title": "Challenge", 
+          "extraList":[],  
+          "icon":""
+        },
+        {
+          "title": "Solution", 
+          "extraList":[
+            "Hid mobile access",
+            "Location services",
+            "Visitor management",
+            "Cybersecurity coordination"
+     ],  
+           "icon":"https://media.istockphoto.com/videos/asian-businessmen-and-businesswomen-meeting-brainstorming-some-new-video-id1321106823?s=640x640"
+          },
+          {
+            "title": "Results", 
+            "extraList":[],  
+            "icon":""
+          },
+          {
+            "title": "Technologies", 
+            "extraList":[],  
+            "icon":""
+          }
+          ]
+      },
+      {
+        "icon": "https://cdn.icon-icons.com/icons2/3250/PNG/512/brain_circuit_filled_icon_201561.png",
+        "title": "Embed analytics",
+        "id": 1,
+        "fullPage":[
+          {
+            "title": "Customer", 
+            "extraList":[],  
+            "icon":""
+          },
+        { 
+          "title": "Types of data visualizations", 
+          "extraList":[], 
+        "icon":"https://avatars.mds.yandex.net/i?id=aca6e1f33fb2b8c6dac505adcdfb7215-5192485-images-thumbs&n=13&exp=1"
+      },
+        {
+          "title": "Challenge", 
+          "extraList":[],  
+          "icon":""
+        },
+        {
+          "title": "Solution", 
+          "extraList":[
+            "Hid mobile access",
+            "Location services",
+            "Visitor management",
+            "Cybersecurity coordination"
+     ],  
+           "icon":"https://media.istockphoto.com/videos/asian-businessmen-and-businesswomen-meeting-brainstorming-some-new-video-id1321106823?s=640x640"
+          },
+          {
+            "title": "Results", 
+            "extraList":[],  
+            "icon":""
+          },
+          {
+            "title": "Technologies", 
+            "extraList":[],  
+            "icon":""
+          }
+          ]
+      },
+      {
+        "icon": "https://cdn.icon-icons.com/icons2/3250/PNG/512/brain_circuit_filled_icon_201561.png",
+
+        "title": "Access control",
+        "id": 2,
+        "fullPage":[
+          {
+            "title": "Customer", 
+            "extraList":[],  
+            "icon":""
+          },
+        { 
+          "title": "Types of data visualizations", 
+          "extraList":[], 
+        "icon":"https://avatars.mds.yandex.net/i?id=aca6e1f33fb2b8c6dac505adcdfb7215-5192485-images-thumbs&n=13&exp=1"
+      },
+        {
+          "title": "Challenge", 
+          "extraList":[],  
+          "icon":""
+        },
+        {
+          "title": "Solution", 
+          "extraList":[
+            "Hid mobile access",
+            "Location services",
+            "Visitor management",
+            "Cybersecurity coordination"
+     ],  
+           "icon":"https://media.istockphoto.com/videos/asian-businessmen-and-businesswomen-meeting-brainstorming-some-new-video-id1321106823?s=640x640"
+          },
+          {
+            "title": "Results", 
+            "extraList":[],  
+            "icon":""
+          },
+          {
+            "title": "Technologies", 
+            "extraList":[],  
+            "icon":""
+          }
+          ]
+      },
+      {
+        "icon": "https://cdn.icon-icons.com/icons2/3250/PNG/512/brain_circuit_filled_icon_201561.png",
+ 
+        "title": "Data analytics",
+        "id": 3,
+        "fullPage":[
+          {
+            "title": "Customer", 
+            "extraList":[],  
+            "icon":""
+          },
+        { 
+          "title": "Types of data visualizations", 
+          "extraList":[], 
+        "icon":"https://avatars.mds.yandex.net/i?id=aca6e1f33fb2b8c6dac505adcdfb7215-5192485-images-thumbs&n=13&exp=1"
+      },
+        {
+          "title": "Challenge", 
+          "extraList":[],  
+          "icon":""
+        },
+        {
+          "title": "Solution", 
+          "extraList":[
+            "Hid mobile access",
+            "Location services",
+            "Visitor management",
+            "Cybersecurity coordination"
+     ],  
+           "icon":"https://media.istockphoto.com/videos/asian-businessmen-and-businesswomen-meeting-brainstorming-some-new-video-id1321106823?s=640x640"
+          },
+          {
+            "title": "Results", 
+            "extraList":[],  
+            "icon":""
+          },
+          {
+            "title": "Technologies", 
+            "extraList":[],  
+            "icon":""
+          }
+          ]
+      },
+      {
+        "icon": "https://cdn.icon-icons.com/icons2/3250/PNG/512/brain_circuit_filled_icon_201561.png",
+  
+        "title": "Big data consulting",
+        "id": 4,
+        "fullPage":[
+          {
+            "title": "Customer", 
+            "extraList":[],  
+            "icon":""
+          },
+        { 
+          "title": "Types of data visualizations", 
+          "extraList":[], 
+        "icon":"https://avatars.mds.yandex.net/i?id=aca6e1f33fb2b8c6dac505adcdfb7215-5192485-images-thumbs&n=13&exp=1"
+      },
+        {
+          "title": "Challenge", 
+          "extraList":[],  
+          "icon":""
+        },
+        {
+          "title": "Solution", 
+          "extraList":[
+            "Hid mobile access",
+            "Location services",
+            "Visitor management",
+            "Cybersecurity coordination"
+     ],  
+           "icon":"https://media.istockphoto.com/videos/asian-businessmen-and-businesswomen-meeting-brainstorming-some-new-video-id1321106823?s=640x640"
+          },
+          {
+            "title": "Results", 
+            "extraList":[],  
+            "icon":""
+          },
+          {
+            "title": "Technologies", 
+            "extraList":[],  
+            "icon":""
+          }
+          ]
+      },
+      {
+        "icon": "https://cdn.icon-icons.com/icons2/3250/PNG/512/brain_circuit_filled_icon_201561.png",
+
+        "title": "Artificial intelligence",
+        "id": 5,
+
+        "fullPage":[
+          {
+            "title": "Customer", 
+            "extraList":[],  
+            "icon":""
+          },
+        { 
+          "title": "Types of data visualizations", 
+          "extraList":[], 
+        "icon":"https://avatars.mds.yandex.net/i?id=aca6e1f33fb2b8c6dac505adcdfb7215-5192485-images-thumbs&n=13&exp=1"
+      },
+        {
+          "title": "Challenge", 
+          "extraList":[],  
+          "icon":""
+        },
+        {
+          "title": "Solution", 
+          "extraList":[
+            "Hid mobile access",
+            "Location services",
+            "Visitor management",
+            "Cybersecurity coordination"
+     ],  
+           "icon":"https://media.istockphoto.com/videos/asian-businessmen-and-businesswomen-meeting-brainstorming-some-new-video-id1321106823?s=640x640"
+          },
+          {
+            "title": "Results", 
+            "extraList":[],  
+            "icon":""
+          },
+          {
+            "title": "Technologies", 
+            "extraList":[],  
+            "icon":""
+          }
+          ]
+      }
+    ],
+    "ourTeam": [
+      {
+        "id": 0,
+        "avatar": "https://assets.cdn.msgsndr.com/mWLvU4ZVnCMNK5P6TZuK/media/61ceb590016cd77f8a77f63e.jpeg",
+        "name": "Sargis Grigor",
+        "position": "Data analyst",
+        "socials":[{"linkedin":"https://www.youtube.com/"},{"inst":"https://www.youtube.com/"},{"twitter":"https://www.youtube.com/"},{"google":"https://www.youtube.com/"}]
+      },
+      {
+        "id": 1,
+        "avatar": "https://revu.by/wp-content/uploads/2022/04/screenshot_21-350x500.jpg",
+        "name": "Gor Sargis",
+        "position": "Data analyst",
+        "socials":[{"linkedin":"https://www.youtube.com/"},{"inst":"https://www.youtube.com/"},{"twitter":"https://www.youtube.com/"},{"google":"https://www.youtube.com/"}]
+      },
+      {
+        "id": 2,
+        "avatar": "https://assets.cdn.msgsndr.com/mWLvU4ZVnCMNK5P6TZuK/media/61ceb590016cd77f8a77f63e.jpeg",
+        "name": "Maral Mari",
+        "position": "Data analyst",
+        "socials":[{"linkedin":"https://www.youtube.com/"},{"inst":"https://www.youtube.com/"},{"twitter":"https://www.youtube.com/"},{"google":"https://www.youtube.com/"}]
+      },
+      {
+        "id": 3,
+        "avatar": "https://revu.by/wp-content/uploads/2022/04/screenshot_21-350x500.jpg",
+        "name": "Kohar Marine",
+        "position": "Data scientist ",
+        "socials":[{"linkedin":"https://www.youtube.com/"},{"inst":"https://www.youtube.com/"},{"twitter":"https://www.youtube.com/"},{"google":"https://www.youtube.com/"}]
+      },
+      {
+        "id": 4,
+        "avatar": "https://assets.cdn.msgsndr.com/mWLvU4ZVnCMNK5P6TZuK/media/61ceb590016cd77f8a77f63e.jpeg",
+        "name": "Bagrat Leo",
+        "position": "Data engineer",
+        "socials":[{"linkedin":"https://www.youtube.com/"},{"inst":"https://www.youtube.com/"},{"twitter":"https://www.youtube.com/"},{"google":"https://www.youtube.com/"}]
+      },
+      {
+        "id": 5,
+        "avatar": "https://revu.by/wp-content/uploads/2022/04/screenshot_21-350x500.jpg",
+        "name": "Hakob Jirair",
+        "position": "Data engineer",
+        "socials":[{"linkedin":"https://www.youtube.com/"},{"inst":"https://www.youtube.com/"},{"twitter":"https://www.youtube.com/"},{"google":"https://www.youtube.com/"}]
+      },
+      {
+        "id": 6,
+        "avatar": "https://assets.cdn.msgsndr.com/mWLvU4ZVnCMNK5P6TZuK/media/61ceb590016cd77f8a77f63e.jpeg",
+        "name": "Ararat Ohannes",
+        "position": "Data analyst",
+        "socials":[{"linkedin":"https://www.youtube.com/"},{"inst":"https://www.youtube.com/"},{"twitter":"https://www.youtube.com/"},{"google":"https://www.youtube.com/"}]
+      },
+      {
+        "id": 7,
+        "avatar": "https://revu.by/wp-content/uploads/2022/04/screenshot_21-350x500.jpg",
+        "name": "Eva Vosgi",
+        "position": "Data scientist",
+        "socials":[{"linkedin":"https://www.youtube.com/"},{"inst":"https://www.youtube.com/"},{"twitter":"https://www.youtube.com/"},{"google":"https://www.youtube.com/"}]
+      },
+      {
+        "id": 8,
+        "avatar": "https://assets.cdn.msgsndr.com/mWLvU4ZVnCMNK5P6TZuK/media/61ceb590016cd77f8a77f63e.jpeg",
+        "name": "Eduard Vosgi",
+        "position": "Data scientist",
+        "socials":[{"linkedin":"https://www.youtube.com/"},{"inst":"https://www.youtube.com/"},{"twitter":"https://www.youtube.com/"},{"google":"https://www.youtube.com/"}]
+      }
+    ],
+    "solutions":[
+      {
+        "id":0,
+        "title":"Data integration",
+        "advantages": [
+          "Extract, transform, load (ETL)",
+          "Extract, load, transform (ELT)",
+          "Data governance"
+        ],
+        "fullPage":[
+          {
+            "title": "What is data visualization?", 
+            "extraList":[],  
+            "icon":""
+          },
+        {
+          "title": "Types of data visualizations", 
+          "extraList":[
+          {
+            "extraTitle":"Symbol maps", 
+            "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor in vehicula arcu."},
+          {
+            "extraTitle":"Line charts", 
+            "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam."
+          },
+          {
+            "extraTitle":"Big data consulting", 
+            "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam."
+          },
+          {
+            "extraTitle":"Pie charts", 
+            "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna."
+          },
+          {
+            "extraTitle":"Tables",
+             "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl."
+            },
+          {
+            "extraTitle":"Histograms",
+            "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor."
+          },
+          {
+            "extraTitle":"Scatter plots", 
+            "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor in vehicula arcu."
+          }
+        ], 
+        "icon":"https://cdn-images-1.medium.com/fit/t/1600/480/1*9dsmqIQNnh6iJdbXwkXZlA.jpeg"},
+        {
+          "title": "Data visualization practices", 
+
+          "extraList":[],  
+          "icon":"https://sun9-12.userapi.com/impf/kPWVhZucvNr0bH6WR6fq772DezAIoa13kz5ahw/cobaMJy_5ag.jpg?size=1920x768&quality=95&crop=0,215,2426,969&sign=301fb1753c2cb293431709547fb5d6ff&type=cover_group"},
+        {
+          "title": "Data visualization in Ensome", 
+       "extraList":[],  
+           "icon":""
+          }
+          ]
+      },
+      {
+        "id": 1,
+        "title":"Data warehousing",
+        "advantages": [
+          "Extract, transform, load (ETL)",
+          "Data governance",
+          "Extract, load, transform (ELT)"
+        ],
+        "fullPage":[
+          {
+            "title": "What is data visualization?", 
+
+            "extraList":[],  
+            "icon":""
+          },
+        {
+          "title": "Types of data visualizations", 
+
+          "extraList":[
+          {
+            "extraTitle":"Symbol maps", 
+            "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor in vehicula arcu."},
+          {
+            "extraTitle":"Line charts", 
+            "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam."
+          },
+          {
+            "extraTitle":"Big data consulting", 
+            "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam."
+          },
+          {
+            "extraTitle":"Pie charts", 
+            "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna."
+          },
+          {
+            "extraTitle":"Tables",
+             "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl."
+            },
+          {
+            "extraTitle":"Histograms",
+            "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor."
+          },
+          {
+            "extraTitle":"Scatter plots", 
+            "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor in vehicula arcu."
+          }
+        ], 
+        "icon":"https://cdn-images-1.medium.com/fit/t/1600/480/1*9dsmqIQNnh6iJdbXwkXZlA.jpeg"},
+        {
+          "title": "Data visualization practices", 
+
+          "extraList":[],  
+          "icon":"https://sun9-12.userapi.com/impf/kPWVhZucvNr0bH6WR6fq772DezAIoa13kz5ahw/cobaMJy_5ag.jpg?size=1920x768&quality=95&crop=0,215,2426,969&sign=301fb1753c2cb293431709547fb5d6ff&type=cover_group"},
+        {
+          "title": "Data visualization in Ensome", 
+"extraList":[],  
+           "icon":""
+          }
+          ]
+      },
+      {
+        "id":2,
+        "title":"Big data",
+        "advantages": [
+          "Data governance",
+          "Extract, transform, load (ETL)",
+          "Extract, load, transform (ELT)"
+        ],
+        "fullPage":[
+          {
+            "title": "What is data visualization?", 
+
+            "extraList":[],  
+            "icon":""
+          },
+        {
+          "title": "Types of data visualizations", 
+
+          "extraList":[
+          {
+            "extraTitle":"Symbol maps", 
+            "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor in vehicula arcu."},
+          {
+            "extraTitle":"Line charts", 
+            "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam."
+          },
+          {
+            "extraTitle":"Big data consulting", 
+            "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam."
+          },
+          {
+            "extraTitle":"Pie charts", 
+            "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna."
+          },
+          {
+            "extraTitle":"Tables",
+             "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl."
+            },
+          {
+            "extraTitle":"Histograms",
+            "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor."
+          },
+          {
+            "extraTitle":"Scatter plots", 
+            "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor in vehicula arcu."
+          }
+        ], 
+        "icon":"https://cdn-images-1.medium.com/fit/t/1600/480/1*9dsmqIQNnh6iJdbXwkXZlA.jpeg"},
+        {
+          "title": "Data visualization practices", 
+
+          "extraList":[],  
+          "icon":"https://sun9-12.userapi.com/impf/kPWVhZucvNr0bH6WR6fq772DezAIoa13kz5ahw/cobaMJy_5ag.jpg?size=1920x768&quality=95&crop=0,215,2426,969&sign=301fb1753c2cb293431709547fb5d6ff&type=cover_group"},
+        {
+          "title": "Data visualization in Ensome", 
+  "extraList":[],  
+           "icon":""
+          }
+          ]
+      },
+      {
+        "id":3,
+        "title":"Data warehousing",
+        "advantages": [
+          "Extract, transform, load (ETL)",
+          "Extract, load, transform (ELT)",
+          "Data governance"
+        ],
+        "fullPage":[
+          {
+            "title": "What is data visualization?", 
+
+            "extraList":[],  
+            "icon":""
+          },
+        {
+          "title": "Types of data visualizations", 
+
+          "extraList":[
+          {
+            "extraTitle":"Symbol maps", 
+            "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor in vehicula arcu."},
+          {
+            "extraTitle":"Line charts", 
+            "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam."
+          },
+          {
+            "extraTitle":"Big data consulting", 
+            "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam."
+          },
+          {
+            "extraTitle":"Pie charts", 
+            "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna."
+          },
+          {
+            "extraTitle":"Tables",
+             "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl."
+            },
+          {
+            "extraTitle":"Histograms",
+            "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor."
+          },
+          {
+            "extraTitle":"Scatter plots", 
+            "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor in vehicula arcu."
+          }
+        ], 
+        "icon":"https://cdn-images-1.medium.com/fit/t/1600/480/1*9dsmqIQNnh6iJdbXwkXZlA.jpeg"},
+        {
+          "title": "Data visualization practices", 
+
+          "extraList":[],  
+          "icon":"https://sun9-12.userapi.com/impf/kPWVhZucvNr0bH6WR6fq772DezAIoa13kz5ahw/cobaMJy_5ag.jpg?size=1920x768&quality=95&crop=0,215,2426,969&sign=301fb1753c2cb293431709547fb5d6ff&type=cover_group"},
+        {
+          "title": "Data visualization in Ensome", 
+"extraList":[],  
+           "icon":""
+          }
+          ]
+      },
+      {
+        "id":4,
+        "title":"Self-service BI",
+        "advantages": [
+          "Data governance",
+          "Extract, transform, load (ETL)",
+          "Extract, load, transform (ELT)"
+        ],
+        "fullPage":[
+          {
+            "title": "What is data visualization?", 
+
+            "extraList":[],  
+            "icon":""
+          },
+        {
+          "title": "Types of data visualizations", 
+
+          "extraList":[
+          {
+            "extraTitle":"Symbol maps", 
+            "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor in vehicula arcu."},
+          {
+            "extraTitle":"Line charts", 
+            "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam."
+          },
+          {
+            "extraTitle":"Big data consulting", 
+            "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam."
+          },
+          {
+            "extraTitle":"Pie charts", 
+            "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna."
+          },
+          {
+            "extraTitle":"Tables",
+             "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl."
+            },
+          {
+            "extraTitle":"Histograms",
+            "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor."
+          },
+          {
+            "extraTitle":"Scatter plots", 
+            "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor in vehicula arcu."
+          }
+        ], 
+        "icon":"https://cdn-images-1.medium.com/fit/t/1600/480/1*9dsmqIQNnh6iJdbXwkXZlA.jpeg"},
+        {
+          "title": "Data visualization practices", 
+
+          "extraList":[],  
+          "icon":"https://sun9-12.userapi.com/impf/kPWVhZucvNr0bH6WR6fq772DezAIoa13kz5ahw/cobaMJy_5ag.jpg?size=1920x768&quality=95&crop=0,215,2426,969&sign=301fb1753c2cb293431709547fb5d6ff&type=cover_group"},
+        {
+          "title": "Data visualization in Ensome", 
+"extraList":[],  
+           "icon":""
+          }
+          ]
+      },
+      {
+        "id":5,
+        "title":"Data integration",
+        "advantages": [
+          "Extract, transform, load (ETL)",
+          "Extract, load, transform (ELT)",
+          "Data governance"
+        ],
+        "fullPage":[
+          {
+            "title": "What is data visualization?", 
+
+            "extraList":[],  
+            "icon":""
+          },
+        {
+          "title": "Types of data visualizations", 
+
+          "extraList":[
+          {
+            "extraTitle":"Symbol maps", 
+            "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor in vehicula arcu."},
+          {
+            "extraTitle":"Line charts", 
+            "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam."
+          },
+          {
+            "extraTitle":"Big data consulting", 
+            "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam."
+          },
+          {
+            "extraTitle":"Pie charts", 
+            "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna."
+          },
+          {
+            "extraTitle":"Tables",
+             "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl."
+            },
+          {
+            "extraTitle":"Histograms",
+            "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor."
+          },
+          {
+            "extraTitle":"Scatter plots", 
+            "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor in vehicula arcu."
+          }
+        ], 
+        "icon":"https://cdn-images-1.medium.com/fit/t/1600/480/1*9dsmqIQNnh6iJdbXwkXZlA.jpeg"},
+        {
+          "title": "Data visualization practices", 
+
+          "extraList":[],  
+          "icon":"https://sun9-12.userapi.com/impf/kPWVhZucvNr0bH6WR6fq772DezAIoa13kz5ahw/cobaMJy_5ag.jpg?size=1920x768&quality=95&crop=0,215,2426,969&sign=301fb1753c2cb293431709547fb5d6ff&type=cover_group"},
+        {
+          "title": "Data visualization in Ensome", 
+          "extraList":[],  
+           "icon":""
+          }
+          ]
+      },
+      {
+        "id":6,
+        "title":"Data visualization",
+        "advantages": [
+          "Extract, transform, load (YTL)",
+          "Data governance",
+          "Extract, load, transform (ETL)"
+        
+        ],
+        "fullPage":[
+          {
+            "title": "What is data visualization?", 
+
+            "extraList":[],  
+            "icon":""
+          },
+        {
+          "title": "Types of data visualizations", 
+
+          "extraList":[
+          {
+            "extraTitle":"Symbol maps", 
+            "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor in vehicula arcu."},
+          {
+            "extraTitle":"Line charts", 
+            "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam."
+          },
+          {
+            "extraTitle":"Big data consulting", 
+            "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam."
+          },
+          {
+            "extraTitle":"Pie charts", 
+            "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna."
+          },
+          {
+            "extraTitle":"Tables",
+             "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl."
+            },
+          {
+            "extraTitle":"Histograms",
+            "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor."
+          },
+          {
+            "extraTitle":"Scatter plots", 
+            "extraText":"convallis ex orci, nec sodales urna convallis ac. cursus non dolor eu aliquam. Aenean et nisl in magna imperdiet auctor in vehicula arcu."
+          }
+        ], 
+        "icon":"https://cdn-images-1.medium.com/fit/t/1600/480/1*9dsmqIQNnh6iJdbXwkXZlA.jpeg"},
+        {
+          "title": "Data visualization practices", 
+   
+          "extraList":[],  
+          "icon":"https://sun9-12.userapi.com/impf/kPWVhZucvNr0bH6WR6fq772DezAIoa13kz5ahw/cobaMJy_5ag.jpg?size=1920x768&quality=95&crop=0,215,2426,969&sign=301fb1753c2cb293431709547fb5d6ff&type=cover_group"},
+        {
+          "title": "Data visualization in Ensome", 
+   "extraList":[],  
+           "icon":""
+          }
+          ]
+      }
+    ]
+  } 
+}
+
+

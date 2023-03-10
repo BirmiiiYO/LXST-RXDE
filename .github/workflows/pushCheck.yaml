@@ -6,20 +6,21 @@ on:
     branches: [dev]
 jobs:
   lint:
-    name: lint & test & prettier
-    runs-on: macos-latest
+    name: push
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        version: [14, 16]
+        os: [ubuntu-latest, macos-latest]
     steps:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 16
-      # - name: Install deps
-      #   run: npm ci
-      # - name: Run Linter
-      #   run: npm run lint
-      # - name: Run tests
-      #   run: npm run test
-      # - name: Fix codestyle with prettier
-      #   run: npm run prettier
+          node-version: ${{ matrix.version }}
+          cache: npm
+      - name: Install deps
+        run: npm ci
+      - name: Fix codestyle with prettier
+        run: npm run prettier
