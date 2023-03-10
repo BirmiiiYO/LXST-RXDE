@@ -32,7 +32,9 @@ export const Form = () => {
             onChange={formik.handleChange}
             value={formik.values.name}
           />
-          {formik.errors.name && <ErrorText>{formik.errors.name}</ErrorText>}
+          {formik.submitCount > 0 && formik.errors.name && (
+            <ErrorText>{formik.errors.name}</ErrorText>
+          )}
         </Field>
         <Field>
           <Label>Email</Label>
@@ -44,7 +46,9 @@ export const Form = () => {
             onChange={formik.handleChange}
             value={formik.values.email}
           />
-          {formik.errors.email && <ErrorText>{formik.errors.email}</ErrorText>}
+          {formik.submitCount > 0 && formik.errors.email && (
+            <ErrorText>{formik.errors.email}</ErrorText>
+          )}
         </Field>
         <Field>
           <Label>Theme</Label>
@@ -56,7 +60,9 @@ export const Form = () => {
             onChange={formik.handleChange}
             value={formik.values.theme}
           />{' '}
-          {formik.errors.theme && <ErrorText>{formik.errors.theme}</ErrorText>}
+          {formik.submitCount > 0 && formik.errors.theme && (
+            <ErrorText>{formik.errors.theme}</ErrorText>
+          )}
         </Field>
         <Field>
           <Label>Message</Label>
@@ -68,7 +74,7 @@ export const Form = () => {
             onChange={formik.handleChange}
             value={formik.values.message}
           />{' '}
-          {formik.errors.message && (
+          {formik.submitCount > 0 && formik.errors.message && (
             <ErrorText>{formik.errors.message}</ErrorText>
           )}
         </Field>
